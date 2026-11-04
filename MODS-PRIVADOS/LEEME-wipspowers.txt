@@ -1,4 +1,4 @@
-WIP Powers 3.1.0 (WIPSS2, NeoForge 1.21.1) - PRIVADO, no subir a ningun sitio.
+WIP Powers 3.2.0 (WIPSS2, NeoForge 1.21.1) - PRIVADO, no subir a ningun sitio.
 Va en la carpeta mods de WIPSS2 junto a Awakened 1.23.0 y Devil Fruit: Grand Line 0.3.0 (REQUIERE 0.3.0; quita la 0.2.0) (los dos originales siguen ahi; este es un parche).
 - Deja solo 11 poderes: pyrokinetic, summoning, hydrokinetic, kinetic_charger, velocity, graviton, ruin, storm_caller, phytokinetic, scaler, gamma (+ el nuevo seiryuu). El resto no sale en el sorteo ni en las pantallas.
 - Scaler: cambiar de tamano ya no cambia la velocidad base.
@@ -79,5 +79,17 @@ SIN PROBAR EN JUEGO todavia.
     Solo se recorta el bonus por nivel; el que ya pasa el tope de fabrica no pierde nada.
   * Sniffers naturales en casi todos los biomas (peso bajo, grupos de 1-2), cada uno con la variante de Sniffer Overhaul
     de su bioma (sabana, taiga antigua, cerezos, nieve, desierto, badlands, jungla, champinones, carmesi, pantano).
-  PENDIENTE (faltan los jars, solo estan en CurseForge): Punchy 3.0 / Touch'n'Motion 1.21.1 (manos que desaparecen),
-  Frieren Flight (nerf a 60), Hyper 'N Hiei (recorte, pergamino, altar), Lodestar + brujulas, BlockBand. Y el MP3 de Mass Leap.
+- 3.2.0 (con los jars que faltaban):
+  * Mass Leap: la carga suena con el audio que pasaste (mass_leap.mp3) y se corta al saltar o cancelar.
+  * Punchy / Touch'n'Motion: mientras una habilidad de Awakened anima los brazos en primera persona (Kinetic Charger
+    y todas las demas), Punchy y Touch'n'Motion se hacen a un lado y las manos ya no desaparecen. Vuelven solos al terminar.
+  * Frieren Flight (Zoltraak: Cinematic Edition): nerf masivo. Todo el dano de sus hechizos lanzados por jugadores
+    (Zoltraak, Corrupted Zoltraak, las barreras de disparos y Gargantua) x0,2 y tope de 60 por golpe: Zoltraak legendario
+    en modo grande = 60 (antes ~304). El vuelo, la barrera y el jefe Qual no cambian.
+  * Hyper 'N Hiei: quedan Kamehameha, Cruel Sun, Infinity, Hollow Mask y World Cutting Slash (el resto de hechizos
+    deshabilitado: sin pergaminos, loot ni inscripcion). Quedan Mahoraga, su Rueda, las 3 bolsas Ritual Spoils, el
+    10 Shadows Scroll y el Ritual Altar. Todo lo demas fuera del creativo/JEI y sin recetas; sin Shibuya ni el santuario
+    de Excalibur. El 10 Shadows Scroll cae con 1 % al matar cualquier mob (sin receta). Nuevo santuario del ritual: plataforma
+    de piedra de 9x9 con el altar al centro, torii de mangle con soga sagrada, talismanes, linternas, velas y musgo; sale en
+    casi cualquier bioma de superficie (/locate structure wipspowers:ritual_shrine).
+  PENDIENTE: Lodestar + brujulas y BlockBand (faltan esos jars).

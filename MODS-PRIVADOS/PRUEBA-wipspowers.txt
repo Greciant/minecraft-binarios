@@ -1,6 +1,6 @@
-PRUEBA DE wipspowers-3.1.0.jar EN WIPSS2 (PC)
+PRUEBA DE wipspowers-3.2.0.jar EN WIPSS2 (PC)
 
-Instalar: cerrar el juego, borrar wipspowers-3.0.0.jar de mods y copiar wipspowers-3.1.0.jar (junto a awakened-1.23.1 y
+Instalar: cerrar el juego, borrar cualquier wipspowers anterior de mods y copiar wipspowers-3.2.0.jar (junto a awakened-1.23.1 y
 grandline-1.21.1-0.3.0). El jar va tambien en el servidor. Abrir un mundo NUEVO de prueba con trucos (las estructuras y
 spawns nuevos solo se ven en chunks nuevos).
 
@@ -22,4 +22,9 @@ spawns nuevos solo se ven en chunks nuevos).
    noche (Bomber), Valle de almas (Fractured), cueva profunda (Resurrected Knight). /summon legendary_monsters:resurrected_knight
    -> 50 de vida.
 10. Weapon Leveling: subir de nivel un arma (/weaponleveling ... o pelear) y ver que el dano del tooltip no pasa de 25.
-11. Si algo falla: guardar logs\latest.log (y crash-reports) en C:\Compartida\MODS-PRIVADOS\prueba-wipspowers\
+11. Mass Leap (Scaler): al cargar suena el audio nuevo; al saltar se corta.
+12. Con Punchy y Touch'n'Motion instalados: Kinetic Charger y otras habilidades en primera persona muestran las manos.
+13. Frieren Flight: Zoltraak legendario contra un mob con mucha vida (/summon minecraft:iron_golem): no baja mas de 60 por golpe.
+14. Hyper 'N Hiei: en el creativo solo salen los 5 hechizos que quedan, la Rueda, las bolsas, el pergamino y el altar.
+    /locate structure wipspowers:ritual_shrine -> ir y usar el altar con el 10 Shadows Scroll (invoca a Mahoraga).
+15. Si algo falla: guardar logs\latest.log (y crash-reports) en C:\Compartida\MODS-PRIVADOS\prueba-wipspowers\
