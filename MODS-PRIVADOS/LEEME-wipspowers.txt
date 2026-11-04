@@ -1,4 +1,4 @@
-WIP Powers 3.2.0 (WIPSS2, NeoForge 1.21.1) - PRIVADO, no subir a ningun sitio.
+WIP Powers 3.3.0 (WIPSS2, NeoForge 1.21.1) - PRIVADO, no subir a ningun sitio.
 Va en la carpeta mods de WIPSS2 junto a Awakened 1.23.0 y Devil Fruit: Grand Line 0.3.0 (REQUIERE 0.3.0; quita la 0.2.0) (los dos originales siguen ahi; este es un parche).
 - Deja solo 11 poderes: pyrokinetic, summoning, hydrokinetic, kinetic_charger, velocity, graviton, ruin, storm_caller, phytokinetic, scaler, gamma (+ el nuevo seiryuu). El resto no sale en el sorteo ni en las pantallas.
 - Scaler: cambiar de tamano ya no cambia la velocidad base.
@@ -92,4 +92,8 @@ SIN PROBAR EN JUEGO todavia.
     de Excalibur. El 10 Shadows Scroll cae con 1 % al matar cualquier mob (sin receta). Nuevo santuario del ritual: plataforma
     de piedra de 9x9 con el altar al centro, torii de mangle con soga sagrada, talismanes, linternas, velas y musgo; sale en
     casi cualquier bioma de superficie (/locate structure wipspowers:ritual_shrine).
-  PENDIENTE: Lodestar + brujulas y BlockBand (faltan esos jars).
+- 3.3.0: Lodestar Trail + Explorer's Compass / Nature's Compass. Cuando la brujula que tenes en la mano (principal o
+  secundaria) encuentra una estructura o un bioma, Lodestar empieza solo a guiarte hasta ahi (estela, hada y flecha del
+  HUD; dorado para estructuras, verde para biomas) y sale el aviso "Lodestar te guia a: ...". Cada hallazgo se guia una vez.
+  Solo cliente (va en el jar de siempre; en el servidor no hace nada).
+  PENDIENTE: BlockBand (el jar pesa mucho para pasarlo).
