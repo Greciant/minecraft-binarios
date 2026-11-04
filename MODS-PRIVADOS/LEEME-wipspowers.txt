@@ -1,4 +1,4 @@
-﻿WIP Powers 3.0.0 (WIPSS2, NeoForge 1.21.1) - PRIVADO, no subir a ningun sitio.
+WIP Powers 3.1.0 (WIPSS2, NeoForge 1.21.1) - PRIVADO, no subir a ningun sitio.
 Va en la carpeta mods de WIPSS2 junto a Awakened 1.23.0 y Devil Fruit: Grand Line 0.3.0 (REQUIERE 0.3.0; quita la 0.2.0) (los dos originales siguen ahi; este es un parche).
 - Deja solo 11 poderes: pyrokinetic, summoning, hydrokinetic, kinetic_charger, velocity, graviton, ruin, storm_caller, phytokinetic, scaler, gamma (+ el nuevo seiryuu). El resto no sale en el sorteo ni en las pantallas.
 - Scaler: cambiar de tamano ya no cambia la velocidad base.
@@ -39,3 +39,45 @@ SIN PROBAR EN JUEGO todavia.
   Awakened se mantienen. Arreglado: las animaciones de frente a camara y los rayos no se dibujaban (venia desde la 2.8).
   Ruin: si sale "Nothing here can rot away", latest.log trae una linea "[wipspowers] Ruin sin bloques: ..." que dice que
   bloque mira, si Awakened lo acepta, si se puede interactuar ahi y si otro mod lo veta.
+- 3.1.0 (notas nuevas):
+  * Fuego que no pegaba: el Flame Beam (y Backdraft y el suelo ardiendo) de Pyrokinetic y las llamas de Seiryuu
+    (Flame Cloud, Bolo, Blast Breath) usaban un dano "de fuego" que los mobs inmunes al fuego ignoran (casi todos los
+    del Nether y muchos de mods). Ahora usan wipspowers:ability_fire: pega a todos, y el que no es inmune se sigue prendiendo.
+  * Ruin: Breach (4) y Collapse (5) rehechas con rotura de bloques propia (las de Awakened no rompian nada en el pack).
+    Breach: mantener abre un tunel de 3x3 que avanza (24-40 bloques), dana y pone cargas de Ruin; apuntando a un enemigo
+    cercano le pudre el suelo y lo hunde en un pozo. Collapse: onda que desmorona el suelo en anillos (radio 10-20),
+    dano, Lentitud, Marchitamiento y cargas. Los bloques vuelven solos (12-15 s) y al cerrar el server.
+  * Gamma: Island Shaker enfriamiento 25 s y se desbloquea a maestria 10. Thunderclap se mantiene: carga hasta 5 s
+    (x3 dano, x1.8 alcance, x2 empuje) y aplaude al soltar o al llegar al tope.
+  * Seiryuu: maestrias 0 / 2 / 5 / 8 / 10. Bolo Barrage = Bolo Breath de la forma dragon a pleno: carga 3 s,
+    32 meteoros, lluvia mas ancha y lejana, crateres de 9 bloques que rompen terreno.
+  * Scaler: al crecer a Titan o mas la onda de los pies hace dano. En Colossus o mas, caer desde altura suelta una onda
+    con dano = bloques de caida. Mass Leap: onda GIGANTE al aterrizar (crece con la altura y el tamano). Stomp: radio,
+    dano y crater crecen con el tamano (hasta 56 bloques de radio en World Breaker).
+  * Awakened: se quitan TODOS los items salvo los catalizadores (orbes para cambiar de poder). No salen en creativo ni en
+    JEI/EMI, sin recetas, loot ni spawns. Sin jefes ni sus estructuras (Arbiter Arena, Evoker Spire, Sunken Vault) y sin la
+    Cordon (Stalker, Sentinel, Enforcer, Overseer). Se mantienen la UI de admin y el despertar por casi-muerte.
+    Catalizador preciso: chatarra de netherita en vez de adamantio. Perfecto: lingote de netherita en vez de Cordon Core.
+  * Nuevo: Amuleto de estamina I / II / III (+25 / +50 / +100 % de regeneracion de energia). Basta llevarlo encima
+    (o en el collar de Curios); no se suman. Recetas: I = oro + cuerda + esmeralda; II = I + diamantes + polvo de piedra
+    luminosa; III = II + chatarra de netherita + amatista + fragmentos de eco.
+  * Magos: ademas del de Pyrokinetic hay uno por cada poder (Summoning, Hydro, Kinetic Charger, Velocity, Graviton, Ruin,
+    Storm Caller, Phyto, Scaler, Gamma, Seiryuu), con la misma IA (se alejan, esquivan y atacan). Maestria hasta 25:
+    proyectil, nova de cerca (5), rayo sostenido (10) y golpe definitivo marcado en el suelo (16).
+  * Al despertar un poder: efecto propio de 2 s por poder (anillos, espiral, particulas del elemento y sonido); Gamma y
+    Seiryuu, que no tenian, ahora tienen el suyo.
+  * Legendary Monsters: quedan 15 mobs (Shulker Mimic, Stratling, Fractured, Bomber, Resurrected Knight, Flameborn
+    Warrior/Guard, Hovering Hurricane, Flame Drifter, Annihilation Pursuer, Fractured Apostle, The Obliterator,
+    Cumulonimbus, Cloud Golem, Possessed Paladin). El resto no entra al mundo por ningun medio. Solo queda la estacion
+    del End (Obliterator). Spawns: Bomber en desierto/badlands; Fractured y Apostle en el Valle de almas; Stratling y
+    Huracan sobre Y 110 en montanas; Cumulonimbus raro sobre Y 140 en picos; Resurrected Knight en cuevas (Y < 40);
+    Possessed Paladin muy raro en cuevas profundas (Y < 0); Flameborn y Flame Drifter en deltas de basalto/eriales
+    del Nether; Pursuer y Shulker Mimic en el End. Vida/dano bajados a enemigo comun (Resurrected Knight 190 -> 50,
+    Shulker Mimic 200 -> 70, Pursuer 210 -> 80, Cumulonimbus 350 -> 150...). Drops nuevos para Stratling, Fractured
+    y Resurrected Knight. Solo quedan los items de esos mobs (y lo que se fabrica con ellos).
+  * Lukas' Weapon Leveling: tope de dano base 25 en todas las armas y armadura 8 / 15 / 12 / 6 (casco/peto/grebas/botas).
+    Solo se recorta el bonus por nivel; el que ya pasa el tope de fabrica no pierde nada.
+  * Sniffers naturales en casi todos los biomas (peso bajo, grupos de 1-2), cada uno con la variante de Sniffer Overhaul
+    de su bioma (sabana, taiga antigua, cerezos, nieve, desierto, badlands, jungla, champinones, carmesi, pantano).
+  PENDIENTE (faltan los jars, solo estan en CurseForge): Punchy 3.0 / Touch'n'Motion 1.21.1 (manos que desaparecen),
+  Frieren Flight (nerf a 60), Hyper 'N Hiei (recorte, pergamino, altar), Lodestar + brujulas, BlockBand. Y el MP3 de Mass Leap.
