@@ -1,0 +1,26 @@
+{
+  "parent": "devilfruits:doru_doru/first_arch",
+  "criteria": {
+    "cast_mold": {
+      "trigger": "devilfruits:doru_doru/cast_mold"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.doru_doru.cast_mold.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:armor_stand"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.doru_doru.cast_mold.title"
+    }
+  },
+  "requirements": [
+    [
+      "cast_mold"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

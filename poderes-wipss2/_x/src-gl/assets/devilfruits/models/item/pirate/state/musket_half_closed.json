@@ -1,0 +1,15 @@
+{
+ "loader": "neoforge:separate_transforms",
+ "gui_light": "side",
+ "textures": {
+  "particle": "devilfruits:item/pirate/musket"
+ },
+ "base": {
+  "parent": "devilfruits:item/pirate/3d/musket_half_closed"
+ },
+ "perspectives": {
+  "gui": {
+   "parent": "devilfruits:item/pirate/gui/musket_half_closed"
+  }
+ }
+}

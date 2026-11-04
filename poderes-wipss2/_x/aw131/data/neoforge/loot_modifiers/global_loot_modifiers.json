@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "entries": [
+    "awakened:relic_shallow_chests",
+    "awakened:relic_deep_chests",
+    "awakened:catalyst_drop_scale"
+  ]
+}

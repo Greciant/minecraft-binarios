@@ -1,0 +1,94 @@
+Mediciones de codos (runAutotestBend: PAL + bendy-lib, sin EMF). Direccion del antebrazo en espacio del personaje (afuera, arriba, frente) vs objetivo; tolerancia 20 grados.
+BEND t=1,5 right_arm antebrazo(afuera -0,09 arriba -0,88 frente 0,46) codo=25 grados objetivo(afuera -0,35 arriba -0,80 frente 0,50) error=15,6 grados
+BEND t=1,5 left_arm antebrazo(afuera -0,09 arriba -0,88 frente 0,46) codo=25 grados objetivo(afuera -0,35 arriba -0,80 frente 0,50) error=15,6 grados
+BEND t=4,0 right_arm antebrazo(afuera 0,55 arriba 0,83 frente -0,11) codo=23 grados objetivo(afuera 0,51 arriba 0,86 frente 0,00) error=7,1 grados
+BEND t=4,0 left_arm antebrazo(afuera 0,11 arriba 0,99 frente 0,01) codo=72 grados objetivo(afuera 0,20 arriba 0,98 frente 0,00) error=5,0 grados
+BEND t=5,5 right_arm antebrazo(afuera -0,35 arriba 0,94 frente -0,01) codo=100 grados objetivo(afuera -0,29 arriba 0,96 frente 0,00) error=3,6 grados
+BEND t=5,5 left_arm antebrazo(afuera -0,35 arriba 0,94 frente -0,01) codo=100 grados objetivo(afuera -0,29 arriba 0,96 frente 0,00) error=3,6 grados
+BEND t=6,9 right_arm antebrazo(afuera -0,50 arriba 0,87 frente -0,03) codo=110 grados objetivo(afuera -0,37 arriba 0,93 frente 0,00) error=8,2 grados
+BEND t=6,9 left_arm antebrazo(afuera -0,50 arriba 0,87 frente -0,03) codo=110 grados objetivo(afuera -0,37 arriba 0,93 frente 0,00) error=8,2 grados
+BEND t=8,5 right_arm antebrazo(afuera -0,56 arriba 0,23 frente 0,80) codo=95 grados objetivo(afuera -0,51 arriba 0,00 frente 0,86) error=14,3 grados
+BEND t=8,5 left_arm antebrazo(afuera -0,56 arriba 0,26 frente 0,79) codo=95 grados objetivo(afuera -0,51 arriba 0,00 frente 0,86) error=16,0 grados
+BEND t=11,0 right_arm antebrazo(afuera -0,15 arriba 0,99 frente 0,07) codo=110 grados objetivo(afuera 0,00 arriba 1,00 frente 0,10) error=8,8 grados
+BEND t=11,0 left_arm antebrazo(afuera 0,54 arriba 0,84 frente 0,00) codo=10 grados objetivo(afuera 0,67 arriba 0,74 frente 0,00) error=9,5 grados
+BEND t=13,2 right_arm antebrazo(afuera -0,01 arriba 0,99 frente 0,14) codo=120 grados objetivo(afuera 0,00 arriba 0,96 frente 0,29) error=8,4 grados
+BEND t=13,2 left_arm antebrazo(afuera 0,32 arriba -0,86 frente 0,39) codo=10 grados objetivo(afuera 0,30 arriba -0,89 frente 0,35) error=3,2 grados
+BEND t=14,6 right_arm antebrazo(afuera -0,19 arriba -0,86 frente 0,47) codo=30 grados objetivo(afuera -0,35 arriba -0,80 frente 0,50) error=9,8 grados
+BEND t=14,6 left_arm antebrazo(afuera -0,19 arriba -0,86 frente 0,47) codo=30 grados objetivo(afuera -0,35 arriba -0,80 frente 0,50) error=9,8 grados
+BEND t=19,5 right_arm antebrazo(afuera -0,09 arriba -0,99 frente -0,07) codo=12 grados
+BEND t=19,5 left_arm antebrazo(afuera -0,09 arriba -0,99 frente -0,07) codo=12 grados
+
+--- rodillas (pierna inferior, incluye el balanceo de la pierna) ---
+BEND t=19,5 right_leg sin bend (bendy-lib ausente o mutator inactivo)
+BEND t=19,5 left_leg antebrazo(afuera 0,00 arriba -0,78 frente -0,63) codo=21 grados
+
+=== runAutotestCompat (EMF 3.3.12 + FA+Player + MoveThoseHands + EPC + PAL + Emotecraft/bendy-lib), modelo vanilla forzado solo durante el modo chad ===
+EMF ANTES del modo chad: jugador 1 -> null
+EMF DURANTE el modo chad: jugador 1 -> modelo de EMF (personalizado)
+BEND t=1,5 right_arm antebrazo(afuera -0,09 arriba -0,88 frente 0,46) codo=25 grados objetivo(afuera -0,35 arriba -0,80 frente 0,50) error=15,6 grados
+BEND t=1,5 left_arm antebrazo(afuera -0,09 arriba -0,88 frente 0,46) codo=25 grados objetivo(afuera -0,35 arriba -0,80 frente 0,50) error=15,6 grados
+BEND t=1,5 right_leg sin bend (modelo de EMF (personalizado))
+BEND t=1,5 left_leg sin bend (modelo de EMF (personalizado))
+BEND t=4,0 right_arm antebrazo(afuera 0,54 arriba 0,83 frente -0,12) codo=25 grados objetivo(afuera 0,51 arriba 0,86 frente 0,00) error=7,3 grados
+BEND t=4,0 left_arm antebrazo(afuera 0,10 arriba 0,99 frente 0,01) codo=72 grados objetivo(afuera 0,20 arriba 0,98 frente 0,00) error=5,5 grados
+BEND t=4,0 right_leg sin bend (modelo de EMF (personalizado))
+BEND t=4,0 left_leg sin bend (modelo de EMF (personalizado))
+BEND t=5,5 right_arm antebrazo(afuera -0,35 arriba 0,94 frente -0,01) codo=100 grados objetivo(afuera -0,29 arriba 0,96 frente 0,00) error=3,6 grados
+BEND t=5,5 left_arm antebrazo(afuera -0,35 arriba 0,94 frente -0,01) codo=100 grados objetivo(afuera -0,29 arriba 0,96 frente 0,00) error=3,6 grados
+BEND t=5,5 right_leg sin bend (modelo de EMF (personalizado))
+BEND t=5,5 left_leg sin bend (modelo de EMF (personalizado))
+BEND t=6,9 right_arm antebrazo(afuera -0,50 arriba 0,87 frente -0,03) codo=110 grados objetivo(afuera -0,37 arriba 0,93 frente 0,00) error=8,3 grados
+BEND t=6,9 left_arm antebrazo(afuera -0,50 arriba 0,87 frente -0,03) codo=110 grados objetivo(afuera -0,37 arriba 0,93 frente 0,00) error=8,3 grados
+BEND t=6,9 right_leg sin bend (modelo de EMF (personalizado))
+BEND t=6,9 left_leg sin bend (modelo de EMF (personalizado))
+BEND t=8,5 right_arm antebrazo(afuera -0,56 arriba 0,23 frente 0,80) codo=95 grados objetivo(afuera -0,51 arriba 0,00 frente 0,86) error=14,3 grados
+BEND t=8,5 left_arm antebrazo(afuera -0,56 arriba 0,26 frente 0,79) codo=95 grados objetivo(afuera -0,51 arriba 0,00 frente 0,86) error=16,0 grados
+BEND t=8,5 right_leg sin bend (modelo de EMF (personalizado))
+BEND t=8,5 left_leg sin bend (modelo de EMF (personalizado))
+BEND t=11,0 right_arm antebrazo(afuera -0,15 arriba 0,99 frente 0,07) codo=110 grados objetivo(afuera 0,00 arriba 1,00 frente 0,10) error=8,8 grados
+BEND t=11,0 left_arm antebrazo(afuera 0,54 arriba 0,84 frente 0,00) codo=10 grados objetivo(afuera 0,67 arriba 0,74 frente 0,00) error=9,5 grados
+BEND t=11,0 right_leg sin bend (modelo de EMF (personalizado))
+BEND t=11,0 left_leg sin bend (modelo de EMF (personalizado))
+BEND t=13,2 right_arm antebrazo(afuera -0,01 arriba 0,99 frente 0,14) codo=120 grados objetivo(afuera 0,00 arriba 0,96 frente 0,29) error=8,4 grados
+BEND t=13,2 left_arm antebrazo(afuera 0,32 arriba -0,86 frente 0,39) codo=10 grados objetivo(afuera 0,30 arriba -0,89 frente 0,35) error=3,2 grados
+BEND t=13,2 right_leg sin bend (modelo de EMF (personalizado))
+BEND t=13,2 left_leg sin bend (modelo de EMF (personalizado))
+BEND t=14,6 right_arm antebrazo(afuera -0,19 arriba -0,86 frente 0,47) codo=30 grados objetivo(afuera -0,35 arriba -0,80 frente 0,50) error=9,8 grados
+BEND t=14,6 left_arm antebrazo(afuera -0,19 arriba -0,86 frente 0,47) codo=30 grados objetivo(afuera -0,35 arriba -0,80 frente 0,50) error=9,8 grados
+BEND t=14,6 right_leg sin bend (modelo de EMF (personalizado))
+BEND t=14,6 left_leg sin bend (modelo de EMF (personalizado))
+BEND t=19,5 right_arm antebrazo(afuera -0,09 arriba -0,99 frente -0,07) codo=12 grados
+BEND t=19,5 left_arm antebrazo(afuera -0,09 arriba -0,99 frente -0,07) codo=12 grados
+BEND t=19,5 right_leg sin bend (modelo de EMF (personalizado))
+BEND t=19,5 left_leg antebrazo(afuera 0,00 arriba -0,79 frente -0,62) codo=22 grados
+EMF DESPUES del modo chad: jugador 1 -> modelo de EMF (personalizado, animado)
+
+=== con Haki (-PhakiMode=split: Haki en el jugador, chad en un RemotePlayer) ===
+EMF ANTES del modo chad: jugador 1 -> null
+EMF DURANTE el modo chad: jugador 1 -> modelo de EMF (personalizado, animado)
+EMF DURANTE el modo chad: chad en remoto 3 -> modelo de EMF (personalizado)
+BEND t=1,5 right_arm antebrazo(afuera -0,09 arriba -0,88 frente 0,46) codo=25 grados objetivo(afuera -0,35 arriba -0,80 frente 0,50) error=15,6 grados
+BEND t=1,5 left_arm antebrazo(afuera -0,09 arriba -0,88 frente 0,46) codo=25 grados objetivo(afuera -0,35 arriba -0,80 frente 0,50) error=15,6 grados
+BEND t=1,5 right_leg sin bend (modelo de EMF (personalizado))
+BEND t=1,5 left_leg sin bend (modelo de EMF (personalizado))
+BEND t=4,0 right_leg sin bend (modelo de EMF (personalizado))
+BEND t=4,0 left_leg sin bend (modelo de EMF (personalizado))
+BEND t=5,5 right_arm antebrazo(afuera -0,35 arriba 0,94 frente -0,01) codo=100 grados objetivo(afuera -0,29 arriba 0,96 frente 0,00) error=3,6 grados
+BEND t=5,5 left_arm antebrazo(afuera -0,35 arriba 0,94 frente -0,01) codo=100 grados objetivo(afuera -0,29 arriba 0,96 frente 0,00) error=3,6 grados
+BEND t=5,5 right_leg sin bend (modelo de EMF (personalizado))
+BEND t=5,5 left_leg sin bend (modelo de EMF (personalizado))
+BEND t=6,9 right_leg sin bend (modelo de EMF (personalizado))
+BEND t=6,9 left_leg sin bend (modelo de EMF (personalizado))
+BEND t=8,5 right_leg sin bend (modelo de EMF (personalizado))
+BEND t=8,5 left_leg sin bend (modelo de EMF (personalizado))
+BEND t=11,0 right_arm antebrazo(afuera -0,15 arriba 0,99 frente 0,07) codo=110 grados objetivo(afuera 0,00 arriba 1,00 frente 0,10) error=8,8 grados
+BEND t=11,0 left_arm antebrazo(afuera 0,54 arriba 0,84 frente 0,00) codo=10 grados objetivo(afuera 0,67 arriba 0,74 frente 0,00) error=9,5 grados
+BEND t=11,0 right_leg sin bend (modelo de EMF (personalizado))
+BEND t=11,0 left_leg sin bend (modelo de EMF (personalizado))
+BEND t=13,2 right_leg sin bend (modelo de EMF (personalizado))
+BEND t=13,2 left_leg sin bend (modelo de EMF (personalizado))
+BEND t=14,6 right_leg sin bend (modelo de EMF (personalizado))
+BEND t=14,6 left_leg sin bend (modelo de EMF (personalizado))
+BEND t=19,5 right_leg sin bend (modelo de EMF (personalizado))
+EMF DESPUES del modo chad: jugador 1 -> modelo de EMF (personalizado, animado)
+EMF DESPUES del modo chad: chad en remoto 3 -> modelo de EMF (personalizado, animado)

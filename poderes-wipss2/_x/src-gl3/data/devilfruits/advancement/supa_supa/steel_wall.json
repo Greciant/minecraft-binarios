@@ -1,0 +1,29 @@
+{
+  "parent": "devilfruits:supa_supa/blade_blade",
+  "criteria": {
+    "steel_wall": {
+      "trigger": "devilfruits:supa_supa/steel_wall"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.supa_supa.steel_wall.description"
+    },
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:supa_supa/steel_body"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.supa_supa.steel_wall.title"
+    }
+  },
+  "requirements": [
+    [
+      "steel_wall"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,36 @@
+PRUEBA EN EL PC - port Scroll Walk Forge 1.20.1                 10-oct-2026
+=============================================================================
+En el portatil NO se prueba en juego. El mod es OPCIONAL (cliente, no va al
+servidor ni al .bat salvo que lo pidas).
+
+Jar: scrollwalk-1.2-forge1.20.1-port.jar (~8.6 KB)
+
+A) Prueba rapida con runClient (mas simple)
+ 1. Copiar la carpeta proyecto\ a algun lado del PC. Hace falta JDK 17 o 21;
+    gradle.properties no fija un java.home (usa el del sistema). Si
+    gradlew.bat no arranca por el manifest del wrapper (paso igual con
+    Ecstatic), lanzar asi:
+      java -classpath gradle\wrapper\gradle-wrapper.jar org.gradle.wrapper.GradleWrapperMain runClient
+ 2. En el mundo: mantener Alt y mover la rueda del raton mientras caminas.
+    Debería subir o bajar la velocidad (por defecto entre 0.05 y 0.1, en
+    pasos de 0.02).
+ 3. F1 (pausa) -> Mods -> Scroll Walk -> boton Config -> activar
+    "Show Speedometer": debe aparecer un texto en la barra de accion tipo
+    "Speed: 1.0x | 4.3 km/h (Walking)" que cambia al moverte.
+ 4. Probar que al scrollear SIN Alt, el inventario/hotbar se comporta normal
+    (el mod no debe interferir).
+
+B) (Opcional) En Prism con el pack completo
+ - Copiar el jar a mods\ de una COPIA de la instancia (no la real) y probar
+   que no choca con nada. Es un mod chico y no debería dar problemas.
+
+Si algo falla, anotarlo aqui debajo con fecha, o avisar en el hilo de porteo.
+
+RESULTADO EN EL PC (11-oct-2026) - Prism, copia Prueba-Ports con el pack completo
+  OK. Carga sin errores. Alt + rueda abajo baja la velocidad base de 0.10 a 0.05
+  (comprobado con /attribute ... movement_speed base get) y se camina mas lento.
+  Sin Alt la rueda cambia la hotbar normal. "Show Speedometer" muestra
+  "Speed: 1.0x | 0.0 km/h (Walking)" en la barra de accion.
+  Ojo para pruebas automaticas: el Alt simulado de algunas herramientas no llega a
+  GLFW; hay que mandar Alt izquierdo con scancode real (0x38).
+  Instalado en WIP-Cliente-para-PC.

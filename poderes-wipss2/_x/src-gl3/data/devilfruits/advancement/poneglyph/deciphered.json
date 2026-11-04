@@ -1,0 +1,26 @@
+{
+  "parent": "devilfruits:poneglyph/root",
+  "criteria": {
+    "deciphered": {
+      "trigger": "devilfruits:poneglyph_deciphered"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.poneglyph.deciphered.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:deciphered_blueprint"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.poneglyph.deciphered.title"
+    }
+  },
+  "requirements": [
+    [
+      "deciphered"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

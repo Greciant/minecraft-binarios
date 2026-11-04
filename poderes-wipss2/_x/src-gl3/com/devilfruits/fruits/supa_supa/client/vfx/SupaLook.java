@@ -1,0 +1,123 @@
+package com.devilfruits.fruits.supa_supa.client.vfx;
+
+import com.devilfruits.client.vfx.particle.ParticleStyle;
+import com.devilfruits.client.vfx.sprite.VfxSprites;
+
+public final class SupaLook {
+   public static final int STEEL_WHITE = 15398143;
+   public static final int ICE = 10275071;
+   public static final int INDIGO = 3823048;
+   public static final int GOLD = 16770976;
+   public static final ParticleStyle FILING = ParticleStyle.of(VfxSprites.SPARK, 5)
+      .life(7, 14)
+      .size(0.14F, 0.05F, 1.0F)
+      .fade(0.0F, 0.4F)
+      .heat(1.25F, 0.55F)
+      .additive(1.0F)
+      .emissive(2.6F)
+      .soft(0.0F)
+      .drag(0.07F)
+      .gravity(0.03F)
+      .stretch(0.7F)
+      .collide(0.35F)
+      .spin(0.0F)
+      .build();
+   public static final ParticleStyle SPARK = ParticleStyle.of(VfxSprites.PACK_SPARK, 4)
+      .life(8, 18)
+      .size(0.26F, 0.08F, 1.0F)
+      .fade(0.0F, 0.3F)
+      .heat(1.5F, 0.85F)
+      .additive(1.0F)
+      .emissive(3.4F)
+      .soft(0.0F)
+      .drag(0.04F)
+      .gravity(0.035F)
+      .stretch(1.1F)
+      .collide(0.4F)
+      .spin(0.0F)
+      .build();
+   public static final ParticleStyle EMBER = ParticleStyle.of(VfxSprites.PACK_SPARK, 4)
+      .life(30, 55)
+      .size(0.12F, 0.04F, 1.0F)
+      .fade(0.1F, 0.5F)
+      .heat(1.3F, 0.6F)
+      .additive(1.0F)
+      .emissive(3.0F)
+      .soft(0.0F)
+      .drag(0.25F)
+      .gravity(0.0F)
+      .stretch(0.0F)
+      .spin(0.0F)
+      .build();
+   public static final ParticleStyle GLINT = ParticleStyle.of(VfxSprites.FLARE, 5)
+      .life(4, 6)
+      .size(0.35F, 0.9F, 0.5F)
+      .fade(0.0F, 0.6F)
+      .heat(1.15F, 0.7F)
+      .additive(1.0F)
+      .emissive(3.5F)
+      .soft(0.0F)
+      .drag(0.0F)
+      .spin(0.05F)
+      .build();
+   public static final ParticleStyle AIR_SLIT = ParticleStyle.of(VfxSprites.SPARK, 5)
+      .life(4, 7)
+      .size(0.5F, 0.25F, 1.0F)
+      .fade(0.1F, 0.5F)
+      .heat(0.85F, 0.4F)
+      .additive(1.0F)
+      .emissive(1.4F)
+      .soft(0.0F)
+      .drag(0.12F)
+      .stretch(1.4F)
+      .spin(0.0F)
+      .build();
+   public static final ParticleStyle DUST = ParticleStyle.colour(VfxSprites.SMOKE_PUFF)
+      .life(18, 34)
+      .size(0.35F, 1.2F, 0.5F)
+      .fade(0.1F, 0.6F)
+      .additive(0.0F)
+      .emissive(0.0F)
+      .soft(0.8F)
+      .drag(0.08F)
+      .gravity(-0.002F)
+      .spin(0.03F)
+      .occluding()
+      .build();
+   public static final ParticleStyle SNOW = ParticleStyle.colour(VfxSprites.SMOKE_PUFF)
+      .life(10, 18)
+      .size(0.18F, 0.45F, 0.6F)
+      .fade(0.05F, 0.6F)
+      .additive(0.25F)
+      .emissive(0.2F)
+      .soft(0.3F)
+      .drag(0.08F)
+      .gravity(0.012F)
+      .spin(0.05F)
+      .build();
+   public static final ParticleStyle SCRATCH = ParticleStyle.colour(VfxSprites.SPARK)
+      .life(70, 100)
+      .size(0.6F, 0.6F, 1.0F)
+      .fade(0.0F, 0.7F)
+      .additive(0.15F)
+      .emissive(0.0F)
+      .soft(0.0F)
+      .drag(0.0F)
+      .flat()
+      .spin(0.0F)
+      .build();
+   public static final ParticleStyle SCRATCH_ICE = ParticleStyle.colour(VfxSprites.SPARK)
+      .life(90, 120)
+      .size(0.6F, 0.6F, 1.0F)
+      .fade(0.0F, 0.7F)
+      .additive(0.6F)
+      .emissive(0.3F)
+      .soft(0.0F)
+      .drag(0.0F)
+      .flat()
+      .spin(0.0F)
+      .build();
+
+   private SupaLook() {
+   }
+}

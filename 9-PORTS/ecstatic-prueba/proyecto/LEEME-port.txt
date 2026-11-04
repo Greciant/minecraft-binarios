@@ -1,0 +1,102 @@
+Ecstatic -> Forge 1.20.1 (port personal, NO publicar)              05-oct-2026
+=============================================================================
+Original: https://github.com/Wizardtastic/Ecstatic  (autor: Wizardtastic /
+angryalchemist). NeoForge 1.21.1, v1.4.1, commit febfb72. Copia en
+../ecstatic-upstream. 53 clases, ~8.9k lineas. Dibuja terreno LOD lejano
+generado muestreando el ruido de la semilla (solo superficie + bioma), con
+su propio renderizador y almacenamiento (<mundo>/ecstatic/).
+
+LICENCIA: CC-BY-NC-SA-4.0. Uso personal, no comercial, mismo credito y misma
+licencia. Texto completo en LICENSE (y dentro del jar como LICENSE_Ecstatic).
+mods.toml: displayName "Ecstatic (port Forge 1.20.1)", credito al autor y
+descripcion de "port personal no oficial". No subir a ningun sitio.
+
+Compilar:  ./gradlew build --no-daemon -q
+           -> build/libs/ecstatic-1.4.1-forge1.20.1-port.jar
+              (lleva MixinExtras 0.4.1 jar-in-jar; el -slim no, no usarlo).
+           El mod no tiene mixins (la config de mixins esta vacia, igual que
+           en el original); MixinExtras se dejo por la plantilla.
+Probar:    NO en el portatil. Pasos exactos en PRUEBA-EN-PC.txt:
+           ./gradlew runClient              (solo el mod, AutoTest activo)
+           ./gradlew runClient -PconMods    (+ Embeddium 0.3.31 y Oculus 1.8.0
+                                             de libs-test/, copiados del pool)
+           -Pautotest=false lo apaga. En Prism: argumento JVM
+           -Decstatic.autotest=true.
+           dev/AutoTest: mundo vanilla nuevo (semilla 20261005), espectador a
+           y=220, espera a que el LOD se estabilice, capturas del horizonte en
+           4 direcciones, FPS con y sin LOD, captura cerca del suelo, mc.stop().
+
+RESULTADO (05-oct)
+  - Compila sin errores (./gradlew build --no-daemon -q, exit 0).
+  - Un runClient vanilla se lanzo una vez antes de la regla "nada grafico en
+    el portatil" y se corto a mitad: el mod carga, crea el mundo, los hilos
+    Ecstatic-Region-Worker muestrean regiones LOD5, los 9 shaders propios
+    compilan (solo WARN de uniformes no usados, normales) y no hay
+    excepciones. No llego a sacar capturas: el aspecto visual esta SIN
+    VERIFICAR -> prueba en el PC.
+  - Revision linea a linea de todo lo que cambio contra el original (abajo).
+
+SIDES: solo cliente, y solo en UN JUGADOR. Necesita el servidor integrado
+(lee semilla, generador y chunks guardados del mundo local). En multijugador
+(nuestro servidor) no dibuja nada. En servidor dedicado no hace nada
+(EcstaticForge sale si no es cliente); DisplayTest IGNORESERVERONLY, asi
+que el servidor no lo necesita.
+
+QUE SE CAMBIO (el resto de clases es identico al original)
+  EcstaticForge            Forge: MinecraftForge.EVENT_BUS, DisplayTest,
+                           no hace nada fuera del cliente, engancha AutoTest.
+  client/ForgeClient*      imports Forge; ClientTickEvent.Post -> TickEvent
+                           fase END; teclas en el bus MOD. Matriz de camara:
+                           NeoForge da event.getModelViewMatrix(); en Forge
+                           1.20.1 la rotacion de camara esta en
+                           event.getPoseStack() (el bamboleo va en la
+                           proyeccion en las dos versiones, igual que antes).
+  BufferBuilderVertexSink, LodOceanPlane, LodBedrockPlane, LodCloudExtension,
+  LodDebugReferenceQuad    API vieja de BufferBuilder: getBuilder()+begin(),
+                           vertex().color().uv().uv2().normal().endVertex()
+                           EN EL ORDEN DEL FORMATO (en 1.20.1 un elemento
+                           fuera de orden se ignora sin avisar), end() en vez
+                           de buildOrThrow(), RenderedBuffer en vez de MeshData.
+  LodRegionMesh            BufferBuilder propio para subir mallas; no se hace
+                           begin() si la parte esta vacia (en 1.20.1 un
+                           begin() sin end() rompe el siguiente begin()).
+  LodTerrainRenderType     BLOCK_SAFE se arma con new VertexFormat(ImmutableMap)
+                           (no hay VertexFormat.builder()); misma disposicion
+                           que BLOCK pero otra instancia (Oculus solo extiende
+                           el formato BLOCK por identidad, igual que la idea
+                           original). new ResourceLocation(...).
+  SavedChunkAccess         RegionFile(Path, Path, boolean) sin RegionStorageInfo.
+  LodRenderer              getPartialTick(); 35.0F (el original tenia 35.0,
+                           que no compila con float); contadores solo para el
+                           AutoTest (devDisabled/devStats).
+  Pantallas                renderBackground(guiGraphics) y mouseScrolled de 3
+                           argumentos de 1.20.1; Checkbox.builder() ->
+                           CallbackCheckbox (subclase con callback).
+  Recursos                 neoforge.mods.toml -> mods.toml; pack_format 15;
+                           mixins JAVA_17. Shaders sin cambios: se comprobo
+                           que fog.glsl/light.glsl de 1.20.1 tienen
+                           linear_fog, linear_fog_fade, minecraft_mix_light y
+                           minecraft_sample_lightmap con la misma firma.
+  IrisCompat               sin cambios: nombres por reflexion comprobados
+                           contra las clases de Oculus 1.8.0 (Iris.
+                           getPipelineManager, getPipelineNullable, getPhase/
+                           setPhase, WorldRenderingPhase NONE/TERRAIN_SOLID/
+                           TERRAIN_TRANSLUCENT, IrisApi.isShaderPackInUse) y
+                           detecta modid "oculus".
+
+QUE FUNCIONA (segun compilacion, revision y el arranque cortado)
+  Carga, generacion de regiones LOD en hilos, shaders, RenderTypes por
+  reflexion (RenderType.create de 5 argumentos existe en 1.20.1), pantallas
+  de ajustes (F4) y estilos de bioma (F6), niebla extendida, nubes LOD.
+
+QUE FALTA / RIESGOS
+  - Verificacion visual y de FPS: pendiente en el PC (PRUEBA-EN-PC.txt).
+  - Prueba con Embeddium+Oculus: preparada (-PconMods), sin correr.
+  - Con shaderpacks el autor original ya avisa de fallos (bamboleo, fundido,
+    arboles, transparencias); no se toco.
+  - Worldgen del pack: el autor dice que Tectonic es compatible y que mods
+    con biomas nuevos (Terralith...) salen con colores/arboles equivocados de
+    lejos. Con Tectonic/Lithosphere puede no cuadrar del todo; el original
+    no soporta worldgen modded en general.
+  - No usar junto con Distant Horizons (dos LOD a la vez). Seguira siendo
+    OPCIONAL; no va al .bat ni al servidor.

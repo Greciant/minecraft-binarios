@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "devilfruits:item/fruit/yomi_yomi/yomi_yomi_no_mi"
+  }
+}

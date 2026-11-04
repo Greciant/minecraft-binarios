@@ -1,0 +1,29 @@
+{
+  "parent": "devilfruits:kilo_kilo/weight_weight",
+  "criteria": {
+    "feather_jump": {
+      "trigger": "devilfruits:kilo_kilo/feather_jump"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.kilo_kilo.feather_jump.description"
+    },
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:kilo_kilo/one_kilo"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.kilo_kilo.feather_jump.title"
+    }
+  },
+  "requirements": [
+    [
+      "feather_jump"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

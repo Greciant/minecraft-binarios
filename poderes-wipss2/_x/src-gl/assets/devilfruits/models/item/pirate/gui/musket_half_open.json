@@ -1,0 +1,22 @@
+{
+ "parent": "devilfruits:item/pirate/3d/musket_half_open",
+ "display": {
+  "gui": {
+   "rotation": [
+    13.408,
+    9.594,
+    35.682
+   ],
+   "translation": [
+    -0.755,
+    0.274,
+    -0.017
+   ],
+   "scale": [
+    0.4261,
+    0.4261,
+    0.4261
+   ]
+  }
+ }
+}

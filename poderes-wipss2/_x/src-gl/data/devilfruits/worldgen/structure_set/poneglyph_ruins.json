@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "devilfruits:poneglyph_ruins",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 64,
+    "separation": 24,
+    "salt": 20261011
+  }
+}

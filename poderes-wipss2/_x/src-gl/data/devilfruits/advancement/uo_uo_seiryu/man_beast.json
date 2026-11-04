@@ -1,0 +1,33 @@
+{
+  "parent": "devilfruits:uo_uo_seiryu/azure_dragon",
+  "criteria": {
+    "hybrid": {
+      "conditions": {
+        "form": "hybrid",
+        "fruit": "devilfruits:uo_uo_seiryu"
+      },
+      "trigger": "devilfruits:changed_form"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.uo_uo_seiryu.man_beast.description"
+    },
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:uo_uo_seiryu/transform_hybrid"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.uo_uo_seiryu.man_beast.title"
+    }
+  },
+  "requirements": [
+    [
+      "hybrid"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

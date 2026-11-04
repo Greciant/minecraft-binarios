@@ -1,0 +1,30 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      { "when": [ "iron_charm", "warding_plate", "vital_core" ], "model": { "type": "minecraft:model", "model": "awakened:item/relic_gem_health", "tints": [ { "type": "minecraft:dye", "default": -1 } ] } },
+      { "when": [ "swift_cells", "stamina_matrix" ], "model": { "type": "minecraft:model", "model": "awakened:item/relic_gem_stamina", "tints": [ { "type": "minecraft:dye", "default": -1 } ] } },
+      { "when": [ "kinetic_band", "flux_conduit" ], "model": { "type": "minecraft:model", "model": "awakened:item/relic_gem_regen", "tints": [ { "type": "minecraft:dye", "default": -1 } ] } },
+      { "when": [ "focus_lens", "power_prism" ], "model": { "type": "minecraft:model", "model": "awakened:item/relic_gem_power", "tints": [ { "type": "minecraft:dye", "default": -1 } ] } },
+      { "when": "titans_heart", "model": { "type": "minecraft:model", "model": "awakened:item/relic_gem_hybrid", "tints": [ { "type": "minecraft:dye", "default": -1 } ] } },
+
+      { "when": "wardens_eye", "model": { "type": "minecraft:model", "model": "awakened:item/relic_wardens_eye" } },
+      { "when": "scales_of_judgment", "model": { "type": "minecraft:model", "model": "awakened:item/relic_scales_of_judgment" } },
+      { "when": "fangbinder_sigil", "model": { "type": "minecraft:model", "model": "awakened:item/relic_fangbinder_sigil" } },
+      { "when": "tidecaller_pearl", "model": { "type": "minecraft:model", "model": "awakened:item/relic_tidecaller_pearl" } },
+      { "when": "duelists_edge", "model": { "type": "minecraft:model", "model": "awakened:item/relic_duelists_edge" } }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "awakened:item/relic",
+      "tints": [
+        {
+          "type": "minecraft:dye",
+          "default": -1
+        }
+      ]
+    }
+  }
+}

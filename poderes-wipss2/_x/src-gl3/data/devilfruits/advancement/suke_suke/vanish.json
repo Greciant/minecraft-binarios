@@ -1,0 +1,29 @@
+{
+  "parent": "devilfruits:suke_suke/clear_clear",
+  "criteria": {
+    "vanish": {
+      "trigger": "devilfruits:suke_suke/vanish"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.suke_suke.vanish.description"
+    },
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:suke_suke/invisibility"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.suke_suke.vanish.title"
+    }
+  },
+  "requirements": [
+    [
+      "vanish"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

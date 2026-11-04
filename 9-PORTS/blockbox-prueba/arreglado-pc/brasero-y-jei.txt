@@ -1,0 +1,55 @@
+# Guion packtest (PC, 12-oct-2026): brasero de Block Box + JEI en el panel de Spatial GUI.
+
+gap 20
+hud on
+waitload 4
+wait 60
+cmd setblock 2 220 -1 blockbox:brazier[lit=false]
+cmd setblock -2 220 -1 minecraft:crafting_table
+wait 20
+
+echo === Brasero: encender, apagar con pala, agua ===
+cmd item replace entity @s weapon.mainhand with minecraft:flint_and_steel
+useat 2 220 -1 blockbox:brazier
+wait 20
+cmd execute if block 2 220 -1 blockbox:brazier[lit=true]
+shot bb-brasero-encendido
+cmd item replace entity @s weapon.mainhand with minecraft:iron_shovel
+useat 2 220 -1 blockbox:brazier
+wait 20
+cmd execute if block 2 220 -1 blockbox:brazier[lit=false]
+cmd item replace entity @s weapon.mainhand with minecraft:flint_and_steel
+useat 2 220 -1 blockbox:brazier
+wait 20
+wait 20
+cmd execute if block 2 220 -1 blockbox:brazier[lit=false]
+
+echo === Datos: loot, recetas, tags ===
+cmd setblock 4 220 -1 blockbox:oak_palisade
+cmd loot spawn 0.5 221 -3 mine 4 220 -1 minecraft:iron_axe
+cmd recipe give @s blockbox:acacia_palisade
+cmd recipe give @s blockbox:red_sky_lantern
+cmd execute if block 2 220 -1 #blockbox:braziers
+cmd execute if block 4 220 -1 #minecraft:mineable/axe
+cmdtry kill @e[type=item]
+
+echo === JEI con Spatial GUI ===
+cmd item replace entity @s weapon.mainhand with minecraft:diamond_sword
+view back
+look 0 15
+inventory
+wait 60
+shot sg-jei-inventario
+close
+wait 20
+useat -2 220 -1 minecraft:crafting_table
+wait 60
+shot sg-jei-mesa
+close
+wait 20
+view first
+inventory
+wait 60
+shot sg-jei-primera-persona
+close
+wait 20

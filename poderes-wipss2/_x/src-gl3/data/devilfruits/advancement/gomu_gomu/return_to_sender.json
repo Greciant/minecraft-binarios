@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:gomu_gomu/rubber_man",
+  "criteria": {
+    "return_to_sender": {
+      "trigger": "devilfruits:gomu_gomu/bullet_returned"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.gomu_gomu.return_to_sender.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:gomu_gomu/pistol"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.gomu_gomu.return_to_sender.title"
+    }
+  },
+  "requirements": [
+    [
+      "return_to_sender"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,4308 @@
+{
+  "fruit.eat": {
+    "subtitle": "subtitles.devilfruits.fruit.eat",
+    "sounds": [
+      {
+        "name": "minecraft:random/eat1",
+        "pitch": 0.75
+      },
+      {
+        "name": "minecraft:random/eat2",
+        "pitch": 0.75
+      },
+      {
+        "name": "minecraft:random/eat3",
+        "pitch": 0.75
+      }
+    ]
+  },
+  "fruit.awaken": {
+    "subtitle": "subtitles.devilfruits.fruit.awaken",
+    "sounds": [
+      {
+        "name": "minecraft:mob/warden/heartbeat_1",
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:mob/warden/heartbeat_2",
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:mob/warden/heartbeat_3",
+        "pitch": 0.7
+      }
+    ]
+  },
+  "fruit.reincarnate": {
+    "subtitle": "subtitles.devilfruits.fruit.reincarnate",
+    "sounds": [
+      {
+        "name": "minecraft:block/respawn_anchor/deplete1",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/deplete2",
+        "pitch": 0.6
+      }
+    ]
+  },
+  "mastery.level_up": {
+    "subtitle": "subtitles.devilfruits.mastery.level_up",
+    "sounds": [
+      {
+        "name": "minecraft:random/levelup",
+        "pitch": 0.7
+      }
+    ]
+  },
+  "power.suppressed": {
+    "subtitle": "subtitles.devilfruits.power.suppressed",
+    "sounds": [
+      {
+        "name": "minecraft:block/beacon/deactivate",
+        "pitch": 0.8
+      }
+    ]
+  },
+  "layer.boom": {
+    "sounds": [
+      {
+        "name": "minecraft:random/explode1",
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:random/explode2",
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:random/explode3",
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:random/explode4",
+        "pitch": 0.7
+      }
+    ]
+  },
+  "layer.sonic": {
+    "sounds": [
+      {
+        "name": "minecraft:mob/warden/sonic_boom1"
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_boom2"
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_boom3"
+      },
+      {
+        "name": "minecraft:mob/warden/sonic_boom4"
+      }
+    ]
+  },
+  "layer.thunder": {
+    "sounds": [
+      {
+        "name": "minecraft:item/trident/thunder1",
+        "pitch": 0.8
+      },
+      {
+        "name": "minecraft:item/trident/thunder2",
+        "pitch": 0.8
+      }
+    ]
+  },
+  "layer.impact": {
+    "sounds": [
+      {
+        "name": "minecraft:mob/warden/attack_impact_1",
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:mob/warden/attack_impact_2",
+        "pitch": 0.7
+      }
+    ]
+  },
+  "layer.anvil": {
+    "sounds": [
+      {
+        "name": "minecraft:random/anvil_land",
+        "pitch": 0.5
+      }
+    ]
+  },
+  "layer.roar": {
+    "sounds": [
+      {
+        "name": "minecraft:mob/warden/roar_1",
+        "pitch": 0.5
+      },
+      {
+        "name": "minecraft:mob/warden/roar_2",
+        "pitch": 0.5
+      },
+      {
+        "name": "minecraft:mob/warden/roar_3",
+        "pitch": 0.5
+      },
+      {
+        "name": "minecraft:mob/warden/roar_4",
+        "pitch": 0.5
+      },
+      {
+        "name": "minecraft:mob/warden/roar_5",
+        "pitch": 0.5
+      }
+    ]
+  },
+  "layer.wind": {
+    "sounds": [
+      {
+        "name": "minecraft:entity/wind_charge/wind_burst1",
+        "pitch": 0.5
+      },
+      {
+        "name": "minecraft:entity/wind_charge/wind_burst2",
+        "pitch": 0.5
+      },
+      {
+        "name": "minecraft:entity/wind_charge/wind_burst3",
+        "pitch": 0.5
+      }
+    ]
+  },
+  "layer.splash": {
+    "sounds": [
+      {
+        "name": "minecraft:item/trident/riptide3",
+        "pitch": 0.6
+      }
+    ]
+  },
+  "layer.rumble": {
+    "sounds": [
+      {
+        "name": "minecraft:ambient/weather/thunder1",
+        "pitch": 0.5,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:ambient/weather/thunder2",
+        "pitch": 0.5,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:ambient/weather/thunder3",
+        "pitch": 0.5,
+        "volume": 0.8
+      }
+    ]
+  },
+  "form.change": {
+    "subtitle": "subtitles.devilfruits.form.change",
+    "sounds": [
+      {
+        "name": "minecraft:block/respawn_anchor/set_spawn1",
+        "pitch": 0.8
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/set_spawn2",
+        "pitch": 0.8
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/set_spawn3",
+        "pitch": 0.8
+      }
+    ]
+  },
+  "logia.dissolve": {
+    "subtitle": "subtitles.devilfruits.logia.dissolve",
+    "sounds": [
+      {
+        "name": "minecraft:block/powder_snow/break1",
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:block/powder_snow/break2",
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:block/powder_snow/break3",
+        "pitch": 0.7
+      }
+    ]
+  },
+  "logia.reform": {
+    "subtitle": "subtitles.devilfruits.logia.reform",
+    "sounds": [
+      {
+        "name": "minecraft:item/bundle/insert1",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:item/bundle/insert2",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:item/bundle/insert3",
+        "pitch": 0.6
+      }
+    ]
+  },
+  "logia.pass": {
+    "subtitle": "subtitles.devilfruits.logia.pass",
+    "sounds": [
+      {
+        "name": "minecraft:mob/breeze/deflect1",
+        "pitch": 1.2,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/breeze/deflect2",
+        "pitch": 1.2,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/breeze/deflect3",
+        "pitch": 1.2,
+        "volume": 0.8
+      }
+    ]
+  },
+  "logia.suppress": {
+    "subtitle": "subtitles.devilfruits.logia.suppress",
+    "sounds": [
+      {
+        "name": "minecraft:random/fizz",
+        "pitch": 1.4,
+        "volume": 0.6
+      }
+    ]
+  },
+  "logia.dash": {
+    "subtitle": "subtitles.devilfruits.logia.dash",
+    "sounds": [
+      {
+        "name": "minecraft:entity/wind_charge/wind_burst1",
+        "pitch": 1.3,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:entity/wind_charge/wind_burst2",
+        "pitch": 1.3,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:entity/wind_charge/wind_burst3",
+        "pitch": 1.3,
+        "volume": 0.7
+      }
+    ]
+  },
+  "structure.creak": {
+    "subtitle": "subtitles.devilfruits.structure.creak",
+    "sounds": [
+      {
+        "name": "minecraft:dig/wood1",
+        "pitch": 0.55,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:dig/wood2",
+        "pitch": 0.55,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:dig/wood3",
+        "pitch": 0.55,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:dig/wood4",
+        "pitch": 0.55,
+        "volume": 0.9
+      }
+    ]
+  },
+  "structure.thoom": {
+    "subtitle": "subtitles.devilfruits.structure.thoom",
+    "sounds": [
+      {
+        "name": "minecraft:random/explode1",
+        "pitch": 0.45,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode2",
+        "pitch": 0.45,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode3",
+        "pitch": 0.45,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:random/explode4",
+        "pitch": 0.45,
+        "volume": 0.7
+      }
+    ]
+  },
+  "explosion.crack": {
+    "subtitle": "subtitles.devilfruits.explosion.crack",
+    "sounds": [
+      {
+        "name": "minecraft:fireworks/blast1",
+        "pitch": 0.8,
+        "volume": 1.0,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "minecraft:fireworks/blast_far1",
+        "pitch": 0.8,
+        "volume": 1.0,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "minecraft:random/explode1",
+        "pitch": 1.45,
+        "volume": 0.6,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "minecraft:random/explode2",
+        "pitch": 1.45,
+        "volume": 0.6,
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "explosion.boom": {
+    "subtitle": "subtitles.devilfruits.explosion.boom",
+    "sounds": [
+      {
+        "name": "minecraft:random/explode1",
+        "pitch": 0.9,
+        "volume": 1.0,
+        "attenuation_distance": 64
+      },
+      {
+        "name": "minecraft:random/explode2",
+        "pitch": 0.9,
+        "volume": 1.0,
+        "attenuation_distance": 64
+      },
+      {
+        "name": "minecraft:random/explode3",
+        "pitch": 0.9,
+        "volume": 1.0,
+        "attenuation_distance": 64
+      },
+      {
+        "name": "minecraft:random/explode4",
+        "pitch": 0.9,
+        "volume": 1.0,
+        "attenuation_distance": 64
+      },
+      {
+        "name": "minecraft:random/explode1",
+        "pitch": 0.78,
+        "volume": 1.0,
+        "attenuation_distance": 64
+      },
+      {
+        "name": "minecraft:random/explode2",
+        "pitch": 0.78,
+        "volume": 1.0,
+        "attenuation_distance": 64
+      },
+      {
+        "name": "minecraft:random/explode3",
+        "pitch": 0.78,
+        "volume": 1.0,
+        "attenuation_distance": 64
+      },
+      {
+        "name": "minecraft:random/explode4",
+        "pitch": 0.78,
+        "volume": 1.0,
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "explosion.deep": {
+    "subtitle": "subtitles.devilfruits.explosion.deep",
+    "sounds": [
+      {
+        "name": "minecraft:random/explode1",
+        "pitch": 0.55,
+        "volume": 1.0,
+        "attenuation_distance": 128
+      },
+      {
+        "name": "minecraft:random/explode2",
+        "pitch": 0.55,
+        "volume": 1.0,
+        "attenuation_distance": 128
+      },
+      {
+        "name": "minecraft:random/explode3",
+        "pitch": 0.55,
+        "volume": 1.0,
+        "attenuation_distance": 128
+      },
+      {
+        "name": "minecraft:random/explode4",
+        "pitch": 0.55,
+        "volume": 1.0,
+        "attenuation_distance": 128
+      }
+    ]
+  },
+  "explosion.distant": {
+    "subtitle": "subtitles.devilfruits.explosion.distant",
+    "sounds": [
+      {
+        "name": "minecraft:ambient/weather/thunder1",
+        "pitch": 0.65,
+        "volume": 0.7,
+        "attenuation_distance": 192
+      },
+      {
+        "name": "minecraft:ambient/weather/thunder2",
+        "pitch": 0.65,
+        "volume": 0.7,
+        "attenuation_distance": 192
+      },
+      {
+        "name": "minecraft:ambient/weather/thunder3",
+        "pitch": 0.65,
+        "volume": 0.7,
+        "attenuation_distance": 192
+      }
+    ]
+  },
+  "explosion.debris": {
+    "subtitle": "subtitles.devilfruits.explosion.debris",
+    "sounds": [
+      {
+        "name": "minecraft:dig/gravel1",
+        "pitch": 0.7,
+        "volume": 0.8,
+        "attenuation_distance": 32
+      },
+      {
+        "name": "minecraft:dig/gravel2",
+        "pitch": 0.7,
+        "volume": 0.8,
+        "attenuation_distance": 32
+      },
+      {
+        "name": "minecraft:dig/gravel3",
+        "pitch": 0.7,
+        "volume": 0.8,
+        "attenuation_distance": 32
+      },
+      {
+        "name": "minecraft:dig/stone1",
+        "pitch": 0.7,
+        "volume": 0.8,
+        "attenuation_distance": 32
+      },
+      {
+        "name": "minecraft:dig/stone3",
+        "pitch": 0.7,
+        "volume": 0.8,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "explosion.crackle": {
+    "subtitle": "subtitles.devilfruits.explosion.crackle",
+    "sounds": [
+      {
+        "name": "minecraft:fire/fire",
+        "pitch": 0.85,
+        "volume": 0.7,
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "bomu_bomu.punch.arm": {
+    "subtitle": "subtitles.devilfruits.bomu_bomu.punch.arm",
+    "sounds": [
+      {
+        "name": "minecraft:random/fuse",
+        "pitch": 1.35,
+        "volume": 0.8,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "minecraft:fire/ignite",
+        "pitch": 1.2,
+        "volume": 0.8,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "bomu_bomu.punch.tick": {
+    "subtitle": "subtitles.devilfruits.bomu_bomu.punch.tick",
+    "sounds": [
+      {
+        "name": "minecraft:random/click",
+        "pitch": 1.9,
+        "volume": 0.25,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "minecraft:note/hat",
+        "pitch": 1.6,
+        "volume": 0.3,
+        "attenuation_distance": 8
+      }
+    ]
+  },
+  "bomu_bomu.punch.fizzle": {
+    "subtitle": "subtitles.devilfruits.bomu_bomu.punch.fizzle",
+    "sounds": [
+      {
+        "name": "minecraft:random/fizz",
+        "pitch": 1.3,
+        "volume": 0.6,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "bomu_bomu.cannon.flick": {
+    "subtitle": "subtitles.devilfruits.bomu_bomu.cannon.flick",
+    "sounds": [
+      {
+        "name": "minecraft:random/click",
+        "pitch": 1.6,
+        "volume": 0.5,
+        "attenuation_distance": 12
+      },
+      {
+        "name": "minecraft:note/hat",
+        "pitch": 2.0,
+        "volume": 0.4,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "bomu_bomu.cannon.fire": {
+    "subtitle": "subtitles.devilfruits.bomu_bomu.cannon.fire",
+    "sounds": [
+      {
+        "name": "minecraft:mob/slime/small1",
+        "pitch": 1.5,
+        "volume": 0.8,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "minecraft:mob/slime/small2",
+        "pitch": 1.5,
+        "volume": 0.8,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "minecraft:mob/slime/small3",
+        "pitch": 1.5,
+        "volume": 0.8,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "bomu_bomu.cannon.splat": {
+    "subtitle": "subtitles.devilfruits.bomu_bomu.cannon.splat",
+    "sounds": [
+      {
+        "name": "minecraft:mob/slime/attack1",
+        "pitch": 1.3,
+        "volume": 0.9,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "minecraft:mob/slime/attack2",
+        "pitch": 1.3,
+        "volume": 0.9,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "minecraft:block/honeyblock/slide1",
+        "pitch": 1.3,
+        "volume": 0.9,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "bomu_bomu.shot.fire": {
+    "subtitle": "subtitles.devilfruits.bomu_bomu.shot.fire",
+    "sounds": [
+      {
+        "name": "minecraft:mob/breeze/shoot",
+        "pitch": 0.75,
+        "volume": 1.0,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "minecraft:entity/wind_charge/wind_burst1",
+        "pitch": 0.85,
+        "volume": 0.9,
+        "attenuation_distance": 48
+      },
+      {
+        "name": "minecraft:entity/wind_charge/wind_burst2",
+        "pitch": 0.85,
+        "volume": 0.9,
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "bomu_bomu.shot.plain": {
+    "subtitle": "subtitles.devilfruits.bomu_bomu.shot.plain",
+    "sounds": [
+      {
+        "name": "minecraft:mob/breeze/wind_burst1",
+        "pitch": 1.2,
+        "volume": 0.8,
+        "attenuation_distance": 32
+      },
+      {
+        "name": "minecraft:mob/breeze/wind_burst2",
+        "pitch": 1.2,
+        "volume": 0.8,
+        "attenuation_distance": 32
+      },
+      {
+        "name": "minecraft:mob/breeze/wind_burst3",
+        "pitch": 1.2,
+        "volume": 0.8,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "bomu_bomu.shot.click": {
+    "subtitle": "subtitles.devilfruits.bomu_bomu.shot.click",
+    "sounds": [
+      {
+        "name": "minecraft:random/click",
+        "pitch": 1.4,
+        "volume": 0.7,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "minecraft:block/iron_trapdoor/close1",
+        "pitch": 1.8,
+        "volume": 0.4,
+        "attenuation_distance": 8
+      }
+    ]
+  },
+  "bomu_bomu.shot.reload": {
+    "subtitle": "subtitles.devilfruits.bomu_bomu.shot.reload",
+    "sounds": [
+      {
+        "name": "minecraft:item/crossbow/loading_middle1",
+        "pitch": 1.5,
+        "volume": 0.7,
+        "attenuation_distance": 10
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle2",
+        "pitch": 1.5,
+        "volume": 0.7,
+        "attenuation_distance": 10
+      },
+      {
+        "name": "minecraft:block/iron_trapdoor/open1",
+        "pitch": 1.9,
+        "volume": 0.4,
+        "attenuation_distance": 10
+      }
+    ]
+  },
+  "bomu_bomu.shot.whiz": {
+    "subtitle": "subtitles.devilfruits.bomu_bomu.shot.whiz",
+    "sounds": [
+      {
+        "name": "minecraft:mob/breeze/whirl",
+        "pitch": 1.6,
+        "volume": 0.6,
+        "attenuation_distance": 24
+      },
+      {
+        "name": "minecraft:mob/breeze/slide1",
+        "pitch": 1.4,
+        "volume": 0.6,
+        "attenuation_distance": 24
+      },
+      {
+        "name": "minecraft:mob/breeze/slide2",
+        "pitch": 1.4,
+        "volume": 0.6,
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "bomu_bomu.self_destruct.charge": {
+    "subtitle": "subtitles.devilfruits.bomu_bomu.self_destruct.charge",
+    "sounds": [
+      {
+        "name": "minecraft:block/beacon/power1",
+        "pitch": 0.6,
+        "volume": 0.9,
+        "attenuation_distance": 32
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge1",
+        "pitch": 0.7,
+        "volume": 0.9,
+        "attenuation_distance": 32
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge2",
+        "pitch": 0.7,
+        "volume": 0.9,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "bomu_bomu.self_destruct.tier": {
+    "subtitle": "subtitles.devilfruits.bomu_bomu.self_destruct.tier",
+    "sounds": [
+      {
+        "name": "minecraft:block/respawn_anchor/set_spawn1",
+        "pitch": 1.3,
+        "volume": 0.8,
+        "attenuation_distance": 24
+      },
+      {
+        "name": "minecraft:random/fuse",
+        "pitch": 1.6,
+        "volume": 0.6,
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "bomu_bomu.self_destruct.reform": {
+    "subtitle": "subtitles.devilfruits.bomu_bomu.self_destruct.reform",
+    "sounds": [
+      {
+        "name": "minecraft:random/fizz",
+        "pitch": 0.7,
+        "volume": 0.8,
+        "attenuation_distance": 24
+      },
+      {
+        "name": "minecraft:mob/breeze/inhale1",
+        "pitch": 0.8,
+        "volume": 0.8,
+        "attenuation_distance": 24
+      },
+      {
+        "name": "minecraft:mob/breeze/inhale2",
+        "pitch": 0.8,
+        "volume": 0.8,
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "bomu_bomu.absorb": {
+    "subtitle": "subtitles.devilfruits.bomu_bomu.absorb",
+    "sounds": [
+      {
+        "name": "minecraft:mob/ghast/fireball4",
+        "pitch": 0.6,
+        "volume": 0.45,
+        "attenuation_distance": 12
+      },
+      {
+        "name": "minecraft:mob/breeze/inhale1",
+        "pitch": 1.4,
+        "volume": 0.35,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "bomu_bomu.shot.open": {
+    "subtitle": "subtitles.devilfruits.bomu_bomu.shot.open",
+    "sounds": [
+      {
+        "name": "minecraft:block/iron_trapdoor/open1",
+        "pitch": 1.9,
+        "volume": 0.5,
+        "attenuation_distance": 10
+      },
+      {
+        "name": "minecraft:block/iron_trapdoor/open2",
+        "pitch": 1.9,
+        "volume": 0.5,
+        "attenuation_distance": 10
+      },
+      {
+        "name": "minecraft:random/click",
+        "pitch": 1.5,
+        "volume": 0.6,
+        "attenuation_distance": 10
+      }
+    ]
+  },
+  "bomu_bomu.shot.blow": {
+    "subtitle": "subtitles.devilfruits.bomu_bomu.shot.blow",
+    "sounds": [
+      {
+        "name": "minecraft:mob/breeze/inhale1",
+        "pitch": 0.75,
+        "volume": 0.9,
+        "attenuation_distance": 12
+      },
+      {
+        "name": "minecraft:mob/breeze/inhale2",
+        "pitch": 0.75,
+        "volume": 0.9,
+        "attenuation_distance": 12
+      },
+      {
+        "name": "minecraft:mob/breeze/idle_air1",
+        "pitch": 1.3,
+        "volume": 0.6,
+        "attenuation_distance": 12
+      },
+      {
+        "name": "minecraft:mob/breeze/idle_air2",
+        "pitch": 1.3,
+        "volume": 0.6,
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "bomu_bomu.shot.close": {
+    "subtitle": "subtitles.devilfruits.bomu_bomu.shot.close",
+    "sounds": [
+      {
+        "name": "minecraft:block/iron_trapdoor/close1",
+        "pitch": 1.8,
+        "volume": 0.6,
+        "attenuation_distance": 10
+      },
+      {
+        "name": "minecraft:block/iron_trapdoor/close2",
+        "pitch": 1.8,
+        "volume": 0.6,
+        "attenuation_distance": 10
+      },
+      {
+        "name": "minecraft:random/click",
+        "pitch": 1.1,
+        "volume": 0.8,
+        "attenuation_distance": 10
+      }
+    ]
+  },
+  "doru_doru.pour": {
+    "subtitle": "subtitles.devilfruits.doru_doru.pour",
+    "sounds": [
+      {
+        "name": "minecraft:block.honey_block.slide",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:block.honey_block.slide",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:block.honey_block.place",
+        "type": "event",
+        "pitch": 0.65,
+        "volume": 0.6
+      }
+    ]
+  },
+  "doru_doru.set": {
+    "subtitle": "subtitles.devilfruits.doru_doru.set",
+    "sounds": [
+      {
+        "name": "minecraft:block.amethyst_block.place",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:block.calcite.place",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block.amethyst_block.hit",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 0.7
+      }
+    ]
+  },
+  "doru_doru.drip": {
+    "subtitle": "subtitles.devilfruits.doru_doru.drip",
+    "sounds": [
+      {
+        "name": "minecraft:block.pointed_dripstone.drip_water",
+        "type": "event",
+        "pitch": 0.75,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:block.beehive.drip",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:block.slime_block.step",
+        "type": "event",
+        "pitch": 1.4,
+        "volume": 0.25
+      }
+    ]
+  },
+  "doru_doru.melt": {
+    "subtitle": "subtitles.devilfruits.doru_doru.melt",
+    "sounds": [
+      {
+        "name": "minecraft:block.fire.extinguish",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:block.lava.extinguish",
+        "type": "event",
+        "pitch": 1.5,
+        "volume": 0.3
+      },
+      {
+        "name": "minecraft:block.honey_block.slide",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 0.6
+      }
+    ]
+  },
+  "doru_doru.ignite": {
+    "subtitle": "subtitles.devilfruits.doru_doru.ignite",
+    "sounds": [
+      {
+        "name": "minecraft:item.flintandsteel.use",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:block.candle.place",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "doru_doru.flame": {
+    "subtitle": "subtitles.devilfruits.doru_doru.flame",
+    "sounds": [
+      {
+        "name": "minecraft:block.candle.ambient",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block.fire.ambient",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.35
+      }
+    ]
+  },
+  "doru_doru.absorb": {
+    "subtitle": "subtitles.devilfruits.doru_doru.absorb",
+    "sounds": [
+      {
+        "name": "minecraft:item.honey_bottle.drink",
+        "type": "event",
+        "pitch": 1.1,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:block.honey_block.place",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.6
+      }
+    ]
+  },
+  "doru_doru.dissolve": {
+    "subtitle": "subtitles.devilfruits.doru_doru.dissolve",
+    "sounds": [
+      {
+        "name": "minecraft:block.honey_block.break",
+        "type": "event",
+        "pitch": 0.9,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:block.honey_block.slide",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.6
+      }
+    ]
+  },
+  "doru_doru.creak": {
+    "subtitle": "subtitles.devilfruits.doru_doru.creak",
+    "sounds": [
+      {
+        "name": "minecraft:block.wood.step",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:block.honey_block.step",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 0.6
+      }
+    ]
+  },
+  "doru_doru.sculpt_click": {
+    "subtitle": "subtitles.devilfruits.doru_doru.sculpt_click",
+    "sounds": [
+      {
+        "name": "minecraft:block.candle.place",
+        "type": "event",
+        "pitch": 1.6,
+        "volume": 0.35
+      },
+      {
+        "name": "minecraft:block.amethyst_block.hit",
+        "type": "event",
+        "pitch": 1.8,
+        "volume": 0.3
+      }
+    ]
+  },
+  "doru_doru.sculpt_deny": {
+    "subtitle": "subtitles.devilfruits.doru_doru.sculpt_deny",
+    "sounds": [
+      {
+        "name": "minecraft:block.candle.extinguish",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:block.note_block.bass",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 0.5
+      }
+    ]
+  },
+  "doru_doru.tool_form": {
+    "subtitle": "subtitles.devilfruits.doru_doru.tool_form",
+    "sounds": [
+      {
+        "name": "minecraft:block.honey_block.place",
+        "type": "event",
+        "pitch": 0.9,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block.amethyst_block.chime",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ]
+  },
+  "doru_doru.tool_melt": {
+    "subtitle": "subtitles.devilfruits.doru_doru.tool_melt",
+    "sounds": [
+      {
+        "name": "minecraft:block.fire.extinguish",
+        "type": "event",
+        "pitch": 1.6,
+        "volume": 0.3
+      },
+      {
+        "name": "minecraft:block.honey_block.break",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 0.5
+      }
+    ]
+  },
+  "doru_doru.wall_rise": {
+    "subtitle": "subtitles.devilfruits.doru_doru.wall_rise",
+    "sounds": [
+      {
+        "name": "minecraft:block.honey_block.break",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block.mud.place",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block.honey_block.fall",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "doru_doru.slam": {
+    "subtitle": "subtitles.devilfruits.doru_doru.slam",
+    "sounds": [
+      {
+        "name": "minecraft:block.honey_block.fall",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block.slime_block.fall",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "doru_doru.lance_form": {
+    "subtitle": "subtitles.devilfruits.doru_doru.lance_form",
+    "sounds": [
+      {
+        "name": "minecraft:block.honey_block.slide",
+        "type": "event",
+        "pitch": 0.9,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block.amethyst_block.resonate",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 0.8
+      }
+    ]
+  },
+  "doru_doru.lance_thrust": {
+    "subtitle": "subtitles.devilfruits.doru_doru.lance_thrust",
+    "sounds": [
+      {
+        "name": "minecraft:item.trident.riptide_1",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 0.9
+      }
+    ]
+  },
+  "doru_doru.lance_throw": {
+    "subtitle": "subtitles.devilfruits.doru_doru.lance_throw",
+    "sounds": [
+      {
+        "name": "minecraft:item.trident.throw",
+        "type": "event",
+        "pitch": 0.75,
+        "volume": 1.0
+      }
+    ]
+  },
+  "doru_doru.lance_hit": {
+    "subtitle": "subtitles.devilfruits.doru_doru.lance_hit",
+    "sounds": [
+      {
+        "name": "minecraft:item.trident.hit",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block.honey_block.hit",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "doru_doru.lance_embed": {
+    "subtitle": "subtitles.devilfruits.doru_doru.lance_embed",
+    "sounds": [
+      {
+        "name": "minecraft:item.trident.hit_ground",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block.calcite.break",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "doru_doru.candle_rise": {
+    "subtitle": "subtitles.devilfruits.doru_doru.candle_rise",
+    "sounds": [
+      {
+        "name": "minecraft:block.honey_block.slide",
+        "type": "event",
+        "pitch": 0.45,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block.grindstone.use",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 0.5
+      }
+    ]
+  },
+  "doru_doru.flakes": {
+    "subtitle": "subtitles.devilfruits.doru_doru.flakes",
+    "sounds": [
+      {
+        "name": "minecraft:block.powder_snow.step",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.25
+      },
+      {
+        "name": "minecraft:block.snow.fall",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 0.2
+      }
+    ]
+  },
+  "doru_doru.coat": {
+    "subtitle": "subtitles.devilfruits.doru_doru.coat",
+    "sounds": [
+      {
+        "name": "minecraft:block.honey_block.step",
+        "type": "event",
+        "pitch": 1.1,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:block.slime_block.step",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.4
+      }
+    ]
+  },
+  "doru_doru.encase": {
+    "subtitle": "subtitles.devilfruits.doru_doru.encase",
+    "sounds": [
+      {
+        "name": "minecraft:block.honey_block.place",
+        "type": "event",
+        "pitch": 0.55,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block.amethyst_block.place",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "doru_doru.break_free": {
+    "subtitle": "subtitles.devilfruits.doru_doru.break_free",
+    "sounds": [
+      {
+        "name": "minecraft:block.glass.break",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:block.calcite.break",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ]
+  },
+  "doru_doru.transform": {
+    "subtitle": "subtitles.devilfruits.doru_doru.transform",
+    "sounds": [
+      {
+        "name": "minecraft:block.honey_block.slide",
+        "type": "event",
+        "pitch": 0.4,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block.respawn_anchor.charge",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 0.6
+      }
+    ]
+  },
+  "doru_doru.revert": {
+    "subtitle": "subtitles.devilfruits.doru_doru.revert",
+    "sounds": [
+      {
+        "name": "minecraft:block.lava.extinguish",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:block.honey_block.break",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "doru_doru.stomp": {
+    "subtitle": "subtitles.devilfruits.doru_doru.stomp",
+    "sounds": [
+      {
+        "name": "minecraft:block.anvil.land",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:entity.iron_golem.damage",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "doru_doru.punch": {
+    "subtitle": "subtitles.devilfruits.doru_doru.punch",
+    "sounds": [
+      {
+        "name": "minecraft:entity.iron_golem.attack",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block.honey_block.hit",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "doru_doru.step": {
+    "subtitle": "subtitles.devilfruits.doru_doru.step",
+    "sounds": [
+      {
+        "name": "minecraft:entity.iron_golem.step",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:block.honey_block.step",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 0.8
+      }
+    ]
+  },
+  "doru_doru.awaken": {
+    "subtitle": "subtitles.devilfruits.doru_doru.awaken",
+    "sounds": [
+      {
+        "name": "minecraft:block.candle.ambient",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block.honey_block.slide",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "gura_gura.ability.kaishin.charge": {
+    "subtitle": "subtitles.devilfruits.gura_gura.ability.charge",
+    "sounds": [
+      {
+        "name": "minecraft:block/respawn_anchor/charge1",
+        "pitch": 1.3,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge2",
+        "pitch": 1.3,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge3",
+        "pitch": 1.3,
+        "volume": 0.8
+      }
+    ]
+  },
+  "gura_gura.ability.kaishin.release": {
+    "subtitle": "subtitles.devilfruits.gura_gura.ability.kaishin",
+    "sounds": [
+      {
+        "name": "minecraft:entity/wind_charge/wind_burst1",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:entity/wind_charge/wind_burst2",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:entity/wind_charge/wind_burst3",
+        "pitch": 0.6
+      }
+    ]
+  },
+  "gura_gura.ability.gekishin": {
+    "subtitle": "subtitles.devilfruits.gura_gura.ability.gekishin",
+    "sounds": [
+      {
+        "name": "minecraft:item/mace/smash_ground_heavy",
+        "pitch": 1.1
+      }
+    ]
+  },
+  "gura_gura.ability.kabutowari": {
+    "subtitle": "subtitles.devilfruits.gura_gura.ability.kabutowari",
+    "sounds": [
+      {
+        "name": "minecraft:item/mace/smash_ground_heavy",
+        "pitch": 0.65
+      }
+    ]
+  },
+  "gura_gura.ability.shima_yurashi": {
+    "subtitle": "subtitles.devilfruits.gura_gura.ability.shima_yurashi",
+    "sounds": [
+      {
+        "name": "minecraft:mob/ravager/roar1",
+        "pitch": 0.45
+      },
+      {
+        "name": "minecraft:mob/ravager/roar2",
+        "pitch": 0.45
+      },
+      {
+        "name": "minecraft:mob/ravager/roar3",
+        "pitch": 0.45
+      },
+      {
+        "name": "minecraft:mob/ravager/roar4",
+        "pitch": 0.45
+      }
+    ]
+  },
+  "gura_gura.ability.shima_yurashi.tremor": {
+    "subtitle": "subtitles.devilfruits.gura_gura.ability.tremor",
+    "sounds": [
+      {
+        "name": "minecraft:block/beacon/ambient",
+        "pitch": 0.5
+      }
+    ]
+  },
+  "gura_gura.ability.kaisho": {
+    "subtitle": "subtitles.devilfruits.gura_gura.ability.kaisho",
+    "sounds": [
+      {
+        "name": "minecraft:liquid/heavy_splash",
+        "pitch": 0.55
+      }
+    ]
+  },
+  "gura_gura.ability.aura.loop": {
+    "subtitle": "subtitles.devilfruits.gura_gura.ability.aura",
+    "sounds": [
+      {
+        "name": "minecraft:block/beacon/ambient",
+        "pitch": 0.85
+      }
+    ]
+  },
+  "gura_gura.ability.aura.deflect": {
+    "subtitle": "subtitles.devilfruits.gura_gura.ability.deflect",
+    "sounds": [
+      {
+        "name": "minecraft:block/chain/break1",
+        "pitch": 1.4
+      },
+      {
+        "name": "minecraft:block/chain/break2",
+        "pitch": 1.4
+      },
+      {
+        "name": "minecraft:block/chain/break3",
+        "pitch": 1.4
+      },
+      {
+        "name": "minecraft:block/chain/break4",
+        "pitch": 1.4
+      }
+    ]
+  },
+  "gura_gura.ability.weapon_slash": {
+    "subtitle": "subtitles.devilfruits.gura_gura.ability.slash",
+    "sounds": [
+      {
+        "name": "minecraft:mob/breeze/wind_burst1",
+        "pitch": 1.3
+      },
+      {
+        "name": "minecraft:mob/breeze/wind_burst2",
+        "pitch": 1.3
+      },
+      {
+        "name": "minecraft:mob/breeze/wind_burst3",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "gura_gura.layer.shatter": {
+    "sounds": [
+      {
+        "name": "minecraft:random/glass1",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:random/glass2",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:random/glass3",
+        "pitch": 0.6
+      }
+    ]
+  },
+  "gura_gura.layer.shatter_high": {
+    "sounds": [
+      {
+        "name": "minecraft:block/amethyst_cluster/break1"
+      },
+      {
+        "name": "minecraft:block/amethyst_cluster/break2"
+      },
+      {
+        "name": "minecraft:block/amethyst_cluster/break3"
+      },
+      {
+        "name": "minecraft:block/amethyst_cluster/break4"
+      }
+    ]
+  },
+  "gura_gura.layer.crack": {
+    "sounds": [
+      {
+        "name": "minecraft:block/deepslate/break1",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:block/deepslate/break2",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:block/deepslate/break3",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:block/deepslate/break4",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:block/basalt/break1",
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:block/basalt/break2",
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:block/basalt/break3",
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:block/pointed_dripstone/land1",
+        "pitch": 1.2
+      },
+      {
+        "name": "minecraft:block/pointed_dripstone/land2",
+        "pitch": 1.2
+      },
+      {
+        "name": "minecraft:block/pointed_dripstone/land3",
+        "pitch": 1.2
+      }
+    ]
+  },
+  "haki.coat": {
+    "subtitle": "subtitles.devilfruits.haki.coat",
+    "sounds": [
+      {
+        "name": "minecraft:item/armor/equip_netherite1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/armor/equip_netherite2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/armor/equip_netherite3",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/armor/equip_netherite4",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ]
+  },
+  "haki.uncoat": {
+    "subtitle": "subtitles.devilfruits.haki.uncoat",
+    "sounds": [
+      {
+        "name": "minecraft:item/armor/equip_netherite1",
+        "pitch": 0.95,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:item/armor/equip_netherite2",
+        "pitch": 0.95,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:item/armor/equip_netherite3",
+        "pitch": 0.95,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:item/armor/equip_netherite4",
+        "pitch": 0.95,
+        "volume": 0.6
+      }
+    ]
+  },
+  "haki.flicker": {
+    "subtitle": "subtitles.devilfruits.haki.flicker",
+    "sounds": [
+      {
+        "name": "minecraft:block/chain/break1",
+        "pitch": 1.4,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:block/chain/break2",
+        "pitch": 1.4,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:block/chain/break3",
+        "pitch": 1.4,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:block/chain/break4",
+        "pitch": 1.4,
+        "volume": 0.7
+      }
+    ]
+  },
+  "haki.hit": {
+    "subtitle": "subtitles.devilfruits.haki.hit",
+    "sounds": [
+      {
+        "name": "minecraft:mob/irongolem/hit1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/irongolem/hit2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/irongolem/hit3",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/irongolem/hit4",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ]
+  },
+  "haki.clash": {
+    "subtitle": "subtitles.devilfruits.haki.clash",
+    "sounds": [
+      {
+        "name": "minecraft:item/trident/thunder1",
+        "pitch": 1.3,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/thunder2",
+        "pitch": 1.3,
+        "volume": 1.0
+      }
+    ]
+  },
+  "haki.ryuo_charge": {
+    "subtitle": "subtitles.devilfruits.haki.ryuo_charge",
+    "sounds": [
+      {
+        "name": "minecraft:mob/warden/heartbeat_1",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/heartbeat_2",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/heartbeat_3",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/warden/heartbeat_4",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ]
+  },
+  "haki.ryuo": {
+    "subtitle": "subtitles.devilfruits.haki.ryuo",
+    "sounds": [
+      {
+        "name": "minecraft:item/trident/thunder1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/trident/thunder2",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "haki.level_up": {
+    "subtitle": "subtitles.devilfruits.haki.level_up",
+    "sounds": [
+      {
+        "name": "minecraft:block/beacon/power1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/beacon/power2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/beacon/power3",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ]
+  },
+  "haki.unlock": {
+    "subtitle": "subtitles.devilfruits.haki.unlock",
+    "sounds": [
+      {
+        "name": "minecraft:block/beacon/activate",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "haki.layer.anvil": {
+    "subtitle": "subtitles.devilfruits.haki.layer.anvil",
+    "sounds": [
+      {
+        "name": "minecraft:random/anvil_land",
+        "pitch": 1.4,
+        "volume": 0.5
+      }
+    ]
+  },
+  "haki.layer.thunder": {
+    "subtitle": "subtitles.devilfruits.haki.layer.thunder",
+    "sounds": [
+      {
+        "name": "minecraft:ambient/weather/thunder1",
+        "pitch": 1.6,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:ambient/weather/thunder2",
+        "pitch": 1.6,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:ambient/weather/thunder3",
+        "pitch": 1.6,
+        "volume": 0.5
+      }
+    ]
+  },
+  "haki.layer.smash": {
+    "subtitle": "subtitles.devilfruits.haki.layer.smash",
+    "sounds": [
+      {
+        "name": "minecraft:item/mace/smash_ground_heavy",
+        "pitch": 0.9,
+        "volume": 1.0
+      }
+    ]
+  },
+  "kilo_kilo.weight.down": {
+    "subtitle": "subtitles.devilfruits.kilo_kilo.weight.down",
+    "sounds": [
+      {
+        "name": "minecraft:mob/breeze/inhale1",
+        "pitch": 1.3,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/breeze/inhale2",
+        "pitch": 1.4,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block/amethyst/resonate1",
+        "pitch": 1.6,
+        "volume": 0.6
+      }
+    ]
+  },
+  "kilo_kilo.weight.up": {
+    "subtitle": "subtitles.devilfruits.kilo_kilo.weight.up",
+    "sounds": [
+      {
+        "name": "minecraft:block/respawn_anchor/charge1",
+        "pitch": 0.6,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge2",
+        "pitch": 0.6,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/charge3",
+        "pitch": 0.55,
+        "volume": 0.8
+      }
+    ]
+  },
+  "kilo_kilo.weight.ramp_done": {
+    "subtitle": "subtitles.devilfruits.kilo_kilo.weight.ramp_done",
+    "sounds": [
+      {
+        "name": "minecraft:block/amethyst/resonate1",
+        "pitch": 1.2,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:block/amethyst/resonate2",
+        "pitch": 1.1,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:block/respawn_anchor/set_spawn1",
+        "pitch": 0.8,
+        "volume": 0.4
+      }
+    ]
+  },
+  "kilo_kilo.light.jump": {
+    "subtitle": "subtitles.devilfruits.kilo_kilo.light.jump",
+    "sounds": [
+      {
+        "name": "minecraft:mob/breeze/wind_burst1",
+        "pitch": 1.4,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:mob/breeze/wind_burst2",
+        "pitch": 1.5,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:mob/breeze/wind_burst3",
+        "pitch": 1.45,
+        "volume": 0.6
+      }
+    ]
+  },
+  "kilo_kilo.light.glide": {
+    "subtitle": "subtitles.devilfruits.kilo_kilo.light.glide",
+    "sounds": [
+      {
+        "name": "minecraft:mob/breeze/whirl",
+        "pitch": 1.3,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/wind1",
+        "pitch": 1.5,
+        "volume": 0.4
+      }
+    ]
+  },
+  "kilo_kilo.heavy.step": {
+    "subtitle": "subtitles.devilfruits.kilo_kilo.heavy.step",
+    "sounds": [
+      {
+        "name": "minecraft:block/basalt/break1",
+        "pitch": 0.5
+      },
+      {
+        "name": "minecraft:block/basalt/break2",
+        "pitch": 0.5
+      },
+      {
+        "name": "minecraft:block/basalt/break3",
+        "pitch": 0.55
+      },
+      {
+        "name": "minecraft:block/mud/step1",
+        "pitch": 0.5
+      },
+      {
+        "name": "minecraft:block/mud/step2",
+        "pitch": 0.5
+      },
+      {
+        "name": "minecraft:block/deepslate/break1",
+        "pitch": 0.5
+      }
+    ]
+  },
+  "kilo_kilo.heavy.fall_rush": {
+    "subtitle": "subtitles.devilfruits.kilo_kilo.heavy.fall_rush",
+    "sounds": [
+      {
+        "name": "minecraft:item.elytra.flying",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 0.8
+      }
+    ]
+  },
+  "kilo_kilo.press.impact": {
+    "subtitle": "subtitles.devilfruits.kilo_kilo.press.impact",
+    "sounds": [
+      {
+        "name": "minecraft:item/mace/smash_ground_heavy",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:random/explode1",
+        "pitch": 0.55
+      },
+      {
+        "name": "minecraft:random/explode3",
+        "pitch": 0.5
+      },
+      {
+        "name": "minecraft:random/anvil_land",
+        "pitch": 0.5,
+        "volume": 0.9
+      }
+    ]
+  },
+  "kilo_kilo.press.punch_through": {
+    "subtitle": "subtitles.devilfruits.kilo_kilo.press.punch_through",
+    "sounds": [
+      {
+        "name": "minecraft:block/deepslate/break1",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:block/deepslate/break2",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:block/deepslate/break3",
+        "pitch": 0.55
+      },
+      {
+        "name": "minecraft:dig/wood1",
+        "pitch": 0.5
+      },
+      {
+        "name": "minecraft:dig/wood2",
+        "pitch": 0.5
+      }
+    ]
+  },
+  "kilo_kilo.heavy.hull_groan": {
+    "subtitle": "subtitles.devilfruits.kilo_kilo.heavy.hull_groan",
+    "sounds": [
+      {
+        "name": "minecraft:dig/wood1",
+        "pitch": 0.4,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:dig/wood3",
+        "pitch": 0.4,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:note/didgeridoo",
+        "pitch": 0.5,
+        "volume": 0.3
+      }
+    ]
+  },
+  "pirates.deckhand.ambient": {
+    "subtitle": "subtitles.devilfruits.pirates.deckhand.ambient",
+    "sounds": [
+      {
+        "name": "minecraft:entity.vindicator.ambient",
+        "type": "event",
+        "pitch": 1.08,
+        "volume": 1.0
+      }
+    ]
+  },
+  "pirates.deckhand.hurt": {
+    "subtitle": "subtitles.devilfruits.pirates.deckhand.hurt",
+    "sounds": [
+      {
+        "name": "minecraft:entity.vindicator.hurt",
+        "type": "event",
+        "pitch": 1.08,
+        "volume": 1.0
+      }
+    ]
+  },
+  "pirates.deckhand.death": {
+    "subtitle": "subtitles.devilfruits.pirates.deckhand.death",
+    "sounds": [
+      {
+        "name": "minecraft:entity.vindicator.death",
+        "type": "event",
+        "pitch": 1.08,
+        "volume": 1.0
+      }
+    ]
+  },
+  "pirates.gunner.ambient": {
+    "subtitle": "subtitles.devilfruits.pirates.gunner.ambient",
+    "sounds": [
+      {
+        "name": "minecraft:entity.pillager.ambient",
+        "type": "event",
+        "pitch": 0.95,
+        "volume": 1.0
+      }
+    ]
+  },
+  "pirates.gunner.hurt": {
+    "subtitle": "subtitles.devilfruits.pirates.gunner.hurt",
+    "sounds": [
+      {
+        "name": "minecraft:entity.pillager.hurt",
+        "type": "event",
+        "pitch": 0.95,
+        "volume": 1.0
+      }
+    ]
+  },
+  "pirates.gunner.death": {
+    "subtitle": "subtitles.devilfruits.pirates.gunner.death",
+    "sounds": [
+      {
+        "name": "minecraft:entity.pillager.death",
+        "type": "event",
+        "pitch": 0.95,
+        "volume": 1.0
+      }
+    ]
+  },
+  "pirates.captain.ambient": {
+    "subtitle": "subtitles.devilfruits.pirates.captain.ambient",
+    "sounds": [
+      {
+        "name": "minecraft:entity.vindicator.ambient",
+        "type": "event",
+        "pitch": 0.74,
+        "volume": 1.2
+      }
+    ]
+  },
+  "pirates.captain.hurt": {
+    "subtitle": "subtitles.devilfruits.pirates.captain.hurt",
+    "sounds": [
+      {
+        "name": "minecraft:entity.vindicator.hurt",
+        "type": "event",
+        "pitch": 0.74,
+        "volume": 1.2
+      }
+    ]
+  },
+  "pirates.captain.death": {
+    "subtitle": "subtitles.devilfruits.pirates.captain.death",
+    "sounds": [
+      {
+        "name": "minecraft:entity.evoker.death",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.4
+      }
+    ]
+  },
+  "pirates.cutlass.swing": {
+    "subtitle": "subtitles.devilfruits.pirates.cutlass.swing",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "pitch": 1.25,
+        "volume": 0.7
+      }
+    ]
+  },
+  "pirates.cutlass.hit": {
+    "subtitle": "subtitles.devilfruits.pirates.cutlass.hit",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.strong",
+        "type": "event",
+        "pitch": 1.1,
+        "volume": 1.0
+      }
+    ]
+  },
+  "pirates.pistol.fire": {
+    "subtitle": "subtitles.devilfruits.pirates.pistol.fire",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.blast",
+        "type": "event",
+        "pitch": 0.62,
+        "volume": 1.4
+      }
+    ]
+  },
+  "pirates.musket.fire": {
+    "subtitle": "subtitles.devilfruits.pirates.musket.fire",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.large_blast",
+        "type": "event",
+        "pitch": 0.55,
+        "volume": 1.8
+      }
+    ]
+  },
+  "pirates.gun.boom": {
+    "subtitle": "subtitles.devilfruits.pirates.gun.boom",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "pitch": 1.9,
+        "volume": 0.5
+      }
+    ]
+  },
+  "pirates.gun.click": {
+    "subtitle": "subtitles.devilfruits.pirates.gun.click",
+    "sounds": [
+      {
+        "name": "minecraft:item.crossbow.loading_end",
+        "type": "event",
+        "pitch": 1.5,
+        "volume": 0.8
+      }
+    ]
+  },
+  "pirates.gun.pour": {
+    "subtitle": "subtitles.devilfruits.pirates.gun.pour",
+    "sounds": [
+      {
+        "name": "minecraft:block.sand.hit",
+        "type": "event",
+        "pitch": 1.7,
+        "volume": 0.7
+      }
+    ]
+  },
+  "pirates.gun.ram": {
+    "subtitle": "subtitles.devilfruits.pirates.gun.ram",
+    "sounds": [
+      {
+        "name": "minecraft:item.crossbow.loading_middle",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 0.8
+      }
+    ]
+  },
+  "pirates.ball.hit": {
+    "subtitle": "subtitles.devilfruits.pirates.ball.hit",
+    "sounds": [
+      {
+        "name": "minecraft:entity.arrow.hit",
+        "type": "event",
+        "pitch": 1.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "pirates.deckhand.barge": {
+    "subtitle": "subtitles.devilfruits.pirates.deckhand.barge",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.knockback",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ]
+  },
+  "pirates.deckhand.taunt": {
+    "subtitle": "subtitles.devilfruits.pirates.deckhand.taunt",
+    "sounds": [
+      {
+        "name": "minecraft:entity.vindicator.celebrate",
+        "type": "event",
+        "pitch": 1.1,
+        "volume": 1.0
+      }
+    ]
+  },
+  "pirates.captain.rally": {
+    "subtitle": "subtitles.devilfruits.pirates.captain.rally",
+    "sounds": [
+      {
+        "name": "minecraft:entity.vindicator.celebrate",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.6
+      }
+    ]
+  },
+  "pirates.captain.slam": {
+    "subtitle": "subtitles.devilfruits.pirates.captain.slam",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "pitch": 0.55,
+        "volume": 1.0
+      }
+    ]
+  },
+  "pirates.captain.enrage": {
+    "subtitle": "subtitles.devilfruits.pirates.captain.enrage",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ravager.roar",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 1.2
+      }
+    ]
+  },
+  "pirates.captain.step": {
+    "subtitle": "subtitles.devilfruits.pirates.captain.step",
+    "sounds": [
+      {
+        "name": "minecraft:entity.iron_golem.step",
+        "type": "event",
+        "pitch": 1.35,
+        "volume": 0.45
+      }
+    ]
+  },
+  "poneglyph.rub": {
+    "subtitle": "subtitles.devilfruits.poneglyph.rub",
+    "sounds": [
+      {
+        "name": "minecraft:item/brush/brushing_generic1",
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:item/brush/brushing_generic2",
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:item/brush/brushing_generic3",
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:item/brush/brushing_gravel1",
+        "volume": 0.5,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "poneglyph.rub_done": {
+    "subtitle": "subtitles.devilfruits.poneglyph.rub_done",
+    "sounds": [
+      {
+        "name": "minecraft:block/amethyst/resonate1",
+        "pitch": 1.4
+      },
+      {
+        "name": "minecraft:block/amethyst/resonate2",
+        "pitch": 1.4
+      }
+    ]
+  },
+  "poneglyph.desk.correct": {
+    "subtitle": "subtitles.devilfruits.poneglyph.desk.correct",
+    "sounds": [
+      {
+        "name": "minecraft:block/amethyst/shimmer",
+        "pitch": 1.2
+      },
+      {
+        "name": "minecraft:block/amethyst/resonate1",
+        "pitch": 1.6
+      }
+    ]
+  },
+  "poneglyph.desk.wrong": {
+    "subtitle": "subtitles.devilfruits.poneglyph.desk.wrong",
+    "sounds": [
+      {
+        "name": "minecraft:note/didgeridoo",
+        "pitch": 0.6,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:note/bass",
+        "pitch": 0.5,
+        "volume": 0.9
+      }
+    ]
+  },
+  "poneglyph.desk.success": {
+    "subtitle": "subtitles.devilfruits.poneglyph.desk.success",
+    "sounds": [
+      {
+        "name": "minecraft:block/enchantment_table/enchant1",
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:block/enchantment_table/enchant2",
+        "pitch": 1.1
+      }
+    ]
+  },
+  "poneglyph.desk.page": {
+    "subtitle": "subtitles.devilfruits.poneglyph.desk.page",
+    "sounds": [
+      {
+        "name": "minecraft:item/book/open_flip1"
+      },
+      {
+        "name": "minecraft:item/book/open_flip2"
+      }
+    ]
+  },
+  "poneglyph.desk.seal": {
+    "subtitle": "subtitles.devilfruits.poneglyph.desk.seal",
+    "sounds": [
+      {
+        "name": "minecraft:block/chiseled_bookshelf/insert_enchanted1",
+        "pitch": 0.7
+      },
+      {
+        "name": "minecraft:item/book/close_put1",
+        "pitch": 0.6
+      }
+    ]
+  },
+  "poneglyph.learn": {
+    "subtitle": "subtitles.devilfruits.poneglyph.learn",
+    "sounds": [
+      {
+        "name": "minecraft:block/beacon/power_select",
+        "pitch": 1.3,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block/enchantment_table/enchant3",
+        "pitch": 0.9
+      }
+    ]
+  },
+  "poneglyph.smudge": {
+    "subtitle": "subtitles.devilfruits.poneglyph.smudge",
+    "sounds": [
+      {
+        "name": "minecraft:entity/squid/squirt1",
+        "pitch": 0.8
+      },
+      {
+        "name": "minecraft:entity/squid/squirt2",
+        "pitch": 0.8
+      }
+    ]
+  },
+  "suna_suna.awaken": {
+    "subtitle": "subtitles.devilfruits.suna_suna.awaken",
+    "sounds": [
+      {
+        "name": "minecraft:block/suspicious_sand/break1",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break2",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break3",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break4",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break5",
+        "pitch": 0.6
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break6",
+        "pitch": 0.6
+      }
+    ]
+  },
+  "suna_suna.body.dissolve": {
+    "subtitle": "subtitles.devilfruits.suna_suna.body.dissolve",
+    "sounds": [
+      {
+        "name": "minecraft:dig/sand1",
+        "pitch": 0.75
+      },
+      {
+        "name": "minecraft:dig/sand2",
+        "pitch": 0.75
+      },
+      {
+        "name": "minecraft:dig/sand3",
+        "pitch": 0.75
+      },
+      {
+        "name": "minecraft:dig/sand4",
+        "pitch": 0.75
+      }
+    ]
+  },
+  "suna_suna.body.reform": {
+    "subtitle": "subtitles.devilfruits.suna_suna.body.reform",
+    "sounds": [
+      {
+        "name": "minecraft:block/suspicious_sand/place1",
+        "pitch": 0.8
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/place2",
+        "pitch": 0.8
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/place3",
+        "pitch": 0.8
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/place4",
+        "pitch": 0.8
+      }
+    ]
+  },
+  "suna_suna.body.pass": {
+    "subtitle": "subtitles.devilfruits.suna_suna.body.pass",
+    "sounds": [
+      {
+        "name": "minecraft:step/sand1",
+        "pitch": 1.4,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:step/sand2",
+        "pitch": 1.4,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:step/sand3",
+        "pitch": 1.4,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:step/sand4",
+        "pitch": 1.4,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:step/sand5",
+        "pitch": 1.4,
+        "volume": 0.9
+      }
+    ]
+  },
+  "suna_suna.body.wet": {
+    "subtitle": "subtitles.devilfruits.suna_suna.body.wet",
+    "sounds": [
+      {
+        "name": "minecraft:block/mud/step1",
+        "pitch": 0.9
+      },
+      {
+        "name": "minecraft:block/mud/step2",
+        "pitch": 0.9
+      },
+      {
+        "name": "minecraft:block/mud/step3",
+        "pitch": 0.9
+      },
+      {
+        "name": "minecraft:block/mud/step4",
+        "pitch": 0.9
+      }
+    ]
+  },
+  "suna_suna.body.reform_step": {
+    "subtitle": "subtitles.devilfruits.suna_suna.body.reform_step",
+    "sounds": [
+      {
+        "name": "minecraft:dig/sand1",
+        "pitch": 1.25,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:dig/sand2",
+        "pitch": 1.25,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:dig/sand3",
+        "pitch": 1.25,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:dig/sand4",
+        "pitch": 1.25,
+        "volume": 0.8
+      }
+    ]
+  },
+  "suna_suna.desiccate": {
+    "subtitle": "subtitles.devilfruits.suna_suna.desiccate",
+    "sounds": [
+      {
+        "name": "minecraft:random/fizz",
+        "pitch": 0.5,
+        "volume": 0.6
+      }
+    ]
+  },
+  "suna_suna.technique": {
+    "subtitle": "subtitles.devilfruits.suna_suna.technique",
+    "sounds": [
+      {
+        "name": "minecraft:dig/sand1",
+        "pitch": 0.9
+      },
+      {
+        "name": "minecraft:dig/sand2",
+        "pitch": 0.9
+      },
+      {
+        "name": "minecraft:dig/sand3",
+        "pitch": 0.9
+      },
+      {
+        "name": "minecraft:dig/sand4",
+        "pitch": 0.9
+      }
+    ]
+  },
+  "suna_suna.layer.sand": {
+    "sounds": [
+      {
+        "name": "minecraft:step/sand1",
+        "pitch": 0.8
+      },
+      {
+        "name": "minecraft:step/sand2",
+        "pitch": 0.8
+      },
+      {
+        "name": "minecraft:step/sand3",
+        "pitch": 0.8
+      },
+      {
+        "name": "minecraft:step/sand4",
+        "pitch": 0.8
+      },
+      {
+        "name": "minecraft:step/sand5",
+        "pitch": 0.8
+      }
+    ]
+  },
+  "suna_suna.layer.hiss": {
+    "sounds": [
+      {
+        "name": "minecraft:random/fizz",
+        "pitch": 0.7,
+        "volume": 0.6
+      }
+    ]
+  },
+  "suna_suna.layer.gust": {
+    "sounds": [
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/wind1",
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/wind2",
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/wind3",
+        "pitch": 1.0
+      },
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/wind4",
+        "pitch": 1.0
+      }
+    ]
+  },
+  "suna_suna.ability.sables_pesado.charge": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.sables_pesado.charge",
+    "sounds": [
+      {
+        "name": "minecraft:mob/breeze/charge1",
+        "pitch": 0.75,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/breeze/charge2",
+        "pitch": 0.75,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:mob/breeze/charge3",
+        "pitch": 0.75,
+        "volume": 0.8
+      }
+    ]
+  },
+  "suna_suna.ability.sables_pesado.release": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.sables_pesado.release",
+    "sounds": [
+      {
+        "name": "minecraft:entity/wind_charge/wind_burst1",
+        "pitch": 0.85,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:entity/wind_charge/wind_burst2",
+        "pitch": 0.85,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:entity/wind_charge/wind_burst3",
+        "pitch": 0.85,
+        "volume": 0.9
+      }
+    ]
+  },
+  "suna_suna.ability.sables_pesado.blast": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.sables_pesado.blast",
+    "sounds": [
+      {
+        "name": "minecraft:dig/sand1",
+        "pitch": 1.5,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:dig/sand2",
+        "pitch": 1.5,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:dig/sand3",
+        "pitch": 1.5,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:dig/sand4",
+        "pitch": 1.5,
+        "volume": 0.9
+      }
+    ]
+  },
+  "suna_suna.ability.sables_pesado.impact": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.sables_pesado.impact",
+    "sounds": [
+      {
+        "name": "minecraft:block/suspicious_sand/break1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break4",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break5",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break6",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "suna_suna.ability.desert_girasole.open": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.desert_girasole.open",
+    "sounds": [
+      {
+        "name": "minecraft:block/suspicious_sand/break1",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break2",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break3",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break4",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:random/explode1",
+        "pitch": 0.5,
+        "volume": 0.25
+      },
+      {
+        "name": "minecraft:random/explode2",
+        "pitch": 0.5,
+        "volume": 0.25
+      }
+    ]
+  },
+  "suna_suna.ability.desert_girasole.loop": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.desert_girasole.loop",
+    "sounds": [
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/wind1",
+        "pitch": 0.6,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/wind2",
+        "pitch": 0.6,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/wind3",
+        "pitch": 0.6,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/wind4",
+        "pitch": 0.6,
+        "volume": 0.9
+      }
+    ]
+  },
+  "suna_suna.ability.desert_girasole.close": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.desert_girasole.close",
+    "sounds": [
+      {
+        "name": "minecraft:block/suspicious_sand/place1",
+        "pitch": 0.55,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/place2",
+        "pitch": 0.55,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/place3",
+        "pitch": 0.55,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/place4",
+        "pitch": 0.55,
+        "volume": 1.0
+      }
+    ]
+  },
+  "suna_suna.ability.desert_spada.cast": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.desert_spada.cast",
+    "sounds": [
+      {
+        "name": "minecraft:block/suspicious_sand/break1",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break2",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break3",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break4",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break5",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break6",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ]
+  },
+  "suna_suna.ability.desert_spada.cut": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.desert_spada.cut",
+    "sounds": [
+      {
+        "name": "minecraft:dig/sand1",
+        "pitch": 0.6,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:dig/sand2",
+        "pitch": 0.6,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:dig/sand3",
+        "pitch": 0.6,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:dig/sand4",
+        "pitch": 0.6,
+        "volume": 0.9
+      }
+    ]
+  },
+  "suna_suna.ability.barjan.swing": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.barjan.swing",
+    "sounds": [
+      {
+        "name": "minecraft:entity/player/attack/sweep1",
+        "pitch": 0.7,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep2",
+        "pitch": 0.7,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep3",
+        "pitch": 0.7,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep4",
+        "pitch": 0.7,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep5",
+        "pitch": 0.7,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep6",
+        "pitch": 0.7,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:entity/player/attack/sweep7",
+        "pitch": 0.7,
+        "volume": 0.9
+      }
+    ]
+  },
+  "suna_suna.ability.ground_secco.loop": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.ground_secco.loop",
+    "sounds": [
+      {
+        "name": "minecraft:item/brush/brushing_sand1",
+        "pitch": 0.7,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:item/brush/brushing_sand2",
+        "pitch": 0.7,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:item/brush/brushing_sand3",
+        "pitch": 0.7,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:item/brush/brushing_sand4",
+        "pitch": 0.7,
+        "volume": 0.9
+      }
+    ]
+  },
+  "suna_suna.ability.desert_la_spada.form": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.desert_la_spada.form",
+    "sounds": [
+      {
+        "name": "minecraft:item/brush/brush_sand_complete1",
+        "pitch": 1.2,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:item/brush/brush_sand_complete2",
+        "pitch": 1.2,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:item/brush/brush_sand_complete3",
+        "pitch": 1.2,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:item/brush/brush_sand_complete4",
+        "pitch": 1.2,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:item/brush/brush_sand_complete5",
+        "pitch": 1.2,
+        "volume": 0.9
+      }
+    ]
+  },
+  "suna_suna.ability.desert_la_spada.throw": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.desert_la_spada.throw",
+    "sounds": [
+      {
+        "name": "minecraft:item/trident/throw1",
+        "pitch": 0.9,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:item/trident/throw2",
+        "pitch": 0.9,
+        "volume": 0.8
+      }
+    ]
+  },
+  "suna_suna.ability.desert_la_spada.impact": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.desert_la_spada.impact",
+    "sounds": [
+      {
+        "name": "minecraft:block/suspicious_sand/break1",
+        "pitch": 1.3,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break2",
+        "pitch": 1.3,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break3",
+        "pitch": 1.3,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break4",
+        "pitch": 1.3,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break5",
+        "pitch": 1.3,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break6",
+        "pitch": 1.3,
+        "volume": 0.9
+      }
+    ]
+  },
+  "suna_suna.ability.desert_encierro.grip": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.desert_encierro.grip",
+    "sounds": [
+      {
+        "name": "minecraft:block/suspicious_sand/place1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/place2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/place3",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/place4",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "suna_suna.ability.desert_encierro.drain": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.desert_encierro.drain",
+    "sounds": [
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/sand1",
+        "pitch": 0.8,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/sand2",
+        "pitch": 0.8,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/sand3",
+        "pitch": 0.8,
+        "volume": 0.9
+      }
+    ]
+  },
+  "suna_suna.ability.sand_tsunami.charge": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.sand_tsunami.charge",
+    "sounds": [
+      {
+        "name": "minecraft:ambient/nether/basalt_deltas/debris1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:ambient/nether/basalt_deltas/debris2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:ambient/nether/basalt_deltas/debris3",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "suna_suna.ability.sand_tsunami.roll": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.sand_tsunami.roll",
+    "sounds": [
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/wind1",
+        "pitch": 0.45,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/wind2",
+        "pitch": 0.45,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/wind3",
+        "pitch": 0.45,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/wind4",
+        "pitch": 0.45,
+        "volume": 1.0
+      }
+    ]
+  },
+  "suna_suna.ability.sand_tsunami.crash": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.sand_tsunami.crash",
+    "sounds": [
+      {
+        "name": "minecraft:block/suspicious_sand/break1",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break2",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break3",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break4",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break5",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block/suspicious_sand/break6",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "suna_suna.ability.sables.cast": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.sables.cast",
+    "sounds": [
+      {
+        "name": "minecraft:mob/breeze/inhale1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/breeze/inhale2",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "suna_suna.ability.sables.loop": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.sables.loop",
+    "sounds": [
+      {
+        "name": "minecraft:mob/breeze/whirl",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "suna_suna.ability.sables.end": {
+    "subtitle": "subtitles.devilfruits.suna_suna.ability.sables.end",
+    "sounds": [
+      {
+        "name": "minecraft:mob/breeze/wind_burst1",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/breeze/wind_burst2",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:mob/breeze/wind_burst3",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "supa_supa.blade.grow": {
+    "subtitle": "subtitles.devilfruits.supa_supa.blade.grow",
+    "sounds": [
+      {
+        "name": "minecraft:item.trident.return",
+        "type": "event",
+        "pitch": 1.5,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:block.chain.place",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 0.6
+      }
+    ]
+  },
+  "supa_supa.blade.retract": {
+    "subtitle": "subtitles.devilfruits.supa_supa.blade.retract",
+    "sounds": [
+      {
+        "name": "minecraft:block.chain.break",
+        "type": "event",
+        "pitch": 1.4,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:item.armor.equip_chain",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 0.6
+      }
+    ]
+  },
+  "supa_supa.claw.swing": {
+    "subtitle": "subtitles.devilfruits.supa_supa.claw.swing",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "pitch": 1.35,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:item.trident.throw",
+        "type": "event",
+        "pitch": 1.6,
+        "volume": 0.5
+      }
+    ]
+  },
+  "supa_supa.claw.hit": {
+    "subtitle": "subtitles.devilfruits.supa_supa.claw.hit",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.crit",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:item.shield.block",
+        "type": "event",
+        "pitch": 1.7,
+        "volume": 0.4
+      }
+    ]
+  },
+  "supa_supa.atomic_spar": {
+    "subtitle": "subtitles.devilfruits.supa_supa.atomic_spar",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item.trident.riptide_1",
+        "type": "event",
+        "pitch": 1.4,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:block.anvil.land",
+        "type": "event",
+        "pitch": 1.8,
+        "volume": 0.35
+      }
+    ]
+  },
+  "supa_supa.steel.on": {
+    "subtitle": "subtitles.devilfruits.supa_supa.steel.on",
+    "sounds": [
+      {
+        "name": "minecraft:item.armor.equip_iron",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:block.iron_door.close",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.6
+      }
+    ]
+  },
+  "supa_supa.steel.off": {
+    "subtitle": "subtitles.devilfruits.supa_supa.steel.off",
+    "sounds": [
+      {
+        "name": "minecraft:item.armor.equip_chain",
+        "type": "event",
+        "pitch": 0.9,
+        "volume": 0.8
+      }
+    ]
+  },
+  "supa_supa.steel.clang": {
+    "subtitle": "subtitles.devilfruits.supa_supa.steel.clang",
+    "sounds": [
+      {
+        "name": "minecraft:block.anvil.land",
+        "type": "event",
+        "pitch": 1.6,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:item.shield.block",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:entity.iron_golem.hurt",
+        "type": "event",
+        "pitch": 1.5,
+        "volume": 0.4
+      }
+    ]
+  },
+  "supa_supa.skates.unfold": {
+    "subtitle": "subtitles.devilfruits.supa_supa.skates.unfold",
+    "sounds": [
+      {
+        "name": "minecraft:item.trident.return",
+        "type": "event",
+        "pitch": 1.8,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:block.iron_trapdoor.open",
+        "type": "event",
+        "pitch": 1.6,
+        "volume": 0.5
+      }
+    ]
+  },
+  "supa_supa.skates.scrape": {
+    "subtitle": "subtitles.devilfruits.supa_supa.skates.scrape",
+    "sounds": [
+      {
+        "name": "minecraft:block.grindstone.use",
+        "type": "event",
+        "pitch": 1.6,
+        "volume": 0.35
+      }
+    ]
+  },
+  "supa_supa.skates.brake": {
+    "subtitle": "subtitles.devilfruits.supa_supa.skates.brake",
+    "sounds": [
+      {
+        "name": "minecraft:block.grindstone.use",
+        "type": "event",
+        "pitch": 2.0,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:item.trident.hit_ground",
+        "type": "event",
+        "pitch": 1.8,
+        "volume": 0.4
+      }
+    ]
+  },
+  "supa_supa.skates.lunge": {
+    "subtitle": "subtitles.devilfruits.supa_supa.skates.lunge",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "pitch": 1.1,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:item.trident.riptide_1",
+        "type": "event",
+        "pitch": 1.7,
+        "volume": 0.5
+      }
+    ]
+  },
+  "supa_supa.spiral.spin": {
+    "subtitle": "subtitles.devilfruits.supa_supa.spiral.spin",
+    "sounds": [
+      {
+        "name": "minecraft:block.grindstone.use",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:entity.minecart.riding",
+        "type": "event",
+        "pitch": 1.6,
+        "volume": 0.4
+      }
+    ]
+  },
+  "supa_supa.spiral.grind": {
+    "subtitle": "subtitles.devilfruits.supa_supa.spiral.grind",
+    "sounds": [
+      {
+        "name": "minecraft:block.grindstone.use",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block.stone.break",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 0.6
+      }
+    ]
+  },
+  "supa_supa.slash.charge": {
+    "subtitle": "subtitles.devilfruits.supa_supa.slash.charge",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.power_select",
+        "type": "event",
+        "pitch": 1.4,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:item.trident.return",
+        "type": "event",
+        "pitch": 0.9,
+        "volume": 0.6
+      }
+    ]
+  },
+  "supa_supa.slash.release": {
+    "subtitle": "subtitles.devilfruits.supa_supa.slash.release",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item.trident.thunder",
+        "type": "event",
+        "pitch": 1.6,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:entity.warden.sonic_boom",
+        "type": "event",
+        "pitch": 1.8,
+        "volume": 0.35
+      }
+    ]
+  },
+  "supa_supa.slash.fly": {
+    "subtitle": "subtitles.devilfruits.supa_supa.slash.fly",
+    "sounds": [
+      {
+        "name": "minecraft:item.elytra.flying",
+        "type": "event",
+        "pitch": 1.8,
+        "volume": 0.5
+      }
+    ]
+  },
+  "supa_supa.slash.burst": {
+    "subtitle": "subtitles.devilfruits.supa_supa.slash.burst",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.blast",
+        "type": "event",
+        "pitch": 1.5,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:block.amethyst_block.chime",
+        "type": "event",
+        "pitch": 1.6,
+        "volume": 0.6
+      }
+    ]
+  },
+  "supa_supa.seam.bite": {
+    "subtitle": "subtitles.devilfruits.supa_supa.seam.bite",
+    "sounds": [
+      {
+        "name": "devilfruits:supa_supa/seam_bite",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "supa_supa.seam.cut": {
+    "subtitle": "subtitles.devilfruits.supa_supa.seam.cut",
+    "sounds": [
+      {
+        "name": "devilfruits:supa_supa/seam_cut_loop",
+        "attenuation_distance": 40
+      }
+    ]
+  },
+  "supa_supa.seam.exit": {
+    "subtitle": "subtitles.devilfruits.supa_supa.seam.exit",
+    "sounds": [
+      {
+        "name": "devilfruits:supa_supa/seam_exit",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "supa_supa.seam.tension": {
+    "subtitle": "subtitles.devilfruits.supa_supa.seam.tension",
+    "sounds": [
+      {
+        "name": "devilfruits:supa_supa/seam_tension",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "supa_supa.seam.split": {
+    "subtitle": "subtitles.devilfruits.supa_supa.seam.split",
+    "sounds": [
+      {
+        "name": "devilfruits:supa_supa/seam_split",
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "uo_uo_seiryu.awaken": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.awaken",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ender_dragon.growl",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.9
+      }
+    ]
+  },
+  "uo_uo_seiryu.form.windup": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.form.windup",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.4
+      }
+    ]
+  },
+  "uo_uo_seiryu.form.hybrid": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.form.hybrid",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ravager.roar",
+        "type": "event",
+        "pitch": 0.75,
+        "volume": 1.2
+      }
+    ]
+  },
+  "uo_uo_seiryu.form.dragon": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.form.dragon",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ender_dragon.growl",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.6
+      }
+    ]
+  },
+  "uo_uo_seiryu.form.revert": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.form.revert",
+    "sounds": [
+      {
+        "name": "minecraft:entity.illusioner.mirror_move",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 0.9
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.thunder_bagua": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.thunder_bagua",
+    "sounds": [
+      {
+        "name": "minecraft:item.trident.thunder",
+        "type": "event",
+        "pitch": 1.1,
+        "volume": 1.0
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.thunder_bagua.swing": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.swing",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "pitch": 0.55,
+        "volume": 1.2
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.chain_arc": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.chain_arc",
+    "sounds": [
+      {
+        "name": "minecraft:entity.lightning_bolt.impact",
+        "type": "event",
+        "pitch": 1.6,
+        "volume": 0.6
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.blast_breath.charge": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.charge",
+    "sounds": [
+      {
+        "name": "devilfruits:uo_uo_seiryu/breath_charge",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.blast_breath.release": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.blast_breath",
+    "sounds": [
+      {
+        "name": "devilfruits:uo_uo_seiryu/breath_release",
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.blast_breath.loop": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.blast_breath",
+    "sounds": [
+      {
+        "name": "devilfruits:uo_uo_seiryu/breath_loop",
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.blast_breath.burst": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.fireball_impact",
+    "sounds": [
+      {
+        "name": "devilfruits:uo_uo_seiryu/plasma_burst_1",
+        "attenuation_distance": 64
+      },
+      {
+        "name": "devilfruits:uo_uo_seiryu/plasma_burst_2",
+        "attenuation_distance": 64
+      },
+      {
+        "name": "devilfruits:uo_uo_seiryu/plasma_burst_3",
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.flame_cloud": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.flame_cloud",
+    "sounds": [
+      {
+        "name": "minecraft:item.firecharge.use",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.dragon_dash": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.dragon_dash",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ender_dragon.flap",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 1.0
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.bolo_breath": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.bolo_breath",
+    "sounds": [
+      {
+        "name": "devilfruits:uo_uo_seiryu/meteor_launch_1",
+        "attenuation_distance": 64
+      },
+      {
+        "name": "devilfruits:uo_uo_seiryu/meteor_launch_2",
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.bolo_breath.fall": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.bolo_breath",
+    "sounds": [
+      {
+        "name": "devilfruits:uo_uo_seiryu/meteor_fall",
+        "attenuation_distance": 80
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.fireball.impact": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.fireball_impact",
+    "sounds": [
+      {
+        "name": "devilfruits:uo_uo_seiryu/meteor_impact_1",
+        "attenuation_distance": 128
+      },
+      {
+        "name": "devilfruits:uo_uo_seiryu/meteor_impact_2",
+        "attenuation_distance": 128
+      },
+      {
+        "name": "devilfruits:uo_uo_seiryu/meteor_impact_3",
+        "attenuation_distance": 128
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.ragnaraku.leap": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.ragnaraku_leap",
+    "sounds": [
+      {
+        "name": "minecraft:entity.wind_charge.wind_burst",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.ragnaraku.slam": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.ragnaraku",
+    "sounds": [
+      {
+        "name": "minecraft:item.mace.smash_ground_heavy",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 1.6
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.serpentine_flight.loop": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.flight",
+    "sounds": [
+      {
+        "name": "minecraft:item.elytra.flying",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.8
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.dragon_twister.loop": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.dragon_twister",
+    "sounds": [
+      {
+        "name": "minecraft:item.elytra.flying",
+        "type": "event",
+        "pitch": 0.55,
+        "volume": 1.6
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.thunder_storm": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.thunder_storm",
+    "sounds": [
+      {
+        "name": "minecraft:entity.lightning_bolt.thunder",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.thunder_storm.strike": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.strike",
+    "sounds": [
+      {
+        "name": "minecraft:entity.lightning_bolt.impact",
+        "type": "event",
+        "pitch": 0.9,
+        "volume": 1.0
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.tail_whip": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.tail_whip",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "pitch": 0.35,
+        "volume": 1.6
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.coil_crush": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.coil_crush",
+    "sounds": [
+      {
+        "name": "minecraft:entity.iron_golem.damage",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 1.2
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.roar": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.roar",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ender_dragon.growl",
+        "type": "event",
+        "pitch": 0.55,
+        "volume": 2.0
+      }
+    ]
+  },
+  "uo_uo_seiryu.layer.growl": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.ender_dragon.growl",
+        "type": "event",
+        "pitch": 0.9,
+        "volume": 0.7
+      }
+    ]
+  },
+  "uo_uo_seiryu.layer.flame": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 0.8
+      }
+    ]
+  },
+  "uo_uo_seiryu.layer.crackle": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.lightning_bolt.impact",
+        "type": "event",
+        "pitch": 1.8,
+        "volume": 0.45
+      }
+    ]
+  },
+  "uo_uo_seiryu.layer.blast": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.warden.sonic_boom",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.8
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.thunderclad_veil": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.thunderclad_veil",
+    "sounds": [
+      {
+        "name": "minecraft:entity.warden.sonic_charge",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.thunderclad_veil.burst": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.thunderclad_veil.burst",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.blast",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity.lightning_bolt.impact",
+        "type": "event",
+        "pitch": 1.4,
+        "volume": 0.8
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.thunderclad_veil.loop": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.thunderclad_veil.loop",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "pitch": 1.6,
+        "volume": 0.8
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.thunderclaw_rush": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.thunderclaw_rush",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item.trident.riptide_1",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 0.7
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.thunderclaw_rush.claw": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.thunderclaw_rush.claw",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.crit",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item.firecharge.use",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.6
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.thunderclaw_rush.smash": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.thunderclaw_rush.smash",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.strong",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "pitch": 1.5,
+        "volume": 0.5
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.thunderclaw_rush.finisher": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.thunderclaw_rush.finisher",
+    "sounds": [
+      {
+        "name": "minecraft:entity.lightning_bolt.thunder",
+        "type": "event",
+        "pitch": 1.1,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:entity.lightning_bolt.impact",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.draconic_thunderfall": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.draconic_thunderfall",
+    "sounds": [
+      {
+        "name": "minecraft:item.trident.thunder",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity.warden.sonic_charge",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.6
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.draconic_thunderfall.strike": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.draconic_thunderfall.strike",
+    "sounds": [
+      {
+        "name": "minecraft:entity.lightning_bolt.impact",
+        "type": "event",
+        "pitch": 0.9,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity.lightning_bolt.thunder",
+        "type": "event",
+        "pitch": 1.4,
+        "volume": 0.6
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.draconic_thunderfall.loop": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.draconic_thunderfall.loop",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.ambient",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.draconic_thunderfall.burst": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.draconic_thunderfall.burst",
+    "sounds": [
+      {
+        "name": "minecraft:entity.firework_rocket.large_blast",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity.lightning_bolt.thunder",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.8
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.hellfire_ray": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.hellfire_ray",
+    "sounds": [
+      {
+        "name": "minecraft:item.firecharge.use",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 0.8
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.hellfire_ray.loop": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.hellfire_ray.loop",
+    "sounds": [
+      {
+        "name": "minecraft:entity.blaze.burn",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.hellfire_ray.explosion": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.hellfire_ray.explosion",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity.firework_rocket.large_blast",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 0.8
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.draconic_ascension.charge": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.draconic_ascension.charge",
+    "sounds": [
+      {
+        "name": "minecraft:entity.blaze.burn",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.draconic_ascension": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.draconic_ascension",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ender_dragon.flap",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item.firecharge.use",
+        "type": "event",
+        "pitch": 0.9,
+        "volume": 0.7
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.draconic_ascension.impact": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.draconic_ascension.impact",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "pitch": 0.9,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity.player.attack.knockback",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.draconic_tail_slam": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.draconic_tail_slam",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.6
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.hellfire_ray.swell": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.hellfire_ray.swell",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.activate",
+        "type": "event",
+        "pitch": 0.75,
+        "volume": 0.9
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.hellfire_ray.release": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.hellfire_ray.release",
+    "sounds": [
+      {
+        "name": "minecraft:entity.blaze.shoot",
+        "type": "event",
+        "pitch": 0.55,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item.firecharge.use",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.hellfire_ray.impact": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.hellfire_ray.impact",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.burn",
+        "type": "event",
+        "pitch": 1.1,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:block.fire.ambient",
+        "type": "event",
+        "pitch": 1.4,
+        "volume": 0.6
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.hellfire_ray.thoom": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.hellfire_ray.thoom",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ]
+  },
+  "uo_uo_seiryu.ability.hellfire_ray.tail": {
+    "subtitle": "subtitles.devilfruits.uo_uo_seiryu.ability.hellfire_ray.tail",
+    "sounds": [
+      {
+        "name": "minecraft:block.fire.extinguish",
+        "type": "event",
+        "pitch": 0.55,
+        "volume": 0.7
+      }
+    ]
+  }
+}

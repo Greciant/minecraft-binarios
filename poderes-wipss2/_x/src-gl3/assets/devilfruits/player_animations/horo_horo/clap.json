@@ -1,0 +1,423 @@
+{
+  "length": 18,
+  "fade_in": 1,
+  "fade_out": 4,
+  "both_arms_first_person": true,
+  "root": [
+    {
+      "t": 0,
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "pos": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "t": 3,
+      "rot": [
+        -4,
+        0,
+        0
+      ],
+      "pos": [
+        0,
+        0.03,
+        0
+      ],
+      "ease": "catmullrom"
+    },
+    {
+      "t": 6,
+      "rot": [
+        6,
+        0,
+        0
+      ],
+      "pos": [
+        0,
+        -0.03,
+        0.03
+      ],
+      "ease": "catmullrom"
+    },
+    {
+      "t": 8,
+      "rot": [
+        3.333,
+        0,
+        0
+      ],
+      "pos": [
+        0,
+        0.01,
+        0.02
+      ],
+      "ease": "catmullrom"
+    },
+    {
+      "t": 9,
+      "rot": [
+        2.7,
+        0,
+        0
+      ],
+      "pos": [
+        0,
+        0.009,
+        0.018
+      ],
+      "ease": "catmullrom"
+    },
+    {
+      "t": 18,
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "ease": "catmullrom"
+    }
+  ],
+  "parts": {
+    "body": [
+      {
+        "t": 0,
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 3,
+        "rot": [
+          -6,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 6,
+        "rot": [
+          6,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 9,
+        "rot": [
+          4,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 18,
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      }
+    ],
+    "right_arm": [
+      {
+        "t": 0,
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 3,
+        "rot": [
+          -82,
+          0,
+          72
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 5,
+        "rot": [
+          -90,
+          0,
+          24
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 6,
+        "rot": [
+          -86,
+          0,
+          -12
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 8,
+        "rot": [
+          -84,
+          0,
+          -8
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 11,
+        "rot": [
+          -80,
+          0,
+          -6
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 18,
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      }
+    ],
+    "head": [
+      {
+        "t": 0,
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 3,
+        "rot": [
+          -8,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 6,
+        "rot": [
+          4.9,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 7,
+        "rot": [
+          9.6,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 9,
+        "rot": [
+          6,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 10,
+        "rot": [
+          4,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 18,
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      }
+    ],
+    "right_leg": [
+      {
+        "t": 0,
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 3,
+        "rot": [
+          -2,
+          0,
+          0.5
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 6,
+        "rot": [
+          -5,
+          0,
+          1
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 9,
+        "rot": [
+          -3,
+          0,
+          0.75
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 18,
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      }
+    ],
+    "left_leg": [
+      {
+        "t": 0,
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 3,
+        "rot": [
+          2,
+          0,
+          -0.5
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 6,
+        "rot": [
+          3,
+          0,
+          -1
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 9,
+        "rot": [
+          3,
+          0,
+          -0.75
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 18,
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      }
+    ],
+    "left_arm": [
+      {
+        "t": 0,
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 3,
+        "rot": [
+          -82,
+          0,
+          -72
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 5,
+        "rot": [
+          -90,
+          0,
+          -24
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 6,
+        "rot": [
+          -86,
+          0,
+          12
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 8,
+        "rot": [
+          -84,
+          0,
+          8
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 11,
+        "rot": [
+          -80,
+          0,
+          6
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 18,
+        "rot": [
+          0,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      }
+    ]
+  }
+}

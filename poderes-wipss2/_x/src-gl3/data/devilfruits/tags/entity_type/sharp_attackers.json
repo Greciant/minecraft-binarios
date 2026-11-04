@@ -1,0 +1,22 @@
+{
+  "values": [
+    "minecraft:spider",
+    "minecraft:cave_spider",
+    "minecraft:wolf",
+    "minecraft:cat",
+    "minecraft:ocelot",
+    "minecraft:fox",
+    "minecraft:hoglin",
+    "minecraft:zoglin",
+    "minecraft:vex",
+    "minecraft:phantom",
+    "minecraft:silverfish",
+    "minecraft:endermite",
+    "minecraft:polar_bear",
+    "minecraft:axolotl",
+    "minecraft:pufferfish",
+    "minecraft:bee",
+    "minecraft:guardian",
+    "minecraft:elder_guardian"
+  ]
+}

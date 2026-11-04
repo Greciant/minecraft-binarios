@@ -1,0 +1,34 @@
+{
+  "parent": "devilfruits:pirates/captain",
+  "criteria": {
+    "jolly_roger": {
+      "conditions": {
+        "items": [
+          {
+            "items": "devilfruits:pirate/jolly_roger_banner_pattern"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.pirates.jolly_roger.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:pirate/jolly_roger_banner_pattern"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.pirates.jolly_roger.title"
+    }
+  },
+  "requirements": [
+    [
+      "jolly_roger"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,33 @@
+{
+  "values": [
+    "minecraft:iron_golem",
+    "minecraft:ravager",
+    "minecraft:warden",
+    "minecraft:enderman",
+    "minecraft:zombie",
+    "minecraft:husk",
+    "minecraft:drowned",
+    "minecraft:zombie_villager",
+    "minecraft:zombified_piglin",
+    "minecraft:giant",
+    "minecraft:slime",
+    "minecraft:magma_cube",
+    "minecraft:goat",
+    "minecraft:panda",
+    "minecraft:dolphin",
+    "minecraft:ender_dragon",
+    "minecraft:piglin",
+    "minecraft:piglin_brute",
+    "minecraft:skeleton",
+    "minecraft:stray",
+    "minecraft:bogged",
+    "minecraft:wither_skeleton",
+    "minecraft:vindicator",
+    "minecraft:illusioner",
+    "minecraft:witch",
+    "minecraft:camel",
+    "minecraft:llama",
+    "minecraft:trader_llama",
+    "devilfruits:kage_kage/shadow_zombie"
+  ]
+}

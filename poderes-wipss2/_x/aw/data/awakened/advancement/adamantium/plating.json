@@ -1,0 +1,19 @@
+{
+  "parent": "awakened:adamantium/ingot",
+  "display": {
+    "icon": { "id": "minecraft:iron_chestplate" },
+    "title": { "translate": "advancement.awakened.adamantium.plating.title" },
+    "description": { "translate": "advancement.awakened.adamantium.plating.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "plated_a_piece": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": { "recipe_id": "awakened:armor_plating" }
+    }
+  },
+  "requirements": [ [ "plated_a_piece" ] ]
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "devilfruits:doru_doru/wax_wax",
+  "criteria": {
+    "first_arch": {
+      "trigger": "devilfruits:doru_doru/first_arch"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.doru_doru.first_arch.description"
+    },
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:doru_doru/wax_atelier"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.doru_doru.first_arch.title"
+    }
+  },
+  "requirements": [
+    [
+      "first_arch"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

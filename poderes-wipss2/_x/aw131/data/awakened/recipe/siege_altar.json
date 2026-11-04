@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GAG",
+    "ACA",
+    "GAG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "A": {
+      "item": "minecraft:amethyst_block"
+    },
+    "C": {
+      "item": "minecraft:crying_obsidian"
+    }
+  },
+  "result": {
+    "id": "awakened:siege_altar",
+    "count": 1
+  }
+}

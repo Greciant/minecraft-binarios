@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "devilfruits:cadaver_arm"
+    },
+    "H": {
+      "item": "devilfruits:cadaver_head"
+    },
+    "L": {
+      "item": "devilfruits:cadaver_leg"
+    },
+    "T": {
+      "item": "devilfruits:cadaver_torso"
+    }
+  },
+  "pattern": [
+    " H ",
+    "ATA",
+    "L L"
+  ],
+  "result": {
+    "count": 1,
+    "id": "devilfruits:hollow_corpse"
+  }
+}

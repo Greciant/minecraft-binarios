@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "GAG",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "A": {
+      "item": "awakened:adamantium_ingot"
+    }
+  },
+  "result": {
+    "id": "awakened:infusion_tank",
+    "count": 1
+  }
+}

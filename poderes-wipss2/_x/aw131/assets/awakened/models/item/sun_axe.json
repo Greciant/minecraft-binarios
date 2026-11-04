@@ -1,0 +1,6 @@
+{
+  "parent": "awakened:item/sun_axe_geo",
+  "textures": {
+    "tex": "awakened:item/sun_axe"
+  }
+}

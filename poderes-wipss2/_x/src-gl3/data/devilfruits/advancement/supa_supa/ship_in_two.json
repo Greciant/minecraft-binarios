@@ -1,0 +1,33 @@
+{
+  "parent": "devilfruits:supa_supa/blade_blade",
+  "criteria": {
+    "ship_in_two": {
+      "trigger": "devilfruits:supa_supa/ship_in_two"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.supa_supa.ship_in_two.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:supa_supa/super_slash"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.supa_supa.ship_in_two.title"
+    }
+  },
+  "requirements": [
+    [
+      "ship_in_two"
+    ]
+  ],
+  "rewards": {
+    "experience": 200
+  },
+  "sends_telemetry_event": true
+}

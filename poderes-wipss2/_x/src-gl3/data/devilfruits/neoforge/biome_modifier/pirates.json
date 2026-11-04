@@ -1,0 +1,24 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#devilfruits:pirate_spawns",
+  "spawners": [
+    {
+      "type": "devilfruits:pirate/deckhand",
+      "weight": 6,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "devilfruits:pirate/gunner",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "devilfruits:pirate/captain",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

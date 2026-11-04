@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "devilfruits:item/fruit/gura_gura/gura_gura_no_mi"
+  }
+}

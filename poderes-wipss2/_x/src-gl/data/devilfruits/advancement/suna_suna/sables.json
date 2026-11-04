@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:suna_suna/ant_lion",
+  "criteria": {
+    "used_sables": {
+      "trigger": "devilfruits:suna_suna/used_sables"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.suna_suna.sables.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:suna_suna/sables"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.suna_suna.sables.title"
+    }
+  },
+  "requirements": [
+    [
+      "used_sables"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

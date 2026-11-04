@@ -1,0 +1,182 @@
+{
+    "vertex": "impactframe:impact_frame",
+    "fragment": "impactframe:impact_frame",
+    "attributes": [
+        "Position"
+    ],
+    "samplers": [
+        {
+            "name": "DiffuseSampler"
+        },
+        {
+            "name": "DiffuseDepthSampler"
+        }
+    ],
+    "uniforms": [
+        {
+            "name": "ProjMat",
+            "type": "matrix4x4",
+            "count": 16,
+            "values": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        {
+            "name": "OutSize",
+            "type": "float",
+            "count": 2,
+            "values": [
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "Strength",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "LinearIntensity",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "Time",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "Center",
+            "type": "float",
+            "count": 2,
+            "values": [
+                0.5,
+                0.5
+            ]
+        },
+        {
+            "name": "SafeMode",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "FocusRadius",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "Invert",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "Tier",
+            "type": "float",
+            "count": 1,
+            "values": [
+                1.0
+            ]
+        },
+        {
+            "name": "DepthRange",
+            "type": "float",
+            "count": 2,
+            "values": [
+                0.05,
+                512.0
+            ]
+        },
+        {
+            "name": "UseDepth",
+            "type": "float",
+            "count": 1,
+            "values": [
+                1.0
+            ]
+        },
+        {
+            "name": "Direction",
+            "type": "float",
+            "count": 2,
+            "values": [
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "DirectionAmount",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "Halftone",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "Tint",
+            "type": "float",
+            "count": 3,
+            "values": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "TintAmount",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "Letterbox",
+            "type": "float",
+            "count": 1,
+            "values": [
+                0.0
+            ]
+        }
+    ]
+}

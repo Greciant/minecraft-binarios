@@ -1,0 +1,9 @@
+{
+  "parent": "awakened:item/shadow_blade_1",
+  "overrides": [
+    { "predicate": { "custom_model_data": 1 }, "model": "awakened:item/shadow_blade_1" },
+    { "predicate": { "custom_model_data": 2 }, "model": "awakened:item/shadow_blade_2" },
+    { "predicate": { "custom_model_data": 3 }, "model": "awakened:item/shadow_blade_3" },
+    { "predicate": { "custom_model_data": 4 }, "model": "awakened:item/shadow_blade_4" }
+  ]
+}

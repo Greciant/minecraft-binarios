@@ -1,0 +1,14 @@
+PROGRESO port Ecstatic -> Forge 1.20.1
+[x] proyecto creado (build.gradle, mods.toml, LICENSE, libs-test con embeddium+oculus)
+[x] imports NeoForge -> Forge en EcstaticForge/client/platform
+[x] compila (MeshData->RenderedBuffer, orden de vertices+endVertex, RegionFile, Checkbox, pantallas)
+[x] AutoTest (dev/AutoTest.java, -Decstatic.autotest)
+[~] runClient vanilla: se lanzo UNA vez (05-oct 21:42) y se corto a mitad: carga, crea mundo,
+    muestrea regiones LOD5, compila shaders; sin capturas. Desde el 06-oct NO se corren juegos
+    en el portatil -> pendiente en el PC (ver PRUEBA-EN-PC.txt)
+[x] revision contra upstream (matrices/bob, shaders fog.glsl 1.20.1, formato BLOCK_SAFE,
+    orden de elementos, IrisCompat vs Oculus 1.8.0, pantallas renderBackground, RegionFile)
+[x] PRUEBA-EN-PC.txt
+[x] LEEME-port.txt
+[x] build final ./gradlew build --no-daemon -q (exit 0, 05-oct 22:29)
+[ ] PC: runClient + AutoTest, luego -PconMods (PRUEBA-EN-PC.txt)

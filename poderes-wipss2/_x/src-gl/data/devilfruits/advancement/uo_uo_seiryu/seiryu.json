@@ -1,0 +1,34 @@
+{
+  "parent": "devilfruits:uo_uo_seiryu/man_beast",
+  "criteria": {
+    "dragon": {
+      "conditions": {
+        "form": "dragon",
+        "fruit": "devilfruits:uo_uo_seiryu"
+      },
+      "trigger": "devilfruits:changed_form"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.uo_uo_seiryu.seiryu.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:uo_uo_seiryu/transform_dragon"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.uo_uo_seiryu.seiryu.title"
+    }
+  },
+  "requirements": [
+    [
+      "dragon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

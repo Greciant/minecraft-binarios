@@ -1,0 +1,19 @@
+{
+  "parent": "awakened:adamantium/ingot",
+  "display": {
+    "icon": { "id": "awakened:infusion_tank" },
+    "title": { "translate": "advancement.awakened.adamantium.tank.title" },
+    "description": { "translate": "advancement.awakened.adamantium.tank.description" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_tank": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": "awakened:infusion_tank" } ] }
+    }
+  },
+  "requirements": [ [ "has_tank" ] ]
+}

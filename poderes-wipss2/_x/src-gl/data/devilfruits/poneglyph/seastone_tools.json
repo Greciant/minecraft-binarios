@@ -1,0 +1,18 @@
+{
+  "knowledge": "devilfruits:seastone_tools",
+  "words": [
+    "dirt",
+    "wood",
+    "stone",
+    "crops",
+    "dig",
+    "soil",
+    "mine",
+    "field",
+    "shovel",
+    "harvest"
+  ],
+  "carving_variant": 1,
+  "min_literacy": 0,
+  "weight": 15
+}

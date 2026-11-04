@@ -1,0 +1,33 @@
+{
+  "parent": "devilfruits:suna_suna/sables",
+  "criteria": {
+    "max_mastery": {
+      "conditions": {
+        "fruit": "devilfruits:suna_suna"
+      },
+      "trigger": "devilfruits:max_mastery"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.suna_suna.warlord.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:golden_hoe"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.suna_suna.warlord.title"
+    }
+  },
+  "requirements": [
+    [
+      "max_mastery"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

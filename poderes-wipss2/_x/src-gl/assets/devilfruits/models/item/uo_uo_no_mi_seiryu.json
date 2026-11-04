@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "devilfruits:item/fruit/uo_uo_seiryu/uo_uo_no_mi_seiryu"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "awakened:relic_duelists_edge",
+    "awakened:relic_fangbinder_sigil",
+    "awakened:relic_flux_conduit",
+    "awakened:relic_focus_lens",
+    "awakened:relic_iron_charm",
+    "awakened:relic_kinetic_band",
+    "awakened:relic_power_prism",
+    "awakened:relic_scales_of_judgment",
+    "awakened:relic_stamina_matrix",
+    "awakened:relic_swift_cells",
+    "awakened:relic_tidecaller_pearl",
+    "awakened:relic_titans_heart",
+    "awakened:relic_vital_core",
+    "awakened:relic_wardens_eye",
+    "awakened:relic_warding_plate"
+  ]
+}

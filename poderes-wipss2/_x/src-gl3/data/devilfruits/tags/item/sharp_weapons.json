@@ -1,0 +1,15 @@
+{
+  "values": [
+    "#minecraft:swords",
+    "#minecraft:axes",
+    "#minecraft:pickaxes",
+    "#minecraft:hoes",
+    "minecraft:trident",
+    "devilfruits:moria_scissors",
+    "devilfruits:moria_scissors_blade",
+    {
+      "id": "#c:tools/spear",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "devilfruits:item/poneglyph/rubbing"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "devilfruits:item/poneglyph/rubbing_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "devilfruits:item/poneglyph/rubbing_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "devilfruits:item/poneglyph/rubbing_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "devilfruits:item/poneglyph/rubbing_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "devilfruits:item/poneglyph/rubbing_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "devilfruits:item/poneglyph/rubbing_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "devilfruits:item/poneglyph/rubbing_6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "devilfruits:item/poneglyph/rubbing_7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "devilfruits:item/poneglyph/rubbing_8"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "EBS",
+    " CB",
+    "B  "
+  ],
+  "key": {
+    "E": {
+      "item": "awakened:scythe_edge"
+    },
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "S": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "C": {
+      "item": "awakened:soul_core"
+    }
+  },
+  "result": {
+    "id": "awakened:reaper_scythe",
+    "count": 1
+  }
+}

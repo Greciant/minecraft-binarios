@@ -1,0 +1,53 @@
+plugins {
+    id 'eclipse'
+    id 'net.minecraftforge.gradle' version '[6.0.16,6.2)'
+    id 'org.spongepowered.mixin' version '0.7.+'
+}
+
+// Port personal a Forge 1.20.1 de Show My World (AGPL-3.0, Miraculixx), modulo
+// "worlds-preview" del repo github.com/MiraculixxT/Worlds. Alcance reducido:
+// ver LEEME-port.txt (sin captura automatica, solo lectura de panorama/*.png).
+version = '1.0-forge1.20.1-port'
+group = 'de.miraculixx.showmyworld'
+base { archivesName = 'showmyworld' }
+
+java { toolchain.languageVersion = JavaLanguageVersion.of(17) }
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+        }
+    }
+}
+
+mixin {
+    add sourceSets.main, 'showmyworld.refmap.json'
+    config 'showmyworld.mixins.json'
+}
+
+repositories {
+    mavenCentral()
+    maven { name = 'Cloth Config'; url = 'https://maven.shedaniel.me/' }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
+    implementation fg.deobf('me.shedaniel.cloth:cloth-config-forge:11.1.136')
+}
+
+jar {
+    manifest {
+        attributes([
+            'Specification-Title'   : 'showmyworld',
+            'Implementation-Title'  : project.name,
+            'Implementation-Version': project.version,
+            'MixinConfigs'          : 'showmyworld.mixins.json'
+        ])
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "devilfruits:kage_kage/snip",
+  "criteria": {
+    "zombie_raised": {
+      "trigger": "devilfruits:kage_kage/zombie_raised"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.kage_kage.thriller_bark.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:hollow_corpse"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.kage_kage.thriller_bark.title"
+    }
+  },
+  "requirements": [
+    [
+      "zombie_raised"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

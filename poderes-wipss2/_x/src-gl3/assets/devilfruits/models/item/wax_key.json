@@ -1,0 +1,18 @@
+{
+ "loader": "neoforge:separate_transforms",
+ "gui_light": "front",
+ "textures": {
+  "particle": "devilfruits:item/doru_doru/wax_key"
+ },
+ "base": {
+  "parent": "devilfruits:item/doru_doru/wax_key_3d"
+ },
+ "perspectives": {
+  "gui": {
+   "parent": "devilfruits:item/doru_doru/wax_key_icon"
+  },
+  "fixed": {
+   "parent": "devilfruits:item/doru_doru/wax_key_icon"
+  }
+ }
+}

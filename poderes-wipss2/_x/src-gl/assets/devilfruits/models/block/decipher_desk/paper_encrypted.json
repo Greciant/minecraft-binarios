@@ -1,0 +1,37 @@
+{
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": false,
+  "textures": {
+    "paper": "devilfruits:block/decipher_desk/paper_encrypted",
+    "particle": "devilfruits:block/decipher_desk/paper_encrypted"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        11.52,
+        4
+      ],
+      "to": [
+        14,
+        11.52,
+        12
+      ],
+      "faces": {
+        "up": {
+          "texture": "#paper",
+          "rotation": 180
+        }
+      },
+      "rotation": {
+        "angle": -22.5,
+        "axis": "x",
+        "origin": [
+          10.5,
+          10,
+          8
+        ]
+      }
+    }
+  ]
+}

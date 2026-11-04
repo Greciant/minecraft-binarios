@@ -1,0 +1,9 @@
+{
+  "recipes": [
+    "devilfruits:seastone/seastone_cuffs"
+  ],
+  "requires": [
+    "devilfruits:seastone_refining"
+  ],
+  "icon": "devilfruits:seastone_cuffs"
+}

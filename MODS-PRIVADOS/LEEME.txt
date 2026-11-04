@@ -1,0 +1,7 @@
+﻿MODS PRIVADOS (no van a GitHub) - 18-oct-2026
+Todos van en la carpeta mods de la instancia (Forge 1.20.1 + Sinytra Connector), solo se copian, no se descomprime nada mas.
+ - shineport-1.9.2.jar (visor de sonidos, F7)
+ - archaion, aaa_particles, ancient_remnants (monolitos), roaring, showmyworld (ports)
+ - beyondtheabyss-0.0.11.jar: es una version PARCHEADA por nosotros. Reemplaza al original; no uses el original.
+Si usas Touch'n Motion tambien necesitas el resourcepack FA+Player (carpeta resourcepacks) y el paquete 9-PORTS\touchnmotion-final.
+Instalacion: cierra Minecraft, borra versiones viejas de shineport/beyondtheabyss en mods, pega estos jars.

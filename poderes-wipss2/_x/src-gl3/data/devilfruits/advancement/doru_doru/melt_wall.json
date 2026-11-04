@@ -1,0 +1,27 @@
+{
+  "parent": "devilfruits:doru_doru/wax_wax",
+  "criteria": {
+    "melt_wall": {
+      "trigger": "devilfruits:doru_doru/melt_wall"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.doru_doru.melt_wall.description"
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lava_bucket"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.doru_doru.melt_wall.title"
+    }
+  },
+  "requirements": [
+    [
+      "melt_wall"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

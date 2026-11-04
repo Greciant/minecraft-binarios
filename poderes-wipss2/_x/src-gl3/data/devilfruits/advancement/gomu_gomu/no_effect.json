@@ -1,0 +1,29 @@
+{
+  "parent": "devilfruits:gomu_gomu/rubber_man",
+  "criteria": {
+    "no_effect": {
+      "trigger": "devilfruits:gomu_gomu/blunt"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.gomu_gomu.no_effect.description"
+    },
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:gomu_gomu/pistol"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.gomu_gomu.no_effect.title"
+    }
+  },
+  "requirements": [
+    [
+      "no_effect"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "devilfruits:item/ability/gomu_gomu/axe"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "H  ",
+    " C ",
+    "  L"
+  ],
+  "key": {
+    "H": {
+      "item": "awakened:sun_axe_head"
+    },
+    "C": {
+      "item": "awakened:dormant_core"
+    },
+    "L": {
+      "item": "awakened:sun_axe_handle"
+    }
+  },
+  "result": {
+    "id": "awakened:blank_sun_axe",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+# Guion corto: entra al mundo, tercera persona, y comprueba que EMF no ignore el modelo del jugador.
+gap 20
+hud on
+waitload 4
+wait 40
+view back
+wait 120
+shot tm-corta-3p
+expect_nolog (?i)attempted creation more than 64
+view front
+wait 60
+shot tm-corta-frente
+echo === fin ===

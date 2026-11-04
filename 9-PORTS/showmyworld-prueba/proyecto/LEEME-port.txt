@@ -1,0 +1,43 @@
+Show My World -> Forge 1.20.1 (port personal, NO publicar)        10-oct-2026
+============================================================================
+Original: github.com/MiraculixxT/Worlds (AGPL-3.0, Miraculixx), modulo
+"worlds-preview" (el proyecto junta 3 mods: Better Worlds, Chunk Editor y
+Show My World; solo se porto Show My World). Copia en ../showmyworld-upstream.
+
+ALCANCE REDUCIDO respecto al original (decision tomada al portar, ver abajo)
+  El original (Kotlin, Fabric/NeoForge 26.x) hace mucho mas de lo que porte:
+  captura automatica del panorama al salir del mundo, cruce de fundido entre
+  dos capas de textura, panorama en TitleScreen/JoinMultiplayerScreen/
+  EditWorldScreen/ConnectScreen (no solo SelectWorldScreen), y un modo
+  "ultimo jugado" o "al azar" para el titulo. Portar todo eso entero es un
+  trabajo bastante mas grande (el enganche de render del original usa el
+  pipeline de GUI de 1.21.6+, que en 1.20.1 ni existe).
+  Este port cubre solo lo central que pedia el video de Keo: ver tu mundo
+  como panorama EN LA LISTA al resaltarlo. Si mas adelante quieres el resto
+  (captura automatica, las otras pantallas, el fundido), se puede ampliar.
+
+Compilar:  ./gradlew build   -> build/libs/showmyworld-1.0-forge1.20.1-port.jar
+Probar:    en el PC. Crea/usa un mundo cualquiera, hazle 6 capturas de
+           pantalla mirando a +X, -X, +Y(arriba), -Y(abajo), +Z, -Z (el mismo
+           formato que un resourcepack de panorama de Minecraft) y guardalas
+           como panorama_0.png .. panorama_5.png en
+           <carpeta del mundo>/panorama/. Abre la lista de mundos y resalta
+           ese mundo: deberia verse el panorama en vez del fondo normal.
+
+QUE HACE
+  En la pantalla "Seleccionar mundo", si el mundo resaltado tiene las 6
+  imagenes en su carpeta panorama\, se dibujan como fondo (reemplazando el
+  fondo oscuro de siempre), usando las mismas clases que usa el titulo de
+  Minecraft (PanoramaRenderer + CubeMap), no una reimplementacion propia.
+  Ajuste "show" (activado/desactivado) en Mods -> Show My World -> Config.
+
+QUE NO HACE (ver "ALCANCE REDUCIDO")
+  - No captura el panorama solo: hay que ponerlo a mano (con un mod de
+    capturas de pantalla, o copiando panorama_0..5.png de otro lado).
+  - No se ve en la pantalla de titulo, ni al unirse a un servidor, ni al
+    editar un mundo: solo en la lista de "Seleccionar mundo".
+  - Sin fundido cruzado entre paneles (aparece de golpe, no con una
+    transicion). El ajuste "fadeMs" del config no se usa todavia.
+
+SERVIDOR
+  No. Es puramente de cliente (una pantalla de menu).

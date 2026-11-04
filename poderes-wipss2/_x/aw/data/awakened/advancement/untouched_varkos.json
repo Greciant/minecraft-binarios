@@ -1,0 +1,28 @@
+{
+  "parent": "awakened:defeat_varkos",
+  "display": {
+    "icon": {
+      "id": "minecraft:feather"
+    },
+    "title": {
+      "translate": "advancement.awakened.untouched_varkos.title"
+    },
+    "description": {
+      "translate": "advancement.awakened.untouched_varkos.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "awarded": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "awarded"
+    ]
+  ]
+}

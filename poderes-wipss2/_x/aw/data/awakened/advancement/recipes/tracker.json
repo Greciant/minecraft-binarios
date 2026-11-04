@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "awakened:tracker"
+    ]
+  },
+  "criteria": {
+    "has_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:compass"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "awakened:tracker"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_compass",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "advancement.awakened.root.title"
+    },
+    "description": {
+      "translate": "advancement.awakened.root.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/amethyst_block.png"
+  },
+  "criteria": {
+    "awarded": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "awarded"
+    ]
+  ]
+}

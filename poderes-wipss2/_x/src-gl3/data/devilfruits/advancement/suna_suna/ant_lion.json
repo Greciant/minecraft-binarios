@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:suna_suna/desert_spada",
+  "criteria": {
+    "opened_girasole": {
+      "trigger": "devilfruits:suna_suna/opened_desert_girasole"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.suna_suna.ant_lion.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:suna_suna/desert_girasole"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.suna_suna.ant_lion.title"
+    }
+  },
+  "requirements": [
+    [
+      "opened_girasole"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

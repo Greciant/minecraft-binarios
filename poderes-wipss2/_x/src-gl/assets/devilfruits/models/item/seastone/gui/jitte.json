@@ -1,0 +1,22 @@
+{
+ "parent": "devilfruits:item/seastone/3d/jitte",
+ "display": {
+  "gui": {
+   "rotation": [
+    23.259,
+    27.975,
+    -44.408
+   ],
+   "translation": [
+    -1.112,
+    -1.549,
+    0.23
+   ],
+   "scale": [
+    0.4986,
+    0.4986,
+    0.4986
+   ]
+  }
+ }
+}

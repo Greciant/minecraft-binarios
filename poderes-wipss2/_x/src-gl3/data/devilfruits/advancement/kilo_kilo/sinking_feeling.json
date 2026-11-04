@@ -1,0 +1,27 @@
+{
+  "parent": "devilfruits:kilo_kilo/wrecking_ball",
+  "criteria": {
+    "sank_raft": {
+      "trigger": "devilfruits:kilo_kilo/sank_raft"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.kilo_kilo.sinking_feeling.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:oak_boat"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.kilo_kilo.sinking_feeling.title"
+    }
+  },
+  "requirements": [
+    [
+      "sank_raft"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

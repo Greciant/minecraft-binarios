@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "awakened:adamantium_ingot_from_blasting"
+    ]
+  },
+  "criteria": {
+    "has_raw_adamantium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "awakened:raw_adamantium"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "awakened:adamantium_ingot_from_blasting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_adamantium",
+      "has_the_recipe"
+    ]
+  ]
+}

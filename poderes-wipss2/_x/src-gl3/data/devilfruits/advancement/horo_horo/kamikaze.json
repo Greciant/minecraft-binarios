@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:horo_horo/hollow_hollow",
+  "criteria": {
+    "kamikaze": {
+      "trigger": "devilfruits:horo_horo/kamikaze"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.horo_horo.kamikaze.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:horo_horo/special_hollow"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.horo_horo.kamikaze.title"
+    }
+  },
+  "requirements": [
+    [
+      "kamikaze"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

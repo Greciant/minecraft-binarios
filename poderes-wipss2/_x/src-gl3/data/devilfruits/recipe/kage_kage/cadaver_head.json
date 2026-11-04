@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "devilfruits:cadaver_flesh"
+    },
+    {
+      "item": "devilfruits:cadaver_flesh"
+    },
+    {
+      "item": "devilfruits:cadaver_flesh"
+    },
+    {
+      "item": "devilfruits:cadaver_flesh"
+    },
+    {
+      "item": "minecraft:bone"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "devilfruits:cadaver_head"
+  }
+}

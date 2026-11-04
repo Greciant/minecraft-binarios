@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#minecraft:wither_immune",
+    "#minecraft:dragon_immune",
+    "minecraft:budding_amethyst",
+    "devilfruits:seastone_block",
+    "#devilfruits:poneglyph_unbreakable"
+  ]
+}

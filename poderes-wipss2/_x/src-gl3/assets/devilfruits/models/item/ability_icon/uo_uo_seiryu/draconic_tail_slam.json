@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "devilfruits:item/ability/uo_uo_seiryu/draconic_tail_slam"
+  }
+}

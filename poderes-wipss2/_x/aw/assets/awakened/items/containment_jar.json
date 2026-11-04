@@ -1,0 +1,53 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1.0,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [ "gui", "fixed", "on_shelf" ],
+              "model": {
+                "type": "minecraft:composite",
+                "models": [
+                  {
+                    "type": "minecraft:special",
+                    "base": "awakened:item/containment_jar",
+                    "model": { "type": "awakened:jar_captive" }
+                  },
+                  { "type": "minecraft:model", "model": "awakened:item/containment_jar" }
+                ]
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:special",
+                "base": "awakened:item/containment_jar_3d",
+                "model": { "type": "awakened:jar_captive" }
+              },
+              { "type": "minecraft:model", "model": "awakened:item/containment_jar_3d" }
+            ]
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [ "gui", "fixed", "on_shelf" ],
+          "model": { "type": "minecraft:model", "model": "awakened:item/containment_jar" }
+        }
+      ],
+      "fallback": { "type": "minecraft:model", "model": "awakened:item/containment_jar_3d" }
+    }
+  }
+}

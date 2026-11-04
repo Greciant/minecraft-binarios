@@ -1,0 +1,27 @@
+{
+  "parent": "devilfruits:haki/armament",
+  "criteria": {
+    "logia_hit": {
+      "trigger": "devilfruits:haki_logia_hit"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.haki.logia.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.haki.logia.title"
+    }
+  },
+  "requirements": [
+    [
+      "logia_hit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

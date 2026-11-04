@@ -1,0 +1,26 @@
+{
+  "parent": "devilfruits:yomi_yomi/revive_revive",
+  "criteria": {
+    "soul_departed": {
+      "trigger": "devilfruits:yomi_yomi/soul_departed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.yomi_yomi.soul_departed.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:soul_lantern"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.yomi_yomi.soul_departed.title"
+    }
+  },
+  "requirements": [
+    [
+      "soul_departed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

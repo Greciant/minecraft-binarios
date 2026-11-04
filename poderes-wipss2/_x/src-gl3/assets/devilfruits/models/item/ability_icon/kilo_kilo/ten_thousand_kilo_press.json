@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "devilfruits:item/ability/kilo_kilo/ten_thousand_kilo_press"
+  }
+}

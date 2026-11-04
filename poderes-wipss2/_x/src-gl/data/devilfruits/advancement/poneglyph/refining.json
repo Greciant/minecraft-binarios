@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:poneglyph/deciphered",
+  "criteria": {
+    "refining": {
+      "conditions": {
+        "fruit": "devilfruits:seastone_refining"
+      },
+      "trigger": "devilfruits:knowledge_learned"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.poneglyph.refining.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:seastone_ingot"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.poneglyph.refining.title"
+    }
+  },
+  "requirements": [
+    [
+      "refining"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

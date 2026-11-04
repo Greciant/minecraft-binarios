@@ -1,0 +1,84 @@
+The Block Box -> Forge 1.20.1 (port personal, NO publicar)          11-oct-2026
+============================================================================
+Original: github.com/vectorwing/BlockBox (vectorwing, autor de Farmer's Delight),
+rama 1.21.1. Codigo MIT; texturas y sonidos CC BY-NC 4.0 (uso personal no
+comercial, con atribucion - ver LICENSE-assets). Copia en ../blockbox-upstream.
+Mod de bloques decorativos: baldosas de piedra/arenisca/ladrillo/amatista/lapis,
+chimeneas, estacas de madera (lisas y con punta, hacen dano), asientos de
+madera, faroles voladores de colores, variantes de cobre/hierro/oro, nieve
+tallada, y un bloque que actua como marco de portal del Nether.
+
+Compilar:  ./gradlew build   -> build/libs/blockbox-0.1.3-forge1.20.1-port.jar
+Probar:    en el PC (en el portatil no se abre el juego, ver PRUEBA-EN-PC.txt).
+
+DE DONDE SALIERON LOS RECURSOS
+  En vez de portar el generador de datos (DataGenerators.java, son ~1500
+  lineas de codigo de build, sin efecto en el juego), los modelos/blockstates/
+  texturas/recetas/loot tables/avances se sacaron directo del jar ya compilado
+  de Modrinth (BlockBox-1.21.1-0.1.3.jar, bajado de su CDN, que no tiene el
+  bloqueo anti-bot de CurseForge). Son datos de Minecraft estandar (el formato
+  de blockstates/modelos no cambio entre 1.21.1 y 1.20.1 para puertas,
+  escaleras, losas, muros...), pero no se revisaron uno por uno: si algo se ve
+  raro (textura, receta, avance), anotarlo en la prueba del PC.
+  Se quitaron del original: los data maps de NeoForge para cobre que se
+  encera/oxida y lena de la chimenea (data/neoforge/data_maps/, no existen en
+  Forge 1.20.1: se porto la logica a mano en CommonEvents.java) y las tags de
+  compatibilidad con Farmer's Delight y Sable, que no estan en el pack.
+
+QUE SE CAMBIO (de 1.21.1/NeoForge a Forge 1.20.1)
+  Registro       DeferredRegister.Blocks/.Items (con registerSimpleBlock /
+                 registerSimpleBlockItem) no existe en Forge 1.20.1: se agrego
+                 un metodo local equivalente en ModBlocks/ModItems para no
+                 tener que tocar cada linea de los ~90 bloques.
+  Bloques        sin sistema de codec de bloques (no existe en 1.20.1, se
+                 quitaron los MapCodec/codec() de cada clase); useItemOn(...)
+                 de 1.21 (ItemInteractionResult) -> use(...) unico de 1.20.1
+                 (InteractionResult); ItemAbilities/ItemAbility (NeoForge) ->
+                 ToolAction/ToolActions (Forge); entityInside/getFluidState/
+                 isPathfindable/randomTick ahora son public, no protected.
+  Copper (cobre) 1.20.1 no tiene Copper Grate, Copper Door ni Copper Trapdoor
+                 (llegaron en una actualizacion de 1.21): COPPER_BARS y
+                 COPPER_PILLAR usan las propiedades del bloque de cobre normal
+                 (Blocks.COPPER_BLOCK y sus variantes de oxidacion) en vez de
+                 copiarlas de esos bloques que no existen. ChangeOverTimeBlock
+                 usa applyChangeOverTime(...) en vez de changeOverTime(...).
+  Puertas/trampas DoorBlock/TrapDoorBlock de 1.20.1 piden (Properties,
+                 BlockSetType), al reves que en 1.21.1. BlockSetType de
+                 1.20.1 no tiene PressurePlateSensitivity (parametro de
+                 menos). Las puertas/trampillas de hierro y oro usan juegos
+                 de sonido propios (ModBlockSets), corregido ademas un choque
+                 de nombre en el original (las dos declaraban "iron_plate").
+  stateToIndex   PalisadeBlock necesita este campo privado de
+                 CrossCollisionBlock (el original usa un Access Transformer).
+                 El mismo AT no se aplicaba en Forge 1.20.1 (se quedaba
+                 privado en tiempo de compilacion); en su lugar se uso un
+                 Mixin @Accessor (CrossCollisionBlockAccessor), igual que en
+                 otros ports de este hilo.
+  Chimenea       FIRESTARTER_LIGHT/SHOVEL_DOUSE (NeoForge) no tienen
+                 equivalente en los ToolAction de Forge 1.20.1: se revisa el
+                 item directamente (encendedor o carga de fuego para
+                 encender, cualquier pala para apagar) en use(...).
+                 damageSources().campfire() no existe: usa inFire().
+  Vidrio liso    TransparentBlock (clase de 1.21) -> GlassBlock de 1.20.1
+                 (mismo efecto: vidrio sin textura que se conecta).
+  Pestanas vanilla  el original inserta sus items en las pestanas vanilla
+                 (Bloques de construccion, Bloques funcionales) con
+                 BuildCreativeModeTabContentsEvent, que no existe en 1.20.1.
+                 No se porto: los items del mod se ven solo en su propia
+                 pestana (icono: oro cincelado).
+  SeatEntity     getPassengerAttachmentPoint (de una version posterior) ->
+                 positionRider(Entity, MoveFunction) de 1.20.1, mismo offset
+                 (0, 0.55, 0). defineSynchedData() sin argumentos.
+
+QUE FALTA / RIESGOS
+  - Revision visual en el PC: no se probo ningun bloque en juego todavia.
+  - Posible: alguna receta/avance de los ~700 archivos de datos puede
+    referenciar algo que no exista en 1.20.1 (no se revisaron uno por uno).
+  - Las estacas con punta (Spiked Palisade) hacen dano de verdad al
+    atravesarlas: probar que el dano y el "quedar atascado" se sientan bien.
+  - El icono de las pestanas vanilla no se probo (no deberia haber ninguno,
+    ver mas arriba).
+
+SERVIDOR
+  Si: tiene bloques e items nuevos (y el asiento es una entidad), asi que va
+  en cliente y servidor.

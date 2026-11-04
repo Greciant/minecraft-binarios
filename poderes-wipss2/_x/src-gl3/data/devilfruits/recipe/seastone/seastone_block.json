@@ -1,0 +1,19 @@
+{
+  "type": "devilfruits:knowledge_shaped",
+  "knowledge": "devilfruits:seastone_refining",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "devilfruits:seastone_ingot"
+    }
+  },
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "result": {
+    "count": 1,
+    "id": "devilfruits:seastone_block"
+  }
+}

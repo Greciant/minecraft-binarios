@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "awakened:sunken_vault",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "linear",
+    "salt": 716033485,
+    "spacing": 66,
+    "separation": 22
+  }
+}

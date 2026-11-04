@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " N ",
+    " V ",
+    " P "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_block"
+    },
+    "V": {
+      "item": "awakened:tidal_vessel"
+    },
+    "P": {
+      "item": "minecraft:prismarine"
+    }
+  },
+  "result": {
+    "id": "awakened:reservoir_core",
+    "count": 1
+  }
+}

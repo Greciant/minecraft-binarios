@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "awakened:soul_vessel"
+    ]
+  },
+  "criteria": {
+    "has_bone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "awakened:soul_vessel"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bone",
+      "has_the_recipe"
+    ]
+  ]
+}

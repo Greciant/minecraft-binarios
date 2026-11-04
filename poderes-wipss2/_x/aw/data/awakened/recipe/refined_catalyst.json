@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SBS",
+    "BCB",
+    "SBS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:echo_shard"
+    },
+    "B": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "awakened:honed_catalyst"
+    }
+  },
+  "result": {
+    "id": "awakened:refined_catalyst",
+    "count": 1
+  }
+}

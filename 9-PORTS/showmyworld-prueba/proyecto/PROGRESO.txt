@@ -1,0 +1,18 @@
+PROGRESO port Show My World -> Forge 1.20.1 (alcance reducido)
+[x] revise el original (modulo worlds-preview, Kotlin, ~1900 lineas): usa corrutinas,
+    cross-fade con 2 texturas, captura automatica al salir del mundo y engancha
+    GuiRendererMixin (pipeline de render de GUI de 1.21.6+ que no existe en 1.20.1)
+[x] decidido alcance v1 por costo/tiempo (ver LEEME-port.txt "QUE FALTA"): solo
+    SelectWorldScreen, sin captura automatica (el usuario pone panorama_0..5.png a
+    mano en <mundo>/panorama/, mismo formato que usa Minecraft para resourcepacks)
+[x] confirme con javap sobre el jar mapeado de Forge 1.20.1 que ya existen
+    PanoramaRenderer(CubeMap) y CubeMap(ResourceLocation) (arma 6 caras "base_0".."base_5")
+    -> no hace falta reimplementar el cubo ni el shader, a diferencia del original
+[x] WorldSelectionList.getSelectedOpt() y WorldListEntry.getLevelName() son publicos;
+    hice falta un Accessor para summary (privado) y otro para el campo list de
+    SelectWorldScreen (privado)
+[x] SelectWorldScreen no sobreescribe renderBackground (lo hereda de Screen) -> el
+    mixin va en Screen.class con un chequeo instanceof SelectWorldScreen
+[x] compila (./gradlew build --no-daemon -q, exit 0, 10-oct)
+[x] LEEME-port.txt
+[ ] PC: runClient, poner panorama_0..5.png de prueba en un mundo y seleccionarlo

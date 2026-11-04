@@ -1,0 +1,43 @@
+{
+  "parent": "devilfruits:poneglyph/refining",
+  "criteria": {
+    "full_set": {
+      "conditions": {
+        "items": [
+          {
+            "items": "devilfruits:seastone_helmet"
+          },
+          {
+            "items": "devilfruits:seastone_chestplate"
+          },
+          {
+            "items": "devilfruits:seastone_leggings"
+          },
+          {
+            "items": "devilfruits:seastone_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.poneglyph.full_set.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:seastone_chestplate"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.poneglyph.full_set.title"
+    }
+  },
+  "requirements": [
+    [
+      "full_set"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

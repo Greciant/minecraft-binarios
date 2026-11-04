@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "awakened:raw_adamantium"
+  },
+  "result": {
+    "id": "awakened:adamantium_ingot",
+    "count": 1
+  },
+  "experience": 0.8,
+  "cookingtime": 100
+}

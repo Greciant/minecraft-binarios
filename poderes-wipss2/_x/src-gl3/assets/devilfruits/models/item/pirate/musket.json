@@ -1,0 +1,41 @@
+{
+ "loader": "neoforge:separate_transforms",
+ "gui_light": "side",
+ "textures": {
+  "particle": "devilfruits:item/pirate/musket"
+ },
+ "base": {
+  "parent": "devilfruits:item/pirate/3d/musket"
+ },
+ "perspectives": {
+  "gui": {
+   "parent": "devilfruits:item/pirate/gui/musket"
+  }
+ },
+ "overrides": [
+  {
+   "predicate": {
+    "devilfruits:loaded": 1
+   },
+   "model": "devilfruits:item/pirate/state/musket_loaded"
+  },
+  {
+   "predicate": {
+    "devilfruits:reload": 0.25
+   },
+   "model": "devilfruits:item/pirate/state/musket_half_open"
+  },
+  {
+   "predicate": {
+    "devilfruits:reload": 0.5
+   },
+   "model": "devilfruits:item/pirate/state/musket_half_closed"
+  },
+  {
+   "predicate": {
+    "devilfruits:reload": 0.75
+   },
+   "model": "devilfruits:item/pirate/state/musket_ramrod_out"
+  }
+ ]
+}

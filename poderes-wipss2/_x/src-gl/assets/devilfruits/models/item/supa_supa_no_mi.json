@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "devilfruits:item/fruit/supa_supa/supa_supa_no_mi"
+  }
+}

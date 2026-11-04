@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="AGPL-3.0-only"
+
+[[mods]]
+modId="showmyworld"
+version="1.0-forge1.20.1-port"
+displayName="Show My World (port Forge 1.20.1)"
+authors="Miraculixx (original); port personal"
+description='''Muestra el panorama de tu mundo al seleccionarlo en la lista de mundos, si la carpeta panorama\ del mundo tiene las 6 imagenes. Port personal no oficial, con alcance reducido (sin captura automatica). Original: github.com/MiraculixxT/Worlds'''
+logoFile=""
+displayTest="IGNORE_ALL_VERSION"
+
+[[dependencies.showmyworld]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.showmyworld]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.showmyworld]]
+    modId="cloth_config"
+    mandatory=true
+    versionRange="[11,)"
+    ordering="NONE"
+    side="CLIENT"

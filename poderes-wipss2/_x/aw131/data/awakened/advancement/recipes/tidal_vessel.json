@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "awakened:tidal_vessel"
+    ]
+  },
+  "criteria": {
+    "has_water_reservoir": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "awakened:water_reservoir"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "awakened:tidal_vessel"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_water_reservoir",
+      "has_the_recipe"
+    ]
+  ]
+}

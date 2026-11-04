@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "awakened:cordon_spear"
+    ]
+  },
+  "criteria": {
+    "has_cordon_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "awakened:cordon_core"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "awakened:cordon_spear"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cordon_core",
+      "has_the_recipe"
+    ]
+  ]
+}

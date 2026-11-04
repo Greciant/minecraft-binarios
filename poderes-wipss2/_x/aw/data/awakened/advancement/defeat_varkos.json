@@ -1,0 +1,39 @@
+{
+  "parent": "awakened:obtain_challenge_post",
+  "display": {
+    "icon": {
+      "id": "minecraft:echo_shard"
+    },
+    "title": {
+      "translate": "advancement.awakened.defeat_varkos.title"
+    },
+    "description": {
+      "translate": "advancement.awakened.defeat_varkos.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_varkos": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "awakened:varkos"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_varkos"
+    ]
+  ]
+}

@@ -1,0 +1,745 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.dragon.blast_breath": {
+   "loop": false,
+   "animation_length": 2.0,
+   "bones": {
+    "head": {
+     "rotation": {
+      "0.0": [
+       0,
+       0,
+       0
+      ],
+      "0.5": {
+       "vector": [
+        -14,
+        0,
+        0
+       ],
+       "easing": "easeOutQuad"
+      },
+      "1.5": {
+       "vector": [
+        -18,
+        0,
+        0
+       ],
+       "easing": "easeInOutSine"
+      },
+      "2": [
+       -18,
+       0,
+       0
+      ]
+     }
+    },
+    "jaw": {
+     "rotation": {
+      "0.0": [
+       0,
+       0,
+       0
+      ],
+      "0.6": {
+       "vector": [
+        10,
+        0,
+        0
+       ],
+       "easing": "easeOutQuad"
+      },
+      "1.5": {
+       "vector": [
+        22,
+        0,
+        0
+       ],
+       "easing": "easeInOutSine"
+      },
+      "2": [
+       22,
+       0,
+       0
+      ]
+     }
+    }
+   },
+   "devilfruits:fade_in": 3,
+   "devilfruits:fade_out": 6
+  },
+  "animation.dragon.blast_breath_release": {
+   "loop": false,
+   "animation_length": 3.2,
+   "bones": {
+    "head": {
+     "rotation": {
+      "0.0": [
+       -18,
+       0,
+       0
+      ],
+      "0.15": {
+       "vector": [
+        6,
+        0,
+        0
+       ],
+       "easing": "easeOutBack"
+      },
+      "0.4": [
+       2,
+       0,
+       0
+      ],
+      "0.8": [
+       4,
+       1.5,
+       0
+      ],
+      "1.2": [
+       2,
+       -1.5,
+       0
+      ],
+      "1.6": [
+       4,
+       1.5,
+       0
+      ],
+      "2": [
+       2,
+       -1.5,
+       0
+      ],
+      "2.4": [
+       4,
+       1.5,
+       0
+      ],
+      "2.8": [
+       3,
+       0,
+       0
+      ],
+      "3.2": {
+       "vector": [
+        0,
+        0,
+        0
+       ],
+       "easing": "easeInOutSine"
+      }
+     }
+    },
+    "jaw": {
+     "rotation": {
+      "0.0": [
+       22,
+       0,
+       0
+      ],
+      "0.15": {
+       "vector": [
+        40,
+        0,
+        0
+       ],
+       "easing": "easeOutBack"
+      },
+      "1": [
+       36,
+       0,
+       0
+      ],
+      "2": [
+       39,
+       0,
+       0
+      ],
+      "2.8": [
+       36,
+       0,
+       0
+      ],
+      "3.2": {
+       "vector": [
+        0,
+        0,
+        0
+       ],
+       "easing": "easeInOutSine"
+      }
+     }
+    }
+   },
+   "devilfruits:fade_in": 1,
+   "devilfruits:fade_out": 6
+  },
+  "animation.dragon.bolo_breath": {
+   "loop": false,
+   "animation_length": 1.5,
+   "bones": {
+    "head": {
+     "rotation": {
+      "0.0": [
+       0,
+       0,
+       0
+      ],
+      "0.6": {
+       "vector": [
+        -20,
+        0,
+        0
+       ],
+       "easing": "easeOutQuad"
+      },
+      "1.5": [
+       -24,
+       0,
+       0
+      ]
+     }
+    },
+    "jaw": {
+     "rotation": {
+      "0.0": [
+       0,
+       0,
+       0
+      ],
+      "0.7": {
+       "vector": [
+        16,
+        0,
+        0
+       ],
+       "easing": "easeOutQuad"
+      },
+      "1.5": [
+       24,
+       0,
+       0
+      ]
+     }
+    }
+   },
+   "devilfruits:fade_in": 3,
+   "devilfruits:fade_out": 5
+  },
+  "animation.dragon.bolo_breath_release": {
+   "loop": false,
+   "animation_length": 1.4,
+   "bones": {
+    "head": {
+     "rotation": {
+      "0.0": [
+       -24,
+       0,
+       0
+      ],
+      "0.2": {
+       "vector": [
+        -48,
+        0,
+        0
+       ],
+       "easing": "easeOutBack"
+      },
+      "0.4": [
+       -40,
+       0,
+       0
+      ],
+      "0.6": [
+       -46,
+       0,
+       0
+      ],
+      "0.8": [
+       -40,
+       0,
+       0
+      ],
+      "1.4": {
+       "vector": [
+        0,
+        0,
+        0
+       ],
+       "easing": "easeInOutSine"
+      }
+     }
+    },
+    "jaw": {
+     "rotation": {
+      "0.0": [
+       24,
+       0,
+       0
+      ],
+      "0.15": {
+       "vector": [
+        46,
+        0,
+        0
+       ],
+       "easing": "easeOutBack"
+      },
+      "0.8": [
+       40,
+       0,
+       0
+      ],
+      "1.2": {
+       "vector": [
+        0,
+        0,
+        0
+       ],
+       "easing": "easeInOutSine"
+      }
+     }
+    }
+   },
+   "devilfruits:fade_in": 1,
+   "devilfruits:fade_out": 5
+  },
+  "animation.dragon.roar": {
+   "loop": false,
+   "animation_length": 1.8,
+   "bones": {
+    "head": {
+     "rotation": {
+      "0.0": [
+       0,
+       0,
+       0
+      ],
+      "0.3": {
+       "vector": [
+        -28,
+        0,
+        0
+       ],
+       "easing": "easeOutQuad"
+      },
+      "0.45": {
+       "vector": [
+        10,
+        0,
+        0
+       ],
+       "easing": "easeOutBack"
+      },
+      "0.6": [
+       8,
+       4,
+       0
+      ],
+      "0.75": [
+       10,
+       -4,
+       0
+      ],
+      "0.9": [
+       8,
+       4,
+       0
+      ],
+      "1.05": [
+       10,
+       -4,
+       0
+      ],
+      "1.2": [
+       8,
+       2,
+       0
+      ],
+      "1.8": {
+       "vector": [
+        0,
+        0,
+        0
+       ],
+       "easing": "easeInOutSine"
+      }
+     }
+    },
+    "jaw": {
+     "rotation": {
+      "0.0": [
+       0,
+       0,
+       0
+      ],
+      "0.3": [
+       12,
+       0,
+       0
+      ],
+      "0.45": {
+       "vector": [
+        52,
+        0,
+        0
+       ],
+       "easing": "easeOutBack"
+      },
+      "1.3": [
+       46,
+       0,
+       0
+      ],
+      "1.7": {
+       "vector": [
+        0,
+        0,
+        0
+       ],
+       "easing": "easeInOutSine"
+      }
+     }
+    }
+   },
+   "devilfruits:fade_in": 2,
+   "devilfruits:fade_out": 5
+  },
+  "animation.dragon.thunder_storm": {
+   "loop": false,
+   "animation_length": 2.3,
+   "bones": {
+    "head": {
+     "rotation": {
+      "0.0": [
+       0,
+       0,
+       0
+      ],
+      "0.5": {
+       "vector": [
+        -55,
+        0,
+        0
+       ],
+       "easing": "easeOutQuad"
+      },
+      "0.7": [
+       -48,
+       0,
+       0
+      ],
+      "0.9": [
+       -54,
+       3,
+       0
+      ],
+      "1.1": [
+       -50,
+       -3,
+       0
+      ],
+      "1.6": [
+       -52,
+       0,
+       0
+      ],
+      "2.3": {
+       "vector": [
+        0,
+        0,
+        0
+       ],
+       "easing": "easeInOutSine"
+      }
+     }
+    },
+    "jaw": {
+     "rotation": {
+      "0.0": [
+       0,
+       0,
+       0
+      ],
+      "0.5": [
+       20,
+       0,
+       0
+      ],
+      "0.7": {
+       "vector": [
+        50,
+        0,
+        0
+       ],
+       "easing": "easeOutBack"
+      },
+      "1.6": [
+       44,
+       0,
+       0
+      ],
+      "2.1": {
+       "vector": [
+        0,
+        0,
+        0
+       ],
+       "easing": "easeInOutSine"
+      }
+     }
+    }
+   },
+   "devilfruits:fade_in": 2,
+   "devilfruits:fade_out": 6
+  },
+  "animation.dragon.dragon_twister": {
+   "loop": true,
+   "animation_length": 1.0,
+   "bones": {
+    "head": {
+     "rotation": {
+      "0.0": [
+       -6,
+       0,
+       8
+      ],
+      "0.5": {
+       "vector": [
+        -6,
+        0,
+        -8
+       ],
+       "easing": "easeInOutSine"
+      },
+      "1": {
+       "vector": [
+        -6,
+        0,
+        8
+       ],
+       "easing": "easeInOutSine"
+      }
+     }
+    },
+    "jaw": {
+     "rotation": {
+      "0.0": [
+       14,
+       0,
+       0
+      ],
+      "0.5": {
+       "vector": [
+        22,
+        0,
+        0
+       ],
+       "easing": "easeInOutSine"
+      },
+      "1": {
+       "vector": [
+        14,
+        0,
+        0
+       ],
+       "easing": "easeInOutSine"
+      }
+     }
+    }
+   },
+   "devilfruits:fade_in": 4,
+   "devilfruits:fade_out": 6
+  },
+  "animation.dragon.tail_whip": {
+   "loop": false,
+   "animation_length": 1.3,
+   "bones": {
+    "head": {
+     "rotation": {
+      "0.0": [
+       0,
+       0,
+       0
+      ],
+      "0.2": {
+       "vector": [
+        -12,
+        0,
+        0
+       ],
+       "easing": "easeOutQuad"
+      },
+      "0.5": {
+       "vector": [
+        6,
+        0,
+        0
+       ],
+       "easing": "easeOutBack"
+      },
+      "1.3": {
+       "vector": [
+        0,
+        0,
+        0
+       ],
+       "easing": "easeInOutSine"
+      }
+     }
+    },
+    "jaw": {
+     "rotation": {
+      "0.0": [
+       0,
+       0,
+       0
+      ],
+      "0.2": {
+       "vector": [
+        26,
+        0,
+        0
+       ],
+       "easing": "easeOutQuad"
+      },
+      "0.5": [
+       8,
+       0,
+       0
+      ],
+      "1": {
+       "vector": [
+        0,
+        0,
+        0
+       ],
+       "easing": "easeInOutSine"
+      }
+     }
+    }
+   },
+   "devilfruits:fade_in": 2,
+   "devilfruits:fade_out": 5
+  },
+  "animation.dragon.coil_crush": {
+   "loop": false,
+   "animation_length": 3.0,
+   "bones": {
+    "head": {
+     "rotation": {
+      "0.0": [
+       0,
+       0,
+       0
+      ],
+      "0.3": {
+       "vector": [
+        14,
+        0,
+        0
+       ],
+       "easing": "easeOutQuad"
+      },
+      "2.6": [
+       12,
+       0,
+       0
+      ],
+      "3": {
+       "vector": [
+        0,
+        0,
+        0
+       ],
+       "easing": "easeInOutSine"
+      }
+     }
+    },
+    "jaw": {
+     "rotation": {
+      "0.0": [
+       0,
+       0,
+       0
+      ],
+      "0.3": {
+       "vector": [
+        30,
+        0,
+        0
+       ],
+       "easing": "easeOutQuad"
+      },
+      "0.5": {
+       "vector": [
+        4,
+        0,
+        0
+       ],
+       "easing": "easeInQuad"
+      },
+      "1": {
+       "vector": [
+        28,
+        0,
+        0
+       ],
+       "easing": "easeOutQuad"
+      },
+      "1.2": {
+       "vector": [
+        4,
+        0,
+        0
+       ],
+       "easing": "easeInQuad"
+      },
+      "1.7": {
+       "vector": [
+        28,
+        0,
+        0
+       ],
+       "easing": "easeOutQuad"
+      },
+      "1.9": {
+       "vector": [
+        4,
+        0,
+        0
+       ],
+       "easing": "easeInQuad"
+      },
+      "2.4": {
+       "vector": [
+        28,
+        0,
+        0
+       ],
+       "easing": "easeOutQuad"
+      },
+      "2.6": {
+       "vector": [
+        4,
+        0,
+        0
+       ],
+       "easing": "easeInQuad"
+      },
+      "3": [
+       0,
+       0,
+       0
+      ]
+     }
+    }
+   },
+   "devilfruits:fade_in": 3,
+   "devilfruits:fade_out": 6
+  }
+ }
+}

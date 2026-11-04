@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "ate_fruit": {
+      "conditions": {
+        "fruit": "devilfruits:yomi_yomi"
+      },
+      "trigger": "devilfruits:ate_fruit"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/soul_soil.png",
+    "description": {
+      "translate": "advancements.devilfruits.yomi_yomi.revive_revive.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:yomi_yomi_no_mi"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.yomi_yomi.revive_revive.title"
+    }
+  },
+  "requirements": [
+    [
+      "ate_fruit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

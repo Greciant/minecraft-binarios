@@ -1,0 +1,39 @@
+{
+  "parent": "awakened:obtain_siege_altar",
+  "display": {
+    "icon": {
+      "id": "awakened:cordon_core"
+    },
+    "title": {
+      "translate": "advancement.awakened.defeat_leviathan.title"
+    },
+    "description": {
+      "translate": "advancement.awakened.defeat_leviathan.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_leviathan": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "awakened:leviathan"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_leviathan"
+    ]
+  ]
+}

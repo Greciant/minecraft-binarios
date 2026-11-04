@@ -1,0 +1,40 @@
+{
+  "parent": "awakened:awakened/unlock_ability",
+  "display": {
+    "icon": {
+      "id": "awakened:catalyst"
+    },
+    "title": {
+      "translate": "advancement.awakened.defeat_overseer.title"
+    },
+    "description": {
+      "translate": "advancement.awakened.defeat_overseer.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  },
+  "criteria": {
+    "kill_overseer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "awakened:overseer"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_overseer"
+    ]
+  ]
+}

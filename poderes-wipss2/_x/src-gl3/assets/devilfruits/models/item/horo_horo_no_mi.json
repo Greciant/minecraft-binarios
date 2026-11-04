@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "devilfruits:item/fruit/horo_horo/horo_horo_no_mi"
+  }
+}

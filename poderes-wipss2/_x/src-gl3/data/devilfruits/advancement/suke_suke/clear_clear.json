@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "ate_fruit": {
+      "conditions": {
+        "fruit": "devilfruits:suke_suke"
+      },
+      "trigger": "devilfruits:ate_fruit"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/light_blue_stained_glass.png",
+    "description": {
+      "translate": "advancements.devilfruits.suke_suke.clear_clear.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:suke_suke_no_mi"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.suke_suke.clear_clear.title"
+    }
+  },
+  "requirements": [
+    [
+      "ate_fruit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

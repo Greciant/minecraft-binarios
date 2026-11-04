@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:suke_suke/clear_clear",
+  "criteria": {
+    "shared": {
+      "trigger": "devilfruits:suke_suke/shared"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.suke_suke.shared.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:suke_suke/group_invisibility"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.suke_suke.shared.title"
+    }
+  },
+  "requirements": [
+    [
+      "shared"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

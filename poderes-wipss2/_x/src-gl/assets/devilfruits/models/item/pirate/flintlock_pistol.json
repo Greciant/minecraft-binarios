@@ -1,0 +1,41 @@
+{
+ "loader": "neoforge:separate_transforms",
+ "gui_light": "side",
+ "textures": {
+  "particle": "devilfruits:item/pirate/flintlock_pistol"
+ },
+ "base": {
+  "parent": "devilfruits:item/pirate/3d/flintlock_pistol"
+ },
+ "perspectives": {
+  "gui": {
+   "parent": "devilfruits:item/pirate/gui/flintlock_pistol"
+  }
+ },
+ "overrides": [
+  {
+   "predicate": {
+    "devilfruits:loaded": 1
+   },
+   "model": "devilfruits:item/pirate/state/flintlock_pistol_loaded"
+  },
+  {
+   "predicate": {
+    "devilfruits:reload": 0.25
+   },
+   "model": "devilfruits:item/pirate/state/flintlock_pistol_half_open"
+  },
+  {
+   "predicate": {
+    "devilfruits:reload": 0.5
+   },
+   "model": "devilfruits:item/pirate/state/flintlock_pistol_half_closed"
+  },
+  {
+   "predicate": {
+    "devilfruits:reload": 0.75
+   },
+   "model": "devilfruits:item/pirate/state/flintlock_pistol_ramrod_out"
+  }
+ ]
+}

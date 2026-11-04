@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "awakened:block/challenge_post_top",
+    "side": "awakened:block/challenge_post_side"
+  }
+}

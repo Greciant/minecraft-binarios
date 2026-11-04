@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.naw.scrollwalk.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "scrollwalk.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MouseMixin",
+    "PlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "ate_fruit": {
+      "conditions": {
+        "fruit": "devilfruits:supa_supa"
+      },
+      "trigger": "devilfruits:ate_fruit"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/iron_block.png",
+    "description": {
+      "translate": "advancements.devilfruits.supa_supa.blade_blade.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:supa_supa_no_mi"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.supa_supa.blade_blade.title"
+    }
+  },
+  "requirements": [
+    [
+      "ate_fruit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

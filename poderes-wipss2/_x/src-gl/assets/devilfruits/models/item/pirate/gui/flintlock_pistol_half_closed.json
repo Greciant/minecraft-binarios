@@ -1,0 +1,22 @@
+{
+ "parent": "devilfruits:item/pirate/3d/flintlock_pistol_half_closed",
+ "display": {
+  "gui": {
+   "rotation": [
+    16.342,
+    4.352,
+    21.332
+   ],
+   "translation": [
+    3.73,
+    2.762,
+    0.388
+   ],
+   "scale": [
+    0.7861,
+    0.7861,
+    0.7861
+   ]
+  }
+ }
+}

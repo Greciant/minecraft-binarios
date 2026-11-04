@@ -1,0 +1,36 @@
+{
+  "parent": "devilfruits:yomi_yomi/revive_revive",
+  "criteria": {
+    "max_mastery": {
+      "conditions": {
+        "fruit": "devilfruits:yomi_yomi"
+      },
+      "trigger": "devilfruits:max_mastery"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.yomi_yomi.soul_king.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:yomi_yomi/soul_king"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.yomi_yomi.soul_king.title"
+    }
+  },
+  "requirements": [
+    [
+      "max_mastery"
+    ]
+  ],
+  "rewards": {
+    "experience": 300
+  },
+  "sends_telemetry_event": true
+}

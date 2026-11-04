@@ -1,0 +1,15 @@
+{
+ "loader": "neoforge:separate_transforms",
+ "gui_light": "side",
+ "textures": {
+  "particle": "devilfruits:item/seastone/jitte"
+ },
+ "base": {
+  "parent": "devilfruits:item/seastone/3d/jitte"
+ },
+ "perspectives": {
+  "gui": {
+   "parent": "devilfruits:item/seastone/gui/jitte"
+  }
+ }
+}

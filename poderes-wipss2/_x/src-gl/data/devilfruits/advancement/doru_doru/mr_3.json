@@ -1,0 +1,33 @@
+{
+  "parent": "devilfruits:doru_doru/champion",
+  "criteria": {
+    "max_mastery": {
+      "conditions": {
+        "fruit": "devilfruits:doru_doru"
+      },
+      "trigger": "devilfruits:max_mastery"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.doru_doru.mr_3.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:candle"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.doru_doru.mr_3.title"
+    }
+  },
+  "requirements": [
+    [
+      "max_mastery"
+    ]
+  ],
+  "rewards": {
+    "experience": 300
+  },
+  "sends_telemetry_event": true
+}

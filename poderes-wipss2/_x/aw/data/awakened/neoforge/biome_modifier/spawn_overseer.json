@@ -1,0 +1,19 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#minecraft:is_overworld",
+      {
+        "type": "neoforge:not",
+        "value": "#c:no_default_monsters"
+      }
+    ]
+  },
+  "spawners": {
+    "type": "awakened:overseer",
+    "weight": 2,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

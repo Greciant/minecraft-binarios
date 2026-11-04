@@ -1,0 +1,25 @@
+{
+  "type": "devilfruits:knowledge_shaped",
+  "knowledge": "devilfruits:seastone_weapons",
+  "category": "equipment",
+  "key": {
+    "N": {
+      "item": "devilfruits:seastone_nugget"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    }
+  },
+  "pattern": [
+    "N",
+    "S",
+    "F"
+  ],
+  "result": {
+    "count": 4,
+    "id": "devilfruits:seastone_arrow"
+  }
+}

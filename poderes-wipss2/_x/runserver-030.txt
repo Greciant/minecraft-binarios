@@ -1,0 +1,142 @@
+> Task :createMinecraftArtifacts UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :generateModMetadata UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :downloadAssets UP-TO-DATE
+> Task :writeServerLegacyClasspath UP-TO-DATE
+> Task :prepareServerRun UP-TO-DATE
+
+> Task :runServer
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[01:56:54] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.44, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.252, --fml.neoFormVersion, 20240808.144430, --nogui]
+[01:56:54] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.12.1+1-1-26.04.4-Ubuntu
+[01:56:54] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12.1 by Ubuntu; OS Linux arch amd64 version 7.0.0-42-generic
+[01:56:54] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[01:56:54] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/home/grec/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[01:56:54] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[01:56:54] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Awakened 1.23.0 (awakened)
+		Curios API 9.5.1+1.21.1 (curios)
+		Grand Line 0.3.0 (devilfruits)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.252 (neoforge)
+		WIP Powers 1.1.0 (wipspowers)
+[01:56:55] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[01:56:55] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, ., --nogui]
+[01:56:55] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:56:55] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:56:56] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[01:57:00] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:57:00] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:57:00] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:57:00] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:57:00] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:57:00] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.252, for MC 1.21.1
+[01:57:00] [modloading-worker-0/INFO] [co.aw.aw.Awakened/]: Loading awakened
+[01:57:01] [modloading-sync-worker/INFO] [co.de.DevilFruits/]: devilfruits:yomi_yomi: config updated from revision 0 to 1
+[01:57:01] [modloading-sync-worker/INFO] [co.de.DevilFruits/]: devilfruits:gomu_gomu: config updated from revision 0 to 1
+[01:57:01] [modloading-worker-0/INFO] [co.de.DevilFruits/]: Physics structures: Sable not installed, structure synergy off
+[01:57:01] [modloading-sync-worker/INFO] [co.aw.aw.Awakened/]: Ability balance-override keys (abilities.damageOverrides, abilities.staminaOverrides):
+  ArchEvokerStaffFangs  (archevoker_staff)
+  BackdraftAbility  (pyrokinetic)
+  BarrageAbility  (pyrokinetic)
+  BlastBreath  (seiryuu)
+  BoloBarrage  (seiryuu)
+  BoulderThrowAbility  (gamma)
+  ClamberSeizeAbility  (scaler)
+  CommandAbility  (summoning)
+  CradleOfRootsAbility  (phytokinetic)
+  DenseAbility  (graviton)
+  DraconicThunder  (seiryuu)
+  EventHorizonAbility  (graviton)
+  ExosavantWarhammerCleave  (exosavant_warhammer)
+  ExosavantWarhammerSlam  (exosavant_warhammer)
+  FireJetsAbility  (pyrokinetic)
+  FireballAbility  (pyrokinetic)
+  FlameBeamAbility  (pyrokinetic)
+  FlameCloud  (seiryuu)
+  FullReleaseAbility  (kinetic_charger)
+  GeyserAbility  (hydrokinetic)
+  GravityWellAbility  (graviton)
+  HeavyHandAbility  (graviton)
+  HitchStompAbility  (scaler)
+  IaiBladeDash  (iai_blade)
+  ImpactStrikeAbility  (kinetic_charger)
+  IslandShaker  (gamma)
+  IvyWrapAbility  (phytokinetic)
+  KineticThrowAbility  (kinetic_charger)
+  LifeGraftAbility  (phytokinetic)
+  LightningStrikeAbility  (storm_caller)
+  MassControlShockwave  (graviton)
+  MassLeapAbility  (scaler)
+  MassRaiseAbility  (summoning)
+  OverdriveAbility  (velocity)
+  PhasingAbility  (velocity)
+  PossessAbility  (summoning)
+  ProvokeAbility  (gamma)
+  RagdollSlamAbility  (gamma)
+  ReaperScytheReap  (reaper_scythe)
+  RecallAbility  (summoning)
+  RecoilShotAbility  (kinetic_charger)
+  RuinBreachAbility  (ruin)
+  RuinCollapseAbility  (ruin)
+  RuinDecay  (ruin)
+  RuinGripAbility  (ruin)
+  RuinRushAbility  (ruin)
+  RuinSpreadAbility  (ruin)
+  RuptureKickAbility  (kinetic_charger)
+  ScaleRayAbility  (scaler)
+  SizeChangeAbility  (scaler)
+  SmashLeapAbility  (gamma)
+  SpeedTunnelAbility  (velocity)
+  StaticBoltAbility  (velocity)
+  SummonAbility  (summoning)
+  SunflowerFieldAbility  (phytokinetic)
+  TempestAbility  (storm_caller)
+  TeslaBeamAbility  (storm_caller)
+  ThunderBagua  (seiryuu)
+  ThunderfallAbility  (storm_caller)
+  TideHookAbility  (hydrokinetic)
+  TimelessAbility  (velocity)
+  TsunamiAbility  (hydrokinetic)
+  UpdraftAbility  (storm_caller)
+  VerdictChainWhirl  (verdict_chain)
+  VineGrappleAbility  (phytokinetic)
+  WaterLanceAbility  (hydrokinetic)
+  WaveRiderAbility  (hydrokinetic)
+  WeightlessAbility  (graviton)
+
+[01:57:01] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:57:01] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/home/grec/Minecraft/desarrollo/mods-propios/poderes-wipss2/proyecto/build/moddev/artifacts/neoforge-21.1.252.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[01:57:01] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/home/grec/Minecraft/desarrollo/mods-propios/poderes-wipss2/proyecto/build/moddev/artifacts/neoforge-21.1.252.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[01:57:01] [main/INFO] [minecraft/Main]: No existing world data, creating new world
+[01:57:02] [main/INFO] [minecraft/RecipeManager]: Loaded 1368 recipes
+[01:57:02] [main/INFO] [minecraft/AdvancementTree]: Loaded 1538 advancements
+[01:57:02] [main/INFO] [Curios API/]: Loaded 12 curio slots
+[01:57:02] [main/INFO] [Curios API/]: Loaded 1 curio entities
+[01:57:02] [main/INFO] [co.de.DevilFruits/]: Loaded 5 poneglyph definitions
+[01:57:02] [main/INFO] [co.de.DevilFruits/]: Loaded 5 knowledge definitions
+[01:57:02] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.21.1
+[01:57:02] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[01:57:02] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
+[01:57:02] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[01:57:02] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on *:25565
+[01:57:02] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using epoll channel type
+[01:57:02] [Server thread/WARN] [minecraft/DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:57:02] [Server thread/WARN] [minecraft/DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[01:57:02] [Server thread/WARN] [minecraft/DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:57:02] [Server thread/WARN] [minecraft/DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:57:02] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[01:57:04] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[01:57:04] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[01:57:05] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[01:57:05] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 18%
+[01:57:06] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 51%
+[01:57:06] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 1928 ms
+[01:57:06] [Server thread/INFO] [minecraft/DedicatedServer]: Done (4.102s)! For help, type "help"
+[01:57:06] [Server thread/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: []
+[01:57:06] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler

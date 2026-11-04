@@ -1,0 +1,107 @@
+PRUEBA EN EL PC - port Ecstatic Forge 1.20.1                    05-oct-2026
+=============================================================================
+En el portatil NO se prueba en juego (no aguanta la carga grafica). Esto es lo
+que tiene que hacer la sesion del PC. El mod es OPCIONAL: no va al .bat ni al
+servidor.
+
+QUE SE PRUEBA
+  Jar:   ecstatic-1.4.1-forge1.20.1-port.jar   (~430 KB, lleva MixinExtras dentro)
+         (NO el "-slim": ese no trae MixinExtras)
+  Origen en el portatil:
+         ~/Minecraft/desarrollo/mods-propios/ecstatic-forge-1.20.1/build/libs/
+  Lado:  solo CLIENTE y solo UN JUGADOR (servidor integrado). En un servidor
+         (multijugador) el mod no dibuja nada: necesita el servidor integrado
+         para leer la semilla y el generador.
+
+-----------------------------------------------------------------------------
+A) PRUEBA 1 - runClient solo con el mod (lo mas limpio)
+-----------------------------------------------------------------------------
+ 1. Copiar al PC la carpeta del proyecto ecstatic-forge-1.20.1 SIN build/,
+    run/, .gradle/ (si viene build/ no pasa nada). Hace falta JDK 17 o 21.
+    En el portatil gradle.properties fija org.gradle.java.home a
+    /usr/lib/jvm/java-21-openjdk-amd64: en Windows BORRAR esa linea (o
+    cambiarla a la ruta del JDK del PC).
+ 2. En la carpeta del proyecto (cmd/PowerShell):
+        gradlew.bat runClient --no-daemon
+    runClient ya pasa -Decstatic.autotest=true (para apagarlo:
+    -Pautotest=false). El AutoTest:
+      - en la pantalla de titulo crea un mundo NUEVO, normal (vanilla),
+        creativo, semilla fija 20261005, sin ciclo dia/noche ni clima;
+      - a los 5 s pone mediodia, modo espectador y sube al jugador a y=220;
+      - espera a que el numero de mallas LOD deje de crecer (min. 60 s,
+        max. 6 min), registrando cada 10 s "[autotest] t=..s fps=.. meshes=..";
+      - saca capturas mirando al horizonte en 4 direcciones;
+      - mide FPS 10 s con LOD y 10 s con el LOD apagado;
+      - baja cerca del suelo, saca otra captura y cierra el juego (mc.stop()).
+    Dura unos 2-8 minutos. Usar render distance 12 (la de runClient).
+ 3. Resultados:
+      run/screenshots/ectest-0-cargando.png
+      run/screenshots/ectest-1-horizonte-yaw0.png  (y yaw90, yaw180, yaw270)
+      run/screenshots/ectest-2-sin-lod-yaw0.png    (mismo encuadre SIN LOD)
+      run/screenshots/ectest-3-cerca-del-suelo.png
+      run/logs/latest.log   -> buscar "[autotest]" y "Ecstatic"
+
+ QUE MIRAR
+  - Capturas 1-horizonte: mas alla de los chunks normales (12) tiene que
+    verse terreno lejano (montanas, costas, oceano, arboles simplificados)
+    hasta muy lejos, con niebla suave. Comparar con 2-sin-lod: ahi el mundo
+    acaba en el borde de los 12 chunks. Si 1 y 2 se ven iguales -> el LOD
+    no se dibuja (fallo).
+  - Que el LOD no "flote" ni este desplazado/rotado respecto al terreno real
+    al girar (yaw 0/90/180/270): si los cerros lejanos giran raro o se ven
+    al reves, el fallo es la matriz de camara (ForgeClientRenderEvents usa
+    event.getPoseStack() en vez del getModelViewMatrix de NeoForge).
+  - Sin parches negros/rosas, sin triangulos estirados hacia el infinito
+    (eso seria orden de elementos de vertice mal en BufferBuilderVertexSink).
+  - Agua lejana azul y algo transparente; nubes extendidas mas alla de las
+    normales.
+  - 3-cerca-del-suelo: transicion razonable entre chunks reales y LOD.
+  - En el log:
+      "Ecstatic renderer: client render distance=12 ..."         (arranco)
+      "Ecstatic sampled region (x, z) at LODn"                    (genera)
+      "[autotest] LOD listo tras Ns (estable=true)"
+      "[autotest] FPS con LOD: media X ... LodRenderer.render = Y ms/frame"
+      "[autotest] FPS sin LOD: media Z ... diferencia W%"
+    Ningun "Exception"/"ERROR" con "ecstatic" ni "failed to load the ...
+    shader". Los WARN "Shader ecstatic_... could not find uniform named
+    FogColor/GameTime" son normales (el GLSL quita uniformes no usados).
+  - Anotar FPS con/sin LOD y el ms/frame.
+
+-----------------------------------------------------------------------------
+B) PRUEBA 2 - con Embeddium + Oculus (-PconMods)
+-----------------------------------------------------------------------------
+ 1. libs-test/ ya trae embeddium-0.3.31+mc1.20.1.jar y
+    oculus-mc1.20.1-1.8.0.jar (copiados de ~/Minecraft/mods/pool-1.20.1, los
+    mismos del pack). Si faltan, copiarlos de la carpeta mods del Prism
+    WIP-Cliente-para-PC a libs-test/.
+ 2. Borrar run/saves/ectest* y run/screenshots/ (o renombrarlas) para no
+    mezclar resultados, y:
+        gradlew.bat runClient -PconMods --no-daemon
+ 3. Mirar lo mismo que en A. Ademas:
+    - sin shaderpack: el LOD tiene que verse igual que en A (Embeddium
+      dibuja los chunks normales, Ecstatic lo lejano);
+    - con shaderpack (opcional, a mano: meter p.ej. BSL en run/shaderpacks y
+      activarlo, repetir): el autor ORIGINAL avisa que con shaders fallan el
+      bamboleo de camara, el fundido, los arboles y la transparencia. Solo
+      comprobar que no crashea. IrisCompat se verifico contra las clases de
+      Oculus 1.8.0 (net.irisshaders.iris.*) y los nombres coinciden.
+
+-----------------------------------------------------------------------------
+C) (Opcional) En Prism con el pack completo
+-----------------------------------------------------------------------------
+ - Hacer una COPIA de la instancia (no tocar WIP-Cliente-para-PC), poner el
+   jar en mods/ y QUITAR DistantHorizons-3.3.2 de la copia (dos LOD a la vez
+   se pisan y no sirve de comparacion).
+ - Ajustes de la instancia -> Java -> argumentos JVM:  -Decstatic.autotest=true
+   (crea su propio mundo nuevo; sin el argumento el mod funciona normal).
+ - Ojo: con Tectonic/Lithosphere el mundo "normal" usa su generacion. El
+   README del autor dice que Tectonic es compatible (usa el ruido real) y que
+   los mods con biomas nuevos (Terralith, etc.) pueden salir con colores o
+   arboles equivocados de lejos. Esperar diferencias, no es fallo del port.
+ - El AutoTest espera a que haya mallas; con el pack la primera carga puede
+   tardar mucho. Capturas en <instancia>/minecraft/screenshots/ectest-*.png.
+ - Recordar: solo funciona en UN JUGADOR, no en el servidor.
+
+Teclas del mod (por si se prueba a mano): F4 ajustes, F6 estilo de biomas;
+F7-F10 son de depuracion (solo con "Enable debug keys" en los ajustes).
+Datos LOD: <mundo>/ecstatic/minecraft_overworld/. Config: config/ecstatic/.

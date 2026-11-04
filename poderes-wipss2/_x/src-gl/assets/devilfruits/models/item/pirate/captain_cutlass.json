@@ -1,0 +1,15 @@
+{
+ "loader": "neoforge:separate_transforms",
+ "gui_light": "side",
+ "textures": {
+  "particle": "devilfruits:item/pirate/captain_cutlass"
+ },
+ "base": {
+  "parent": "devilfruits:item/pirate/3d/captain_cutlass"
+ },
+ "perspectives": {
+  "gui": {
+   "parent": "devilfruits:item/pirate/gui/captain_cutlass"
+  }
+ }
+}

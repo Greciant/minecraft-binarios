@@ -1,0 +1,156 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "devilfruits:block/decipher_desk/base"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "book": "true"
+      },
+      "apply": {
+        "model": "devilfruits:block/decipher_desk/book"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "sheet": "encrypted"
+      },
+      "apply": {
+        "model": "devilfruits:block/decipher_desk/paper_encrypted"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "sheet": "deciphered"
+      },
+      "apply": {
+        "model": "devilfruits:block/decipher_desk/paper_deciphered"
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "devilfruits:block/decipher_desk/base",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "book": "true"
+      },
+      "apply": {
+        "model": "devilfruits:block/decipher_desk/book",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "sheet": "encrypted"
+      },
+      "apply": {
+        "model": "devilfruits:block/decipher_desk/paper_encrypted",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "sheet": "deciphered"
+      },
+      "apply": {
+        "model": "devilfruits:block/decipher_desk/paper_deciphered",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "devilfruits:block/decipher_desk/base",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "book": "true"
+      },
+      "apply": {
+        "model": "devilfruits:block/decipher_desk/book",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "sheet": "encrypted"
+      },
+      "apply": {
+        "model": "devilfruits:block/decipher_desk/paper_encrypted",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "sheet": "deciphered"
+      },
+      "apply": {
+        "model": "devilfruits:block/decipher_desk/paper_deciphered",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "devilfruits:block/decipher_desk/base",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "book": "true"
+      },
+      "apply": {
+        "model": "devilfruits:block/decipher_desk/book",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "sheet": "encrypted"
+      },
+      "apply": {
+        "model": "devilfruits:block/decipher_desk/paper_encrypted",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "sheet": "deciphered"
+      },
+      "apply": {
+        "model": "devilfruits:block/decipher_desk/paper_deciphered",
+        "y": 270
+      }
+    }
+  ]
+}

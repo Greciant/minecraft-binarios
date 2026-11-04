@@ -1,0 +1,15 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.devilfruits.compat.sable.mixin",
+  "plugin": "com.devilfruits.compat.sable.mixin.SableMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CreateContraptionVisualMixin",
+    "FlywheelEmbeddingMixin",
+    "SubLevelDispatcherMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

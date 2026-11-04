@@ -1,0 +1,29 @@
+{
+  "parent": "devilfruits:kage_kage/scissors",
+  "criteria": {
+    "shadow_taken": {
+      "trigger": "devilfruits:kage_kage/shadow_taken"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.kage_kage.snip.description"
+    },
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:kage_kage/shadow_collection"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.kage_kage.snip.title"
+    }
+  },
+  "requirements": [
+    [
+      "shadow_taken"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

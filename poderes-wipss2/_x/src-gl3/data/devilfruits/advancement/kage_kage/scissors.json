@@ -1,0 +1,33 @@
+{
+  "parent": "devilfruits:kage_kage/shadow_shadow",
+  "criteria": {
+    "has_scissors": {
+      "conditions": {
+        "items": [
+          {
+            "items": "devilfruits:moria_scissors"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.kage_kage.scissors.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:moria_scissors"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.kage_kage.scissors.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_scissors"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

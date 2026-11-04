@@ -1,0 +1,33 @@
+{
+  "parent": "devilfruits:bomu_bomu/bomb_pistol",
+  "criteria": {
+    "max_mastery": {
+      "conditions": {
+        "fruit": "devilfruits:bomu_bomu"
+      },
+      "trigger": "devilfruits:max_mastery"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.bomu_bomu.mr_5.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:fire_charge"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.bomu_bomu.mr_5.title"
+    }
+  },
+  "requirements": [
+    [
+      "max_mastery"
+    ]
+  ],
+  "rewards": {
+    "experience": 300
+  },
+  "sends_telemetry_event": true
+}

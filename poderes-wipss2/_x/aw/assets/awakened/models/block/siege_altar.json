@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "awakened:block/siege_altar_top",
+    "side": "awakened:block/siege_altar_side"
+  }
+}

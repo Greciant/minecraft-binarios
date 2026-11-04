@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#minecraft:is_beach",
+    "#minecraft:is_jungle",
+    "#minecraft:is_forest",
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:savanna",
+    "minecraft:meadow",
+    "minecraft:mushroom_fields",
+    "minecraft:stony_shore"
+  ]
+}

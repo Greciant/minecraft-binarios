@@ -1,0 +1,4 @@
+﻿Touch'n Motion final (18-oct-2026, probado en el PC)
+mods\: touch_n_motion 1.0.4, emf_compat_core 2.3.2, emf_compat_not_enough_animations 1.2.1, beyondtheabyss-0.0.11 PARCHEADO (jar modificado: cachea MixinPlayerModel.root(); sin esto EMF desactiva el modelo del jugador. NO usar el original; el original esta en _backups_modpack).
+resourcepacks\: FA+Player-v1.1.zip (activarlo, requiere Entity Model Features).
+Solo cliente. Punchy 2.8b sigue instalado y es compatible. No se pudieron confirmar visualmente los gestos en capturas, pero no hay errores de EMF.

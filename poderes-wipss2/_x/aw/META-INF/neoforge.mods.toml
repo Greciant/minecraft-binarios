@@ -1,0 +1,44 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mixins]]
+config="awakened.mixins.json"
+
+[[mods]]
+modId="awakened"
+version="1.23.0"
+displayName="Awakened"
+logoFile="logo.png"
+logoBlur=false
+description='''
+Awaken a random superpower in a life-threatening moment, then grow into it.
+'''
+
+[[dependencies.awakened]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.219,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.awakened]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21,1.21.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.awakened]]
+    modId="player_animation_library"
+    type="required"
+    versionRange="[1.0,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.awakened]]
+    modId="curios"
+    type="required"
+    versionRange="[9,)"
+    ordering="AFTER"
+    side="BOTH"

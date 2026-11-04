@@ -1,0 +1,74 @@
+9-PORTS - ports propios a Forge 1.20.1                     4-oct-2026
+=====================================================================
+
+QUE HACER
+  Cierra Minecraft y doble clic en ACTUALIZAR-PORTS.bat
+  Al final tienen que quedar 289 jars en mods\.
+
+QUE SE AGREGA (cliente y servidor; el servidor real ya los tiene)
+  ancient_remnants-1.3.1-forge1.20.1-port.jar   Monoliths (Obscuria)
+  timeless_echoes-0.5-forge1.20.1-port.jar      Timeless Echoes (wdiscute)
+  noblephantasms-1.0.0-forge1.20.1-port.jar     Noble Phantasms
+  archaion-1.4.3-forge1.20.1-port.jar           Archaion (UnanimousVoid)
+  aaa_particles-forge-1.20.1-2.2.3.jar          lo necesita Archaion
+  Detalle de cada uno en ..\8-KEO\LEEME.txt.
+
+  Uso personal: Archaion (permiso del autor) y Monoliths (licencia
+  Obscuria) no se pueden compartir fuera de este servidor.
+
+  Las estructuras nuevas (monolitos, portal de Echoes, fortaleza de
+  Archaion) solo aparecen en chunks que aun no se exploraron.
+
+PROBADO
+  - Cliente con el pack completo en Prism: sin crash ni errores.
+  - Copia del servidor con una copia de tu mundo real: arranca, guarda y
+    se apaga sin errores nuevos.
+
+QUE SE AGREGA (11-oct) - solo cliente
+  scrollwalk-1.2-forge1.20.1-port.jar      Scroll Walk: Alt + rueda del
+    raton cambia la velocidad al caminar; medidor opcional en pantalla.
+  showmyworld-1.0-forge1.20.1-port.jar     Show My World: si pones 6 fotos
+    (panorama_0.png..panorama_5.png) en la carpeta "panorama" de un mundo,
+    se ven de fondo al resaltarlo en la lista de mundos.
+  Los dos probados en el PC con el pack completo, sin errores.
+
+QUE SE AGREGA (12-oct) - cliente y servidor
+  blockbox-0.1.3-forge1.20.1-port.jar      The Block Box: ~90 bloques
+    decorativos. Probado entero en el PC con el pack completo (puertas,
+    asiento, encerado/oxidacion de cobre, estacas, farol volador); va al
+    servidor tambien porque agrega bloques. Detalle en ..\8-KEO\LEEME.txt.
+
+QUE SE AGREGA (12-oct) - solo cliente
+  spatial_gui-1.5.1-forge1.20.1-port.jar   Spatial GUI: inventarios en 3D
+    (ya no es opcional, sale de ..\8-KEO\opcional\).
+  spatialgui_jeifix-1.0.jar                parche: dibuja el overlay de
+    JEI dentro del panel 3D de Spatial GUI en vez de encima de la pantalla
+    normal. Los dos probados en el PC con el pack completo.
+
+EN PRUEBA (16-oct) - todavia NO estan en el pool/modlist, solo en jars\
+  centered_crosshair-1.0.0-forge1.20.1-port.jar    Centra la mira exacto
+    en el medio de la pantalla (en vanilla queda corrida 1px). Solo cliente.
+  axolotlbuckets-1.2.0-forge1.20.1-port.jar        El balde de ajolote
+    muestra de que color/edad es el ajolote que lleva adentro. Solo cliente.
+  enchantedbookredesign-1.1-forge1.20.1-port.jar   Los libros encantados
+    tienen un liston coloreado segun el tipo/poder del encantamiento. Solo
+    cliente.
+  auditory-2.0.0-forge1.20.1-port.jar   Auditory Continued: mejora/agrega
+    sonidos de bloques, items y criaturas (sonidos de blandir armas, de
+    comer, de atar correas, de colocar botes/minecarts, de la vitrola, etc).
+    Cliente y servidor. Pendiente probar que no choque con Sound Physics
+    Remastered ni Presence Footsteps (ver detalle en el proyecto).
+  Los 4 compilan limpio en el portatil pero NINGUNO se probo en juego
+  todavia. Para probarlos en el PC: corre ACTUALIZAR-PORTS.bat (los copia a
+  WIP-Cliente-para-PC; a auditory-2.0.0-forge1.20.1-port.jar tambien hay
+  que ponerlo a mano en el servidor para que combinen). Recien cuando el PC
+  confirme que andan, se pasan a pool/1-MODPACK/modlist (y al servidor real
+  en el caso de auditory).
+
+SIGUE OPCIONAL (en ..\8-KEO\opcional\, copiar a mano si lo quieres)
+  ReAnimated (animaciones de menus) - no usar junto con Spatial GUI.
+
+VOLVER ATRAS
+  Servidor: respaldo completo (mundo, mods, config) en el portatil:
+    ~/Minecraft/respaldos/ports-2026-10-03/servidor-real-antes.tgz
+  PC: borra los 5 jars de mods\.

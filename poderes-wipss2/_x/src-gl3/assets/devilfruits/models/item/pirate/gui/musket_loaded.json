@@ -1,0 +1,22 @@
+{
+ "parent": "devilfruits:item/pirate/3d/musket_loaded",
+ "display": {
+  "gui": {
+   "rotation": [
+    13.327,
+    9.518,
+    35.701
+   ],
+   "translation": [
+    -0.755,
+    0.275,
+    -0.018
+   ],
+   "scale": [
+    0.4261,
+    0.4261,
+    0.4261
+   ]
+  }
+ }
+}

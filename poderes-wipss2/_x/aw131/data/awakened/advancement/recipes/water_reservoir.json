@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "awakened:water_reservoir"
+    ]
+  },
+  "criteria": {
+    "has_water_canteen": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "awakened:water_canteen"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "awakened:water_reservoir"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_water_canteen",
+      "has_the_recipe"
+    ]
+  ]
+}

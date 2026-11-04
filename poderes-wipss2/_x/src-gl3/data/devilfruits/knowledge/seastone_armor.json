@@ -1,0 +1,12 @@
+{
+  "recipes": [
+    "devilfruits:seastone/seastone_helmet",
+    "devilfruits:seastone/seastone_chestplate",
+    "devilfruits:seastone/seastone_leggings",
+    "devilfruits:seastone/seastone_boots"
+  ],
+  "requires": [
+    "devilfruits:seastone_refining"
+  ],
+  "icon": "devilfruits:seastone_chestplate"
+}

@@ -1,0 +1,49 @@
+Scroll Walk -> Forge 1.20.1 (port personal, NO publicar)          10-oct-2026
+============================================================================
+Original: github.com/Naw7k/Scroll-Walk (MIT). Copia en ../scrollwalk-upstream.
+Mod chico (275 lineas, 5 clases): mantén Alt y usa la rueda del raton para
+subir o bajar la velocidad de caminar, con un medidor opcional en pantalla.
+
+Compilar:  ./gradlew build   -> build/libs/scrollwalk-1.2-forge1.20.1-port.jar
+Probar:    en el PC (en el portatil no se abre el juego). gradlew.bat
+           runClient y, con el mod puesto, Alt + rueda del raton mientras
+           caminas; activar "Show Speedometer" en Ajustes (F1 pausa ->
+           Mods -> Scroll Walk -> Config) para ver el medidor.
+
+QUE SE CAMBIO (respecto al original de Fabric 26.1)
+  ScrollWalk     ModInitializer -> @Mod con constructor; la pantalla de
+                 ajustes usa ConfigScreenHandler de Forge en vez de ModMenu
+                 (no hay ModMenu en Forge). Todo lo demas (AutoConfig, Cloth
+                 Config) funciona igual: cloth-config-forge trae las mismas
+                 clases me.shedaniel.autoconfig que en Fabric.
+  MouseMixin     sin cambios: MouseHandler.onScroll(long, double, double)
+                 tiene el mismo nombre y firma en 1.20.1 (verificado con
+                 javap sobre el jar mapeado de Forge).
+  PlayerEntityMixin  sendOverlayMessage(Component) (26.1) no existe en
+                 1.20.1 -> displayClientMessage(Component, true) (true =
+                 barra de accion). Player.tick(), isCrouching(),
+                 isSprinting(), AttributeInstance.getBaseValue()/
+                 setBaseValue() son identicos. El enganche a Morphling queda
+                 igual que en el original (por reflexion, sin fallar si no
+                 esta el mod); Morphling no existe para 1.20.1, asi que
+                 nunca se activa, lo mismo que pasaria con el original si no
+                 tuvieras Morphling puesto.
+
+QUE FUNCIONA (por compilacion y revision; falta probarlo en juego)
+  Compila limpio. La logica es identica al original: el mixin del scroll
+  solo actua con Alt presionado, cancela el evento para no mover el
+  inventario, y el mixin del jugador interpola la velocidad hacia el
+  objetivo y la aplica al atributo MOVEMENT_SPEED.
+
+QUE FALTA
+  - Prueba en juego (PC): ver que la velocidad cambia de verdad al mover la
+    rueda con Alt, que el medidor se vea bien, y que no choque con Embeddium
+    (los mixins no tocan render, asi que no deberia haber problema).
+  - Ojo: el mixin apunta a la clase comun Player, no solo al jugador local;
+    en el original de Fabric pasa lo mismo. En un cliente normal esto solo
+    afecta al jugador propio y a los jugadores remotos que se ven en
+    pantalla (RemotePlayer tambien hereda de Player), nunca al servidor.
+
+SERVIDOR
+  No. Es un mod de cliente (toca el raton y el jugador local); no hace
+  falta en el servidor.

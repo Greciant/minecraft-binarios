@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "rubbing": {
+      "trigger": "devilfruits:poneglyph_rubbing"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/polished_blackstone.png",
+    "description": {
+      "translate": "advancements.devilfruits.poneglyph.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:poneglyph_face"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.poneglyph.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "rubbing"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "ate_fruit": {
+      "conditions": {
+        "fruit": "devilfruits:gomu_gomu"
+      },
+      "trigger": "devilfruits:ate_fruit"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/purple_wool.png",
+    "description": {
+      "translate": "advancements.devilfruits.gomu_gomu.rubber_man.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:gomu_gomu_no_mi"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.gomu_gomu.rubber_man.title"
+    }
+  },
+  "requirements": [
+    [
+      "ate_fruit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

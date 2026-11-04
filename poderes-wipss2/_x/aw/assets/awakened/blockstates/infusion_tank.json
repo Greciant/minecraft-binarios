@@ -1,0 +1,154 @@
+{
+  "variants": {
+    "charge=0,facing=north,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_0"
+    },
+    "charge=0,facing=east,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_0",
+      "y": 90
+    },
+    "charge=0,facing=south,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_0",
+      "y": 180
+    },
+    "charge=0,facing=west,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_0",
+      "y": 270
+    },
+    "charge=1,facing=north,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_1"
+    },
+    "charge=1,facing=east,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_1",
+      "y": 90
+    },
+    "charge=1,facing=south,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_1",
+      "y": 180
+    },
+    "charge=1,facing=west,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_1",
+      "y": 270
+    },
+    "charge=2,facing=north,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_2"
+    },
+    "charge=2,facing=east,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_2",
+      "y": 90
+    },
+    "charge=2,facing=south,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_2",
+      "y": 180
+    },
+    "charge=2,facing=west,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_2",
+      "y": 270
+    },
+    "charge=3,facing=north,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_3"
+    },
+    "charge=3,facing=east,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_3",
+      "y": 90
+    },
+    "charge=3,facing=south,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_3",
+      "y": 180
+    },
+    "charge=3,facing=west,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_3",
+      "y": 270
+    },
+    "charge=4,facing=north,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_4"
+    },
+    "charge=4,facing=east,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_4",
+      "y": 90
+    },
+    "charge=4,facing=south,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_4",
+      "y": 180
+    },
+    "charge=4,facing=west,part=foot": {
+      "model": "awakened:block/infusion_tank_foot_4",
+      "y": 270
+    },
+    "charge=0,facing=north,part=head": {
+      "model": "awakened:block/infusion_tank_head_0"
+    },
+    "charge=0,facing=east,part=head": {
+      "model": "awakened:block/infusion_tank_head_0",
+      "y": 90
+    },
+    "charge=0,facing=south,part=head": {
+      "model": "awakened:block/infusion_tank_head_0",
+      "y": 180
+    },
+    "charge=0,facing=west,part=head": {
+      "model": "awakened:block/infusion_tank_head_0",
+      "y": 270
+    },
+    "charge=1,facing=north,part=head": {
+      "model": "awakened:block/infusion_tank_head_1"
+    },
+    "charge=1,facing=east,part=head": {
+      "model": "awakened:block/infusion_tank_head_1",
+      "y": 90
+    },
+    "charge=1,facing=south,part=head": {
+      "model": "awakened:block/infusion_tank_head_1",
+      "y": 180
+    },
+    "charge=1,facing=west,part=head": {
+      "model": "awakened:block/infusion_tank_head_1",
+      "y": 270
+    },
+    "charge=2,facing=north,part=head": {
+      "model": "awakened:block/infusion_tank_head_2"
+    },
+    "charge=2,facing=east,part=head": {
+      "model": "awakened:block/infusion_tank_head_2",
+      "y": 90
+    },
+    "charge=2,facing=south,part=head": {
+      "model": "awakened:block/infusion_tank_head_2",
+      "y": 180
+    },
+    "charge=2,facing=west,part=head": {
+      "model": "awakened:block/infusion_tank_head_2",
+      "y": 270
+    },
+    "charge=3,facing=north,part=head": {
+      "model": "awakened:block/infusion_tank_head_3"
+    },
+    "charge=3,facing=east,part=head": {
+      "model": "awakened:block/infusion_tank_head_3",
+      "y": 90
+    },
+    "charge=3,facing=south,part=head": {
+      "model": "awakened:block/infusion_tank_head_3",
+      "y": 180
+    },
+    "charge=3,facing=west,part=head": {
+      "model": "awakened:block/infusion_tank_head_3",
+      "y": 270
+    },
+    "charge=4,facing=north,part=head": {
+      "model": "awakened:block/infusion_tank_head_4"
+    },
+    "charge=4,facing=east,part=head": {
+      "model": "awakened:block/infusion_tank_head_4",
+      "y": 90
+    },
+    "charge=4,facing=south,part=head": {
+      "model": "awakened:block/infusion_tank_head_4",
+      "y": 180
+    },
+    "charge=4,facing=west,part=head": {
+      "model": "awakened:block/infusion_tank_head_4",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "full=false": {
+      "model": "devilfruits:block/doru_doru/wax"
+    },
+    "full=true": {
+      "model": "devilfruits:block/doru_doru/wax"
+    }
+  }
+}

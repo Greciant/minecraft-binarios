@@ -1,0 +1,28 @@
+{
+  "parent": "awakened:awakened/root",
+  "display": {
+    "icon": {
+      "id": "awakened:catalyst"
+    },
+    "title": {
+      "translate": "advancement.awakened.reroll.title"
+    },
+    "description": {
+      "translate": "advancement.awakened.reroll.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "awarded": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "awarded"
+    ]
+  ]
+}

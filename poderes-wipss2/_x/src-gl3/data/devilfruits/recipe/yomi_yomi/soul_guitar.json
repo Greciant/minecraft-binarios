@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bone_block"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "J": {
+      "item": "minecraft:jukebox"
+    },
+    "P": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    " SI",
+    "PJP",
+    "BP "
+  ],
+  "result": {
+    "count": 1,
+    "id": "devilfruits:soul_guitar"
+  }
+}

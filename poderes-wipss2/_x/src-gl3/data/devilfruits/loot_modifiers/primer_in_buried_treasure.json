@@ -1,0 +1,10 @@
+{
+  "type": "devilfruits:add_primer",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:chests/buried_treasure"
+    }
+  ],
+  "source": "buried_treasure"
+}

@@ -1,0 +1,73 @@
+# Guion packtest (PC, 17-oct-2026): Touch'n Motion + EMF Compat Core + FA Player Extension junto a Punchy.
+gap 20
+hud on
+waitload 4
+wait 60
+cmdtry effect clear @s
+cmd gamemode creative
+
+echo === Escena: valla, palanca, boton, desnivel ===
+cmd setblock 0 220 -3 minecraft:oak_fence
+cmd setblock 0 221 -3 minecraft:oak_fence
+cmd setblock 2 220 -3 minecraft:stone
+cmd setblock 2 221 -3 minecraft:lever[face=wall,facing=south]
+cmd setblock 4 220 -3 minecraft:stone
+cmd setblock 4 221 -3 minecraft:stone_button[face=wall,facing=south]
+cmd setblock -2 220 -3 minecraft:stone_slab
+cmd setblock -3 221 -3 minecraft:stone_stairs[facing=east]
+wait 20
+
+echo === Jugador sobre la valla (equilibrio), tercera persona ===
+cmd tp @s 0.5 222 -2.5 180 5
+view back
+wait 60
+shot tm-valla-detras
+view front
+wait 40
+shot tm-valla-frente
+
+echo === Palanca y boton ===
+cmd tp @s 2.5 220 -1.2 0 5
+view front
+wait 30
+useat 2 221 -3 minecraft:lever
+wait 30
+shot tm-palanca
+cmd tp @s 4.5 220 -1.2 0 5
+wait 30
+useat 4 221 -3 minecraft:stone_button
+wait 30
+shot tm-boton
+
+echo === Desnivel y movimiento ===
+cmd tp @s -2.5 221 -2 90 5
+wait 40
+shot tm-desnivel
+cmd tp @s 0.5 220 1.5 0 0
+cmd gamemode survival
+cmdtry effect give @s minecraft:resistance infinite 4 true
+cmd tp @s 0.5 220 0.5
+wait 6
+cmd tp @s 0.5 220 1.5
+wait 6
+cmd tp @s 0.5 220 2.5
+wait 6
+cmd tp @s 1.5 220 2.5
+wait 20
+shot tm-caminar
+
+echo === Primera persona con Punchy ===
+view first
+cmd item replace entity @s weapon.mainhand with minecraft:iron_sword
+press attack
+wait 10
+shot tm-primera-persona
+press attack
+wait 10
+cmd gamemode creative
+view back
+inventory
+wait 40
+close
+wait 20
+echo === fin ===

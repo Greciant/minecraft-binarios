@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "red=false": {
+      "model": "minecraft:block/sand"
+    },
+    "red=true": {
+      "model": "minecraft:block/red_sand"
+    }
+  }
+}

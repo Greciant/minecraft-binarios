@@ -1,0 +1,40 @@
+{
+  "parent": "awakened:defeat_overseer",
+  "display": {
+    "icon": {
+      "id": "awakened:catalyst"
+    },
+    "title": {
+      "translate": "advancement.awakened.defeat_arbiter.title"
+    },
+    "description": {
+      "translate": "advancement.awakened.defeat_arbiter.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  },
+  "criteria": {
+    "kill_arbiter": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "awakened:arbiter"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_arbiter"
+    ]
+  ]
+}

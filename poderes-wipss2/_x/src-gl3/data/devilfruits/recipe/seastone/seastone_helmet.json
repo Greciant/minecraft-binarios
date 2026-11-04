@@ -1,0 +1,18 @@
+{
+  "type": "devilfruits:knowledge_shaped",
+  "knowledge": "devilfruits:seastone_armor",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "devilfruits:seastone_ingot"
+    }
+  },
+  "pattern": [
+    "III",
+    "I I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "devilfruits:seastone_helmet"
+  }
+}

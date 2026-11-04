@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:gura_gura/tremor_tremor",
+  "criteria": {
+    "ocean_seaquake": {
+      "trigger": "devilfruits:gura_gura/ocean_seaquake"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.gura_gura.seaquake.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:gura_gura/kaisho"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.gura_gura.seaquake.title"
+    }
+  },
+  "requirements": [
+    [
+      "ocean_seaquake"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,22 @@
+{
+  "parent": "awakened:adamantium/root",
+  "display": {
+    "icon": { "id": "awakened:adamantium_ingot" },
+    "title": { "translate": "advancement.awakened.adamantium.ingot.title" },
+    "description": { "translate": "advancement.awakened.adamantium.ingot.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": "awakened:adamantium_ingot" } ] }
+    }
+  },
+  "requirements": [ [ "has_ingot" ] ],
+  "rewards": {
+    "recipes": [ "awakened:infusion_tank" ]
+  }
+}

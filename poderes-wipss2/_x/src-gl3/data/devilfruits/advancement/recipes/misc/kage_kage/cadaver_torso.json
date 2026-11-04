@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cadaver_flesh": {
+      "conditions": {
+        "items": [
+          {
+            "items": "devilfruits:cadaver_flesh"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "devilfruits:kage_kage/cadaver_torso"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cadaver_flesh"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "devilfruits:kage_kage/cadaver_torso"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": {
+    "id": "awakened:scythe_edge",
+    "count": 1
+  }
+}

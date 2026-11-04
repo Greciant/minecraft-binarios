@@ -1,0 +1,29 @@
+{
+  "parent": "devilfruits:suna_suna/desert_king",
+  "criteria": {
+    "passed": {
+      "conditions": {
+        "fruit": "devilfruits:suna_suna"
+      },
+      "trigger": "devilfruits:logia_passed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.suna_suna.grains_of_sand.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:sand"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.suna_suna.grains_of_sand.title"
+    }
+  },
+  "requirements": [
+    [
+      "passed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

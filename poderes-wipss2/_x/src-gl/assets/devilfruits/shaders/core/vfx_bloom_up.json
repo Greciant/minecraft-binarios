@@ -1,0 +1,36 @@
+{
+  "vertex": "devilfruits:vfx_screen",
+  "fragment": "devilfruits:vfx_bloom_up",
+  "samplers": [
+    {
+      "name": "Source"
+    }
+  ],
+  "uniforms": [
+    {
+      "name": "SrcTexel",
+      "type": "float",
+      "count": 2,
+      "values": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Radius",
+      "type": "float",
+      "count": 1,
+      "values": [
+        1.0
+      ]
+    },
+    {
+      "name": "Intensity",
+      "type": "float",
+      "count": 1,
+      "values": [
+        1.0
+      ]
+    }
+  ]
+}

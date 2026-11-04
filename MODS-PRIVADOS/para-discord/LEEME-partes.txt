@@ -1,0 +1,1 @@
+﻿Si un archivo pasa el limite de Discord: manda todas las partes .001, .002... y UNIR-PARTES.bat. Ponlas juntas en una carpeta y ejecuta el .bat; sale MODS-PRIVADOS.zip. Dentro: mods\ y LEEME.txt.

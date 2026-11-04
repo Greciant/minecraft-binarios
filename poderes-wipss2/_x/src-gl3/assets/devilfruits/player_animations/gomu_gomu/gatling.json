@@ -1,0 +1,338 @@
+{
+  "length": 10,
+  "fade_in": 2,
+  "fade_out": 3,
+  "loop": true,
+  "loop_from": 6,
+  "root": [
+    {
+      "t": 0,
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "pos": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "t": 4,
+      "rot": [
+        -6,
+        0,
+        0
+      ],
+      "pos": [
+        0,
+        -0.07,
+        -0.04
+      ],
+      "ease": "catmullrom"
+    },
+    {
+      "t": 6,
+      "rot": [
+        6,
+        0,
+        0
+      ],
+      "pos": [
+        0,
+        -0.08,
+        0.03
+      ],
+      "ease": "catmullrom"
+    },
+    {
+      "t": 7,
+      "rot": [
+        7,
+        4,
+        0
+      ],
+      "pos": [
+        0,
+        -0.09,
+        0.03
+      ],
+      "ease": "catmullrom"
+    },
+    {
+      "t": 8,
+      "rot": [
+        6,
+        0,
+        0
+      ],
+      "pos": [
+        0,
+        -0.08,
+        0.03
+      ],
+      "ease": "catmullrom"
+    },
+    {
+      "t": 9,
+      "rot": [
+        7,
+        -4,
+        0
+      ],
+      "pos": [
+        0,
+        -0.09,
+        0.03
+      ],
+      "ease": "catmullrom"
+    },
+    {
+      "t": 10,
+      "rot": [
+        6,
+        0,
+        0
+      ],
+      "pos": [
+        0,
+        -0.08,
+        0.03
+      ],
+      "ease": "catmullrom"
+    }
+  ],
+  "parts": {
+    "body": [
+      {
+        "t": 0,
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 4,
+        "rot": [
+          -6,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 6,
+        "rot": [
+          6,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 7,
+        "rot": [
+          7,
+          7,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 8,
+        "rot": [
+          6,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 9,
+        "rot": [
+          7,
+          -7,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 10,
+        "rot": [
+          6,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      }
+    ],
+    "right_arm": [
+      {
+        "t": 0,
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 2,
+        "rot": [
+          -60,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 4,
+        "rot": [
+          -90,
+          90,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 6,
+        "rot": [
+          -90,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 10,
+        "rot": [
+          -90,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      }
+    ],
+    "left_arm": [
+      {
+        "t": 0,
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 2,
+        "rot": [
+          -60,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 4,
+        "rot": [
+          -90,
+          -90,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 6,
+        "rot": [
+          -90,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 10,
+        "rot": [
+          -90,
+          0,
+          0
+        ],
+        "ease": "catmullrom"
+      }
+    ],
+    "right_leg": [
+      {
+        "t": 0,
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 4,
+        "rot": [
+          10,
+          0,
+          8
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 6,
+        "rot": [
+          12,
+          0,
+          9
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 10,
+        "rot": [
+          12,
+          0,
+          9
+        ],
+        "ease": "catmullrom"
+      }
+    ],
+    "left_leg": [
+      {
+        "t": 0,
+        "rot": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "t": 4,
+        "rot": [
+          -14,
+          0,
+          -8
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 6,
+        "rot": [
+          -16,
+          0,
+          -9
+        ],
+        "ease": "catmullrom"
+      },
+      {
+        "t": 10,
+        "rot": [
+          -16,
+          0,
+          -9
+        ],
+        "ease": "catmullrom"
+      }
+    ]
+  }
+}

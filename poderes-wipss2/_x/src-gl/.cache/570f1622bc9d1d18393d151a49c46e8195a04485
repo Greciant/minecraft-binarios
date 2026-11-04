@@ -1,0 +1,21 @@
+// 1.21.1	2026-10-23T19:16:58.9185306	Tags for minecraft:item mod id devilfruits
+0423d2c9687a513a990c61025eb8ba67e131402a data/devilfruits/tags/item/casket_keys.json
+715b5ba53c74eac91c525521f058dd1f1c777e9f data/devilfruits/tags/item/devil_fruits.json
+2a86299c289e011ed20632c96a2946a3c6c491cb data/devilfruits/tags/item/gura_gura/quake_weapons.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/devilfruits/tags/item/logia_bypass.json
+c31a43f5db0eda67148c6f35eaedb6698ec0873e data/devilfruits/tags/item/seastone.json
+1cdd246e451bb647e506c5042765093d9387df04 data/devilfruits/tags/item/seastone_gear.json
+8cf3fad77b16e70ff60721a5ca435ac6a328ca33 data/devilfruits/tags/item/seastone_weapon.json
+df1d2ead738d7abcb73bc32168afa4d3461ebba4 data/devilfruits/tags/item/uo_uo_seiryu/clubs.json
+eaa63221839660ed801dadc3bee20c29a1800122 data/minecraft/tags/item/arrows.json
+6856b55fbe11f1b6575ba2cc4e0bcfaadaf21cdc data/minecraft/tags/item/axes.json
+9f393b7561652b8546a358e5f36dccbc20dbf328 data/minecraft/tags/item/bookshelf_books.json
+5661913d9748bdc1cc7ef1c787c1fdbeeac939ae data/minecraft/tags/item/chest_armor.json
+a745d660d6a48c7ce0349bd7ccb4b3b6ab6567d1 data/minecraft/tags/item/enchantable/durability.json
+5df469fc89cc40058607044e1ddbc61eebacad05 data/minecraft/tags/item/foot_armor.json
+4d6c65e91358def3f35316a354cb9e805dd0efcc data/minecraft/tags/item/head_armor.json
+ec6bc5b31c5f778ce731bbb22b587bfb2763451b data/minecraft/tags/item/hoes.json
+12c81583c8ed02a0b802ab0ecdcc202d05e5632c data/minecraft/tags/item/leg_armor.json
+db965a0c4a472fc053dfb494c205c2231e0b516d data/minecraft/tags/item/pickaxes.json
+b6bdf81f17bcb290f9c36c4b36f3aa1abbac6b8a data/minecraft/tags/item/shovels.json
+b49fa50d0d105eab67af3561285d4cb5c5f62c4e data/minecraft/tags/item/swords.json

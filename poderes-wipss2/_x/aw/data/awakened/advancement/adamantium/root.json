@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": { "id": "awakened:raw_adamantium" },
+    "title": { "translate": "advancement.awakened.adamantium.root.title" },
+    "description": { "translate": "advancement.awakened.adamantium.root.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/deepslate.png"
+  },
+  "criteria": {
+    "has_raw": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": "awakened:raw_adamantium" } ] }
+    }
+  },
+  "requirements": [ [ "has_raw" ] ]
+}

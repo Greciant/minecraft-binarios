@@ -1,0 +1,598 @@
+{
+  "music.sentinel_battle": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "awakened:music/sentinel_battle",
+        "stream": true
+      }
+    ]
+  },
+  "pyro.flame_beam.loop": {
+    "category": "player",
+    "sounds": [
+      "awakened:pyro/flame_beam_loop"
+    ]
+  },
+  "pyro.flame_beam.full": {
+    "category": "player",
+    "sounds": [
+      "awakened:pyro/flame_beam_full"
+    ]
+  },
+  "pyro.flame_beam.blue": {
+    "category": "player",
+    "sounds": [
+      "awakened:pyro/flame_beam_blue"
+    ]
+  },
+  "pyro.flame_beam.ignite": {
+    "category": "player",
+    "sounds": [
+      "awakened:pyro/flame_beam_ignite"
+    ]
+  },
+  "pyro.flame_beam.shutdown": {
+    "category": "player",
+    "sounds": [
+      "awakened:pyro/flame_beam_shutdown"
+    ]
+  },
+  "pyro.flame_beam.sputter": {
+    "category": "player",
+    "sounds": [
+      "awakened:pyro/flame_beam_sputter"
+    ]
+  },
+  "pyro.flame_beam.impact": {
+    "category": "player",
+    "sounds": [
+      "awakened:pyro/flame_beam_impact"
+    ]
+  },
+  "pyro.flame_beam.crackle": {
+    "category": "player",
+    "sounds": [
+      "awakened:pyro/flame_beam_crackle"
+    ]
+  },
+  "pyro.flame_beam.gout": {
+    "category": "player",
+    "sounds": [
+      "awakened:pyro/flame_beam_gout"
+    ]
+  },
+  "pyro.flame_beam.throb": {
+    "category": "player",
+    "sounds": [
+      "awakened:pyro/flame_beam_throb"
+    ]
+  },
+  "arbiter.gavel.crack": {
+    "category": "hostile",
+    "subtitle": "subtitles.awakened.arbiter.gavel_crack",
+    "sounds": [
+      {
+        "name": "awakened:arbiter/gavel_crack",
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "arbiter.court.collapse": {
+    "category": "hostile",
+    "subtitle": "subtitles.awakened.arbiter.court_collapse",
+    "sounds": [
+      {
+        "name": "awakened:arbiter/court_collapse",
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "arbiter.rise.toll": {
+    "category": "hostile",
+    "subtitle": "subtitles.awakened.arbiter.rise_toll",
+    "sounds": [
+      {
+        "name": "awakened:arbiter/rise_toll",
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "arbiter.seal.shatter": {
+    "category": "hostile",
+    "subtitle": "subtitles.awakened.arbiter.seal_shatter",
+    "sounds": [
+      {
+        "name": "awakened:arbiter/seal_shatter",
+        "attenuation_distance": 40
+      }
+    ]
+  },
+  "arbiter.court.kneel": {
+    "category": "hostile",
+    "subtitle": "subtitles.awakened.arbiter.kneel_drone",
+    "sounds": [
+      {
+        "name": "awakened:arbiter/kneel_drone",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "arbiter.chain.rattle": {
+    "category": "hostile",
+    "subtitle": "subtitles.awakened.arbiter.chain_rattle",
+    "sounds": [
+      {
+        "name": "awakened:arbiter/chain_rattle_loop",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "stormcaller.tesla.crackle": {
+    "category": "player",
+    "sounds": [
+      "awakened:stormcaller/tesla_crackle_loop"
+    ]
+  },
+  "stormcaller.tesla.buzz": {
+    "category": "player",
+    "sounds": [
+      "awakened:stormcaller/tesla_buzz_loop"
+    ]
+  },
+  "stormcaller.tesla.snap": {
+    "category": "player",
+    "sounds": [
+      "awakened:stormcaller/tesla_snap1",
+      "awakened:stormcaller/tesla_snap2",
+      "awakened:stormcaller/tesla_snap3",
+      "awakened:stormcaller/tesla_snap4"
+    ]
+  },
+  "stormcaller.tesla.ignite": {
+    "category": "player",
+    "sounds": [
+      "awakened:stormcaller/tesla_ignite"
+    ]
+  },
+  "stormcaller.tesla.fizzle": {
+    "category": "player",
+    "sounds": [
+      "awakened:stormcaller/tesla_fizzle"
+    ]
+  },
+  "graviton.horizon.rumble": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/horizon_rumble_loop",
+        "attenuation_distance": 96
+      }
+    ]
+  },
+  "graviton.horizon.whine": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/horizon_whine_loop",
+        "attenuation_distance": 96
+      }
+    ]
+  },
+  "graviton.horizon.open": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/horizon_open",
+        "attenuation_distance": 128
+      }
+    ]
+  },
+  "graviton.horizon.collapse": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/horizon_collapse",
+        "attenuation_distance": 160
+      }
+    ]
+  },
+  "graviton.dense.plant": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/dense_plant",
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "graviton.dense.load": {
+    "category": "player",
+    "sounds": [
+      "awakened:graviton/dense_load_loop"
+    ]
+  },
+  "graviton.dense.absorb": {
+    "category": "player",
+    "sounds": [
+      "awakened:graviton/dense_absorb"
+    ]
+  },
+  "graviton.dense.release": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/dense_release",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "graviton.dense.rumble": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/dense_rumble",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "graviton.dense.puff": {
+    "category": "player",
+    "sounds": [
+      "awakened:graviton/dense_puff"
+    ]
+  },
+  "graviton.well.open": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/well_open",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "graviton.well.snap": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/well_snap",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "graviton.well.hum": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/well_hum_loop",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "graviton.well.rush": {
+    "category": "player",
+    "sounds": [
+      "awakened:graviton/well_rush_loop"
+    ]
+  },
+  "graviton.hand.grip": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/hand_grip",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "graviton.hand.bend": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/hand_bend_loop",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "graviton.hand.yank": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/hand_yank",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "graviton.hand.shove": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/hand_shove",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "graviton.hand.crush": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/hand_crush",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "graviton.hand.launch": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/hand_launch",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "graviton.pull": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/pull_suck",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "graviton.sheet.release": {
+    "category": "player",
+    "sounds": [
+      "awakened:graviton/sheet_release"
+    ]
+  },
+  "graviton.stone.creak": {
+    "category": "player",
+    "sounds": [
+      "awakened:graviton/stone_creak1",
+      "awakened:graviton/stone_creak2",
+      "awakened:graviton/stone_creak3"
+    ]
+  },
+  "graviton.mass.heavier": {
+    "category": "player",
+    "sounds": [
+      "awakened:graviton/mass_heavier"
+    ]
+  },
+  "graviton.mass.lighter": {
+    "category": "player",
+    "sounds": [
+      "awakened:graviton/mass_lighter"
+    ]
+  },
+  "graviton.mass.reset": {
+    "category": "player",
+    "sounds": [
+      "awakened:graviton/mass_reset"
+    ]
+  },
+  "graviton.mass.land": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/mass_land",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "graviton.weightless.cast": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/weightless_cast",
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "graviton.weightless.zone": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/weightless_loop",
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "graviton.weightless.drop": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/weightless_drop",
+        "attenuation_distance": 40
+      }
+    ]
+  },
+  "graviton.awaken": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:graviton/awaken",
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "ruin.rumble": {
+    "category": "block",
+    "sounds": [
+      "awakened:ruin/ruin_rumble_loop"
+    ]
+  },
+  "ruin.groan": {
+    "category": "player",
+    "sounds": [
+      "awakened:ruin/ruin_groan"
+    ]
+  },
+  "ruin.grind": {
+    "category": "block",
+    "sounds": [
+      "awakened:ruin/ruin_grind"
+    ]
+  },
+  "chrono.stop": {
+    "category": "player",
+    "subtitle": "subtitles.awakened.chrono.stop",
+    "sounds": [
+      {
+        "name": "awakened:chrono/stop",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "chrono.tick_tower": {
+    "category": "player",
+    "subtitle": "subtitles.awakened.chrono.tick_tower",
+    "sounds": [
+      {
+        "name": "awakened:chrono/tick_tower",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "chrono.stop_burn": {
+    "category": "player",
+    "subtitle": "subtitles.awakened.chrono.stop_burn",
+    "sounds": [
+      {
+        "name": "awakened:chrono/stop_burn",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "chrono.resume_swell": {
+    "category": "player",
+    "subtitle": "subtitles.awakened.chrono.resume_swell",
+    "sounds": [
+      {
+        "name": "awakened:chrono/resume_swell",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "chrono.held_hits": {
+    "category": "player",
+    "subtitle": "subtitles.awakened.chrono.held_hits",
+    "sounds": [
+      {
+        "name": "awakened:chrono/held_hits",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "chrono.stasis_key_wind": {
+    "category": "player",
+    "subtitle": "subtitles.awakened.chrono.stasis_key_wind",
+    "sounds": [
+      "awakened:chrono/stasis_key_wind"
+    ]
+  },
+  "chrono.stasis_key_turn": {
+    "category": "player",
+    "subtitle": "subtitles.awakened.chrono.stasis_key_turn",
+    "sounds": [
+      "awakened:chrono/stasis_key_turn"
+    ]
+  },
+  "chrono.stasis_key_release": {
+    "category": "player",
+    "subtitle": "subtitles.awakened.chrono.stasis_key_release",
+    "sounds": [
+      "awakened:chrono/stasis_key_release"
+    ]
+  },
+  "chrono.tick_escape": {
+    "category": "player",
+    "subtitle": "subtitles.awakened.chrono.tick_escape",
+    "sounds": [
+      "awakened:chrono/tick_escape"
+    ]
+  },
+  "chrono.rewind": {
+    "category": "player",
+    "subtitle": "subtitles.awakened.chrono.rewind",
+    "sounds": [
+      "awakened:chrono/rewind"
+    ]
+  },
+  "chrono.skip": {
+    "category": "player",
+    "subtitle": "subtitles.awakened.chrono.skip",
+    "sounds": [
+      "awakened:chrono/skip"
+    ]
+  },
+  "chrono.watch_loop": {
+    "category": "player",
+    "subtitle": "subtitles.awakened.chrono.watch_loop",
+    "sounds": [
+      "awakened:chrono/watch_loop"
+    ]
+  },
+  "limitless.purple.charge": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:limitless/purple_charge_loop",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "limitless.purple.ready": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:limitless/purple_ready",
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "limitless.purple.release": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:limitless/purple_release",
+        "attenuation_distance": 160
+      }
+    ]
+  },
+  "limitless.purple.roar": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:limitless/purple_roar_loop",
+        "attenuation_distance": 128
+      }
+    ]
+  },
+  "limitless.purple.erase": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:limitless/purple_erase_loop",
+        "attenuation_distance": 64
+      }
+    ]
+  },
+  "limitless.purple.end": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:limitless/purple_end",
+        "attenuation_distance": 96
+      }
+    ]
+  },
+  "limitless.purple.aftermath": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "awakened:limitless/purple_aftermath",
+        "attenuation_distance": 160
+      }
+    ]
+  }
+}

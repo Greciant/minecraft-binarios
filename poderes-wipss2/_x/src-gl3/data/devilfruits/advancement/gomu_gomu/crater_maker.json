@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:gomu_gomu/rubber_man",
+  "criteria": {
+    "crater_maker": {
+      "trigger": "devilfruits:gomu_gomu/axe_crater"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.gomu_gomu.crater_maker.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:gomu_gomu/axe"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.gomu_gomu.crater_maker.title"
+    }
+  },
+  "requirements": [
+    [
+      "crater_maker"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

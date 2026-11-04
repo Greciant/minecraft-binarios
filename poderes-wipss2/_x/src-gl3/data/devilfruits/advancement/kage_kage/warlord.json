@@ -1,0 +1,36 @@
+{
+  "parent": "devilfruits:kage_kage/shadow_shadow",
+  "criteria": {
+    "max_mastery": {
+      "conditions": {
+        "fruit": "devilfruits:kage_kage"
+      },
+      "trigger": "devilfruits:max_mastery"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.kage_kage.warlord.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:kage_kage/doppelman"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.kage_kage.warlord.title"
+    }
+  },
+  "requirements": [
+    [
+      "max_mastery"
+    ]
+  ],
+  "rewards": {
+    "experience": 300
+  },
+  "sends_telemetry_event": true
+}

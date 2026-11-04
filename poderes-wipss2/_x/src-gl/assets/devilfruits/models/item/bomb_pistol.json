@@ -1,0 +1,53 @@
+{
+ "loader": "neoforge:separate_transforms",
+ "gui_light": "side",
+ "textures": {
+  "particle": "devilfruits:item/bomu_bomu/bomb_pistol"
+ },
+ "base": {
+  "parent": "devilfruits:item/bomu_bomu/3d/bomb_pistol"
+ },
+ "perspectives": {
+  "gui": {
+   "parent": "devilfruits:item/bomu_bomu/gui/bomb_pistol"
+  }
+ },
+ "overrides": [
+  {
+   "predicate": {
+    "devilfruits:bomb_cocked": 1
+   },
+   "model": "devilfruits:item/bomu_bomu/state/bomb_pistol_cocked"
+  },
+  {
+   "predicate": {
+    "devilfruits:bomb_load": 0.2
+   },
+   "model": "devilfruits:item/bomu_bomu/state/bomb_pistol_open"
+  },
+  {
+   "predicate": {
+    "devilfruits:bomb_load": 0.4
+   },
+   "model": "devilfruits:item/bomu_bomu/state/bomb_pistol_spin_a"
+  },
+  {
+   "predicate": {
+    "devilfruits:bomb_load": 0.5
+   },
+   "model": "devilfruits:item/bomu_bomu/state/bomb_pistol_spin_b"
+  },
+  {
+   "predicate": {
+    "devilfruits:bomb_load": 0.6
+   },
+   "model": "devilfruits:item/bomu_bomu/state/bomb_pistol_spin_c"
+  },
+  {
+   "predicate": {
+    "devilfruits:bomb_load": 0.75
+   },
+   "model": "devilfruits:item/bomu_bomu/state/bomb_pistol_open"
+  }
+ ]
+}

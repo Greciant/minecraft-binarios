@@ -1,0 +1,17 @@
+// 1.21.1	2026-10-19T02:23:38.4213188	Tags for minecraft:block mod id devilfruits
+4e68f23d2af478cd99e4a18158fecbb2d39a2e12 data/c/tags/block/ores.json
+0679ebd0f742a42d6a06229185b620a2dbcd7c87 data/devilfruits/tags/block/destruction_immune.json
+8b4cf6656bc9aa53a8b8c32ceaec398a0f0b8171 data/devilfruits/tags/block/poneglyph_unbreakable.json
+d76902b6a26a0fe1e0cbac2d33467e95bd2437c1 data/devilfruits/tags/block/resists_techniques.json
+02e6495a76f35192fb4a6473e32f12e470786a6e data/devilfruits/tags/block/seastone.json
+2931b2952aa99e6bc56e378874319ce68854b57c data/devilfruits/tags/block/suna_suna/dries_away.json
+1acfbdda07f224a8052490d3f47214346bc7760a data/devilfruits/tags/block/suna_suna/dries_to_sand.json
+76622c86850b0f9407f74ffe09e4fa60cfa5111f data/devilfruits/tags/block/suna_suna/sand_source.json
+74de1d5cabc89abc521f828d391b997328564cf0 data/devilfruits/tags/block/suna_suna/spada_resists.json
+8c8ed3568d9b6733bc95d7b5943de23950ac989d data/devilfruits/tags/block/suna_suna/withers.json
+03be176af9a5ac2c5690251351bf3f85571f34c7 data/devilfruits/tags/block/wax_heat.json
+2edba76916a409c320f0ba0d52dccb253efe4e7c data/minecraft/tags/block/dragon_immune.json
+360edd8b4442ac3e9820eb4ee8328335330e3462 data/minecraft/tags/block/mineable/axe.json
+48155511631c10f7949cd5764f2aea03468df52b data/minecraft/tags/block/mineable/pickaxe.json
+02e6495a76f35192fb4a6473e32f12e470786a6e data/minecraft/tags/block/needs_iron_tool.json
+2edba76916a409c320f0ba0d52dccb253efe4e7c data/minecraft/tags/block/wither_immune.json

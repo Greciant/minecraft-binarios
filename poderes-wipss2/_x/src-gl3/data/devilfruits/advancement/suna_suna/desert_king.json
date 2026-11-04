@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "ate_fruit": {
+      "conditions": {
+        "fruit": "devilfruits:suna_suna"
+      },
+      "trigger": "devilfruits:ate_fruit"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/sand.png",
+    "description": {
+      "translate": "advancements.devilfruits.suna_suna.desert_king.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:suna_suna_no_mi"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.suna_suna.desert_king.title"
+    }
+  },
+  "requirements": [
+    [
+      "ate_fruit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

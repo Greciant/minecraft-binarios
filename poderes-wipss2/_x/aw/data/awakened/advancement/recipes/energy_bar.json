@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "awakened:energy_bar"
+    ]
+  },
+  "criteria": {
+    "has_sugar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sugar"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "awakened:energy_bar"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sugar",
+      "has_the_recipe"
+    ]
+  ]
+}

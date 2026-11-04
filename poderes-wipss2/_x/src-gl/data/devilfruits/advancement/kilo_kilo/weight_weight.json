@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "ate_fruit": {
+      "conditions": {
+        "fruit": "devilfruits:kilo_kilo"
+      },
+      "trigger": "devilfruits:ate_fruit"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/polished_andesite.png",
+    "description": {
+      "translate": "advancements.devilfruits.kilo_kilo.weight_weight.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:kilo_kilo_no_mi"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.kilo_kilo.weight_weight.title"
+    }
+  },
+  "requirements": [
+    [
+      "ate_fruit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

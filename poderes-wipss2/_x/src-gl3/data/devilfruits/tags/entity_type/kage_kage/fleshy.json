@@ -1,0 +1,15 @@
+{
+  "values": [
+    "minecraft:zombie",
+    "minecraft:husk",
+    "minecraft:drowned",
+    "minecraft:zombie_villager",
+    "minecraft:zombified_piglin",
+    "minecraft:villager",
+    "minecraft:wandering_trader",
+    "#minecraft:illager",
+    "devilfruits:pirate/deckhand",
+    "devilfruits:pirate/gunner",
+    "devilfruits:pirate/captain"
+  ]
+}

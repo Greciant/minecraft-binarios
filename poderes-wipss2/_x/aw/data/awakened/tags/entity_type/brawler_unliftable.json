@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:ender_dragon",
+    "minecraft:wither",
+    "minecraft:warden",
+    "awakened:leviathan",
+    "awakened:sentinel",
+    "awakened:varkos",
+    "awakened:archevoker",
+    "awakened:arbiter",
+    "awakened:arbiter_seal",
+    "awakened:overseer",
+    "awakened:stone_mech"
+  ]
+}

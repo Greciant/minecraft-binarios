@@ -1,0 +1,67 @@
+{
+  "criteria": {
+    "captain": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "devilfruits:pirate/captain"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "deckhand": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "devilfruits:pirate/deckhand"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "gunner": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "devilfruits:pirate/gunner"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/dark_oak_planks.png",
+    "description": {
+      "translate": "advancements.devilfruits.pirates.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:pirate/cutlass"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.pirates.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "deckhand",
+      "gunner",
+      "captain"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

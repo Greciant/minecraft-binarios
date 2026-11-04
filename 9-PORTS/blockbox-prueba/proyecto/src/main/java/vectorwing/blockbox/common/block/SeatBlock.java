@@ -1,0 +1,76 @@
+package vectorwing.blockbox.common.block;
+
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.TamableAnimal;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.HorizontalDirectionalBlock;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.Shapes;
+import net.minecraft.world.phys.shapes.VoxelShape;
+import vectorwing.blockbox.common.entity.SeatEntity;
+
+// Port Forge 1.20.1: sin sistema de codec de bloques (no existe en 1.20.1); 1.20.1 no separa
+// useWithoutItem/useItemOn, asi que se usa el metodo unico use(...).
+public class SeatBlock extends HorizontalDirectionalBlock
+{
+	private static final VoxelShape SHAPE = Shapes.or(
+			Block.box(0.0, 4.0, 0.0, 16.0, 8.0, 16.0),
+			Block.box(0.0, 0.0, 0.0, 3.0, 4.0, 3.0),
+			Block.box(13.0, 0.0, 0.0, 16.0, 4.0, 3.0),
+			Block.box(0.0, 0.0, 13.0, 3.0, 4.0, 16.0),
+			Block.box(13.0, 0.0, 13.0, 16.0, 4.0, 16.0)
+	);
+
+	public SeatBlock(Properties properties) {
+		super(properties);
+		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
+	}
+
+	@Override
+	public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hitResult) {
+		if (player.isShiftKeyDown())
+			return InteractionResult.PASS;
+		if (level.isClientSide)
+			return InteractionResult.SUCCESS;
+		sitDown(level, pos, player);
+		return InteractionResult.SUCCESS;
+	}
+
+	public static void sitDown(Level level, BlockPos pos, Entity entity) {
+		if (level.isClientSide)
+			return;
+		SeatEntity seat = new SeatEntity(level, pos);
+		seat.setPos(pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5);
+		level.addFreshEntity(seat);
+		entity.startRiding(seat, true);
+		if (entity instanceof TamableAnimal animal)
+			animal.setInSittingPose(true);
+	}
+
+	@Override
+	public BlockState getStateForPlacement(BlockPlaceContext context) {
+		return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
+		return SHAPE;
+	}
+
+	@Override
+	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+		builder.add(FACING);
+	}
+}

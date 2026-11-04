@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:gura_gura/tremor_tremor",
+  "criteria": {
+    "used_shima_yurashi": {
+      "trigger": "devilfruits:gura_gura/used_shima_yurashi"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.gura_gura.island_shaker.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:gura_gura/shima_yurashi"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.gura_gura.island_shaker.title"
+    }
+  },
+  "requirements": [
+    [
+      "used_shima_yurashi"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

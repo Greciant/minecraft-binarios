@@ -1,0 +1,31 @@
+{
+  "parent": "devilfruits:bomu_bomu/bomb_bomb",
+  "criteria": {
+    "bought_pistol": {
+      "conditions": {
+        "item": {
+          "items": "devilfruits:bomb_pistol"
+        }
+      },
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.bomu_bomu.bomb_pistol.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:bomb_pistol"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.bomu_bomu.bomb_pistol.title"
+    }
+  },
+  "requirements": [
+    [
+      "bought_pistol"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

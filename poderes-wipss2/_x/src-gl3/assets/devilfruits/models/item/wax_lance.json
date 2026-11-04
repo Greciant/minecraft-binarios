@@ -1,0 +1,136 @@
+{
+ "loader": "neoforge:separate_transforms",
+ "gui_light": "front",
+ "display": {
+  "thirdperson_righthand": {
+   "rotation": [
+    0,
+    90,
+    0
+   ],
+   "translation": [
+    0.0,
+    -1.5,
+    -12.15
+   ],
+   "scale": [
+    1.05,
+    1.05,
+    1.05
+   ]
+  },
+  "thirdperson_lefthand": {
+   "rotation": [
+    0,
+    -90,
+    0
+   ],
+   "translation": [
+    0.0,
+    -1.5,
+    -12.15
+   ],
+   "scale": [
+    1.05,
+    1.05,
+    1.05
+   ]
+  },
+  "firstperson_righthand": {
+   "rotation": [
+    0.0,
+    90.0,
+    0.0
+   ],
+   "translation": [
+    0.0,
+    -0.0,
+    -6.5
+   ],
+   "scale": [
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  "firstperson_lefthand": {
+   "rotation": [
+    0.0,
+    -90.0,
+    -0.0
+   ],
+   "translation": [
+    0.0,
+    -0.0,
+    -6.5
+   ],
+   "scale": [
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  "ground": {
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "translation": [
+    0,
+    2,
+    0
+   ],
+   "scale": [
+    0.42,
+    0.42,
+    0.42
+   ]
+  },
+  "fixed": {
+   "rotation": [
+    0,
+    180,
+    0
+   ],
+   "translation": [
+    0,
+    0,
+    0
+   ],
+   "scale": [
+    0.55,
+    0.55,
+    0.55
+   ]
+  },
+  "head": {
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "translation": [
+    0,
+    13,
+    7
+   ],
+   "scale": [
+    0.7,
+    0.7,
+    0.7
+   ]
+  }
+ },
+ "textures": {
+  "particle": "devilfruits:item/doru_doru/wax_lance"
+ },
+ "base": {
+  "parent": "devilfruits:item/doru_doru/3d/wax_lance"
+ },
+ "perspectives": {
+  "gui": {
+   "parent": "devilfruits:item/doru_doru/gui/wax_lance"
+  }
+ }
+}

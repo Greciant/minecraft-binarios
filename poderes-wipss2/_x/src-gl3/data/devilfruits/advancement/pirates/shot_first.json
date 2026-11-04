@@ -1,0 +1,42 @@
+{
+  "parent": "devilfruits:pirates/root",
+  "criteria": {
+    "shot_first": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "devilfruits:pirate/gunner"
+            }
+          }
+        ],
+        "killing_blow": {
+          "direct_entity": {
+            "type": "devilfruits:pirate/musket_ball"
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.pirates.shot_first.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:pirate/flintlock_pistol"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.pirates.shot_first.title"
+    }
+  },
+  "requirements": [
+    [
+      "shot_first"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

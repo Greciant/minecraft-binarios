@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:uo_uo_seiryu/seiryu",
+  "criteria": {
+    "used_thunder_storm": {
+      "trigger": "devilfruits:uo_uo_seiryu/used_thunder_storm"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.uo_uo_seiryu.thunder_cloud_storm.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:uo_uo_seiryu/thunder_storm"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.uo_uo_seiryu.thunder_cloud_storm.title"
+    }
+  },
+  "requirements": [
+    [
+      "used_thunder_storm"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

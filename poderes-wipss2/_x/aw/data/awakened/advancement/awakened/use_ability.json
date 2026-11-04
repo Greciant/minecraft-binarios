@@ -1,0 +1,28 @@
+{
+  "parent": "awakened:awakened/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star"
+    },
+    "title": {
+      "translate": "advancement.awakened.use_ability.title"
+    },
+    "description": {
+      "translate": "advancement.awakened.use_ability.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "awarded": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "awarded"
+    ]
+  ]
+}

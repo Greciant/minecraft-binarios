@@ -1,0 +1,11 @@
+{
+  "recipes": [
+    "devilfruits:seastone/seastone_ingot",
+    "devilfruits:seastone/seastone_ingot_from_nuggets",
+    "devilfruits:seastone/seastone_nugget",
+    "devilfruits:seastone/seastone_block",
+    "devilfruits:seastone/seastone_ingot_from_block"
+  ],
+  "requires": [],
+  "icon": "devilfruits:seastone_ingot"
+}

@@ -1,0 +1,21 @@
+{
+  "base": {
+    "parent": "devilfruits:item/uo_uo_seiryu/hassaikai_in_hand"
+  },
+  "gui_light": "side",
+  "loader": "neoforge:separate_transforms",
+  "perspectives": {
+    "fixed": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "devilfruits:item/fruit/uo_uo_seiryu/hassaikai"
+      }
+    },
+    "gui": {
+      "parent": "devilfruits:item/uo_uo_seiryu/gui/hassaikai"
+    }
+  },
+  "textures": {
+    "particle": "devilfruits:item/fruit/uo_uo_seiryu/hassaikai"
+  }
+}

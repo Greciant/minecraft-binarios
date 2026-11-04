@@ -1,0 +1,7 @@
+{
+  "type": "devilfruits:poneglyph_ruins",
+  "biomes": "#devilfruits:has_structure/poneglyph_ruins",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

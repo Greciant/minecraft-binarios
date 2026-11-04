@@ -1,0 +1,52 @@
+plugins {
+    id 'eclipse'
+    id 'net.minecraftforge.gradle' version '[6.0.16,6.2)'
+    id 'org.spongepowered.mixin' version '0.7.+'
+}
+
+// Port personal a Forge 1.20.1 de Scroll Walk (MIT, Naw7k).
+// Origen: github.com/Naw7k/Scroll-Walk, rama main.
+version = '1.2-forge1.20.1-port'
+group = 'net.naw.scrollwalk'
+base { archivesName = 'scrollwalk' }
+
+java { toolchain.languageVersion = JavaLanguageVersion.of(17) }
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+        }
+    }
+}
+
+mixin {
+    add sourceSets.main, 'scrollwalk.refmap.json'
+    config 'scrollwalk.mixins.json'
+}
+
+repositories {
+    mavenCentral()
+    maven { name = 'Cloth Config'; url = 'https://maven.shedaniel.me/' }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.23'
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
+    implementation fg.deobf('me.shedaniel.cloth:cloth-config-forge:11.1.136')
+}
+
+jar {
+    manifest {
+        attributes([
+            'Specification-Title'   : 'scrollwalk',
+            'Implementation-Title'  : project.name,
+            'Implementation-Version': project.version,
+            'MixinConfigs'          : 'scrollwalk.mixins.json'
+        ])
+    }
+}

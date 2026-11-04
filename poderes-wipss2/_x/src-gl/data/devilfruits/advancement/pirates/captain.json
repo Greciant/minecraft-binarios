@@ -1,0 +1,38 @@
+{
+  "parent": "devilfruits:pirates/root",
+  "criteria": {
+    "captain": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "devilfruits:pirate/captain"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.pirates.captain.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:pirate/captain_cutlass"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.pirates.captain.title"
+    }
+  },
+  "requirements": [
+    [
+      "captain"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

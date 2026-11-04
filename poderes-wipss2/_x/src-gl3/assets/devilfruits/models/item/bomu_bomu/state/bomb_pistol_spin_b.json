@@ -1,0 +1,15 @@
+{
+ "loader": "neoforge:separate_transforms",
+ "gui_light": "side",
+ "textures": {
+  "particle": "devilfruits:item/bomu_bomu/bomb_pistol"
+ },
+ "base": {
+  "parent": "devilfruits:item/bomu_bomu/3d/bomb_pistol_spin_b"
+ },
+ "perspectives": {
+  "gui": {
+   "parent": "devilfruits:item/bomu_bomu/gui/bomb_pistol_spin_b"
+  }
+ }
+}

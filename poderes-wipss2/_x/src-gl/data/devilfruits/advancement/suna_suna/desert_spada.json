@@ -1,0 +1,29 @@
+{
+  "parent": "devilfruits:suna_suna/desert_king",
+  "criteria": {
+    "used_spada": {
+      "trigger": "devilfruits:suna_suna/used_desert_spada"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.suna_suna.desert_spada.description"
+    },
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:suna_suna/desert_spada"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.suna_suna.desert_spada.title"
+    }
+  },
+  "requirements": [
+    [
+      "used_spada"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

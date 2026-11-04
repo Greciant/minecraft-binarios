@@ -1,0 +1,8 @@
+PROGRESO port Scroll Walk -> Forge 1.20.1
+[x] proyecto creado (build.gradle, mods.toml, LICENSE, sin mixinextras: no hace falta)
+[x] mixins/clases portadas 1:1 (el codigo es casi identico salvo ModMenu->ConfigScreenHandler
+    y sendOverlayMessage->displayClientMessage)
+[x] verificado con javap que onScroll(long,double,double) y el resto de la API son iguales en 1.20.1
+[x] compila (./gradlew build --no-daemon -q, exit 0, 10-oct)
+[x] LEEME-port.txt
+[ ] PC: runClient y probar Alt+rueda en juego

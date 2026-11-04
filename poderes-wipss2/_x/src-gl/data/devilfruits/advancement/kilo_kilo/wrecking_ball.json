@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:kilo_kilo/weight_weight",
+  "criteria": {
+    "wrecking_ball": {
+      "trigger": "devilfruits:kilo_kilo/wrecking_ball"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.kilo_kilo.wrecking_ball.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:kilo_kilo/ten_thousand_kilo_press"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.kilo_kilo.wrecking_ball.title"
+    }
+  },
+  "requirements": [
+    [
+      "wrecking_ball"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

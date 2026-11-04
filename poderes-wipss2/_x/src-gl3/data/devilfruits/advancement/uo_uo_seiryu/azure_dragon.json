@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "ate_fruit": {
+      "conditions": {
+        "fruit": "devilfruits:uo_uo_seiryu"
+      },
+      "trigger": "devilfruits:ate_fruit"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/prismarine_bricks.png",
+    "description": {
+      "translate": "advancements.devilfruits.uo_uo_seiryu.azure_dragon.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:uo_uo_no_mi_seiryu"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.uo_uo_seiryu.azure_dragon.title"
+    }
+  },
+  "requirements": [
+    [
+      "ate_fruit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

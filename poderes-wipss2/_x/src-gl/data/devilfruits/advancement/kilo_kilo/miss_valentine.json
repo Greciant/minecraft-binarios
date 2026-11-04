@@ -1,0 +1,33 @@
+{
+  "parent": "devilfruits:kilo_kilo/feather_jump",
+  "criteria": {
+    "max_mastery": {
+      "conditions": {
+        "fruit": "devilfruits:kilo_kilo"
+      },
+      "trigger": "devilfruits:max_mastery"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.kilo_kilo.miss_valentine.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:anvil"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.kilo_kilo.miss_valentine.title"
+    }
+  },
+  "requirements": [
+    [
+      "max_mastery"
+    ]
+  ],
+  "rewards": {
+    "experience": 300
+  },
+  "sends_telemetry_event": true
+}

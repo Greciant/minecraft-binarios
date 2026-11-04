@@ -1,0 +1,15 @@
+PRUEBA DE wipspowers-3.0.0.jar EN WIPSS2 (PC)
+
+Instalar: cerrar el juego, copiar C:\Compartida\MODS-PRIVADOS\wipspowers-3.0.0.jar a la carpeta mods de la instancia WIPSS2
+(junto a awakened-1.23.0 y grandline-1.21.1-0.3.0.jar (reemplaza la 0.2.0; borra cualquier wipspowers anterior)). Abrir un mundo NUEVO de prueba con trucos.
+
+1. Arranque: el juego carga sin crash. En latest.log no hay lineas "wipspowers" ni "Mixin apply failed".
+2. Lista de poderes: escribir "/awakened power give @s " y pulsar TAB. Deben salir solo:
+   pyrokinetic, summoning, hydrokinetic, kinetic_charger, velocity, graviton, ruin, storm_caller, phytokinetic, scaler, gamma, seiryuu.
+3. Subir maestria para desbloquear todo: /awakened mastery set @s 20
+4. Seiryuu: /awakened power give @s seiryuu. Usar las 5 habilidades:
+   Thunder Bagua, Flame Cloud Strike, Draconic Thunder (mantener y soltar), Bolo Barrage (cargar y soltar), Blast Breath (cargar y soltar).
+   Comprobar: el personaje NO se transforma en ningun momento; cada habilidad hace su efecto; Draconic Thunder para al soltar; hay cooldown.
+5. Scaler: /awakened power give @s scaler. Crecer al maximo y encoger al minimo. La velocidad al caminar debe ser la misma que en tamano normal.
+6. Gamma: /awakened power give @s gamma. Enfurecerse/crecer: la piel NO se pone verde. Slot 2 = Thunderclap; slot 5 = Island Shaker (temblor) en lugar de Ragdoll Slam.
+7. Si algo falla: guardar logs\latest.log (y crash-reports si hay) en C:\Compartida\MODS-PRIVADOS\prueba-wipspowers\

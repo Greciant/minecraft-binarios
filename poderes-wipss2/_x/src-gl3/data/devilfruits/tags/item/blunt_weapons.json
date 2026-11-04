@@ -1,0 +1,16 @@
+{
+  "values": [
+    "minecraft:mace",
+    "minecraft:stick",
+    "minecraft:blaze_rod",
+    "minecraft:breeze_rod",
+    "minecraft:bone",
+    "devilfruits:hassaikai",
+    "devilfruits:seastone_jitte",
+    "#minecraft:shovels",
+    {
+      "id": "#c:tools/mace",
+      "required": false
+    }
+  ]
+}

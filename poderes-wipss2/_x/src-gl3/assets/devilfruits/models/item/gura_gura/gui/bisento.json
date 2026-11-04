@@ -1,0 +1,22 @@
+{
+ "parent": "devilfruits:item/gura_gura/bisento_in_hand",
+ "display": {
+  "gui": {
+   "rotation": [
+    20.677,
+    21.933,
+    0.487
+   ],
+   "translation": [
+    -0.302,
+    0.075,
+    -0.027
+   ],
+   "scale": [
+    0.425,
+    0.425,
+    0.425
+   ]
+  }
+ }
+}

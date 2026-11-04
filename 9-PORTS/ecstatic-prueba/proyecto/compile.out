@@ -1,0 +1,24 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/home/grec/.gradle/wrapper/dists/gradle-8.8-bin/dl7vupf4psengwqhwktix4v1/gradle-8.8/lib/native-platform-0.22-milestone-26.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Note: SpongePowered MIXIN Annotation Processor Version=0.8.5 (MixinGradle Version=0.7.38)
+Note: Supported obfuscation types: ObfuscationServiceMCP supports [notch] ObfuscationServiceFG3 supports [searge]
+/home/grec/Minecraft/desarrollo/mods-propios/ecstatic-forge-1.20.1/src/main/java/com/angryalchemist/ecstatic/render/BiomeStyleConfig.java:277: warning: [removal] ResourceLocation(String,String) in ResourceLocation has been deprecated and marked for removal
+            ResourceLocation id = new ResourceLocation("ecstatic", "biome_style/" + group.name().toLowerCase(Locale.ROOT) + "_" + part);
+                                  ^
+/home/grec/Minecraft/desarrollo/mods-propios/ecstatic-forge-1.20.1/src/main/java/com/angryalchemist/ecstatic/render/LodCloudExtension.java:23: warning: [removal] ResourceLocation(String) in ResourceLocation has been deprecated and marked for removal
+    private static final ResourceLocation CLOUDS_LOCATION = new ResourceLocation("textures/environment/clouds.png");
+                                                            ^
+/home/grec/Minecraft/desarrollo/mods-propios/ecstatic-forge-1.20.1/src/main/java/com/angryalchemist/ecstatic/render/LodTerrainRenderType.java:112: warning: [removal] ResourceLocation(String,String) in ResourceLocation has been deprecated and marked for removal
+            ResourceLocation id = new ResourceLocation("ecstatic", "terrain_lit_flat");
+                                  ^
+/home/grec/Minecraft/desarrollo/mods-propios/ecstatic-forge-1.20.1/src/main/java/com/angryalchemist/ecstatic/EcstaticForge.java:18: warning: [removal] get() in ModLoadingContext has been deprecated and marked for removal
+        ModLoadingContext.get().registerExtensionPoint(IExtensionPoint.DisplayTest.class,
+                         ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 warnings

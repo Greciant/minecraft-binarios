@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "ate_fruit": {
+      "conditions": {
+        "fruit": "devilfruits:gura_gura"
+      },
+      "trigger": "devilfruits:ate_fruit"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/cracked_deepslate_tiles.png",
+    "description": {
+      "translate": "advancements.devilfruits.gura_gura.tremor_tremor.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:gura_gura_no_mi"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.gura_gura.tremor_tremor.title"
+    }
+  },
+  "requirements": [
+    [
+      "ate_fruit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

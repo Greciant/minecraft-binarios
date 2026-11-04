@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": { "recipes": ["awakened:sun_axe_head"] },
+  "criteria": {
+    "has_gold_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": "minecraft:gold_block" } ] }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": { "recipe": "awakened:sun_axe_head" }
+    }
+  },
+  "requirements": [ [ "has_gold_block", "has_the_recipe" ] ]
+}

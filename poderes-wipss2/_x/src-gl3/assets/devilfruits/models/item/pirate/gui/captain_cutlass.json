@@ -1,0 +1,22 @@
+{
+ "parent": "devilfruits:item/pirate/3d/captain_cutlass",
+ "display": {
+  "gui": {
+   "rotation": [
+    14.142,
+    16.321,
+    -63.923
+   ],
+   "translation": [
+    -1.984,
+    -2.34,
+    -0.2
+   ],
+   "scale": [
+    0.621,
+    0.621,
+    0.621
+   ]
+  }
+ }
+}

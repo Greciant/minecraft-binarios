@@ -1,0 +1,29 @@
+{
+  "parent": "devilfruits:horo_horo/hollow_hollow",
+  "criteria": {
+    "ghost_rap": {
+      "trigger": "devilfruits:horo_horo/ghost_rap"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.horo_horo.ghost_rap.description"
+    },
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:horo_horo/mini_hollow"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.horo_horo.ghost_rap.title"
+    }
+  },
+  "requirements": [
+    [
+      "ghost_rap"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

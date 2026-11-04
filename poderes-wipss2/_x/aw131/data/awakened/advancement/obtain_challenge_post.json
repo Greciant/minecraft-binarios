@@ -1,0 +1,35 @@
+{
+  "parent": "awakened:defeat_leviathan",
+  "display": {
+    "icon": {
+      "id": "awakened:challenge_post"
+    },
+    "title": {
+      "translate": "advancement.awakened.obtain_challenge_post.title"
+    },
+    "description": {
+      "translate": "item.awakened.challenge_post.tooltip"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "has_challenge_post": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "awakened:challenge_post"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_challenge_post"
+    ]
+  ]
+}

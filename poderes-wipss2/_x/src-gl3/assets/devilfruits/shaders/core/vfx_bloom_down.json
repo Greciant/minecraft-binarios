@@ -1,0 +1,36 @@
+{
+  "vertex": "devilfruits:vfx_screen",
+  "fragment": "devilfruits:vfx_bloom_down",
+  "samplers": [
+    {
+      "name": "Source"
+    }
+  ],
+  "uniforms": [
+    {
+      "name": "SrcTexel",
+      "type": "float",
+      "count": 2,
+      "values": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Threshold",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.0
+      ]
+    },
+    {
+      "name": "FirstPass",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.0
+      ]
+    }
+  ]
+}

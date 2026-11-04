@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": { "recipes": ["awakened:blank_sun_axe"] },
+  "criteria": {
+    "has_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": "awakened:dormant_core" } ] }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": { "recipe": "awakened:blank_sun_axe" }
+    }
+  },
+  "requirements": [ [ "has_core", "has_the_recipe" ] ]
+}

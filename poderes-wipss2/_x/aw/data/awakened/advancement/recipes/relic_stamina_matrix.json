@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "awakened:relic_stamina_matrix"
+    ]
+  },
+  "criteria": {
+    "has_binder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:echo_shard"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "awakened:relic_stamina_matrix"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_binder",
+      "has_the_recipe"
+    ]
+  ]
+}

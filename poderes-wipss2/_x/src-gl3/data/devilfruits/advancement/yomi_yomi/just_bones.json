@@ -1,0 +1,26 @@
+{
+  "parent": "devilfruits:yomi_yomi/revived",
+  "criteria": {
+    "skeleton": {
+      "trigger": "devilfruits:yomi_yomi/skeleton"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.yomi_yomi.just_bones.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.yomi_yomi.just_bones.title"
+    }
+  },
+  "requirements": [
+    [
+      "skeleton"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

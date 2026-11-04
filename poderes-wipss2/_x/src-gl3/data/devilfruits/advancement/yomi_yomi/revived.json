@@ -1,0 +1,27 @@
+{
+  "parent": "devilfruits:yomi_yomi/soul_departed",
+  "criteria": {
+    "revived": {
+      "trigger": "devilfruits:yomi_yomi/revived"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.yomi_yomi.revived.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:soul_solid"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.yomi_yomi.revived.title"
+    }
+  },
+  "requirements": [
+    [
+      "revived"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

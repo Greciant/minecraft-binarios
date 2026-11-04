@@ -1,0 +1,27 @@
+{
+  "parent": "devilfruits:kage_kage/thriller_bark",
+  "criteria": {
+    "full_crew": {
+      "trigger": "devilfruits:kage_kage/full_crew"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.kage_kage.full_crew.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:zombie_head"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.kage_kage.full_crew.title"
+    }
+  },
+  "requirements": [
+    [
+      "full_crew"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

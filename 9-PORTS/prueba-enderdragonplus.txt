@@ -1,0 +1,17 @@
+Prueba de Ender Dragon Plus 0.2.5 en el PC (WIP-Cliente-para-PC)
+
+Jar: 9-PORTS/jars/enderdragonplus-1.20.1-forge-0.2.5.jar (poner en mods de la instancia; no hay que tocar el servidor ni el pool todavia).
+Cambios frente a 0.2.1: la distorsion del espacio se apaga sola si hay un shaderpack de Oculus activo (config enderdragonplus-client.toml: distortionOffWithShaders=true); textos y config en espanol (es_es).
+
+Pasos (creativo, op):
+1. Ir al End. /summon minecraft:ender_dragon
+2. /edpshowcase start  -> recorre todas las habilidades; mirar si hay pantallazos, rosa/negro, artefactos o el juego se cierra.
+3. Repetir con Complementary Reimagined 5.9 y sin shaders.
+4. Ver logs/latest.log: errores con "enderdragonplus" o "Mixin".
+5. Opcional: pelea corta en supervivencia (bajar vida del dragon a mano) para ver fases 2 y 3 (escudo y nova final).
+Licencia: port personal, no publicar en la web ni compartir fuera del grupo.
+
+0.2.5 arregla el cierre al usar /edpshowcase (paquete de red con campos leidos en distinto orden que se escribian; afectaba tambien a los efectos de una pelea real). Mensajes del comando y subtitulos en espanol.
+Aviso "Object did not get ID it asked for: enderdragonplus:ending_crystal" al arrancar: normal si el mundo se guardo antes de instalar el mod; ignorar salvo que el item no aparezca.
+0.2.5: ataque base por defecto 7 (antes 10), tras la prueba en supervivencia.
+0.2.5: fase de furia mas llevadera (enfriamiento x0.8, nova final x2.2, quemadura x0.1).

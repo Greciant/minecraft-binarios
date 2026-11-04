@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GG",
+    "GG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "id": "awakened:sun_axe_head",
+    "count": 1
+  }
+}

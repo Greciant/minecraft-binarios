@@ -1,0 +1,41 @@
+{
+  "render_type": "minecraft:cutout",
+  "ambientocclusion": false,
+  "textures": {
+    "book": "devilfruits:block/decipher_desk/book",
+    "book_pages": "devilfruits:block/decipher_desk/book_pages",
+    "particle": "devilfruits:block/decipher_desk/book"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        12,
+        4
+      ],
+      "to": [
+        5,
+        13.5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#book_pages"
+        },
+        "south": {
+          "texture": "#book_pages"
+        },
+        "east": {
+          "texture": "#book_pages"
+        },
+        "west": {
+          "texture": "#book"
+        },
+        "up": {
+          "texture": "#book",
+          "rotation": 180
+        }
+      }
+    }
+  ]
+}

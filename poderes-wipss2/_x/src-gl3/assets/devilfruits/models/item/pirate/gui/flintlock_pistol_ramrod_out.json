@@ -1,0 +1,22 @@
+{
+ "parent": "devilfruits:item/pirate/3d/flintlock_pistol_ramrod_out",
+ "display": {
+  "gui": {
+   "rotation": [
+    14.591,
+    2.692,
+    21.792
+   ],
+   "translation": [
+    3.739,
+    2.806,
+    0.43
+   ],
+   "scale": [
+    0.7914,
+    0.7914,
+    0.7914
+   ]
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "devilfruits:bomu_bomu/bomb_bomb",
+  "criteria": {
+    "tnt_untouched": {
+      "trigger": "devilfruits:bomu_bomu/tnt_untouched"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.bomu_bomu.untouched.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.bomu_bomu.untouched.title"
+    }
+  },
+  "requirements": [
+    [
+      "tnt_untouched"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

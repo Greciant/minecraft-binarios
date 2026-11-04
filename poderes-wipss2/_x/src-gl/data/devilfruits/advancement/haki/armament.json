@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "unlocked": {
+      "trigger": "devilfruits:haki_unlocked"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/blackstone.png",
+    "description": {
+      "translate": "advancements.devilfruits.haki.armament.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:haki_scroll_armament"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.haki.armament.title"
+    }
+  },
+  "requirements": [
+    [
+      "unlocked"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

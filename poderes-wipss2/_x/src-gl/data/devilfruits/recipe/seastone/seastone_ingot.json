@@ -1,0 +1,22 @@
+{
+  "type": "devilfruits:knowledge_shaped",
+  "knowledge": "devilfruits:seastone_refining",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "devilfruits:raw_seastone"
+    },
+    "B": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RBR",
+    "RRR"
+  ],
+  "result": {
+    "count": 4,
+    "id": "devilfruits:seastone_ingot"
+  }
+}

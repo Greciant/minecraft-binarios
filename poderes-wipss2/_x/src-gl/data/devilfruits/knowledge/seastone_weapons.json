@@ -1,0 +1,11 @@
+{
+  "recipes": [
+    "devilfruits:seastone/seastone_sword",
+    "devilfruits:seastone/seastone_jitte",
+    "devilfruits:seastone/seastone_arrow"
+  ],
+  "requires": [
+    "devilfruits:seastone_refining"
+  ],
+  "icon": "devilfruits:seastone_sword"
+}

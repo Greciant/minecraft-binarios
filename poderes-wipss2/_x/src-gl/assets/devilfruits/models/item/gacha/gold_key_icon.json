@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:item/generated",
+ "textures": {
+  "layer0": "devilfruits:item/gacha/gold_key"
+ }
+}

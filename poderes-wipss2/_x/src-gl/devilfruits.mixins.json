@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.devilfruits.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockStateBaseMixin",
+    "CrafterBlockMixin",
+    "CraftingMenuMixin",
+    "EntityMixin",
+    "PlayerMixin",
+    "ServerGamePacketListenerImplAccessor"
+  ],
+  "client": [
+    "client.CameraMixin",
+    "client.EntityRendererInvoker",
+    "client.HumanoidModelMixin",
+    "client.ItemInHandRendererMixin",
+    "client.LivingEntityRendererMixin",
+    "client.PlayerRendererMixin",
+    "client.SoundEngineMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

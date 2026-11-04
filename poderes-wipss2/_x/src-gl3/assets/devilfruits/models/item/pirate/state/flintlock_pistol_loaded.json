@@ -1,0 +1,15 @@
+{
+ "loader": "neoforge:separate_transforms",
+ "gui_light": "side",
+ "textures": {
+  "particle": "devilfruits:item/pirate/flintlock_pistol_loaded"
+ },
+ "base": {
+  "parent": "devilfruits:item/pirate/3d/flintlock_pistol_loaded"
+ },
+ "perspectives": {
+  "gui": {
+   "parent": "devilfruits:item/pirate/gui/flintlock_pistol_loaded"
+  }
+ }
+}

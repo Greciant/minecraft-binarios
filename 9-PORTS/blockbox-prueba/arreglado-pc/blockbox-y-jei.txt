@@ -1,0 +1,119 @@
+# Guion packtest (PC, 11-oct-2026): pruebas pendientes de The Block Box + Spatial GUI con JEI.
+# Lanzar en Prueba-Ports con -Dpacktest.script=<ruta de este archivo>.
+
+gap 20
+hud on
+cmdtry kill @e[type=!player,distance=..40]
+waitload 4
+wait 60
+cmd gamerule randomTickSpeed 0
+cmdtry effect clear @s minecraft:resistance
+
+cmd setblock 3 220 -3 blockbox:copper_pillar
+cmd setblock 4 220 -3 blockbox:copper_bars
+cmd setblock -3 220 -3 blockbox:golden_door[half=lower,facing=south]
+cmd setblock -3 221 -3 blockbox:golden_door[half=upper,facing=south]
+cmd setblock -5 220 -3 blockbox:iron_plate_door[half=lower,facing=south]
+cmd setblock -5 221 -3 blockbox:iron_plate_door[half=upper,facing=south]
+cmd setblock -2 220 -1 blockbox:golden_trapdoor
+cmd setblock 0 220 -3 blockbox:oak_seat
+cmd setblock 6 220 3 blockbox:spiked_oak_palisade
+cmd setblock -2 220 3 minecraft:crafting_table
+cmd setblock 3 220 2 blockbox:brazier[lit=false]
+wait 20
+
+echo === Puertas y trampilla ===
+useat -3 220 -3 blockbox:golden_door
+wait 20
+cmd execute if block -3 220 -3 blockbox:golden_door[open=true]
+useat -5 220 -3 blockbox:iron_plate_door
+wait 20
+cmd execute if block -5 220 -3 blockbox:iron_plate_door[open=true]
+useat -2 220 -1 blockbox:golden_trapdoor
+wait 20
+cmd execute if block -2 220 -1 blockbox:golden_trapdoor[open=true]
+shot bb-puertas
+
+echo === Asiento ===
+useat 0 220 -3 blockbox:oak_seat
+wait 30
+cmd execute on vehicle run say sentado en el asiento
+shot bb-asiento
+cmdtry ride @s dismount
+wait 20
+
+echo === Encerado y oxidacion ===
+cmd item replace entity @s weapon.mainhand with minecraft:honeycomb 4
+useat 4 220 -3 blockbox:copper_bars
+wait 20
+expect_block 4 220 -3 blockbox:waxed_copper_bars
+cmd gamerule randomTickSpeed 4096
+wait 400
+cmd gamerule randomTickSpeed 3
+cmd execute if block 3 220 -3 blockbox:copper_pillar
+cmd execute if block 3 220 -3 blockbox:exposed_copper_pillar
+cmd execute if block 3 220 -3 blockbox:weathered_copper_pillar
+cmd execute if block 3 220 -3 blockbox:oxidized_copper_pillar
+expect_block 4 220 -3 blockbox:waxed_copper_bars
+shot bb-cobre
+
+echo === Brasero ===
+cmd item replace entity @s weapon.mainhand with minecraft:flint_and_steel
+useat 3 220 2 blockbox:brazier
+wait 20
+cmd execute if block 3 220 2 blockbox:brazier[lit=true]
+
+echo === Estacas con punta (supervivencia) ===
+cmd gamemode survival
+cmdtry effect clear @s
+cmd effect give @s minecraft:instant_health 1 5 true
+wait 20
+cmd tp @s 6.5 221 3.5
+wait 10
+cmd tp @s 6.7 ~ 3.5
+wait 4
+cmd tp @s 6.5 ~ 3.5
+wait 4
+cmd tp @s 6.7 ~ 3.5
+wait 4
+cmd tp @s 6.5 ~ 3.5
+wait 4
+cmd tp @s 6.7 ~ 3.5
+wait 4
+cmd tp @s 6.5 ~ 3.5
+wait 4
+cmd tp @s 6.7 ~ 3.5
+wait 4
+cmd tp @s 6.5 ~ 3.5
+wait 4
+wait 60
+cmd data get entity @s Health
+shot bb-estacas
+cmd gamemode creative
+cmd effect give @s minecraft:instant_health 1 5 true
+cmd tp @s 0.5 220 0.5 0 20
+wait 20
+
+echo === Farol volador ===
+cmd item replace entity @s weapon.mainhand with blockbox:red_sky_lantern
+look 0 -30
+useitem
+wait 30
+findblock blockbox:red_sky_lantern
+findentity blockbox:sky_lantern
+shot bb-farol
+
+echo === Spatial GUI + JEI ===
+cmd item replace entity @s weapon.mainhand with minecraft:diamond_sword
+view back
+look 0 15
+inventory
+wait 60
+shot sg-jei-inventario
+close
+wait 20
+useat -2 220 3 minecraft:crafting_table
+wait 60
+shot sg-jei-mesa
+close
+wait 20

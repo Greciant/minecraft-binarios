@@ -1,0 +1,33 @@
+{
+  "parent": "devilfruits:yomi_yomi/revived",
+  "criteria": {
+    "has_guitar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "devilfruits:soul_guitar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.yomi_yomi.guitar.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:soul_guitar"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.yomi_yomi.guitar.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_guitar"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

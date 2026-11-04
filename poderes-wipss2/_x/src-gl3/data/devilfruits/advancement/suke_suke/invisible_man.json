@@ -1,0 +1,36 @@
+{
+  "parent": "devilfruits:suke_suke/clear_clear",
+  "criteria": {
+    "max_mastery": {
+      "conditions": {
+        "fruit": "devilfruits:suke_suke"
+      },
+      "trigger": "devilfruits:max_mastery"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.suke_suke.invisible_man.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:suke_suke/invisibility"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.suke_suke.invisible_man.title"
+    }
+  },
+  "requirements": [
+    [
+      "max_mastery"
+    ]
+  ],
+  "rewards": {
+    "experience": 300
+  },
+  "sends_telemetry_event": true
+}

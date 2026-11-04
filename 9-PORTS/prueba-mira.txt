@@ -1,0 +1,15 @@
+# Guion packtest (PC, 17-oct-2026): captura de la mira de Centered Crosshair, con HUD y en primera persona.
+gap 20
+hud on
+waitload 4
+wait 60
+view first
+look 0 0
+cmd item replace entity @s weapon.mainhand with minecraft:air
+wait 20
+shot cc-mira
+cmd setblock 0 221 -2 minecraft:white_concrete
+cmd setblock 0 222 -2 minecraft:white_concrete
+look 180 0
+wait 20
+shot cc-mira-fondo-blanco

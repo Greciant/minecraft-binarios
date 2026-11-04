@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:doru_doru/wax_wax",
+  "criteria": {
+    "encase": {
+      "trigger": "devilfruits:doru_doru/encase"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.doru_doru.encase.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:doru_doru/candle_service"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.doru_doru.encase.title"
+    }
+  },
+  "requirements": [
+    [
+      "encase"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

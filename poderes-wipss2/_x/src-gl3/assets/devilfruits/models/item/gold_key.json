@@ -1,0 +1,18 @@
+{
+ "loader": "neoforge:separate_transforms",
+ "gui_light": "front",
+ "textures": {
+  "particle": "devilfruits:item/gacha/gold_key"
+ },
+ "base": {
+  "parent": "devilfruits:item/gacha/gold_key_3d"
+ },
+ "perspectives": {
+  "gui": {
+   "parent": "devilfruits:item/gacha/gold_key_icon"
+  },
+  "fixed": {
+   "parent": "devilfruits:item/gacha/gold_key_icon"
+  }
+ }
+}

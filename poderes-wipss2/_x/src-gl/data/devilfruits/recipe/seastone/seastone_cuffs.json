@@ -1,0 +1,24 @@
+{
+  "type": "devilfruits:knowledge_shaped",
+  "knowledge": "devilfruits:seastone_restraints",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "devilfruits:seastone_ingot"
+    },
+    "N": {
+      "item": "devilfruits:seastone_nugget"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    }
+  },
+  "pattern": [
+    "N N",
+    "ICI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "devilfruits:seastone_cuffs"
+  }
+}

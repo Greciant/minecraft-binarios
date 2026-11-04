@@ -1,0 +1,106 @@
+PRUEBA EN EL PC - port The Block Box Forge 1.20.1                11-oct-2026
+=============================================================================
+En el portatil NO se prueba en juego (compila limpio, nada mas). El mod tiene
+~90 bloques (chimeneas, estacas, asientos, faroles voladores, variantes de
+cobre/hierro/oro/amatista/lapis, nieve tallada, baldosas); lado cliente y
+servidor.
+
+Jar: blockbox-0.1.3-forge1.20.1-port.jar
+
+A) runClient (lo mas simple)
+ 1. Copiar proyecto\ al PC. JDK 17 o 21 (sin java.home fijo en
+    gradle.properties). Si gradlew.bat no arranca:
+      java -classpath gradle\wrapper\gradle-wrapper.jar org.gradle.wrapper.GradleWrapperMain runClient
+ 2. Modo creativo, pestana propia (icono: oro cincelado, "example_tab" -
+    el nombre del grupo original no se tradujo). Revisar que los ~90
+    bloques tengan textura y no salgan rotos/morados.
+ 3. Probar en especial:
+    - Estacas con punta (Spiked Palisade): caminar encima, debe doler y
+      quedar un poco atascado.
+    - Asientos (Oak/Spruce/.../Warped Seat): clic derecho para sentarse,
+      shift para no sentarse, otro clic (o agacharse) para levantarse.
+    - Chimenea (Brazier/Soul Brazier): encender con encendedor o carga de
+      fuego, apagar con cualquier pala, con agua se apaga sola.
+    - Farol volador (cualquier color): clic derecho en el aire lo coloca
+      (no hace falta apuntar a un bloque). Revisar el tooltip.
+    - Puerta/trampilla de hierro y de oro: que abran, sonido correcto.
+    - Barras/pilar de cobre: que se oxiden solo con el tiempo (dificil de
+      ver rapido) y que la cera (panal) los deje sin oxidar.
+    - Estaca (sin punta) con espada: clic con espada arriba libre debe
+      tallarla en punta.
+    - Nieve tallada/compactada: clic con vara de madera sobre nieve
+      compactada la talla; shift+clic sobre la tallada la deshace.
+ 4. Revisar el log por errores de blockbox (texturas/modelos/recetas que
+    falten).
+
+B) (Opcional) En Prism con el pack completo
+ - Copiar el jar a mods\ de una COPIA de la instancia y repetir pruebas
+   rapidas. Debe compartir bien con Create, Farmer's Delight, etc.
+
+Si algo falla, anotarlo aqui con fecha, o avisar en el hilo de porteo.
+
+RESULTADO EN EL PC (11-oct-2026) - Prism, copia Prueba-Ports con el pack completo
+  El jar original cargaba con tres fallos:
+   1. Sin pack.mcmeta: Forge avisaba "no ha podido cargar un ResourcePackInfo
+      valido" y NO cargaba los recursos del mod (texturas/sonidos). Arreglo:
+      src/main/resources/pack.mcmeta (pack_format 15).
+   2. commonSetup lanzaba UnsupportedOperationException: WAXABLES y NEXT_BY_BLOCK
+      son ImmutableBiMap memoizados en 1.20.1. Sin esto las rejas/pilares de cobre
+      no se enceraban ni oxidaban. Arreglo en CommonEvents.java: se cambia el valor
+      del supplier por una copia HashBiMap (reflexion) y se agregan ahi.
+   3. sounds.json: "item.axe.strip" sin namespace -> "minecraft:item.axe.strip".
+  Con los arreglos: sin errores ni avisos de blockbox en el log; los 153 bloques
+  colocados en una cuadricula se ven con textura (capturas en arreglado-pc\);
+  panal sobre blockbox:copper_bars -> blockbox:waxed_copper_bars (encerado OK).
+  No probado: oxidacion con el tiempo, asientos, estacas, farol volador, puertas.
+  NO se instalo en WIP: agrega bloques, tiene que ir tambien en el servidor.
+
+SEGUNDA PRUEBA EN EL PC (11/12-oct-2026) - guion packtest arreglado-pc\blockbox-y-jei.txt
+  4o fallo encontrado y arreglado: el cobre (rejas y pilar) NO se oxidaba. En 1.20.1 un
+  bloque solo recibe ticks aleatorios si isRandomlyTicking() devuelve true (no basta con
+  sobreescribir randomTick). Arreglo en WeatheringCopperBarsBlock/PillarBlock:
+  isRandomlyTicking -> WeatheringCopper.getNext(...).isPresent() (igual que vanilla).
+  Resultado con el jar de arreglado-pc\:
+   OK puerta de oro, puerta de placa de hierro y trampilla de oro se abren a mano.
+   OK asiento: el jugador queda montado en entity.blockbox.seat; /ride dismount lo baja.
+   OK panal: copper_bars -> waxed_copper_bars, y la encerada no cambia con el tiempo.
+   OK oxidacion: copper_pillar llega a oxidized_copper_pillar (randomTickSpeed alto).
+   OK estacas con punta: moviendose encima baja la vida (20 -> 17.7).
+   OK farol volador: se coloca al usarlo.
+   Sin verificar: encender/apagar el brasero (quedo fuera de alcance en el guion).
+  Instalado en WIP-Cliente-para-PC. Falta el servidor (agrega bloques).
+
+TERCERA PRUEBA EN EL PC (12-oct-2026) - guion arreglado-pc\brasero-y-jei.txt
+  5o fallo encontrado y arreglado: TODOS los datos estaban con nombres de carpeta de 1.21
+  (tags/block, tags/item, recipe, loot_table, advancement). 1.20.1 usa plural
+  (tags/blocks, tags/items, recipes, loot_tables, advancements), asi que no cargaba
+  NINGUNA receta, loot table ni tag: los bloques no soltaban nada al romperlos, no se
+  podian fabricar, no tenian herramienta correcta y el brasero no se encendia (su tag
+  blockbox:braziers no existia). Tambien el formato de las recetas era el de 1.21.
+  Arreglo: script arreglado-pc\convertir-datos-1.20.1.js (Node), que renombra carpetas,
+  pasa el resultado de recetas al formato 1.20.1 (shaped/shapeless {item,count},
+  stonecutting result+count, smelting result string), c:dyes|ingots -> forge:, y los
+  predicados de item de los logros. HAY QUE CORRERLO en el proyecto original.
+  Resultado: brasero se enciende con mechero y se apaga con pala; romper una estaca
+  suelta su item; tags (braziers, mineable/axe) y recetas cargan sin errores.
+  Jar final en arreglado-pc\ (sha256 empieza 74BF1D697EE7), instalado en WIP. Sustituye
+  al de antes: el del servidor tambien hay que cambiarlo por este.
+
+TERCERA PRUEBA EN EL PC (12-oct-2026) - brasero-y-jei.txt
+  5o fallo encontrado y arreglado: los datos (recetas, loot tables, logros, tags) usaban el
+  formato de carpetas de 1.21 (recipe/loot_table/advancement/tags/block,item en singular) en
+  vez del de Forge 1.20.1 (recipes/loot_tables/advancements/tags/blocks,items en plural) ->
+  NO cargaba ninguna receta, loot table, logro ni tag del mod. Convertido con el script
+  convertir-datos-1.20.1.js (renombra carpetas, adapta el resultado de receta al formato
+  {item: id} de 1.20.1, y las tags c:dyes/c:ingots a forge:dyes/forge:ingots).
+  Resultado con el jar nuevo (sha256 74bf1d697ee7...):
+   OK brasero: enciende con encendedor, se apaga con pala o con encendedor otra vez (agua sin
+     probar en este guion), permanece apagado tras usarlo con pala.
+   OK recetas: recipe give entrega la de acacia_palisade y red_sky_lantern.
+   OK tags: #blockbox:braziers y #minecraft:mineable/axe reconocen los bloques.
+   OK loot: loot spawn desde iron_axe dropea lo esperado.
+   OK Spatial GUI + JEI: inventario y mesa de crafteo se ven en el panel 3D en tercera y
+     primera persona, con el overlay de JEI dentro del panel (no tapado ni encima).
+  12-oct: instalado el jar con los 5 arreglos en servidor + pool + 1-MODPACK + 9-PORTS/jars +
+  8-KEO/opcional (con .bak de la version anterior en cada carpeta). Fusionado en el proyecto
+  canonico (desarrollo/mods-propios/blockbox-forge-1.20.1), compila limpio.

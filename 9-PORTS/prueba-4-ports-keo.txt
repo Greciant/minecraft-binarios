@@ -1,0 +1,106 @@
+# Guion packtest (PC, 16-oct-2026): Centered Crosshair, Axolotl Buckets, Enchanted Book Redesign, Auditory.
+# Lanzar en WIP-Cliente-para-PC con -Dpacktest.script=<ruta de este archivo>.
+
+gap 20
+hud on
+waitload 4
+wait 60
+view first
+look 0 0
+
+echo === Mira centrada ===
+cmd item replace entity @s weapon.mainhand with minecraft:air
+wait 20
+shot cc-mira
+
+echo === Baldes de ajolote ===
+cmd item replace entity @s hotbar.0 with minecraft:axolotl_bucket{Variant:0,Age:0}
+cmd item replace entity @s hotbar.1 with minecraft:axolotl_bucket{Variant:1,Age:0}
+cmd item replace entity @s hotbar.2 with minecraft:axolotl_bucket{Variant:2,Age:-24000}
+cmd item replace entity @s hotbar.3 with minecraft:axolotl_bucket{Variant:3,Age:0}
+cmd item replace entity @s hotbar.4 with minecraft:axolotl_bucket{Variant:4,Age:0}
+
+echo === Libros encantados ===
+cmd item replace entity @s hotbar.5 with minecraft:enchanted_book{StoredEnchantments:[{id:"minecraft:sharpness",lvl:5s}]}
+cmd item replace entity @s hotbar.6 with minecraft:enchanted_book{StoredEnchantments:[{id:"minecraft:mending",lvl:1s}]}
+cmd item replace entity @s hotbar.7 with minecraft:enchanted_book{StoredEnchantments:[{id:"minecraft:binding_curse",lvl:1s}]}
+cmd item replace entity @s hotbar.8 with minecraft:enchanted_book{StoredEnchantments:[{id:"minecraft:protection",lvl:4s},{id:"minecraft:unbreaking",lvl:3s}]}
+wait 20
+shot axo-libros-hotbar
+inventory
+wait 60
+shot axo-libros-inventario
+close
+wait 20
+
+echo === Auditory: acciones con sonido ===
+cmd item replace entity @s weapon.mainhand with minecraft:diamond_sword
+press attack
+wait 10
+press attack
+wait 10
+cmd item replace entity @s weapon.mainhand with minecraft:cooked_beef 8
+cmd gamemode survival
+cmd effect give @s minecraft:hunger 30 50 true
+wait 60
+useitem 40
+wait 20
+cmd gamemode creative
+cmd setblock 2 220 -1 minecraft:jukebox
+cmd item replace entity @s weapon.mainhand with minecraft:music_disc_cat
+useat 2 220 -1 minecraft:jukebox
+wait 40
+useat 2 220 -1 minecraft:jukebox
+wait 20
+cmd setblock 3 220 1 minecraft:oak_planks
+cmd item replace entity @s weapon.mainhand with minecraft:oak_planks 16
+cmdtry setblock 3 221 1 minecraft:air
+useat 3 220 1 minecraft:oak_planks
+wait 20
+cmd tp @s 0.5 220 0.5 90 10
+wait 10
+cmd tp @s 4.5 220 0.5 90 10
+wait 40
+
+shot auditory-fin
+
+echo === Jugar un rato: pasos, golpes, bloques, mobs ===
+cmd gamemode survival
+cmdtry effect give @s minecraft:resistance infinite 4 true
+cmd summon minecraft:cow 3 220 3
+cmd summon minecraft:zombie -4 220 3 {NoAI:1b}
+cmd item replace entity @s weapon.mainhand with minecraft:iron_sword
+cmd tp @s 0.5 220 0.5 0 0
+wait 10
+cmd tp @s 0.5 220 1.5
+wait 6
+cmd tp @s 0.5 220 2.5
+wait 6
+cmd tp @s 1.5 220 2.5
+wait 6
+cmd tp @s 2.5 220 2.5
+wait 6
+press attack
+wait 10
+press attack
+wait 20
+cmd gamemode creative
+cmd setblock 1 220 -2 minecraft:stone
+cmd setblock 1 220 -2 minecraft:air destroy
+cmd setblock 2 220 -2 minecraft:oak_planks
+cmd setblock 2 220 -2 minecraft:air destroy
+cmd setblock 3 220 -2 minecraft:glass
+cmd setblock 3 220 -2 minecraft:air destroy
+cmd setblock 0 219 -3 minecraft:water
+cmd item replace entity @s weapon.mainhand with minecraft:oak_boat
+cmd tp @s 0.5 220 0.5 180 28
+useitem 20
+wait 20
+cmdtry kill @e[type=!player,distance=..30]
+wait 40
+expect_nolog (?i)(auditory|sound_physics|presencefootsteps|sound physics).*(exception|error)
+pause
+wait 40
+shot panoptic-pausa
+close
+shot auditory-fin

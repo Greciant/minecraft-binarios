@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:gomu_gomu/rubber_man",
+  "criteria": {
+    "barrage": {
+      "trigger": "devilfruits:gomu_gomu/gatling_finished"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.gomu_gomu.barrage.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:gomu_gomu/gatling"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.gomu_gomu.barrage.title"
+    }
+  },
+  "requirements": [
+    [
+      "barrage"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

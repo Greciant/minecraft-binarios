@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      { "threshold": 2.0, "model": { "type": "minecraft:model", "model": "awakened:item/shadow_blade_2" } },
+      { "threshold": 3.0, "model": { "type": "minecraft:model", "model": "awakened:item/shadow_blade_3" } },
+      { "threshold": 4.0, "model": { "type": "minecraft:model", "model": "awakened:item/shadow_blade_4" } }
+    ],
+    "fallback": { "type": "minecraft:model", "model": "awakened:item/shadow_blade_1" }
+  }
+}

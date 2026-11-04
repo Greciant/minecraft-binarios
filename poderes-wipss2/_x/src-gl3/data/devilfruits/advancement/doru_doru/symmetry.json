@@ -1,0 +1,26 @@
+{
+  "parent": "devilfruits:doru_doru/first_arch",
+  "criteria": {
+    "symmetry": {
+      "trigger": "devilfruits:doru_doru/symmetry"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.doru_doru.symmetry.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:glass_pane"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.doru_doru.symmetry.title"
+    }
+  },
+  "requirements": [
+    [
+      "symmetry"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

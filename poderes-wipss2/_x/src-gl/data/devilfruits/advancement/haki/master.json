@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:haki/logia",
+  "criteria": {
+    "master": {
+      "trigger": "devilfruits:haki_master"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.haki.master.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:haki_scroll_armament_master"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.haki.master.title"
+    }
+  },
+  "requirements": [
+    [
+      "master"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

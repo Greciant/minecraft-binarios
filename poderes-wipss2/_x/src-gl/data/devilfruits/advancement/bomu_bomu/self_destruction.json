@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:bomu_bomu/bomb_bomb",
+  "criteria": {
+    "self_destruction": {
+      "trigger": "devilfruits:bomu_bomu/self_destruction"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.bomu_bomu.self_destruction.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:bomu_bomu/self_destruct"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.bomu_bomu.self_destruction.title"
+    }
+  },
+  "requirements": [
+    [
+      "self_destruction"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

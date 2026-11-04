@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "ate_fruit": {
+      "conditions": {
+        "fruit": "devilfruits:horo_horo"
+      },
+      "trigger": "devilfruits:ate_fruit"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/pink_concrete_powder.png",
+    "description": {
+      "translate": "advancements.devilfruits.horo_horo.hollow_hollow.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:horo_horo_no_mi"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.horo_horo.hollow_hollow.title"
+    }
+  },
+  "requirements": [
+    [
+      "ate_fruit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

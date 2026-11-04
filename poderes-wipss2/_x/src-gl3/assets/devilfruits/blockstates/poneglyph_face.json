@@ -1,0 +1,544 @@
+{
+  "variants": {
+    "carving=0,cell=0,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_0_0"
+    },
+    "carving=0,cell=1,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_0_1"
+    },
+    "carving=0,cell=2,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_0_2"
+    },
+    "carving=0,cell=3,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_0_3"
+    },
+    "carving=0,cell=4,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_0_4"
+    },
+    "carving=0,cell=5,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_0_5"
+    },
+    "carving=0,cell=6,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_0_6"
+    },
+    "carving=0,cell=7,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_0_7"
+    },
+    "carving=0,cell=8,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_0_8"
+    },
+    "carving=1,cell=0,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_1_0"
+    },
+    "carving=1,cell=1,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_1_1"
+    },
+    "carving=1,cell=2,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_1_2"
+    },
+    "carving=1,cell=3,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_1_3"
+    },
+    "carving=1,cell=4,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_1_4"
+    },
+    "carving=1,cell=5,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_1_5"
+    },
+    "carving=1,cell=6,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_1_6"
+    },
+    "carving=1,cell=7,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_1_7"
+    },
+    "carving=1,cell=8,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_1_8"
+    },
+    "carving=2,cell=0,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_2_0"
+    },
+    "carving=2,cell=1,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_2_1"
+    },
+    "carving=2,cell=2,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_2_2"
+    },
+    "carving=2,cell=3,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_2_3"
+    },
+    "carving=2,cell=4,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_2_4"
+    },
+    "carving=2,cell=5,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_2_5"
+    },
+    "carving=2,cell=6,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_2_6"
+    },
+    "carving=2,cell=7,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_2_7"
+    },
+    "carving=2,cell=8,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_2_8"
+    },
+    "carving=3,cell=0,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_3_0"
+    },
+    "carving=3,cell=1,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_3_1"
+    },
+    "carving=3,cell=2,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_3_2"
+    },
+    "carving=3,cell=3,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_3_3"
+    },
+    "carving=3,cell=4,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_3_4"
+    },
+    "carving=3,cell=5,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_3_5"
+    },
+    "carving=3,cell=6,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_3_6"
+    },
+    "carving=3,cell=7,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_3_7"
+    },
+    "carving=3,cell=8,facing=north": {
+      "model": "devilfruits:block/poneglyph/face_3_8"
+    },
+    "carving=0,cell=0,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_0_0",
+      "y": 90
+    },
+    "carving=0,cell=1,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_0_1",
+      "y": 90
+    },
+    "carving=0,cell=2,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_0_2",
+      "y": 90
+    },
+    "carving=0,cell=3,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_0_3",
+      "y": 90
+    },
+    "carving=0,cell=4,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_0_4",
+      "y": 90
+    },
+    "carving=0,cell=5,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_0_5",
+      "y": 90
+    },
+    "carving=0,cell=6,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_0_6",
+      "y": 90
+    },
+    "carving=0,cell=7,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_0_7",
+      "y": 90
+    },
+    "carving=0,cell=8,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_0_8",
+      "y": 90
+    },
+    "carving=1,cell=0,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_1_0",
+      "y": 90
+    },
+    "carving=1,cell=1,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_1_1",
+      "y": 90
+    },
+    "carving=1,cell=2,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_1_2",
+      "y": 90
+    },
+    "carving=1,cell=3,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_1_3",
+      "y": 90
+    },
+    "carving=1,cell=4,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_1_4",
+      "y": 90
+    },
+    "carving=1,cell=5,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_1_5",
+      "y": 90
+    },
+    "carving=1,cell=6,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_1_6",
+      "y": 90
+    },
+    "carving=1,cell=7,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_1_7",
+      "y": 90
+    },
+    "carving=1,cell=8,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_1_8",
+      "y": 90
+    },
+    "carving=2,cell=0,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_2_0",
+      "y": 90
+    },
+    "carving=2,cell=1,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_2_1",
+      "y": 90
+    },
+    "carving=2,cell=2,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_2_2",
+      "y": 90
+    },
+    "carving=2,cell=3,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_2_3",
+      "y": 90
+    },
+    "carving=2,cell=4,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_2_4",
+      "y": 90
+    },
+    "carving=2,cell=5,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_2_5",
+      "y": 90
+    },
+    "carving=2,cell=6,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_2_6",
+      "y": 90
+    },
+    "carving=2,cell=7,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_2_7",
+      "y": 90
+    },
+    "carving=2,cell=8,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_2_8",
+      "y": 90
+    },
+    "carving=3,cell=0,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_3_0",
+      "y": 90
+    },
+    "carving=3,cell=1,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_3_1",
+      "y": 90
+    },
+    "carving=3,cell=2,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_3_2",
+      "y": 90
+    },
+    "carving=3,cell=3,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_3_3",
+      "y": 90
+    },
+    "carving=3,cell=4,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_3_4",
+      "y": 90
+    },
+    "carving=3,cell=5,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_3_5",
+      "y": 90
+    },
+    "carving=3,cell=6,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_3_6",
+      "y": 90
+    },
+    "carving=3,cell=7,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_3_7",
+      "y": 90
+    },
+    "carving=3,cell=8,facing=east": {
+      "model": "devilfruits:block/poneglyph/face_3_8",
+      "y": 90
+    },
+    "carving=0,cell=0,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_0_0",
+      "y": 180
+    },
+    "carving=0,cell=1,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_0_1",
+      "y": 180
+    },
+    "carving=0,cell=2,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_0_2",
+      "y": 180
+    },
+    "carving=0,cell=3,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_0_3",
+      "y": 180
+    },
+    "carving=0,cell=4,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_0_4",
+      "y": 180
+    },
+    "carving=0,cell=5,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_0_5",
+      "y": 180
+    },
+    "carving=0,cell=6,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_0_6",
+      "y": 180
+    },
+    "carving=0,cell=7,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_0_7",
+      "y": 180
+    },
+    "carving=0,cell=8,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_0_8",
+      "y": 180
+    },
+    "carving=1,cell=0,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_1_0",
+      "y": 180
+    },
+    "carving=1,cell=1,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_1_1",
+      "y": 180
+    },
+    "carving=1,cell=2,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_1_2",
+      "y": 180
+    },
+    "carving=1,cell=3,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_1_3",
+      "y": 180
+    },
+    "carving=1,cell=4,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_1_4",
+      "y": 180
+    },
+    "carving=1,cell=5,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_1_5",
+      "y": 180
+    },
+    "carving=1,cell=6,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_1_6",
+      "y": 180
+    },
+    "carving=1,cell=7,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_1_7",
+      "y": 180
+    },
+    "carving=1,cell=8,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_1_8",
+      "y": 180
+    },
+    "carving=2,cell=0,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_2_0",
+      "y": 180
+    },
+    "carving=2,cell=1,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_2_1",
+      "y": 180
+    },
+    "carving=2,cell=2,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_2_2",
+      "y": 180
+    },
+    "carving=2,cell=3,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_2_3",
+      "y": 180
+    },
+    "carving=2,cell=4,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_2_4",
+      "y": 180
+    },
+    "carving=2,cell=5,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_2_5",
+      "y": 180
+    },
+    "carving=2,cell=6,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_2_6",
+      "y": 180
+    },
+    "carving=2,cell=7,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_2_7",
+      "y": 180
+    },
+    "carving=2,cell=8,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_2_8",
+      "y": 180
+    },
+    "carving=3,cell=0,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_3_0",
+      "y": 180
+    },
+    "carving=3,cell=1,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_3_1",
+      "y": 180
+    },
+    "carving=3,cell=2,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_3_2",
+      "y": 180
+    },
+    "carving=3,cell=3,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_3_3",
+      "y": 180
+    },
+    "carving=3,cell=4,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_3_4",
+      "y": 180
+    },
+    "carving=3,cell=5,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_3_5",
+      "y": 180
+    },
+    "carving=3,cell=6,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_3_6",
+      "y": 180
+    },
+    "carving=3,cell=7,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_3_7",
+      "y": 180
+    },
+    "carving=3,cell=8,facing=south": {
+      "model": "devilfruits:block/poneglyph/face_3_8",
+      "y": 180
+    },
+    "carving=0,cell=0,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_0_0",
+      "y": 270
+    },
+    "carving=0,cell=1,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_0_1",
+      "y": 270
+    },
+    "carving=0,cell=2,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_0_2",
+      "y": 270
+    },
+    "carving=0,cell=3,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_0_3",
+      "y": 270
+    },
+    "carving=0,cell=4,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_0_4",
+      "y": 270
+    },
+    "carving=0,cell=5,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_0_5",
+      "y": 270
+    },
+    "carving=0,cell=6,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_0_6",
+      "y": 270
+    },
+    "carving=0,cell=7,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_0_7",
+      "y": 270
+    },
+    "carving=0,cell=8,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_0_8",
+      "y": 270
+    },
+    "carving=1,cell=0,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_1_0",
+      "y": 270
+    },
+    "carving=1,cell=1,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_1_1",
+      "y": 270
+    },
+    "carving=1,cell=2,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_1_2",
+      "y": 270
+    },
+    "carving=1,cell=3,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_1_3",
+      "y": 270
+    },
+    "carving=1,cell=4,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_1_4",
+      "y": 270
+    },
+    "carving=1,cell=5,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_1_5",
+      "y": 270
+    },
+    "carving=1,cell=6,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_1_6",
+      "y": 270
+    },
+    "carving=1,cell=7,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_1_7",
+      "y": 270
+    },
+    "carving=1,cell=8,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_1_8",
+      "y": 270
+    },
+    "carving=2,cell=0,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_2_0",
+      "y": 270
+    },
+    "carving=2,cell=1,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_2_1",
+      "y": 270
+    },
+    "carving=2,cell=2,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_2_2",
+      "y": 270
+    },
+    "carving=2,cell=3,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_2_3",
+      "y": 270
+    },
+    "carving=2,cell=4,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_2_4",
+      "y": 270
+    },
+    "carving=2,cell=5,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_2_5",
+      "y": 270
+    },
+    "carving=2,cell=6,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_2_6",
+      "y": 270
+    },
+    "carving=2,cell=7,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_2_7",
+      "y": 270
+    },
+    "carving=2,cell=8,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_2_8",
+      "y": 270
+    },
+    "carving=3,cell=0,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_3_0",
+      "y": 270
+    },
+    "carving=3,cell=1,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_3_1",
+      "y": 270
+    },
+    "carving=3,cell=2,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_3_2",
+      "y": 270
+    },
+    "carving=3,cell=3,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_3_3",
+      "y": 270
+    },
+    "carving=3,cell=4,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_3_4",
+      "y": 270
+    },
+    "carving=3,cell=5,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_3_5",
+      "y": 270
+    },
+    "carving=3,cell=6,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_3_6",
+      "y": 270
+    },
+    "carving=3,cell=7,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_3_7",
+      "y": 270
+    },
+    "carving=3,cell=8,facing=west": {
+      "model": "devilfruits:block/poneglyph/face_3_8",
+      "y": 270
+    }
+  }
+}

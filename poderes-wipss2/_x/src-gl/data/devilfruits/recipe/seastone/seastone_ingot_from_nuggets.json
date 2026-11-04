@@ -1,0 +1,19 @@
+{
+  "type": "devilfruits:knowledge_shaped",
+  "knowledge": "devilfruits:seastone_refining",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "devilfruits:seastone_nugget"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "devilfruits:seastone_ingot"
+  }
+}

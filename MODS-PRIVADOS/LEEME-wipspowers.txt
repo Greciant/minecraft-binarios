@@ -1,0 +1,41 @@
+﻿WIP Powers 3.0.0 (WIPSS2, NeoForge 1.21.1) - PRIVADO, no subir a ningun sitio.
+Va en la carpeta mods de WIPSS2 junto a Awakened 1.23.0 y Devil Fruit: Grand Line 0.3.0 (REQUIERE 0.3.0; quita la 0.2.0) (los dos originales siguen ahi; este es un parche).
+- Deja solo 11 poderes: pyrokinetic, summoning, hydrokinetic, kinetic_charger, velocity, graviton, ruin, storm_caller, phytokinetic, scaler, gamma (+ el nuevo seiryuu). El resto no sale en el sorteo ni en las pantallas.
+- Scaler: cambiar de tamano ya no cambia la velocidad base.
+- Gamma: sin tinte verde en la piel; Thunderclap sigue en el slot 2; Island Shaker (Shima Yurashi) reemplaza a Ragdoll Slam en el slot 5 (maestria 10; Awakened solo admite 5 habilidades por poder).
+- Seiryuu (poder nuevo, 5 habilidades, siempre forma humana): Thunder Bagua, Flame Cloud Strike, Draconic Thunder (mantener), Bolo Barrage, Blast Breath.
+Si alguien ya tiene un poder eliminado guardado en su mundo, hay que reasignarle uno (no lo borra solo).
+SIN PROBAR EN JUEGO todavia.
+- 1.2.0: las tecnicas hibridas/dragon de Seiryuu muestran las cinematicas grandes de Grand Line (sin transformar al jugador).
+- 1.3.0: Blast Breath usa la version hibrida (rayo de plasma); la de dragon tapaba toda la pantalla con luz.
+- 1.4.0: Blast Breath con color de fuego (nucleo dorado), rayo mas definido y menos destello en la boca.
+- 1.5.0: Bolo Barrage con carga a escala humana y meteoros mas grandes; menos y mas chicos escombros en Seiryuu; humo de Flame Cloud mas transparente alrededor del jugador.
+- 1.6.0: Island Shaker con onda y anillos mas visibles y polvo con mas volumen.
+- 1.7.0: sello de energia emisivo bajo los pies y halo al pecho en las 6 tecnicas (aparicion con rebote, latido, giro compuesto, estela de particulas).
+- 1.8.0: el sello pasa a ser anillos de energia limpios, sin simbolos ni runas.
+- 1.9.0: sin sellos (ni anillos, ni halo, ni estela); quedan los efectos de Grand Line con el pulido de la 1.6.0.
+- 2.0.0 (Graviton + Scaler):
+  * Graviton ranura 4 (Dense): sin el aura vieja; lineas negras de presion cayendo en 10 bloques. Todo jugador/mob dentro se ralentiza de forma progresiva hasta quedar inmovil a los 5 s; al salir se recupera de a poco.
+  * Graviton ranura 5: Chibaku Tensei reemplaza a Event Horizon (singularidad que sube 14 bloques, atrae todo en 22 bloques, planetoide con dano continuo, implosion y caida con onda de 9 bloques). Enfriamiento 45 s.
+  * Graviton ranuras 1-3: acentos violeta/oscuros (anillos de colapso, espirales de succion, helice).
+  * Scaler: velocidad en fase gigante x1.2 / x1.45 / x1.75 (Brute/Titan/Colossus); encoger no cambia la velocidad. Anillos y helice al cambiar de tamano y onda con polvo en cada pisada gigante.
+- 2.1.0 (los 11 poderes): VFX nuevos tambien para Pyrokinetic (espirales en cada bola de fuego, anillos de ignicion, brasas, ondas de calor), Hydrokinetic (helices de agua, geiser, latigo curvo, frente de tsunami, burbujas), Storm Caller (rayos ramificados en cada descarga, arco tesla, vortice de nubes, chispas estaticas), Summoning (circulos runicos giratorios, pilares, brechas), Kinetic Charger (lineas convergentes al cargar, pulsos, ondas al liberar), Velocity (speed lines, conos sonicos, tunel), Ruin (ceniza, onda de corrupcion, fracturas), Phytokinetic (raices en espiral, esporas, hojas) y Gamma (pulsos neon, ionizacion, haz de radiacion).
+- 2.2.0: con shaders de Iris activos Grand Line bajaba todos sus efectos a calidad LOW (los viejos); ahora respeta la calidad de la config (tope HIGH con shaders). Esto es lo que hacia que en WIPSS2 todo se viera igual.
+- 2.3.0: REEMPLAZO de los efectos decorativos originales de Awakened (particulas genericas, anillos/domos/halos, explosiones de fuego en voxeles, grietas de Ruin, charcos y anillos de agua, aros cineticos, sonic cracks). Se mantienen las formas que son el ataque (rayos, chorros, olas, geiser, portales, proyectiles), sonidos y temblores.
+- 2.4.0: Gamma: Thunderclap vuelve al slot 2 e Island Shaker pasa al slot 5 (reemplaza Ragdoll Slam). Scaler: pisadas gigantes con el sonido del mp3 (4 variantes) en cada paso y al crecer a gigante.
+- 2.6.0: Scaler: 4 fases nuevas por encima de Colossus (x5): Behemoth x8, Leviathan x12, Titanomachy x18, World Breaker x25 (crecer desde Colossus sube de fase; encoger baja). Velocidad 2.1/2.5/3.0/3.5. Tope de escala vanilla subido de 16 a 32.
+  Criticos + Ridiculous Impact Frames (opcional): los impact frames automaticos quedan bloqueados; cualquier dano de un jugador (golpe o habilidad) tiene 25% de critico x3 que dispara el impact frame grande. Minimo 1 s entre criticos del mismo jugador. Configurable en config/wipspowers-common.toml (chance, damageMultiplier, cooldownTicks, enabled). El jar va tambien en el servidor.
+- 2.7.0: Scaler: Mass Leap con mucho mas impulso (x1.8 y empuje vertical extra que crece con el tamano). Clamber/Seize: alcance de agarre escala con el tamano en las fases mega y el impulso hacia el objetivo dura mas.
+- 2.8.0: Vuelven los efectos BASE de Awakened (se quito el "reemplazo" de la 2.3.0): Ruin 3 y 4 (Rush/Breach) vuelven a verse, Kinetic Charger recupera su morado. Las capas de wipspowers ahora usan el color tema original de cada poder.
+  Samples del usuario incorporados como animaciones (24 hojas): fuego, onda de fuego, lanzallamas, fuego de suelo y FUEGO AZUL en la fase caliente de Pyro; spray/circulo de agua y burbujas en Hydro; rayos y arco en Storm; estallido y onda morada en Kinetic; onda/linea roja en Velocity; humo en Ruin/Scaler/Graviton; nova verde en Phyto; onda/nova/haz verde en Gamma; portal y escudo turquesa en Summoning; explosiones en el Chibaku Tensei. Aditivas (funcionan con shaders).
+- 2.9.0: Graviton presion (ranura de Dense): el area crece de 5 a 14 bloques en 6 s de mantener; ralentiza desde el primer tick (20%) y cada vez mas rapido hasta inmovilizar; muestra el efecto Lentitud. Compilado contra Awakened 1.23.1.
+- 2.9.1: Graviton presion: el area crece de 6 a 48 bloques en 8 s de mantener (mas lineas negras segun el tamaño).
+  Ruin Breach ("Nothing here can rot away"): algun mod del pack cancela la prueba de romper bloques que hace Awakened.
+  Ahora se ignora esa cancelacion (config/wipspowers-common.toml, [terrain] ignoreBreakVeto = true) y queda un aviso
+  "[wipspowers] Otro mod cancelo la prueba..." en latest.log. Se siguen respetando la proteccion del spawn y el modo aventura.
+- 3.0.0: VISUAL NUEVO. Las capas genericas (el mismo anillo de energia en 11 habilidades, el mismo humo en 8) se reemplazaron
+  por un efecto propio por habilidad (client/AbilityFx): 41 animaciones hechas con los fotogramas que mando el usuario
+  (los 29 videos; versiones en gris teñidas con el color de cada poder; humo que oscurece de verdad). Los efectos base de
+  Awakened se mantienen. Arreglado: las animaciones de frente a camara y los rayos no se dibujaban (venia desde la 2.8).
+  Ruin: si sale "Nothing here can rot away", latest.log trae una linea "[wipspowers] Ruin sin bloques: ..." que dice que
+  bloque mira, si Awakened lo acepta, si se puede interactuar ahi y si otro mod lo veta.

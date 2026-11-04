@@ -1,0 +1,27 @@
+{
+  "parent": "devilfruits:poneglyph/deciphered",
+  "criteria": {
+    "literate": {
+      "trigger": "devilfruits:poneglyph_literacy_max"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.poneglyph.literate.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:ancient_script_primer"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.poneglyph.literate.title"
+    }
+  },
+  "requirements": [
+    [
+      "literate"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

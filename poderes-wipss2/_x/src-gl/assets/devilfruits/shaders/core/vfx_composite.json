@@ -1,0 +1,108 @@
+{
+  "vertex": "devilfruits:vfx_screen",
+  "fragment": "devilfruits:vfx_composite",
+  "samplers": [
+    {
+      "name": "SceneSampler"
+    },
+    {
+      "name": "DistortSampler"
+    },
+    {
+      "name": "EmissiveSampler"
+    },
+    {
+      "name": "BloomSampler"
+    }
+  ],
+  "uniforms": [
+    {
+      "name": "RadialCenter",
+      "type": "float",
+      "count": 2,
+      "values": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "RadialStrength",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.0
+      ]
+    },
+    {
+      "name": "Chromatic",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.0
+      ]
+    },
+    {
+      "name": "BloomIntensity",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.0
+      ]
+    },
+    {
+      "name": "DistortOn",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.0
+      ]
+    },
+    {
+      "name": "Flash",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Grade",
+      "type": "float",
+      "count": 4,
+      "values": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Vignette",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.0
+      ]
+    },
+    {
+      "name": "InvSize",
+      "type": "float",
+      "count": 2,
+      "values": [
+        0.001,
+        0.001
+      ]
+    },
+    {
+      "name": "Desaturate",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.0
+      ]
+    }
+  ]
+}

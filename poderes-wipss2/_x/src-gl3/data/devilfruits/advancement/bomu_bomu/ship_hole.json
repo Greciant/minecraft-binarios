@@ -1,0 +1,27 @@
+{
+  "parent": "devilfruits:bomu_bomu/self_destruction",
+  "criteria": {
+    "ship_hole": {
+      "trigger": "devilfruits:bomu_bomu/ship_hole"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.bomu_bomu.ship_hole.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:oak_boat"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.bomu_bomu.ship_hole.title"
+    }
+  },
+  "requirements": [
+    [
+      "ship_hole"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

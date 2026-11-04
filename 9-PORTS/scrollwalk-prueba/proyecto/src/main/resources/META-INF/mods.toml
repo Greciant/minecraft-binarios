@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="scrollwalk"
+version="1.2-forge1.20.1-port"
+displayName="Scroll Walk (port Forge 1.20.1)"
+authors="Naw7k (original); port personal"
+description='''Manten Alt y usa la rueda del raton para subir o bajar la velocidad de caminar. Port personal no oficial del original de Fabric.'''
+logoFile=""
+displayTest="IGNORE_ALL_VERSION"
+
+[[dependencies.scrollwalk]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.scrollwalk]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.scrollwalk]]
+    modId="cloth_config"
+    mandatory=true
+    versionRange="[11,)"
+    ordering="NONE"
+    side="CLIENT"

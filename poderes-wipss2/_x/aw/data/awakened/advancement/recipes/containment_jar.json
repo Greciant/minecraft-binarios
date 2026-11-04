@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "awakened:containment_jar"
+    ]
+  },
+  "criteria": {
+    "has_jar_makings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:slime_ball"
+          },
+          {
+            "items": "minecraft:glass"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "awakened:containment_jar"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_jar_makings",
+      "has_the_recipe"
+    ]
+  ]
+}

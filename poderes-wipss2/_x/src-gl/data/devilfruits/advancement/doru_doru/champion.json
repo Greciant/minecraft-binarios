@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:doru_doru/encase",
+  "criteria": {
+    "champion": {
+      "trigger": "devilfruits:doru_doru/champion"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.doru_doru.champion.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:doru_doru/candle_champion"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.doru_doru.champion.title"
+    }
+  },
+  "requirements": [
+    [
+      "champion"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

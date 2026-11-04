@@ -1,0 +1,28 @@
+{
+  "parent": "awakened:awakened/use_ability",
+  "display": {
+    "icon": {
+      "id": "minecraft:experience_bottle"
+    },
+    "title": {
+      "translate": "advancement.awakened.unlock_ability.title"
+    },
+    "description": {
+      "translate": "advancement.awakened.unlock_ability.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "awarded": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "awarded"
+    ]
+  ]
+}

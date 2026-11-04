@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "awakened:water_canteen"
+    ]
+  },
+  "criteria": {
+    "has_water_flask": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "awakened:water_flask"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "awakened:water_canteen"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_water_flask",
+      "has_the_recipe"
+    ]
+  ]
+}

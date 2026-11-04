@@ -1,0 +1,22 @@
+{
+ "parent": "devilfruits:item/pirate/3d/musket_ramrod_out",
+ "display": {
+  "gui": {
+   "rotation": [
+    12.988,
+    9.199,
+    35.776
+   ],
+   "translation": [
+    -0.755,
+    0.275,
+    -0.015
+   ],
+   "scale": [
+    0.4259,
+    0.4259,
+    0.4259
+   ]
+  }
+ }
+}

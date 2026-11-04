@@ -1,0 +1,29 @@
+{
+  "parent": "devilfruits:gomu_gomu/rubber_man",
+  "criteria": {
+    "bounce_back": {
+      "trigger": "devilfruits:gomu_gomu/high_fall"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.gomu_gomu.bounce_back.description"
+    },
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:gomu_gomu/bazooka"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.gomu_gomu.bounce_back.title"
+    }
+  },
+  "requirements": [
+    [
+      "bounce_back"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

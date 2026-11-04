@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:suke_suke/clear_clear",
+  "criteria": {
+    "ghost_ship": {
+      "trigger": "devilfruits:suke_suke/ghost_ship"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.suke_suke.ghost_ship.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:suke_suke/ship_invisibility"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.suke_suke.ghost_ship.title"
+    }
+  },
+  "requirements": [
+    [
+      "ghost_ship"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

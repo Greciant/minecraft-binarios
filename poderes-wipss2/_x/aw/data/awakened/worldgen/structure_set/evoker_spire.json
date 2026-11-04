@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "awakened:evoker_spire",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "linear",
+    "salt": 348622971,
+    "spacing": 132,
+    "separation": 44
+  }
+}

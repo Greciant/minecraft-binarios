@@ -1,0 +1,12 @@
+{
+  "recipes": [
+    "devilfruits:seastone/seastone_pickaxe",
+    "devilfruits:seastone/seastone_axe",
+    "devilfruits:seastone/seastone_shovel",
+    "devilfruits:seastone/seastone_hoe"
+  ],
+  "requires": [
+    "devilfruits:seastone_refining"
+  ],
+  "icon": "devilfruits:seastone_pickaxe"
+}

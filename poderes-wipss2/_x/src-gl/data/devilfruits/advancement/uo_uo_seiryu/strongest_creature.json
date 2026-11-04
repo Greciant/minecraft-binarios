@@ -1,0 +1,33 @@
+{
+  "parent": "devilfruits:uo_uo_seiryu/thunder_cloud_storm",
+  "criteria": {
+    "max_mastery": {
+      "conditions": {
+        "fruit": "devilfruits:uo_uo_seiryu"
+      },
+      "trigger": "devilfruits:max_mastery"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.uo_uo_seiryu.strongest_creature.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:hassaikai"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.uo_uo_seiryu.strongest_creature.title"
+    }
+  },
+  "requirements": [
+    [
+      "max_mastery"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "awakened:arbiter_arena",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "linear",
+    "salt": 901447238,
+    "spacing": 120,
+    "separation": 40
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "ate_fruit": {
+      "conditions": {
+        "fruit": "devilfruits:doru_doru"
+      },
+      "trigger": "devilfruits:ate_fruit"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/white_concrete_powder.png",
+    "description": {
+      "translate": "advancements.devilfruits.doru_doru.wax_wax.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:doru_doru_no_mi"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.doru_doru.wax_wax.title"
+    }
+  },
+  "requirements": [
+    [
+      "ate_fruit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

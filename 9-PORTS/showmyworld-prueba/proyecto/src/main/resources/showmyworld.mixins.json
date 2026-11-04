@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.miraculixx.showmyworld.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "showmyworld.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "WorldListEntryAccessor",
+    "SelectWorldScreenAccessor",
+    "SelectWorldScreenMixin",
+    "ScreenPanoramaMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,512 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "devilfruits:item/ability_icon/gura_gura/kaishin",
+      "predicate": {
+        "devilfruits:ability": 1.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/gura_gura/gekishin",
+      "predicate": {
+        "devilfruits:ability": 2.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/gura_gura/kabutowari",
+      "predicate": {
+        "devilfruits:ability": 3.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/gura_gura/kaisho",
+      "predicate": {
+        "devilfruits:ability": 4.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/gura_gura/shindo",
+      "predicate": {
+        "devilfruits:ability": 5.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/gura_gura/quake_infusion",
+      "predicate": {
+        "devilfruits:ability": 6.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/gura_gura/shima_yurashi",
+      "predicate": {
+        "devilfruits:ability": 7.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/thunder_bagua",
+      "predicate": {
+        "devilfruits:ability": 8.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/blast_breath",
+      "predicate": {
+        "devilfruits:ability": 9.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/flame_cloud",
+      "predicate": {
+        "devilfruits:ability": 10.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/dragon_dash",
+      "predicate": {
+        "devilfruits:ability": 11.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/transform_hybrid",
+      "predicate": {
+        "devilfruits:ability": 12.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/transform_dragon",
+      "predicate": {
+        "devilfruits:ability": 13.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/hellfire_ray",
+      "predicate": {
+        "devilfruits:ability": 14.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/thunderclaw_rush",
+      "predicate": {
+        "devilfruits:ability": 15.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/draconic_cataclysm",
+      "predicate": {
+        "devilfruits:ability": 16.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/thunderclad_veil",
+      "predicate": {
+        "devilfruits:ability": 17.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/draconic_ascension",
+      "predicate": {
+        "devilfruits:ability": 18.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/draconic_thunderfall",
+      "predicate": {
+        "devilfruits:ability": 19.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/draconic_tail_slam",
+      "predicate": {
+        "devilfruits:ability": 20.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/serpentine_flight",
+      "predicate": {
+        "devilfruits:ability": 21.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/bolo_breath",
+      "predicate": {
+        "devilfruits:ability": 22.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/dragon_twister",
+      "predicate": {
+        "devilfruits:ability": 23.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/thunder_storm",
+      "predicate": {
+        "devilfruits:ability": 24.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/tail_whip",
+      "predicate": {
+        "devilfruits:ability": 25.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/uo_uo_seiryu/roar",
+      "predicate": {
+        "devilfruits:ability": 26.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/suna_suna/sables_pesado",
+      "predicate": {
+        "devilfruits:ability": 27.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/suna_suna/desert_spada",
+      "predicate": {
+        "devilfruits:ability": 28.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/suna_suna/sand_cloud",
+      "predicate": {
+        "devilfruits:ability": 29.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/suna_suna/barjan",
+      "predicate": {
+        "devilfruits:ability": 30.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/suna_suna/ground_secco",
+      "predicate": {
+        "devilfruits:ability": 31.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/suna_suna/desert_girasole",
+      "predicate": {
+        "devilfruits:ability": 32.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/suna_suna/desert_la_spada",
+      "predicate": {
+        "devilfruits:ability": 33.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/suna_suna/desert_encierro",
+      "predicate": {
+        "devilfruits:ability": 34.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/suna_suna/sand_tsunami",
+      "predicate": {
+        "devilfruits:ability": 35.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/suna_suna/sables",
+      "predicate": {
+        "devilfruits:ability": 36.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/kilo_kilo/one_kilo",
+      "predicate": {
+        "devilfruits:ability": 37.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/kilo_kilo/ten_thousand_kilo_press",
+      "predicate": {
+        "devilfruits:ability": 38.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/bomu_bomu/explosive_punch",
+      "predicate": {
+        "devilfruits:ability": 39.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/bomu_bomu/nose_fancy_cannon",
+      "predicate": {
+        "devilfruits:ability": 40.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/bomu_bomu/explosive_shot",
+      "predicate": {
+        "devilfruits:ability": 41.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/bomu_bomu/self_destruct",
+      "predicate": {
+        "devilfruits:ability": 42.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/doru_doru/wax_tools",
+      "predicate": {
+        "devilfruits:ability": 43.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/doru_doru/wax_atelier",
+      "predicate": {
+        "devilfruits:ability": 44.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/doru_doru/candle_wall",
+      "predicate": {
+        "devilfruits:ability": 45.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/doru_doru/wax_lance",
+      "predicate": {
+        "devilfruits:ability": 46.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/doru_doru/candle_service",
+      "predicate": {
+        "devilfruits:ability": 47.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/doru_doru/candle_champion",
+      "predicate": {
+        "devilfruits:ability": 48.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/supa_supa/spar_claw",
+      "predicate": {
+        "devilfruits:ability": 49.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/supa_supa/steel_body",
+      "predicate": {
+        "devilfruits:ability": 50.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/supa_supa/blade_skates",
+      "predicate": {
+        "devilfruits:ability": 51.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/supa_supa/spiral_hollow",
+      "predicate": {
+        "devilfruits:ability": 52.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/supa_supa/super_slash",
+      "predicate": {
+        "devilfruits:ability": 53.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/kage_kage/brick_bat",
+      "predicate": {
+        "devilfruits:ability": 54.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/kage_kage/shadow_spear",
+      "predicate": {
+        "devilfruits:ability": 55.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/kage_kage/shadow_collection",
+      "predicate": {
+        "devilfruits:ability": 56.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/kage_kage/shadow_trap",
+      "predicate": {
+        "devilfruits:ability": 57.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/kage_kage/shadow_hand",
+      "predicate": {
+        "devilfruits:ability": 58.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/kage_kage/doppelman",
+      "predicate": {
+        "devilfruits:ability": 59.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/yomi_yomi/soul_projection",
+      "predicate": {
+        "devilfruits:ability": 60.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/yomi_yomi/aubade",
+      "predicate": {
+        "devilfruits:ability": 61.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/yomi_yomi/polka_remise",
+      "predicate": {
+        "devilfruits:ability": 62.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/yomi_yomi/gavotte",
+      "predicate": {
+        "devilfruits:ability": 63.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/yomi_yomi/fubuki_giri",
+      "predicate": {
+        "devilfruits:ability": 64.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/yomi_yomi/soul_king",
+      "predicate": {
+        "devilfruits:ability": 65.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/yomi_yomi/soul_dash",
+      "predicate": {
+        "devilfruits:ability": 66.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/yomi_yomi/cold_soul",
+      "predicate": {
+        "devilfruits:ability": 67.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/yomi_yomi/earth_crushing",
+      "predicate": {
+        "devilfruits:ability": 68.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/yomi_yomi/soul_king_roar",
+      "predicate": {
+        "devilfruits:ability": 69.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/yomi_yomi/king_strike",
+      "predicate": {
+        "devilfruits:ability": 70.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/horo_horo/negative_hollow",
+      "predicate": {
+        "devilfruits:ability": 71.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/horo_horo/mini_hollow",
+      "predicate": {
+        "devilfruits:ability": 72.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/horo_horo/ghost_form",
+      "predicate": {
+        "devilfruits:ability": 73.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/horo_horo/special_hollow",
+      "predicate": {
+        "devilfruits:ability": 74.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/suke_suke/invisibility",
+      "predicate": {
+        "devilfruits:ability": 75.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/suke_suke/hidden_weapon",
+      "predicate": {
+        "devilfruits:ability": 76.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/suke_suke/group_invisibility",
+      "predicate": {
+        "devilfruits:ability": 77.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/suke_suke/ship_invisibility",
+      "predicate": {
+        "devilfruits:ability": 78.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/gomu_gomu/pistol",
+      "predicate": {
+        "devilfruits:ability": 79.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/gomu_gomu/bazooka",
+      "predicate": {
+        "devilfruits:ability": 80.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/gomu_gomu/rocket",
+      "predicate": {
+        "devilfruits:ability": 81.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/gomu_gomu/axe",
+      "predicate": {
+        "devilfruits:ability": 82.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/gomu_gomu/rifle",
+      "predicate": {
+        "devilfruits:ability": 83.0
+      }
+    },
+    {
+      "model": "devilfruits:item/ability_icon/gomu_gomu/gatling",
+      "predicate": {
+        "devilfruits:ability": 84.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "devilfruits:item/ability/generic"
+  }
+}

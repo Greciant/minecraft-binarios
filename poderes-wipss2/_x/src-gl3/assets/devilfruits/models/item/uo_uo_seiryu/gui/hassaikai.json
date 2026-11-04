@@ -1,0 +1,22 @@
+{
+ "parent": "devilfruits:item/uo_uo_seiryu/hassaikai_in_hand",
+ "display": {
+  "gui": {
+   "rotation": [
+    42.082,
+    37.659,
+    -8.388
+   ],
+   "translation": [
+    -0.485,
+    -0.534,
+    -0.267
+   ],
+   "scale": [
+    0.5153,
+    0.5153,
+    0.5153
+   ]
+  }
+ }
+}

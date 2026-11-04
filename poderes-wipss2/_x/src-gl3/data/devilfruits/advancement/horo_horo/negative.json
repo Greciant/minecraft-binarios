@@ -1,0 +1,29 @@
+{
+  "parent": "devilfruits:horo_horo/hollow_hollow",
+  "criteria": {
+    "negative": {
+      "trigger": "devilfruits:horo_horo/negative"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.horo_horo.negative.description"
+    },
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:horo_horo/negative_hollow"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.horo_horo.negative.title"
+    }
+  },
+  "requirements": [
+    [
+      "negative"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

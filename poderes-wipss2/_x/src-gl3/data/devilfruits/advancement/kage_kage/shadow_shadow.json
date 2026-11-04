@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "ate_fruit": {
+      "conditions": {
+        "fruit": "devilfruits:kage_kage"
+      },
+      "trigger": "devilfruits:ate_fruit"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/soul_soil.png",
+    "description": {
+      "translate": "advancements.devilfruits.kage_kage.shadow_shadow.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "devilfruits:kage_kage_no_mi"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.kage_kage.shadow_shadow.title"
+    }
+  },
+  "requirements": [
+    [
+      "ate_fruit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

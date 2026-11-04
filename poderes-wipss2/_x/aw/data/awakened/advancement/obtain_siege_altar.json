@@ -1,0 +1,35 @@
+{
+  "parent": "awakened:defeat_arbiter",
+  "display": {
+    "icon": {
+      "id": "awakened:siege_altar"
+    },
+    "title": {
+      "translate": "advancement.awakened.obtain_siege_altar.title"
+    },
+    "description": {
+      "translate": "item.awakened.siege_altar.tooltip"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "has_siege_altar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "awakened:siege_altar"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_siege_altar"
+    ]
+  ]
+}

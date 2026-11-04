@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 150
+        },
+        {
+          "type": "minecraft:item",
+          "name": "awakened:relic_warding_plate",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "awakened:relic_kinetic_band",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "awakened:relic_focus_lens",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "awakened:relic_stamina_matrix",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "awakened:relic_flux_conduit",
+          "weight": 8
+        }
+      ]
+    }
+  ]
+}

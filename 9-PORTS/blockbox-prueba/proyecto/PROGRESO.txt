@@ -1,0 +1,17 @@
+PROGRESO port The Block Box -> Forge 1.20.1
+[x] proyecto creado (build.gradle con mixin, mods.toml, LICENSE + LICENSE-assets)
+[x] recursos (assets/data) sacados del jar precompilado de Modrinth (BlockBox-1.21.1-0.1.3.jar,
+    descargado del CDN de Modrinth, sin pasar por el generador de datos de NeoForge)
+[x] registros portados (ModBlocks ~90 bloques, ModItems, ModEntityTypes, ModParticleTypes,
+    ModSounds, ModDamageTypes, ModCreativeTabs, ModBlockSets, ModTags)
+[x] clases de bloque propias portadas (PalisadeBlock, SpikedPalisadeBlock, SeatBlock+SeatEntity,
+    BrazierBlock, SkyLanternBlock+SkyLanternItem, PortalFrameBlock, Carved/PackedSnowBlock,
+    WeatheringCopperBarsBlock/PillarBlock)
+[x] waxable/oxidizable copper y quemado en horno: portados a mano en CommonEvents (en 1.20.1 no
+    existen los "data maps" de NeoForge que usa el original)
+[x] stateToIndex (campo privado de CrossCollisionBlock): Mixin @Accessor en vez de Access
+    Transformer (el AT con el formato del original no se aplicaba en Forge 1.20.1; con Mixin
+    funciono a la primera, mismo patron que otros ports de este hilo)
+[x] compila (./gradlew build --no-daemon -q, exit 0, 11-oct)
+[x] LEEME-port.txt
+[ ] PC: runClient y revisar visualmente los bloques/items (ver PRUEBA-EN-PC.txt)

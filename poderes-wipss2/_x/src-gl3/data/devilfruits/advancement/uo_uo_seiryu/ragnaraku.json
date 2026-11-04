@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:uo_uo_seiryu/man_beast",
+  "criteria": {
+    "used_ragnaraku": {
+      "trigger": "devilfruits:uo_uo_seiryu/used_ragnaraku"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.uo_uo_seiryu.ragnaraku.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:uo_uo_seiryu/draconic_cataclysm"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.uo_uo_seiryu.ragnaraku.title"
+    }
+  },
+  "requirements": [
+    [
+      "used_ragnaraku"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

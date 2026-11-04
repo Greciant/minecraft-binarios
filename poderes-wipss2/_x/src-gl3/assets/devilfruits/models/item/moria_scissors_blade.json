@@ -1,0 +1,103 @@
+{
+  "base": {
+    "parent": "minecraft:item/handheld",
+    "display": {
+      "firstperson_lefthand": {
+        "rotation": [
+          0,
+          90,
+          20
+        ],
+        "scale": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "translation": [
+          1.13,
+          4.2,
+          1.13
+        ]
+      },
+      "firstperson_righthand": {
+        "rotation": [
+          0,
+          -90,
+          -20
+        ],
+        "scale": [
+          1.1,
+          1.1,
+          1.1
+        ],
+        "translation": [
+          1.13,
+          4.2,
+          1.13
+        ]
+      },
+      "ground": {
+        "scale": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "translation": [
+          0,
+          2,
+          0
+        ]
+      },
+      "thirdperson_lefthand": {
+        "rotation": [
+          0,
+          90,
+          -10
+        ],
+        "scale": [
+          2,
+          2,
+          2
+        ],
+        "translation": [
+          0,
+          9,
+          1.5
+        ]
+      },
+      "thirdperson_righthand": {
+        "rotation": [
+          0,
+          -90,
+          10
+        ],
+        "scale": [
+          2,
+          2,
+          2
+        ],
+        "translation": [
+          0,
+          9,
+          1.5
+        ]
+      }
+    },
+    "textures": {
+      "layer0": "devilfruits:item/kage_kage/moria_scissors_held_b"
+    }
+  },
+  "gui_light": "front",
+  "loader": "neoforge:separate_transforms",
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:builtin/entity",
+      "textures": {
+        "particle": "devilfruits:item/kage_kage/moria_scissors_blade"
+      }
+    }
+  },
+  "textures": {
+    "particle": "devilfruits:item/kage_kage/moria_scissors_blade"
+  }
+}

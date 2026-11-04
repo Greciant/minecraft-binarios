@@ -1,0 +1,39 @@
+PRUEBA EN EL PC - port Show My World Forge 1.20.1 (alcance reducido)
+=============================================================================
+En el portatil NO se prueba en juego. El mod es OPCIONAL (cliente, no va al
+servidor ni al .bat salvo que lo pidas). Lee primero LEEME-port.txt dentro
+de proyecto\ : el alcance de este port es solo la lista de mundos, sin
+captura automatica.
+
+Jar: showmyworld-1.0-forge1.20.1-port.jar
+
+A) Prueba con runClient
+ 1. Copiar proyecto\ al PC. JDK 17 o 21. Si gradlew.bat no arranca:
+      java -classpath gradle\wrapper\gradle-wrapper.jar org.gradle.wrapper.GradleWrapperMain runClient
+ 2. Crea un mundo de prueba, sal de el con F2 varias capturas mirando a los
+    6 lados (o usa cualquier imagen cuadrada de prueba, da igual el
+    contenido para probar que carga). Ponlas como
+    run\saves\<mundo>\panorama\panorama_0.png .. panorama_5.png
+    (las 6 hacen falta; si falta una no se muestra nada).
+ 3. Abre "Seleccionar mundo" y resalta ese mundo en la lista: el fondo
+    deberia cambiar al panorama. Al resaltar otro mundo sin esa carpeta,
+    debe volver al fondo normal.
+ 4. Revisar el log por errores de showmyworld (carga de textura, etc).
+
+B) (Opcional) En Prism con el pack completo
+ - Copiar el jar a mods\ de una COPIA de la instancia y repetir la prueba
+   con un mundo real que tenga panorama\ armada a mano.
+
+Si algo falla, anotarlo aqui con fecha, o avisar en el hilo de porteo.
+
+RESULTADO EN EL PC (11-oct-2026) - Prism, copia Prueba-Ports con el pack completo
+  El jar original NO funcionaba: al resaltar el mundo no cambiaba nada. Dos fallos:
+   1. En 1.20.1 SelectWorldScreen no llama a renderBackground: la lista de mundos
+      pinta su propio fondo de tierra (cuerpo y franjas) y tapaba el panorama.
+      Arreglo: inyectar en SelectWorldScreen.render (HEAD), dibujar el panorama ahi y
+      apagar list.setRenderBackground / setRenderTopAndBottom mientras haya panorama.
+   2. CubeMap de 1.20.1 busca las texturas como "<base>_<i>.png"; se registraban sin
+      ".png" y salia el cubo morado/negro. Arreglo: registrar con ".png".
+  Con los dos arreglos: al resaltar el mundo se ve su panorama de fondo. Sin errores.
+  Jar y fuentes cambiadas en arreglado-pc\ (SelectWorldScreenMixin.java,
+  WorldPanoramaManager.java). Instalado ese jar en WIP-Cliente-para-PC.

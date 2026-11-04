@@ -1,0 +1,33 @@
+{
+  "parent": "devilfruits:supa_supa/ship_in_two",
+  "criteria": {
+    "max_mastery": {
+      "conditions": {
+        "fruit": "devilfruits:supa_supa"
+      },
+      "trigger": "devilfruits:max_mastery"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.supa_supa.mr_one.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.supa_supa.mr_one.title"
+    }
+  },
+  "requirements": [
+    [
+      "max_mastery"
+    ]
+  ],
+  "rewards": {
+    "experience": 300
+  },
+  "sends_telemetry_event": true
+}

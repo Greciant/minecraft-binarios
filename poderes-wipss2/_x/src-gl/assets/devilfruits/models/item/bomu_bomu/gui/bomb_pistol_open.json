@@ -1,0 +1,22 @@
+{
+ "parent": "devilfruits:item/bomu_bomu/3d/bomb_pistol_open",
+ "display": {
+  "gui": {
+   "rotation": [
+    26.414,
+    14.699,
+    8.151
+   ],
+   "translation": [
+    1.709,
+    1.582,
+    -0.612
+   ],
+   "scale": [
+    0.6736,
+    0.6736,
+    0.6736
+   ]
+  }
+ }
+}

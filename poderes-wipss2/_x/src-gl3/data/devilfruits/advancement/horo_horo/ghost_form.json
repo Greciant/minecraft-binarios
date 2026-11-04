@@ -1,0 +1,30 @@
+{
+  "parent": "devilfruits:horo_horo/hollow_hollow",
+  "criteria": {
+    "ghost_form": {
+      "trigger": "devilfruits:horo_horo/ghost_form"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.devilfruits.horo_horo.ghost_form.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "devilfruits:ability": "devilfruits:horo_horo/ghost_form"
+      },
+      "count": 1,
+      "id": "devilfruits:ability_icon"
+    },
+    "title": {
+      "translate": "advancements.devilfruits.horo_horo.ghost_form.title"
+    }
+  },
+  "requirements": [
+    [
+      "ghost_form"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

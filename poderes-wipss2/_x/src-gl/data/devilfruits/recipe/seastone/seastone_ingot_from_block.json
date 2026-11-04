@@ -1,0 +1,14 @@
+{
+  "type": "devilfruits:knowledge_shapeless",
+  "knowledge": "devilfruits:seastone_refining",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "devilfruits:seastone_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "devilfruits:seastone_ingot"
+  }
+}

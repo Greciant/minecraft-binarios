@@ -1,0 +1,21 @@
+{
+  "base": {
+    "parent": "devilfruits:item/gura_gura/bisento_in_hand"
+  },
+  "gui_light": "side",
+  "loader": "neoforge:separate_transforms",
+  "perspectives": {
+    "fixed": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "devilfruits:item/fruit/gura_gura/bisento"
+      }
+    },
+    "gui": {
+      "parent": "devilfruits:item/gura_gura/gui/bisento"
+    }
+  },
+  "textures": {
+    "particle": "devilfruits:item/fruit/gura_gura/bisento"
+  }
+}

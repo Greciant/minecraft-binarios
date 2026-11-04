@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "devilfruits:item/doru_doru/wax_axe"
+  }
+}
