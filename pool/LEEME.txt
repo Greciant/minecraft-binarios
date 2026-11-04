@@ -1,0 +1,35 @@
+POOL DE MODS - Minecraft 1.20.1 Forge                       2026-09-03
+
+Esta carpeta es el almacen de mods del cliente, no una instancia.
+El paquete listo para instalar esta en:
+    ~/Sync/Compartida/Modpack-WIP/1.20.1/
+
+  *.jar        set activo, identico a lo instalado en el cliente
+  _retirados/  descartados. El motivo esta en Modpack-WIP/_retirados/MOTIVOS.txt
+  .connector   cache de Sinytra Connector, no tocar
+
+2026-09-26  + dog-1.1.0.jar (Devourer of Gods). Copiado del servidor: estaba en el
+            servidor y en el cliente del PC pero no aqui. Mismo sha1 en los tres.
+
+2026-09-26  Sincronizado con el cliente del PC: 48 actualizados, 16 agregados.
+            Jars viejos y lista en _retirados/sync-pc-20260926/CAMBIOS.txt
+            Quedan 10 que estan aqui y NO en el PC (aaa_particles, aaa_particles_world,
+            BetterF3, betterresolution, moreculling, remove-terralith-intro, packetfixer,
+            sodiumextras, sodiumoptionsapi, WWOO): pendiente decidir si se retiran.
+
+2026-09-27  Los 10 que no estaban en el PC movidos a _retirados/no-en-pc-20260927/.
+            El pool queda identico al cliente del PC (278 jars, mismos sha1).
+
+2026-09-28  Novedades de los videos de Keo (TikTok). 278 -> 283 jars.
+            Actualizados: DistantHorizons 3.2.0-b -> 3.3.2-1.20.1, punchy 2.7e -> 2.8b
+            Nuevos:       behemoths 1.1.1.0, music_disc_maker 3.0.5, jawas_lightsaber 0.4
+                          (estos tres tambien en el servidor), sound_visualizer 1.0.2 y
+                          renderscale 1.4.0-alpha.6 (solo cliente).
+            Los jars viejos y la copia completa de antes: ~/Minecraft/respaldos/keo-2026-09-28/
+            Para el PC: Compartida/8-KEO/ACTUALIZAR-KEO.bat
+            NO puesto: Timber Tales (pide Forge 47.4.23+, el pack va en 47.4.16).
+2026-09-28  (noche) Forge 47.4.16 -> 47.4.23 y treeharvester -> timber_tales 1.1.3.
+            Sigue en 283 jars. Servidor: probado en respaldos/forge-2026-09-28/servidor-prueba;
+            para aplicarlo al real: respaldos/forge-2026-09-28/aplicar-en-servidor.sh
+2026-09-28  (noche) + bf_blockpack-forge-1.20.1-1.1.2 (Block Pack, cliente y servidor). 284 jars.
+            Forge 47.4.23 + timber_tales ya aplicados tambien al servidor real.
