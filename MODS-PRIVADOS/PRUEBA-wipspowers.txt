@@ -1,6 +1,6 @@
-PRUEBA DE wipspowers-3.3.0.jar EN WIPSS2 (PC)
+PRUEBA DE wipspowers-3.4.0.jar EN WIPSS2 (PC)
 
-Instalar: cerrar el juego, borrar cualquier wipspowers anterior de mods y copiar wipspowers-3.3.0.jar (junto a awakened-1.23.1 y
+Instalar: cerrar el juego, borrar cualquier wipspowers anterior de mods y copiar wipspowers-3.4.0.jar (junto a awakened-1.23.1 y
 grandline-1.21.1-0.3.0). El jar va tambien en el servidor. Abrir un mundo NUEVO de prueba con trucos (las estructuras y
 spawns nuevos solo se ven en chunks nuevos).
 

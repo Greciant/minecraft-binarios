@@ -1,4 +1,4 @@
-WIP Powers 3.3.0 (WIPSS2, NeoForge 1.21.1) - PRIVADO, no subir a ningun sitio.
+WIP Powers 3.4.0 (WIPSS2, NeoForge 1.21.1) - PRIVADO, no subir a ningun sitio.
 Va en la carpeta mods de WIPSS2 junto a Awakened 1.23.0 y Devil Fruit: Grand Line 0.3.0 (REQUIERE 0.3.0; quita la 0.2.0) (los dos originales siguen ahi; este es un parche).
 - Deja solo 11 poderes: pyrokinetic, summoning, hydrokinetic, kinetic_charger, velocity, graviton, ruin, storm_caller, phytokinetic, scaler, gamma (+ el nuevo seiryuu). El resto no sale en el sorteo ni en las pantallas.
 - Scaler: cambiar de tamano ya no cambia la velocidad base.
@@ -96,4 +96,7 @@ SIN PROBAR EN JUEGO todavia.
   secundaria) encuentra una estructura o un bioma, Lodestar empieza solo a guiarte hasta ahi (estela, hada y flecha del
   HUD; dorado para estructuras, verde para biomas) y sale el aviso "Lodestar te guia a: ...". Cada hallazgo se guia una vez.
   Solo cliente (va en el jar de siempre; en el servidor no hace nada).
+- 3.4.0 (optimizacion): arreglo de la Phantom Dagger de Legendary Monsters (fallaba en cada autoguardado),
+  restauracion de bloques de Ruin/Scaler mas liviana, texturas de VFX recomprimidas sin perdida (-20 %, mismos pixeles).
+  Junto con Lithium: ver la carpeta WIPSS2/ de este repo.
   PENDIENTE: BlockBand (el jar pesa mucho para pasarlo).
