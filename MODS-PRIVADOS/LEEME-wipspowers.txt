@@ -1,6 +1,6 @@
-WIP Powers 3.4.0 (WIPSS2, NeoForge 1.21.1) - PRIVADO, no subir a ningun sitio.
-Va en la carpeta mods de WIPSS2 junto a Awakened 1.23.0 y Devil Fruit: Grand Line 0.3.0 (REQUIERE 0.3.0; quita la 0.2.0) (los dos originales siguen ahi; este es un parche).
-- Deja solo 11 poderes: pyrokinetic, summoning, hydrokinetic, kinetic_charger, velocity, graviton, ruin, storm_caller, phytokinetic, scaler, gamma (+ el nuevo seiryuu). El resto no sale en el sorteo ni en las pantallas.
+WIP Powers 3.5.0 (WIPSS2, NeoForge 1.21.1) - PRIVADO, no subir a ningun sitio.
+Va en la carpeta mods de WIPSS2 junto a Awakened 1.23.1 y Devil Fruit: Grand Line 0.3.0 (REQUIERE 0.3.0; quita la 0.2.0) (los dos originales siguen ahi; este es un parche).
+- Deja solo 11 poderes de Awakened: pyrokinetic, summoning, hydrokinetic, kinetic_charger, velocity, graviton, ruin, storm_caller, phytokinetic, scaler, gamma (+ los nuevos seiryuu, hielo, slime y luchador). El resto no sale en el sorteo ni en las pantallas.
 - Scaler: cambiar de tamano ya no cambia la velocidad base.
 - Gamma: sin tinte verde en la piel; Thunderclap sigue en el slot 2; Island Shaker (Shima Yurashi) reemplaza a Ragdoll Slam en el slot 5 (maestria 10; Awakened solo admite 5 habilidades por poder).
 - Seiryuu (poder nuevo, 5 habilidades, siempre forma humana): Thunder Bagua, Flame Cloud Strike, Draconic Thunder (mantener), Bolo Barrage, Blast Breath.
@@ -100,3 +100,39 @@ SIN PROBAR EN JUEGO todavia.
   restauracion de bloques de Ruin/Scaler mas liviana, texturas de VFX recomprimidas sin perdida (-20 %, mismos pixeles).
   Junto con Lithium: ver la carpeta WIPSS2/ de este repo.
   PENDIENTE: BlockBand (el jar pesa mucho para pasarlo).
+- 3.5.0 "THE AWAKENING" (pedido desde la sesion del PC):
+  CORRECCIONES
+  * Un solo efecto al obtener un poder (todos los caminos: mago, cerca de la muerte, reroll, admin). El estallido de
+    Awakened y el de cada poder ya no salen; queda uno propio por poder + la presentacion de Lodestar (estrella de
+    llegada en el suelo y 5 hadas con estela que suben en espiral y convergen arriba, con tus ajustes de Lodestar).
+  * Lodestar + brujulas: el hada ya desaparece al llegar (el destino tomaba tu altura del momento de buscar y Lodestar
+    mide la llegada en 3D; ahora usa la altura real del terreno y la llegada en horizontal).
+  * Ruin 4 (Breach) y 5 (Collapse): destruyen bloques SIN restricciones y PARA SIEMPRE (sin reconstruccion). La
+    destruccion se reparte en ticks (1200 bloques por tick como mucho) para no trabar el servidor.
+  * Graviton 5: SHINRA TENSEI reemplaza a Chibaku Tensei: te elevas, onda esferica de 20 bloques que empuja y dana todo
+    y destruye el terreno para siempre, con polvo hacia afuera.
+  * Sin "Nominate The Awakening" (boton del menu de pausa, tarjeta de la pantalla de personaje y avisos de chat).
+  * Objetos quitados (Stamina Matrix y demas reliquias, adamantium, lo quitado de Legendary Monsters y Hyper):
+    ya no llegan por NINGUNA via: recompensas de trials (se cambian por XP de nivel), entregas directas, objetos en el
+    suelo (jefes) ni loot tables.
+  NIVEL Y DANO
+  * Nivel de jugador propio 1-50 (HUD arriba a la izquierda, /wips level get <jugador>). No cambia vida ni stamina.
+  * XP por minar menas/troncos, cosechar, plantar, matar, explorar (chunks y biomas nuevos), abrir cofres con loot y
+    sobrevivir; rinde menos si repites lo mismo, tope por minuto y bonus por variedad. Bloques que pusiste no dan XP.
+  * Curva (config/wipspowers-nivel.toml): 45 XP para el 2, 669 en el 10, 2739 en el 20, 8780 en el 35.
+  * Dano de TODOS los poderes con una sola formula: x0,30 en nivel 1, x0,42 en 10, x0,76 en 25, x1,03 en 35, x1,50 en 50.
+    El bonus de maestria de Awakened ya no suma dano (la maestria sigue desbloqueando habilidades). Los magos no cambian.
+  PODERES NUEVOS (con mago propio: /summon awakened:ice_mage, slime_mage, fighter_mage)
+  * HIELO: pasiva de cargas (3 = congelado 1 s en un cubo de hielo + Escarcha 4 s). Punos de hielo (sin energia),
+    Ventisca, Pisadas de hielo (salta en el aire), Tempanos teledirigidos (3), Congelacion territorial (5 s).
+  * SLIME: pasiva de gotas curativas (cada 3 golpes). Mini slimes (3, cambian de objetivo al pulsar de nuevo),
+    Recubrimiento curativo (25 %), Disparo de baba (-70 % velocidad), Explosion de baba con charcos pegajosos,
+    Pelota de slime (15 s, rebota; aturde 2 s).
+  * LUCHADOR: Determinacion (barra de dano recibido: hasta +20 % dano y +20 % resistencia). Punos ardientes,
+    Reel In (el de Brawler, desde 48 bloques y sin limite de tamano), Golpe de represalia (trapecio 200/60/60 %),
+    Salto de impacto (dano por altura) y GOLPE SERIO (mantener; a carga maxima destruye el terreno de enfrente).
+  ARREGLOS DE ESTABILIDAD (encontrados con la prueba automatica)
+  * Los criticos de wipspowers y Ridiculous Impact Frames tumbaban el servidor si un "jugador falso" (deployer de
+    Create, maquinas) hacia dano. Arreglado en wipspowers (los dos).
+  Pruebas: autotest de servidor 85/85 con el pack completo, regresion sin errores nuevos y capturas de cliente en
+  WIPSS2/capturas-3.5.0/ (detalle en PRUEBAS-3.5.0.md). Pendiente de probar en tu PC: ver PRUEBA-wipspowers.txt.

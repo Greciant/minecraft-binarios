@@ -8,7 +8,7 @@ En GitHub, con el botón **Code → Download ZIP** de esta rama (`claude/zealous
 ## 2. Instalar (con el juego cerrado)
 | De esta carpeta | A la instancia | Qué hacer |
 |---|---|---|
-| `mods/wipspowers-3.4.0.jar` | `mods/` | **Borra** cualquier `wipspowers-*.jar` anterior y pon este. |
+| `mods/wipspowers-3.5.0.jar` | `mods/` | **Borra** cualquier `wipspowers-*.jar` anterior y pon este. |
 | `mods/lithium-neoforge-0.15.4+mc1.21.1.jar` | `mods/` | Nuevo. Optimiza la CPU del juego (−28 % en el tiempo por tick, medido). |
 | `config/lithium.properties` | `config/` | Nuevo. Evita el choque con ModernFix. |
 | `config/particle_core_config.toml` | `config/` | Reemplaza el tuyo. Solo cambia el tick asíncrono de Particle Core a `false`, porque AsyncParticles ya lo hace. |

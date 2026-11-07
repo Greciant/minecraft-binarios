@@ -1,32 +1,33 @@
-PRUEBA DE wipspowers-3.4.0.jar EN WIPSS2 (PC)
+PRUEBA DE wipspowers-3.5.0.jar EN WIPSS2 (PC) - "THE AWAKENING"
 
-Instalar: cerrar el juego, borrar cualquier wipspowers anterior de mods y copiar wipspowers-3.4.0.jar (junto a awakened-1.23.1 y
-grandline-1.21.1-0.3.0). El jar va tambien en el servidor. Abrir un mundo NUEVO de prueba con trucos (las estructuras y
-spawns nuevos solo se ven en chunks nuevos).
+Instalar: cerrar el juego, borrar cualquier wipspowers anterior de mods y copiar wipspowers-3.5.0.jar (junto a
+awakened-1.23.1 y grandline-1.21.1-0.3.0). El jar va tambien en el servidor. Mundo NUEVO de prueba con trucos.
+Lo de abajo ya se probo en un servidor automatico (85/85, ver WIPSS2/capturas-3.5.0/PRUEBAS-3.5.0.md); aca va
+lo que conviene mirar con tus ojos y tus manos.
 
-1. Arranque: sin crash; en latest.log no hay "Mixin apply failed" ni "wipspowers" con ERROR.
-2. Fuego: /awakened power give @s pyrokinetic y /awakened mastery set @s 20. Ir al Nether (o /summon blaze, /summon
-   magma_cube, mobs de Legendary Monsters) y usar el Flame Beam: tiene que bajarles vida. Repetir con Seiryuu 2 y 4.
-3. Ruin: /awakened power give @s ruin. Breach (4) mantenido contra una pared: abre tunel; apuntando a un mob cerca lo hunde.
-   Collapse (5) en el suelo: onda que desmorona en anillos. A los 15 s los bloques vuelven.
-4. Gamma: Thunderclap mantenido 5 s pega mucho mas fuerte que tocado. Island Shaker sale a maestria 10, CD 25 s.
-5. Seiryuu: /awakened mastery set @s 0 -> solo la 1. 2 -> 2, 5 -> 3, 8 -> 4, 10 -> 5. Bolo Barrage cargado 3 s: lluvia
-   de meteoros grande con crateres.
-6. Scaler: crecer a Titan cerca de mobs (los dana). En Colossus saltar desde 10+ bloques (onda con dano). Mass Leap: onda
-   gigante al caer. Stomp en Brute y en World Breaker: el segundo mucho mas grande.
-7. Creativo/JEI: de Awakened solo salen los 6 catalizadores y los 3 amuletos de estamina. Los amuletos: fabricar el I,
-   llevarlo y ver que la barra de energia sube mas rapido.
-8. Magos: /summon awakened:gamma_mage (y los demas: summoning_mage, hydrokinetic_mage, ... seiryuu_mage). Deben alejarse
-   y atacar con su elemento.
-9. Legendary Monsters: en creativo no aparecen los mobs quitados (Skeletosaurus, Lava Eater, etc.). Ir a un desierto de
-   noche (Bomber), Valle de almas (Fractured), cueva profunda (Resurrected Knight). /summon legendary_monsters:resurrected_knight
-   -> 50 de vida.
-10. Weapon Leveling: subir de nivel un arma (/weaponleveling ... o pelear) y ver que el dano del tooltip no pasa de 25.
-11. Mass Leap (Scaler): al cargar suena el audio nuevo; al saltar se corta.
-12. Con Punchy y Touch'n'Motion instalados: Kinetic Charger y otras habilidades en primera persona muestran las manos.
-13. Frieren Flight: Zoltraak legendario contra un mob con mucha vida (/summon minecraft:iron_golem): no baja mas de 60 por golpe.
-14. Hyper 'N Hiei: en el creativo solo salen los 5 hechizos que quedan, la Rueda, las bolsas, el pergamino y el altar.
-    /locate structure wipspowers:ritual_shrine -> ir y usar el altar con el 10 Shadows Scroll (invoca a Mahoraga).
-15. Lodestar: con Lodestar Trail instalado, usar Explorer's Compass (buscar una aldea) o Nature's Compass (un bioma)
-    con la brujula en la mano: al encontrarlo aparece la estela de Lodestar hacia ese punto y el aviso en la barra.
-16. Si algo falla: guardar logs\latest.log (y crash-reports) en C:\Compartida\MODS-PRIVADOS\prueba-wipspowers\
+1. Arranque: sin crash; en latest.log no hay "Mixin apply failed" ni lineas de wipspowers con ERROR.
+2. Menu de pausa y pantalla de personaje (K): ya no aparece "Nominate The Awakening".
+3. Despertar: /awakened power give @s ice (o despertar con un mago). Un solo efecto: particulas del poder y la estrella
+   y las hadas de Lodestar que suben en espiral y se juntan arriba. Nada del estallido viejo.
+4. Nivel: arriba a la izquierda "Nv 1" con barra. Minar menas, cosechar, matar y explorar suben la barra; minar una
+   piedra que pusiste no da nada. /wips level get <tu nombre> muestra el multiplicador de dano (x0,30 en nivel 1).
+   OP: /wips level set <tu nombre> 50 -> los poderes pegan x1,50. Tu vida y stamina no cambian.
+5. Trials: completar una que daba reliquia/adamantium -> ahora da "+XP de nivel" (no aparece Stamina Matrix).
+6. Ruin 4 y 5 (maestria 7 y 10): rompen bloques y NO vuelven.
+7. Graviton 5 (maestria 10): Shinra Tensei: te elevas, onda enorme, crater permanente.
+8. HIELO (/awakened power give @s ice, /awakened mastery set @s 10):
+   1 Punos de hielo (activar/desactivar): pega 3 golpes a un mob -> queda en un cubo de hielo 1 s.
+   2 Ventisca: los mobs son arrastrados al centro.
+   3 Pisadas de hielo: activala, salta y vuelve a saltar EN EL AIRE: plataforma de hielo bajo los pies (subir escalones).
+   4 Tempanos: 3 orbitan y persiguen mobs hostiles. 5 Congelacion territorial: suelo de hielo, mobs que entran 5 s congelados.
+9. SLIME: 1 Mini slimes (mira a un mob; pulsa de nuevo mirando otro para cambiarles el objetivo). 2 cura 25 %.
+   3 Disparo de baba (apunta). 4 Explosion de baba: pisa un charco con un mob -> queda pegado.
+   5 Pelota de slime 15 s: PROBAR LA SENSACION: rodar, rebotar en paredes y suelo, saltar con impulso; no deberia
+   trabarse en bloques. Pasar sobre mobs los aturde 2 s. Al terminar vuelves a la normalidad.
+10. LUCHADOR: recibir golpes de mobs llena la barra "Determinacion" (debajo del nivel). 1 Punos ardientes (golpes con
+    fuego y onda). 2 Reel In desde lejos (hasta 48 bloques; probar con un Warden). 3 Represalia con la barra llena.
+    4 Salto de impacto: pulsar, y en el aire pulsar otra vez -> onda al caer (mas alto = mas dano). 5 Golpe serio:
+    mantener 5 s y soltar mirando una ladera: tunel enorme permanente.
+11. Magos nuevos: /summon awakened:ice_mage, slime_mage, fighter_mage.
+12. Lodestar + brujula: buscar una estructura con Explorer's Compass, seguir el hada: al llegar debe desaparecer.
+13. Si algo falla: guardar logs\latest.log (y crash-reports) en C:\Compartida\MODS-PRIVADOS\prueba-wipspowers\
