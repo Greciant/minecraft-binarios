@@ -1,15 +1,33 @@
-PRUEBA DE wipspowers-3.0.0.jar EN WIPSS2 (PC)
+PRUEBA DE wipspowers-3.5.0.jar EN WIPSS2 (PC) - "THE AWAKENING"
 
-Instalar: cerrar el juego, copiar C:\Compartida\MODS-PRIVADOS\wipspowers-3.0.0.jar a la carpeta mods de la instancia WIPSS2
-(junto a awakened-1.23.0 y grandline-1.21.1-0.3.0.jar (reemplaza la 0.2.0; borra cualquier wipspowers anterior)). Abrir un mundo NUEVO de prueba con trucos.
+Instalar: cerrar el juego, borrar cualquier wipspowers anterior de mods y copiar wipspowers-3.5.0.jar (junto a
+awakened-1.23.1 y grandline-1.21.1-0.3.0). El jar va tambien en el servidor. Mundo NUEVO de prueba con trucos.
+Lo de abajo ya se probo en un servidor automatico (85/85, ver WIPSS2/capturas-3.5.0/PRUEBAS-3.5.0.md); aca va
+lo que conviene mirar con tus ojos y tus manos.
 
-1. Arranque: el juego carga sin crash. En latest.log no hay lineas "wipspowers" ni "Mixin apply failed".
-2. Lista de poderes: escribir "/awakened power give @s " y pulsar TAB. Deben salir solo:
-   pyrokinetic, summoning, hydrokinetic, kinetic_charger, velocity, graviton, ruin, storm_caller, phytokinetic, scaler, gamma, seiryuu.
-3. Subir maestria para desbloquear todo: /awakened mastery set @s 20
-4. Seiryuu: /awakened power give @s seiryuu. Usar las 5 habilidades:
-   Thunder Bagua, Flame Cloud Strike, Draconic Thunder (mantener y soltar), Bolo Barrage (cargar y soltar), Blast Breath (cargar y soltar).
-   Comprobar: el personaje NO se transforma en ningun momento; cada habilidad hace su efecto; Draconic Thunder para al soltar; hay cooldown.
-5. Scaler: /awakened power give @s scaler. Crecer al maximo y encoger al minimo. La velocidad al caminar debe ser la misma que en tamano normal.
-6. Gamma: /awakened power give @s gamma. Enfurecerse/crecer: la piel NO se pone verde. Slot 2 = Thunderclap; slot 5 = Island Shaker (temblor) en lugar de Ragdoll Slam.
-7. Si algo falla: guardar logs\latest.log (y crash-reports si hay) en C:\Compartida\MODS-PRIVADOS\prueba-wipspowers\
+1. Arranque: sin crash; en latest.log no hay "Mixin apply failed" ni lineas de wipspowers con ERROR.
+2. Menu de pausa y pantalla de personaje (K): ya no aparece "Nominate The Awakening".
+3. Despertar: /awakened power give @s ice (o despertar con un mago). Un solo efecto: particulas del poder y la estrella
+   y las hadas de Lodestar que suben en espiral y se juntan arriba. Nada del estallido viejo.
+4. Nivel: arriba a la izquierda "Nv 1" con barra. Minar menas, cosechar, matar y explorar suben la barra; minar una
+   piedra que pusiste no da nada. /wips level get <tu nombre> muestra el multiplicador de dano (x0,30 en nivel 1).
+   OP: /wips level set <tu nombre> 50 -> los poderes pegan x1,50. Tu vida y stamina no cambian.
+5. Trials: completar una que daba reliquia/adamantium -> ahora da "+XP de nivel" (no aparece Stamina Matrix).
+6. Ruin 4 y 5 (maestria 7 y 10): rompen bloques y NO vuelven.
+7. Graviton 5 (maestria 10): Shinra Tensei: te elevas, onda enorme, crater permanente.
+8. HIELO (/awakened power give @s ice, /awakened mastery set @s 10):
+   1 Punos de hielo (activar/desactivar): pega 3 golpes a un mob -> queda en un cubo de hielo 1 s.
+   2 Ventisca: los mobs son arrastrados al centro.
+   3 Pisadas de hielo: activala, salta y vuelve a saltar EN EL AIRE: plataforma de hielo bajo los pies (subir escalones).
+   4 Tempanos: 3 orbitan y persiguen mobs hostiles. 5 Congelacion territorial: suelo de hielo, mobs que entran 5 s congelados.
+9. SLIME: 1 Mini slimes (mira a un mob; pulsa de nuevo mirando otro para cambiarles el objetivo). 2 cura 25 %.
+   3 Disparo de baba (apunta). 4 Explosion de baba: pisa un charco con un mob -> queda pegado.
+   5 Pelota de slime 15 s: PROBAR LA SENSACION: rodar, rebotar en paredes y suelo, saltar con impulso; no deberia
+   trabarse en bloques. Pasar sobre mobs los aturde 2 s. Al terminar vuelves a la normalidad.
+10. LUCHADOR: recibir golpes de mobs llena la barra "Determinacion" (debajo del nivel). 1 Punos ardientes (golpes con
+    fuego y onda). 2 Reel In desde lejos (hasta 48 bloques; probar con un Warden). 3 Represalia con la barra llena.
+    4 Salto de impacto: pulsar, y en el aire pulsar otra vez -> onda al caer (mas alto = mas dano). 5 Golpe serio:
+    mantener 5 s y soltar mirando una ladera: tunel enorme permanente.
+11. Magos nuevos: /summon awakened:ice_mage, slime_mage, fighter_mage.
+12. Lodestar + brujula: buscar una estructura con Explorer's Compass, seguir el hada: al llegar debe desaparecer.
+13. Si algo falla: guardar logs\latest.log (y crash-reports) en C:\Compartida\MODS-PRIVADOS\prueba-wipspowers\

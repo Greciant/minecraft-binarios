@@ -1,0 +1,99 @@
+SELFTEST INFO arena: origen BlockPos{x=0, y=100, z=0}, poderes registrados: 15
+SELFTEST PASS maestria_neutral: scaledDamage(10) con maestria 20 = 10.0 (antes ~16)
+SELFTEST PASS escala_nivel_1: x0.300 (esperado x0.30), vida perdida 2.94 de base 10
+SELFTEST PASS escala_nivel_10: x0.422 (esperado x0.42), vida perdida 4.15 de base 10
+SELFTEST PASS escala_nivel_25: x0.758 (esperado x0.76), vida perdida 7.46 de base 10
+SELFTEST PASS escala_nivel_35: x1.033 (esperado x1.03), vida perdida 10.16 de base 10
+SELFTEST PASS escala_nivel_50: x1.500 (esperado x1.50), vida perdida 14.76 de base 10
+SELFTEST PASS xp_decreciente: primer evento 2.00 XP, evento 122: 0.00 XP (misma fuente)
+SELFTEST PASS xp_tope_minuto: XP en 121 eventos seguidos: 28.0 (tope por minuto)
+SELFTEST INFO curva: XP para subir: L1 45 | L10 669 | L20 2739 | L35 8780 | L49 17757
+SELFTEST PASS subir_nivel: nivel 1 -> 3
+SELFTEST PASS nivel_maximo: con XP de sobra queda en 50
+SELFTEST PASS sin_estadisticas_base: vida maxima del jugador en nivel 50: 20.0
+SELFTEST PASS purge_itemgrant: reliquia entregada directo: no llega
+SELFTEST PASS purge_trial: recompensa de reliquia de trial -> +120 level XP
+SELFTEST PASS purge_suelo: reliquia soltada en el suelo (jefes, RelicDrops): no aparece
+SELFTEST PASS purge_adamantium: adamantium (recompensa de trial) no llega
+SELFTEST PASS purge_loot: 120 tiradas de cofres de Awakened: 298 objetos, 0 quitados
+SELFTEST PASS purge_contador: objetos cortados en total: 30
+SELFTEST INFO ruin4_activa: activate=true
+SELFTEST PASS ruin4_destruye: tunel: 7/7 bloques del eje abiertos, 63 bloques destruidos
+SELFTEST PASS ruin4_permanente: 16 s despues siguen abiertos 7/7 (sin restauracion)
+SELFTEST INFO ruin5_activa: activate=true
+SELFTEST PASS ruin5_destruye: Collapse destruyo 1117 bloques
+SELFTEST PASS shinra_slot5: Graviton ranura 5 = graviton_shinra_tensei
+SELFTEST PASS shinra_onda: enemigo a 5 bloques: -10.4 vida, empujado 7.1 bloques
+SELFTEST PASS shinra_alcance: enemigo a 15 bloques alcanzado: true
+SELFTEST PASS shinra_destruye: bloques destruidos para siempre: 4362 (agendados 4362, pendientes 0)
+SELFTEST PASS despertar_unico: particulas viejas silenciadas y efecto unico reproducido
+SELFTEST PASS hielo_carga_1: cargas: 1
+SELFTEST PASS hielo_carga_2: cargas: 2
+SELFTEST PASS hielo_punos_bonus: 3 golpes de 2: -10.4 (punos suman frio)
+SELFTEST PASS hielo_congela_3: a las 3 cargas: congelado, cargas reiniciadas=true
+SELFTEST PASS hielo_no_acumula_congelado: golpe mientras esta congelado no suma cargas
+SELFTEST PASS hielo_clavado: empujado mientras esta congelado: no se mueve
+SELFTEST PASS hielo_dura_1s: a los ~1,25 s ya no esta congelado
+SELFTEST PASS hielo_escarcha_dot: golpes de Escarcha sin nuevos ataques en 4 s: 8 (cada 0,5 s)
+SELFTEST PASS ventisca_atrae: distancia al centro 7.0 -> 0.5 en 2 s
+SELFTEST PASS ventisca_carga: los pulsos suman cargas / congelan
+SELFTEST PASS ventisca_10s: zona terminada a los 10 s (sin error)
+SELFTEST PASS pisadas_plataforma: plataforma de hielo bajo los pies, no dentro del jugador
+SELFTEST PASS pisadas_off: desactivadas: no crea mas
+SELFTEST PASS pisadas_temporal: la plataforma desaparece a los 4 s
+SELFTEST PASS tempanos_max3: tempanos al pulsar dos veces: 3
+SELFTEST PASS tempanos_persiguen: impactos en un enemigo a ~10 bloques: 3
+SELFTEST PASS tempanos_sin_objetivo: objetivo desaparecido: no quedan persiguiendo nada (restan 0 orbitando)
+SELFTEST PASS territorio_congela: enemigo dentro del radio: congelado
+SELFTEST PASS territorio_no_dueno: el jugador no se congela
+SELFTEST PASS territorio_entra_despues: enemigo que entra despues de creada: congelado
+SELFTEST PASS territorio_5s: a los ~5,5 s el primero ya se descongelo (5 s)
+SELFTEST INFO baba_golpes: gotas despues de golpes en ticks distintos: 0
+SELFTEST PASS baba_dedup_tick: dos golpes en el mismo tick cuentan uno: gotas=1
+SELFTEST PASS baba_cada_3: gotas tras 6 golpes en ticks distintos: 1 (1 cada 3)
+SELFTEST PASS baba_cura: recogida: vida 10 -> 11.2
+SELFTEST PASS minis_3: mini slimes: 3
+SELFTEST PASS minis_sin_duplicar: pulsar otra vez con 3 activos: siguen 3
+SELFTEST PASS minis_cambian_objetivo: al pulsar de nuevo apuntando a otro: todos lo persiguen
+SELFTEST INFO mini: pos -5.9,100.0,3.7 objetivo husk dist 2.9 vida 12.0 suelo true
+SELFTEST INFO mini: pos -4.8,101.2,4.7 objetivo husk dist 1.9 vida 12.0 suelo false
+SELFTEST INFO mini: pos -6.8,100.0,3.1 objetivo husk dist 4.0 vida 12.0 suelo true
+SELFTEST PASS minis_atacan: golpes de los mini slimes en 6 s: 5
+SELFTEST PASS minis_no_dueno: nunca apuntan al dueno
+SELFTEST PASS recubrimiento_25: vida 10/20 -> 15.0
+SELFTEST PASS recubrimiento_tope: vida 19/20 -> 20.0 (sin pasar el maximo)
+SELFTEST PASS disparo_pega: impactos en 1,5 s: 4
+SELFTEST PASS disparo_ralentiza_70: ralentizado con un solo modificador (-70 %), no se acumula
+SELFTEST PASS disparo_4s: a los 4 s deja de disparar y la ralentizacion vence
+SELFTEST PASS explosion_area: dano en area al de 4 bloques
+SELFTEST PASS explosion_no_pega_sin_charco: el alcanzado por la explosion no queda pegado salvo que pise un charco
+SELFTEST PASS charco_pega_y_dana: quien pisa un charco queda pegado y recibe dano
+SELFTEST PASS pelota_contacto: pasar sobre un enemigo: dano y aturdimiento
+SELFTEST PASS pelota_activa: forma de pelota activa
+SELFTEST PASS pelota_aturde_2s: aturdimiento de 2 s terminado
+SELFTEST PASS pelota_15s: a los 15 s la forma termina y se restaura
+SELFTEST PASS pelota_restaura: velocidad normal
+SELFTEST INFO jugador_prueba: hurt=true vida 20.0 -> 17.0 invulnerable=false modo=SURVIVAL dificultad=EASY creativo=false abilities.invulnerable=false
+SELFTEST PASS determinacion_sube: 4 de dano de un mob: barra 25 %
+SELFTEST PASS determinacion_ambiental: caida y magia sin atacante no suman
+SELFTEST PASS determinacion_resistencia_20: 5 de dano: barra vacia -3.50, llena -2.80 (x0.80)
+SELFTEST PASS determinacion_dano_20: barra llena x1.20 de dano
+SELFTEST PASS punos_onda: la onda del golpe basico dana a un enemigo cercano
+SELFTEST PASS punos_fuego: golpe con llamas
+SELFTEST INFO punos_primer_golpe: golpe basico de 4: -4.0 (incluye onda y barra)
+SELFTEST INFO reel_in_activa: activate=true id=brawler_reel_in
+SELFTEST PASS reel_in_40: objetivo a 40 bloques traido a 0.4
+SELFTEST PASS reel_in_warden: Warden a 25 bloques traido a 1.8 (sin limite de tamano)
+SELFTEST INFO dragon: activate=true permitido=true pickable=false fase=Hover (#10)
+SELFTEST PASS reel_in_dragon: Ender Dragon a 30.6 bloques traido hasta 2.2 (despues sigue su vuelo)
+SELFTEST PASS represalia_zonas: centro -22.4, borde -6.7, final -6.7 (relacion 3.33; esperado 3,33)
+SELFTEST PASS represalia_consume: la barra se consume
+SELFTEST PASS represalia_escala_barra: centro con barra llena -22.4 vs vacia -8.9
+SELFTEST PASS salto_escala_altura: onda tras 5 bloques: base 7.0 (-5.2); tras 30: base 22.0 (-16.4)
+SELFTEST PASS salto_sin_autodano: el jugador no se dana
+SELFTEST PASS golpe_serio_sin_carga: sin cargar: alcanza 2 enemigos, no destruye bloques
+SELFTEST PASS golpe_serio_carga_max: a carga maxima agenda 5087 bloques de destruccion permanente
+SELFTEST PASS golpe_serio_destruye: destruidos 5087 (repartido en ticks, cola vacia)
+SELFTEST INFO rendimiento_base: 30 enemigos quietos: 6.92 ms/tick de media
+SELFTEST PASS rendimiento_carga: ventisca + congelacion territorial + Shinra con 30 enemigos: 5.50 ms/tick de media
+SELFTEST FIN pass=85 fail=0
